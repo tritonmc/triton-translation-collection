@@ -1,0 +1,1507 @@
+[
+  {
+    "key": "proskywars.Signs.no-solo-arenas",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cThere isn't any solo arena available!"
+    }
+  },
+  {
+    "key": "proskywars.Signs.no-team-arenas",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cThere isn't any team arena available!"
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.title-1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&bMysteryBox"
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.title-2",
+    "type": "text",
+    "languages": {
+      "en_GB": "&e&lRight-click"
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.no-enough-souls",
+    "type": "text",
+    "languages": {
+      "en_GB": "&c&lYou need at least 10 souls to use the Soul Well!"
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.no-enough-money",
+    "type": "text",
+    "languages": {
+      "en_GB": "&c&lYou need at least 50 coins to use the Soul Well!"
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.broadcast-kit",
+    "type": "text",
+    "languages": {
+      "en_GB": "&b%1 &7 has found kit &b%2 &7 in the soul well!"
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.broadcast-cage",
+    "type": "text",
+    "languages": {
+      "en_GB": "&b%1 &7 has found cage &b%2 &7 in the soul well!"
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.broadcast-trail",
+    "type": "text",
+    "languages": {
+      "en_GB": "&b%1 &7 has found trail &b%2 &7 in the soul well!"
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.broadcast-perk",
+    "type": "text",
+    "languages": {
+      "en_GB": "&b%1 &7 has found perk &b%2 &7 in the soul well!"
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.message-kit",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7&lYou have found kit &b&l%1 &7&lin the soul well!"
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.message-cage",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7&lYou have found cage &b&l%1 &7&lin the soul well!"
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.message-trail",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7&lYou have found trail &b&l%1 &7&lin the soul well!"
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.message-perk",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7&lYou have found perk &b&l%1 &7&lin the soul well!"
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.already-have",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Since you already have it you have received 50 coins."
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.Items.mystery-box-name",
+    "type": "text",
+    "languages": {
+      "en_GB": "&8SoulWell"
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.Items.glass-name",
+    "type": "text",
+    "languages": {
+      "en_GB": "&8Rolling..."
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.Items.confirm-menu-name",
+    "type": "text",
+    "languages": {
+      "en_GB": "&8Are you sure?"
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.Items.confirm-item-name",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aConfirm"
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.Items.deny-item-name",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cDeny"
+    }
+  },
+  {
+    "key": "proskywars.In-Game-Broadcast.dead",
+    "type": "text",
+    "languages": {
+      "en_GB": "&e%1 &a has died!"
+    }
+  },
+  {
+    "key": "proskywars.In-Game-Broadcast.dead-void",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7%1 &efell into the void."
+    }
+  },
+  {
+    "key": "proskywars.In-Game-Broadcast.dead-suffocation",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7%1 &esuffocated."
+    }
+  },
+  {
+    "key": "proskywars.In-Game-Broadcast.dead-drowning",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7%1 &edrowned."
+    }
+  },
+  {
+    "key": "proskywars.In-Game-Broadcast.dead-lava",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7%1 &eburnt to a crisp in lava."
+    }
+  },
+  {
+    "key": "proskywars.In-Game-Broadcast.dead-poison",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7%1 &epoisoned."
+    }
+  },
+  {
+    "key": "proskywars.In-Game-Broadcast.dead-by-player",
+    "type": "text",
+    "languages": {
+      "en_GB": "&e%1 &awas killed by &e%2"
+    }
+  },
+  {
+    "key": "proskywars.In-Game-Broadcast.dead-void-by-player",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7%1 &ewas thrown into the void by &a%2"
+    }
+  },
+  {
+    "key": "proskywars.In-Game-Broadcast.dead-burned-by-player",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7%1 &ewas burned to death by &a%2"
+    }
+  },
+  {
+    "key": "proskywars.In-Game-Broadcast.dead-projectile-by-player",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7%1 &ewas shot to death by &a%2"
+    }
+  },
+  {
+    "key": "proskywars.In-Game-Broadcast.dead-poison-by-player",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7%1 &ewas poisoned by &a%2"
+    }
+  },
+  {
+    "key": "proskywars.Arena-Messages.arrow-hit",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7%1 &eis on &c%2 &eHP!"
+    }
+  },
+  {
+    "key": "proskywars.Arena-Broadcast.player-join",
+    "type": "text",
+    "languages": {
+      "en_GB": "&a%1 has joined the game! &e%2&7/&e%3"
+    }
+  },
+  {
+    "key": "proskywars.Arena-Broadcast.player-leave",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cPlayer &e%1 &cleave match! &e%2&7/&e%3"
+    }
+  },
+  {
+    "key": "proskywars.Arena-Broadcast.player-death",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou are now a spectator!"
+    }
+  },
+  {
+    "key": "proskywars.Arena-Broadcast.player-disconnect",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7%1 &elogged out!"
+    }
+  },
+  {
+    "key": "proskywars.Arena-Broadcast.player-left",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cPlayer %1 left match! &e%2&7/&e%3"
+    }
+  },
+  {
+    "key": "proskywars.Arena-Broadcast.countdown",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eGame will start in %1 seconds!"
+    }
+  },
+  {
+    "key": "proskywars.Arena-Broadcast.endBroadcast.first-killer",
+    "type": "text",
+    "languages": {
+      "en_GB": "                 &e&l1st Killer &7- %1 - %2"
+    }
+  },
+  {
+    "key": "proskywars.Arena-Broadcast.endBroadcast.second-killer",
+    "type": "text",
+    "languages": {
+      "en_GB": "                 &6&l2nd Killer &7- %1 - %2"
+    }
+  },
+  {
+    "key": "proskywars.Arena-Broadcast.endBroadcast.third-killer",
+    "type": "text",
+    "languages": {
+      "en_GB": "                 &c&l3rd Killer &7- %1 - %2"
+    }
+  },
+  {
+    "key": "proskywars.Scoreboard.in-game.title",
+    "type": "text",
+    "languages": {
+      "en_GB": "   &e&lSkyWars"
+    }
+  },
+  {
+    "key": "proskywars.Scoreboard.in-game.footer",
+    "type": "text",
+    "languages": {
+      "en_GB": "&e-------------"
+    }
+  },
+  {
+    "key": "proskywars.Scoreboard.in-game.tags.next-event",
+    "type": "text",
+    "languages": {
+      "en_GB": "&fNext Event: "
+    }
+  },
+  {
+    "key": "proskywars.Scoreboard.in-game.tags.players-left",
+    "type": "text",
+    "languages": {
+      "en_GB": "&fPlayers left: "
+    }
+  },
+  {
+    "key": "proskywars.Scoreboard.in-game.tags.kills",
+    "type": "text",
+    "languages": {
+      "en_GB": "&fKills: "
+    }
+  },
+  {
+    "key": "proskywars.Scoreboard.in-game.tags.map",
+    "type": "text",
+    "languages": {
+      "en_GB": "&fMap: "
+    }
+  },
+  {
+    "key": "proskywars.Scoreboard.in-game.tags.teams",
+    "type": "text",
+    "languages": {
+      "en_GB": "&fTeams: "
+    }
+  },
+  {
+    "key": "proskywars.Scoreboard.lobby.title",
+    "type": "text",
+    "languages": {
+      "en_GB": "   &e&lSkyWars"
+    }
+  },
+  {
+    "key": "proskywars.Scoreboard.lobby.footer",
+    "type": "text",
+    "languages": {
+      "en_GB": "&e-------------"
+    }
+  },
+  {
+    "key": "proskywars.Scoreboard.lobby.tags.kills",
+    "type": "text",
+    "languages": {
+      "en_GB": "&fKills: "
+    }
+  },
+  {
+    "key": "proskywars.Scoreboard.lobby.tags.wins",
+    "type": "text",
+    "languages": {
+      "en_GB": "&fWins: "
+    }
+  },
+  {
+    "key": "proskywars.Scoreboard.lobby.tags.coins",
+    "type": "text",
+    "languages": {
+      "en_GB": "&fCoins: "
+    }
+  },
+  {
+    "key": "proskywars.Scoreboard.lobby.tags.souls",
+    "type": "text",
+    "languages": {
+      "en_GB": "&fSouls: "
+    }
+  },
+  {
+    "key": "proskywars.Scoreboard.lobby.tags.timer",
+    "type": "text",
+    "languages": {
+      "en_GB": "&fStarting in: "
+    }
+  },
+  {
+    "key": "proskywars.LobbyScoreboard.title",
+    "type": "text",
+    "languages": {
+      "en_GB": "   &e&lSkyWars"
+    }
+  },
+  {
+    "key": "proskywars.LobbyScoreboard.footer",
+    "type": "text",
+    "languages": {
+      "en_GB": "&e-------------"
+    }
+  },
+  {
+    "key": "proskywars.LobbyScoreboard.tags.kills",
+    "type": "text",
+    "languages": {
+      "en_GB": "&fKills: "
+    }
+  },
+  {
+    "key": "proskywars.LobbyScoreboard.tags.wins",
+    "type": "text",
+    "languages": {
+      "en_GB": "&fWins: "
+    }
+  },
+  {
+    "key": "proskywars.LobbyScoreboard.tags.coins",
+    "type": "text",
+    "languages": {
+      "en_GB": "&fCoins: "
+    }
+  },
+  {
+    "key": "proskywars.LobbyScoreboard.tags.souls",
+    "type": "text",
+    "languages": {
+      "en_GB": "&fSouls: "
+    }
+  },
+  {
+    "key": "proskywars.LobbyScoreboard.tags.selected-kit",
+    "type": "text",
+    "languages": {
+      "en_GB": "&fUsing Kit: "
+    }
+  },
+  {
+    "key": "proskywars.LobbyScoreboard.tags.selected-cage",
+    "type": "text",
+    "languages": {
+      "en_GB": "&fUsing Cage: "
+    }
+  },
+  {
+    "key": "proskywars.LobbyScoreboard.tags.selected-trail",
+    "type": "text",
+    "languages": {
+      "en_GB": "&fUsing Trail: "
+    }
+  },
+  {
+    "key": "proskywars.Titles.player-dead-1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou Died!"
+    }
+  },
+  {
+    "key": "proskywars.Titles.player-dead-2",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7You are now a spectator"
+    }
+  },
+  {
+    "key": "proskywars.Titles.game-start-1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eGame Started!"
+    }
+  },
+  {
+    "key": "proskywars.Titles.game-start-2",
+    "type": "text",
+    "languages": {
+      "en_GB": "&bKill them all!"
+    }
+  },
+  {
+    "key": "proskywars.Titles.refill",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eChests have been refilled!"
+    }
+  },
+  {
+    "key": "proskywars.Titles.winner-1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&6Victory!"
+    }
+  },
+  {
+    "key": "proskywars.Titles.winner-2",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7You were last man standing."
+    }
+  },
+  {
+    "key": "proskywars.Titles.tie-1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cGame End"
+    }
+  },
+  {
+    "key": "proskywars.Titles.tie-2",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7You weren't victorious this time!"
+    }
+  },
+  {
+    "key": "proskywars.Titles.countdown-1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&c%1"
+    }
+  },
+  {
+    "key": "proskywars.Titles.countdown-2",
+    "type": "text",
+    "languages": {
+      "en_GB": "&ePrepare to fight!"
+    }
+  },
+  {
+    "key": "proskywars.Items.return-to-lobby",
+    "type": "text",
+    "languages": {
+      "en_GB": "&c&lReturn to lobby &7(Right-click)"
+    }
+  },
+  {
+    "key": "proskywars.Items.spectators.teleporter",
+    "type": "text",
+    "languages": {
+      "en_GB": "&a&lTeleporter &7(Right-click)"
+    }
+  },
+  {
+    "key": "proskywars.Items.spectators.teleporter-menu",
+    "type": "text",
+    "languages": {
+      "en_GB": "&8Teleporter"
+    }
+  },
+  {
+    "key": "proskywars.Items.spectators.spectators-settings",
+    "type": "text",
+    "languages": {
+      "en_GB": "&b&lSpectator Settings &7(Right-click)"
+    }
+  },
+  {
+    "key": "proskywars.Items.spectators.spectators-settings-menu",
+    "type": "text",
+    "languages": {
+      "en_GB": "&8Spectator Settings"
+    }
+  },
+  {
+    "key": "proskywars.Items.spectators.return-to-lobby",
+    "type": "text",
+    "languages": {
+      "en_GB": "&c&lReturn to lobby &7(Right-click)"
+    }
+  },
+  {
+    "key": "proskywars.Items.spectators.no-speed",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aNo Speed"
+    }
+  },
+  {
+    "key": "proskywars.Items.spectators.speed-1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aSpeed I"
+    }
+  },
+  {
+    "key": "proskywars.Items.spectators.speed-2",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aSpeed II"
+    }
+  },
+  {
+    "key": "proskywars.Items.spectators.speed-3",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aSpeed III"
+    }
+  },
+  {
+    "key": "proskywars.Items.spectators.speed-4",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aSpeed IV"
+    }
+  },
+  {
+    "key": "proskywars.Items.lobby.kit-selector",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aKit Selector &7(Right-click)"
+    }
+  },
+  {
+    "key": "proskywars.Items.lobby.kit-selector-menu",
+    "type": "text",
+    "languages": {
+      "en_GB": "&8Kit Selector"
+    }
+  },
+  {
+    "key": "proskywars.Items.lobby.cage-selector",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aCage Selector &7(Right-click)"
+    }
+  },
+  {
+    "key": "proskywars.Items.lobby.cage-selector-menu",
+    "type": "text",
+    "languages": {
+      "en_GB": "&8Cage Selector"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.shop",
+    "type": "text",
+    "languages": {
+      "en_GB": "&a&lShop &7(Right-click)"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.shop-menu",
+    "type": "text",
+    "languages": {
+      "en_GB": "&8Skywars Shop"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.go-back",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aGo back"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.kits",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aKits"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.cages",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aCustom Cages"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.trails",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aTrails"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.perks",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aPerks"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.stats",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aStats"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.coins",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aCoins and Souls"
+    }
+  },
+  {
+    "key": "proskywars.Items.kits-shop.shop-menu",
+    "type": "text",
+    "languages": {
+      "en_GB": "&8Kits Shop"
+    }
+  },
+  {
+    "key": "proskywars.Items.cages-shop.shop-menu",
+    "type": "text",
+    "languages": {
+      "en_GB": "&8Cages Shop"
+    }
+  },
+  {
+    "key": "proskywars.Items.trails-shop.shop-menu",
+    "type": "text",
+    "languages": {
+      "en_GB": "&8Trails Shop"
+    }
+  },
+  {
+    "key": "proskywars.Items.perks-shop.shop-menu",
+    "type": "text",
+    "languages": {
+      "en_GB": "&8Perks Shop"
+    }
+  },
+  {
+    "key": "proskywars.Kit.kit-selected",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aYou have selected kit &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Kit.no-permission",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou don't have permission to use that kit!"
+    }
+  },
+  {
+    "key": "proskywars.Kit.kit-already-unlocked",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou already have that kit!"
+    }
+  },
+  {
+    "key": "proskywars.Kit.kit-buy",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aYou have bought kit &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Kit.kit-no-enough-money",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou don't have enough money for that kit!"
+    }
+  },
+  {
+    "key": "proskywars.Cage.cage-selected",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aYou have selected cage &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Cage.no-permission",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou don't have permission to use that cage!"
+    }
+  },
+  {
+    "key": "proskywars.Cage.cage-already-unlocked",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou already have that cage!"
+    }
+  },
+  {
+    "key": "proskywars.Cage.cage-buy",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aYou have bought cage &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Cage.cage-no-enough-money",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou don't have enough money for that cage!"
+    }
+  },
+  {
+    "key": "proskywars.Trail.trail-selected",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aYou have selected trail &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Trail.no-permission",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou don't have permission to use that trail!"
+    }
+  },
+  {
+    "key": "proskywars.Trail.trail-already-unlocked",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou already have that trail!"
+    }
+  },
+  {
+    "key": "proskywars.Trail.trail-buy",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aYou have bought trail &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Trail.trail-no-enough-money",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou don't have enough money for that trail!"
+    }
+  },
+  {
+    "key": "proskywars.Perk.already-unlocked",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aSelected perk already unlocked!"
+    }
+  },
+  {
+    "key": "proskywars.Perk.perk-buy",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aYou have bought perk &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Perk.perk-no-enough-money",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou don't have enough money for that perk!"
+    }
+  },
+  {
+    "key": "proskywars.Perk.no-permission",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou don't have permission to use that perk!"
+    }
+  },
+  {
+    "key": "proskywars.Teleport.line-1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&a&lTeleporting you to the lobby in 3 seconds..."
+    }
+  },
+  {
+    "key": "proskywars.Teleport.line-2",
+    "type": "text",
+    "languages": {
+      "en_GB": "&a&lRight-click again to cancel the teleport!"
+    }
+  },
+  {
+    "key": "proskywars.Teleport.cancelled",
+    "type": "text",
+    "languages": {
+      "en_GB": "&c&lTeleport cancelled!"
+    }
+  },
+  {
+    "key": "proskywars.ArenasGUI.menu-name",
+    "type": "text",
+    "languages": {
+      "en_GB": "&8Arenas"
+    }
+  },
+  {
+    "key": "proskywars.PartyGUI.menu-name",
+    "type": "text",
+    "languages": {
+      "en_GB": "&8Party"
+    }
+  },
+  {
+    "key": "proskywars.PartyGUI.item-name",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aParty"
+    }
+  },
+  {
+    "key": "proskywars.PartyGUI.material",
+    "type": "text",
+    "languages": {
+      "en_GB": "MAGMA_CREAM"
+    }
+  },
+  {
+    "key": "proskywars.PartyGUI.invite-material",
+    "type": "text",
+    "languages": {
+      "en_GB": "PAPER"
+    }
+  },
+  {
+    "key": "proskywars.PartyGUI.invite-name",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eClick to invite a player to your party!"
+    }
+  },
+  {
+    "key": "proskywars.PartyGUI.members-material",
+    "type": "text",
+    "languages": {
+      "en_GB": "BLAZE_ROD"
+    }
+  },
+  {
+    "key": "proskywars.PartyGUI.members-name",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eClick to show party members"
+    }
+  },
+  {
+    "key": "proskywars.PartyGUI.leave-material",
+    "type": "text",
+    "languages": {
+      "en_GB": "WOOL:14"
+    }
+  },
+  {
+    "key": "proskywars.PartyGUI.leave-name",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cClick to leave party"
+    }
+  },
+  {
+    "key": "proskywars.PartyGUI.not-in-party-material",
+    "type": "text",
+    "languages": {
+      "en_GB": "WOOL:14"
+    }
+  },
+  {
+    "key": "proskywars.PartyGUI.not-in-party-name",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aClick to create party!"
+    }
+  },
+  {
+    "key": "proskywars.PartyGUI.party-members-menu-name",
+    "type": "text",
+    "languages": {
+      "en_GB": "&8Party Members"
+    }
+  },
+  {
+    "key": "proskywars.PartyGUI.party-invite-menu-name",
+    "type": "text",
+    "languages": {
+      "en_GB": "&8Party Invite"
+    }
+  },
+  {
+    "key": "proskywars.PartyGUI.go-back",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aGo back"
+    }
+  },
+  {
+    "key": "proskywars.ArenaItem.material",
+    "type": "text",
+    "languages": {
+      "en_GB": "WOOL:5"
+    }
+  },
+  {
+    "key": "proskywars.ArenaItem.name",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aArena Selector"
+    }
+  },
+  {
+    "key": "proskywars.ShopItem.material",
+    "type": "text",
+    "languages": {
+      "en_GB": "EMERALD"
+    }
+  },
+  {
+    "key": "proskywars.ShopItem.name",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aShop"
+    }
+  },
+  {
+    "key": "proskywars.Party.prefix",
+    "type": "text",
+    "languages": {
+      "en_GB": "&6[&a%1&6]"
+    }
+  },
+  {
+    "key": "proskywars.Party.created",
+    "type": "text",
+    "languages": {
+      "en_GB": "&6You have created the party &e%1&6."
+    }
+  },
+  {
+    "key": "proskywars.Party.joined",
+    "type": "text",
+    "languages": {
+      "en_GB": "&6You have joined the party."
+    }
+  },
+  {
+    "key": "proskywars.Party.left",
+    "type": "text",
+    "languages": {
+      "en_GB": "&6You have left your party."
+    }
+  },
+  {
+    "key": "proskywars.Party.disband",
+    "type": "text",
+    "languages": {
+      "en_GB": "&6You were the leader of your party, disbanding party."
+    }
+  },
+  {
+    "key": "proskywars.Party.kicked",
+    "type": "text",
+    "languages": {
+      "en_GB": "&6You were kicked from the party by &e%1&6."
+    }
+  },
+  {
+    "key": "proskywars.Party.kick",
+    "type": "text",
+    "languages": {
+      "en_GB": "&6You kicked &e%1 &7from the party."
+    }
+  },
+  {
+    "key": "proskywars.Party.invited",
+    "type": "text",
+    "languages": {
+      "en_GB": "&e%1 &6has invited you to join the party &e%2&6."
+    }
+  },
+  {
+    "key": "proskywars.Party.invite",
+    "type": "text",
+    "languages": {
+      "en_GB": "&6You invited &e%1 &7to join your party."
+    }
+  },
+  {
+    "key": "proskywars.Party.player-joined",
+    "type": "text",
+    "languages": {
+      "en_GB": "&e%1 &7has joined the party."
+    }
+  },
+  {
+    "key": "proskywars.Party.player-left",
+    "type": "text",
+    "languages": {
+      "en_GB": "&e%1 &7has left the party."
+    }
+  },
+  {
+    "key": "proskywars.Party.player-disband",
+    "type": "text",
+    "languages": {
+      "en_GB": "&e%1 &7has disbanded the party."
+    }
+  },
+  {
+    "key": "proskywars.Party.player-kick",
+    "type": "text",
+    "languages": {
+      "en_GB": "&e%1 &7kicked &e%2 &7from the party."
+    }
+  },
+  {
+    "key": "proskywars.Party.player-invited",
+    "type": "text",
+    "languages": {
+      "en_GB": "&e%1 &7invited &e%2 &7to join the party."
+    }
+  },
+  {
+    "key": "proskywars.Party.leader-quit",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cParty leader left the game! Party disbanded. "
+    }
+  },
+  {
+    "key": "proskywars.Party.party-declined",
+    "type": "text",
+    "languages": {
+      "en_GB": "&e%1 &7declined party invitation. "
+    }
+  },
+  {
+    "key": "proskywars.Party.player-declined",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou have declined invitation to &e%1 &cparty!"
+    }
+  },
+  {
+    "key": "proskywars.Party.accept",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7[&aAccept&7]  "
+    }
+  },
+  {
+    "key": "proskywars.Party.accept-hover",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aClick to join the party!"
+    }
+  },
+  {
+    "key": "proskywars.Party.decline",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7[&cDecline&7]"
+    }
+  },
+  {
+    "key": "proskywars.Party.decline-hover",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cClick to decline party invitation."
+    }
+  },
+  {
+    "key": "proskywars.Error.no-permission",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou don't have permission to do that!"
+    }
+  },
+  {
+    "key": "proskywars.Error.teleport-cancel",
+    "type": "text",
+    "languages": {
+      "en_GB": "&c&lTeleport cancelled!"
+    }
+  },
+  {
+    "key": "proskywars.Error.game-full",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cThere is already enough players!"
+    }
+  },
+  {
+    "key": "proskywars.Error.game-started",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cThe game already started!"
+    }
+  },
+  {
+    "key": "proskywars.Error.player-already-on-game",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou are already on this game!"
+    }
+  },
+  {
+    "key": "proskywars.Error.player-not-in-arena",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou are not in an arena!"
+    }
+  },
+  {
+    "key": "proskywars.Error.arena-not-exist",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cThis arena does not exists!"
+    }
+  },
+  {
+    "key": "proskywars.Error.party-already-exists",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cThat party already exists."
+    }
+  },
+  {
+    "key": "proskywars.Error.party-not-exist",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cThat party does not exist."
+    }
+  },
+  {
+    "key": "proskywars.Error.party-name",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou did not specify a party name."
+    }
+  },
+  {
+    "key": "proskywars.Error.not-leader",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou are not the leader of this party."
+    }
+  },
+  {
+    "key": "proskywars.Error.no-party",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou do not have a party."
+    }
+  },
+  {
+    "key": "proskywars.Error.no-invite",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou do not have an invite to join that party."
+    }
+  },
+  {
+    "key": "proskywars.Error.has-party",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou already have a party."
+    }
+  },
+  {
+    "key": "proskywars.Error.player-in-party",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cThat player is already in your party."
+    }
+  },
+  {
+    "key": "proskywars.Error.player-not-in-party",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cThat player is not in your party."
+    }
+  },
+  {
+    "key": "proskywars.Error.player-has-invite",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cThat player already has an invite."
+    }
+  },
+  {
+    "key": "proskywars.Error.player-has-party",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cThat player already has a party."
+    }
+  },
+  {
+    "key": "proskywars.Error.player-no-party",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cThat player does not have a party."
+    }
+  },
+  {
+    "key": "proskywars.Error.kick-self",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou cannot kick yourself."
+    }
+  },
+  {
+    "key": "proskywars.Error.team-not-available",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cThere isn't any team available for a party on this arena."
+    }
+  },
+  {
+    "key": "proskywars.Error.party-size",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou need a party of &b%1 &cor less to be able to join this game!"
+    }
+  },
+  {
+    "key": "proskywars.Error.not-party-leader",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou are not party leader!"
+    }
+  },
+  {
+    "key": "proskywars.Error.blockPlaceOutsideArena",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cYou can't place blocks outside the arena!"
+    }
+  },
+  {
+    "key": "proskywars.GameState.Lobby",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aLobby"
+    }
+  },
+  {
+    "key": "proskywars.GameState.Starting",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eStarting"
+    }
+  },
+  {
+    "key": "proskywars.GameState.InGame",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eInGame"
+    }
+  },
+  {
+    "key": "proskywars.GameState.End",
+    "type": "text",
+    "languages": {
+      "en_GB": "&bEnd"
+    }
+  },
+  {
+    "key": "proskywars.Scoreboard-GameType.solo",
+    "type": "text",
+    "languages": {
+      "en_GB": "&e&lSOLO"
+    }
+  },
+  {
+    "key": "proskywars.Scoreboard-GameType.team",
+    "type": "text",
+    "languages": {
+      "en_GB": "&e&lTEAM"
+    }
+  },
+  {
+    "key": "proskywars.ArenasItem.material",
+    "type": "text",
+    "languages": {
+      "en_GB": "WOOL:6"
+    }
+  },
+  {
+    "key": "proskywars.ArenasItem.name",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aArena Selector"
+    }
+  },
+  {
+    "key": "proskywars.CustomScoreboards.Events.Starting",
+    "type": "text",
+    "languages": {
+      "en_GB": "Starting"
+    }
+  },
+  {
+    "key": "proskywars.CustomScoreboards.Events.Refill",
+    "type": "text",
+    "languages": {
+      "en_GB": "Refill"
+    }
+  },
+  {
+    "key": "proskywars.CustomScoreboards.Events.ingame-to-end",
+    "type": "text",
+    "languages": {
+      "en_GB": "GameEnd"
+    }
+  },
+  {
+    "key": "proskywars.CustomScoreboards.Events.End",
+    "type": "text",
+    "languages": {
+      "en_GB": "GameEnd"
+    }
+  },
+  {
+    "key": "proskywars.CustomScoreboards.lobby.title",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eSkywars"
+    }
+  },
+  {
+    "key": "proskywars.CustomScoreboards.ingame-solo.title",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eSkywars"
+    }
+  },
+  {
+    "key": "proskywars.CustomScoreboards.ingame-team.title",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eSkywars"
+    }
+  },
+  {
+    "key": "proskywars.CustomScoreboards.main-lobby.title",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eSkywars"
+    }
+  },
+  {
+    "key": "proskywars.CustomScoreboards.not-in-arena",
+    "type": "text",
+    "languages": {
+      "en_GB": "Not in arena!"
+    }
+  },
+  {
+    "key": "proskywars.Motd.Lobby",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aLobby"
+    }
+  },
+  {
+    "key": "proskywars.Motd.Starting",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eStarting"
+    }
+  },
+  {
+    "key": "proskywars.Motd.InGame",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eInGame"
+    }
+  },
+  {
+    "key": "proskywars.Motd.GameEnd",
+    "type": "text",
+    "languages": {
+      "en_GB": "&bGameEnd"
+    }
+  },
+  {
+    "key": "proskywars.CompassTracker.item-name",
+    "type": "text",
+    "languages": {
+      "en_GB": "Tracking: &a%1 &fDistance: &b%2"
+    }
+  },
+  {
+    "key": "proskywars.CompassTracker.message",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aYou are now tracking player &b%1"
+    }
+  },
+  {
+    "key": "proskywars.CompassTracker.cooldown",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eYou need to wait %1 seconds!"
+    }
+  },
+  {
+    "key": "proskywars.Gui-Pagination.next-page",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eNext Page"
+    }
+  },
+  {
+    "key": "proskywars.Gui-Pagination.previous-page",
+    "type": "text",
+    "languages": {
+      "en_GB": "&ePrevious Page"
+    }
+  }
+]
