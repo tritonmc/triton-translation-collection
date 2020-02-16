@@ -13,14 +13,17 @@
 
 ```
 Prefix
-Signs.title
-Signs.autojoin
-Signs.map-color
-Signs.gamestate-color
-Signs.solo
-Signs.team
-Gui-Pagination.next-page-material
-Gui-Pagination.previous-page-material
+Signs\.(?!no-solo-arenas|no-team-arenas)
+CustomJoinSign\.\d
+Hologram\.10
+Arena-Broadcast\.endBroadcast\.top\.(?!3)
+Arena-Broadcast\.endBroadcast\.bottom\.\d
+(?:Lobby)?Scoreboard\..+
+(?:PartyGUI|Arenas?Item|ShopItem)\..*material
+GameState\..+
+Scoreboard-GameType\..+
+CustomScoreboards\..+
+Gui-Pagination\.(?:next|previous)-page-material
 ```
 
 ## Manual changes

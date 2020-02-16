@@ -9,10 +9,10 @@ Signs:
   solo: '&4&lSOLO'
   team: '&4&lTEAM'
 CustomJoinSign:
-  '0': '&9SkyWars'
-  '1': '&a%gametype%'
-  '2': '&e&l%arena%'
-  '3': '&b%ingame%&7/&b%max%'
+  - '&9SkyWars'
+  - '&a%gametype%'
+  - '&e&l%arena%'
+  - '&b%ingame%&7/&b%max%'
 MysteryBox:
   title-1: '[lang]proskywars.MysteryBox.title-1[/lang]'
   title-2: '[lang]proskywars.MysteryBox.title-2[/lang]'
@@ -40,26 +40,27 @@ MysteryBox:
     confirm-menu-name: '[lang]proskywars.MysteryBox.Items.confirm-menu-name[/lang]'
     confirm-item-name: '[lang]proskywars.MysteryBox.Items.confirm-item-name[/lang]'
     confirm-item-lore:
-      '0': '&7Rolls for a random kit or'
-      '1': '&7cage.'
-      '2': ''
-      '3': '&7Cost: &b10 Souls'
+      - '[lang]proskywars.MysteryBox.Items.confirm-item-lore.0[/lang]'
+      - '[lang]proskywars.MysteryBox.Items.confirm-item-lore.1[/lang]'
+      - ''
+      - '[lang]proskywars.MysteryBox.Items.confirm-item-lore.3[/lang]'
     deny-item-name: '[lang]proskywars.MysteryBox.Items.deny-item-name[/lang]'
     deny-item-lore:
-      '0': '&7Go back to previous'
-      '1': '&7menu.'
+      - '[lang]proskywars.MysteryBox.Items.deny-item-lore.0[/lang]'
+      - '[lang]proskywars.MysteryBox.Items.deny-item-lore.1[/lang]'
 Hologram:
-  '0': '&7&m---  &a %name%''s &7stats &m---'
-  '1': '&bKills → &e%kills%'
-  '2': '&bCoins → &e%coins%'
-  '3': '&bSouls → &e%souls%'
-  '4': '&bDeaths → &e%deaths%'
-  '5': '&bWins → &e%wins%'
-  '6': '&bProjectiles launched → &e%projectileslaunched%'
-  '7': '&bProjectiles hit → &e%projectileshit%'
-  '8': '&bBlocks placed → &e%blocksplaced%'
-  '9': '&bBlocks broken → &e%blocksbroken%'
-  '10': '&7&m----------------------'
+  - '[lang]proskywars.Hologram.0[args][arg]%name%[/arg][/args][/lang]'
+  - '[lang]proskywars.Hologram.1[args][arg]%kills%[/arg][/args][/lang]'
+  - '[lang]proskywars.Hologram.2[args][arg]%coins%[/arg][/args][/lang]'
+  - '[lang]proskywars.Hologram.3[args][arg]%souls%[/arg][/args][/lang]'
+  - '[lang]proskywars.Hologram.4[args][arg]%deaths%[/arg][/args][/lang]'
+  - '[lang]proskywars.Hologram.5[args][arg]%wins%[/arg][/args][/lang]'
+  - >-
+    [lang]proskywars.Hologram.6[args][arg]%projectileslaunched%[/arg][/args][/lang]
+  - '[lang]proskywars.Hologram.7[args][arg]%projectileshit%[/arg][/args][/lang]'
+  - '[lang]proskywars.Hologram.8[args][arg]%blocksplaced%[/arg][/args][/lang]'
+  - '[lang]proskywars.Hologram.9[args][arg]%blocksbroken%[/arg][/args][/lang]'
+  - '&7&m----------------------'
 In-Game-Broadcast:
   dead: >-
     [lang]proskywars.In-Game-Broadcast.dead[args][arg]%player%[/arg][/args][/lang]
@@ -100,11 +101,12 @@ Arena-Broadcast:
     [lang]proskywars.Arena-Broadcast.countdown[args][arg]%time%[/arg][/args][/lang]
   endBroadcast:
     top:
-      '0': '&a&l---------------------------------------------'
-      '1': '&f&l                      SkyWars                '
-      '2': '                                                 '
-      '3': '                  &eWinner &7- &b&l%winner%      '
-      '4': '                                                 '
+      - '&a&l---------------------------------------------'
+      - '&f&l                      SkyWars                '
+      - '                                                 '
+      - >-
+        [lang]proskywars.Arena-Broadcast.endBroadcast.top.3[args][arg]%winner%[/arg][/args][/lang]
+      - '                                                 '
     first-killer: >-
       [lang]proskywars.Arena-Broadcast.endBroadcast.first-killer[args][arg]%killer%[/arg][arg]%kills%[/arg][/args][/lang]
     second-killer: >-
@@ -112,38 +114,38 @@ Arena-Broadcast:
     third-killer: >-
       [lang]proskywars.Arena-Broadcast.endBroadcast.third-killer[args][arg]%killer%[/arg][arg]%kills%[/arg][/args][/lang]
     bottom:
-      '0': '                                                 '
-      '1': '&a&l---------------------------------------------'
+      - '                                                 '
+      - '&a&l---------------------------------------------'
 Scoreboard:
   in-game:
-    title: '[lang]proskywars.Scoreboard.in-game.title[/lang]'
-    footer: '[lang]proskywars.Scoreboard.in-game.footer[/lang]'
+    title: '   &e&lSkyWars'
+    footer: '&e-------------'
     tags:
-      next-event: '[lang]proskywars.Scoreboard.in-game.tags.next-event[/lang]'
-      players-left: '[lang]proskywars.Scoreboard.in-game.tags.players-left[/lang]'
-      kills: '[lang]proskywars.Scoreboard.in-game.tags.kills[/lang]'
-      map: '[lang]proskywars.Scoreboard.in-game.tags.map[/lang]'
-      teams: '[lang]proskywars.Scoreboard.in-game.tags.teams[/lang]'
+      next-event: '&fNext Event: '
+      players-left: '&fPlayers left: '
+      kills: '&fKills: '
+      map: '&fMap: '
+      teams: '&fTeams: '
   lobby:
-    title: '[lang]proskywars.Scoreboard.lobby.title[/lang]'
-    footer: '[lang]proskywars.Scoreboard.lobby.footer[/lang]'
+    title: '   &e&lSkyWars'
+    footer: '&e-------------'
     tags:
-      kills: '[lang]proskywars.Scoreboard.lobby.tags.kills[/lang]'
-      wins: '[lang]proskywars.Scoreboard.lobby.tags.wins[/lang]'
-      coins: '[lang]proskywars.Scoreboard.lobby.tags.coins[/lang]'
-      souls: '[lang]proskywars.Scoreboard.lobby.tags.souls[/lang]'
-      timer: '[lang]proskywars.Scoreboard.lobby.tags.timer[/lang]'
+      kills: '&fKills: '
+      wins: '&fWins: '
+      coins: '&fCoins: '
+      souls: '&fSouls: '
+      timer: '&fStarting in: '
 LobbyScoreboard:
-  title: '[lang]proskywars.LobbyScoreboard.title[/lang]'
-  footer: '[lang]proskywars.LobbyScoreboard.footer[/lang]'
+  title: '   &e&lSkyWars'
+  footer: '&e-------------'
   tags:
-    kills: '[lang]proskywars.LobbyScoreboard.tags.kills[/lang]'
-    wins: '[lang]proskywars.LobbyScoreboard.tags.wins[/lang]'
-    coins: '[lang]proskywars.LobbyScoreboard.tags.coins[/lang]'
-    souls: '[lang]proskywars.LobbyScoreboard.tags.souls[/lang]'
-    selected-kit: '[lang]proskywars.LobbyScoreboard.tags.selected-kit[/lang]'
-    selected-cage: '[lang]proskywars.LobbyScoreboard.tags.selected-cage[/lang]'
-    selected-trail: '[lang]proskywars.LobbyScoreboard.tags.selected-trail[/lang]'
+    kills: '&fKills: '
+    wins: '&fWins: '
+    coins: '&fCoins: '
+    souls: '&fSouls: '
+    selected-kit: '&fUsing Kit: '
+    selected-cage: '&fUsing Cage: '
+    selected-trail: '&fUsing Trail: '
 Titles:
   player-dead-1: '[lang]proskywars.Titles.player-dead-1[/lang]'
   player-dead-2: '[lang]proskywars.Titles.player-dead-2[/lang]'
@@ -180,121 +182,154 @@ Items:
     go-back: '[lang]proskywars.Items.shop.go-back[/lang]'
     kits: '[lang]proskywars.Items.shop.kits[/lang]'
     kits-lore:
-      '0': '&7Selection of unique kits.'
-      '1': ''
-      '2': '&eClick to view!'
+      - '[lang]proskywars.Items.shop.kits-lore.0[/lang]'
+      - ''
+      - '[lang]proskywars.Items.shop.kits-lore.2[/lang]'
     cages: '[lang]proskywars.Items.shop.cages[/lang]'
     cages-lore:
-      '0': '&7Change the color of your'
-      '1': '&7spawning cell.'
-      '2': ''
-      '3': '&eClick to view!'
+      - '[lang]proskywars.Items.shop.cages-lore.0[/lang]'
+      - '[lang]proskywars.Items.shop.cages-lore.1[/lang]'
+      - ''
+      - '[lang]proskywars.Items.shop.cages-lore.3[/lang]'
     trails: '[lang]proskywars.Items.shop.trails[/lang]'
     trails-lore:
-      '0': '&7Change your projectile trail'
-      '1': '&7particle effect.'
-      '2': ''
-      '3': '&eClick to view!'
+      - '[lang]proskywars.Items.shop.trails-lore.0[/lang]'
+      - '[lang]proskywars.Items.shop.trails-lore.1[/lang]'
+      - ''
+      - '[lang]proskywars.Items.shop.trails-lore.3[/lang]'
     perks: '[lang]proskywars.Items.shop.perks[/lang]'
     perks-lore:
-      '0': '&7Selection of unique perks'
-      '1': '&7for skywars.'
-      '2': ''
-      '3': '&eClick to view!'
+      - '[lang]proskywars.Items.shop.perks-lore.0[/lang]'
+      - '[lang]proskywars.Items.shop.perks-lore.1[/lang]'
+      - ''
+      - '[lang]proskywars.Items.shop.perks-lore.3[/lang]'
     stats: '[lang]proskywars.Items.shop.stats[/lang]'
     stats-lore:
-      '0': '&7Check your stats.'
-      '1': ''
-      '2': '&7Kills: &b%kills%'
-      '3': '&7Deaths: &b%deaths%'
-      '4': '&7Wins: &b%wins%'
-      '5': '&7Projectiles Launched: &b%arrows_launched%'
-      '6': '&7Projectiles Hit: &b%arrows_hit%'
-      '7': '&7Blocks Breaked: &b%blocks_breaked%'
-      '8': '&7Blocks Placed: &b%blocks_placed%'
+      - '[lang]proskywars.Items.shop.stats-lore.0[/lang]'
+      - ''
+      - >-
+        [lang]proskywars.Items.shop.stats-lore.2[args][arg]%kills%[/arg][/args][/lang]
+      - >-
+        [lang]proskywars.Items.shop.stats-lore.3[args][arg]%deaths%[/arg][/args][/lang]
+      - >-
+        [lang]proskywars.Items.shop.stats-lore.4[args][arg]%wins%[/arg][/args][/lang]
+      - >-
+        [lang]proskywars.Items.shop.stats-lore.5[args][arg]%arrows_launched%[/arg][/args][/lang]
+      - >-
+        [lang]proskywars.Items.shop.stats-lore.6[args][arg]%arrows_hit%[/arg][/args][/lang]
+      - >-
+        [lang]proskywars.Items.shop.stats-lore.7[args][arg]%blocks_breaked%[/arg][/args][/lang]
+      - >-
+        [lang]proskywars.Items.shop.stats-lore.8[args][arg]%blocks_placed%[/arg][/args][/lang]
     coins: '[lang]proskywars.Items.shop.coins[/lang]'
     coins-lore:
-      '0': ''
-      '1': '&b%coins% &eCoins'
-      '2': '&b%souls% &eSouls'
+      - ''
+      - >-
+        [lang]proskywars.Items.shop.coins-lore.1[args][arg]%coins%[/arg][/args][/lang]
+      - >-
+        [lang]proskywars.Items.shop.coins-lore.2[args][arg]%souls%[/arg][/args][/lang]
   kits-shop:
     shop-menu: '[lang]proskywars.Items.kits-shop.shop-menu[/lang]'
     lore-unlocked:
-      '0': '&eArmor:'
-      '1': '%armor%'
-      '2': '&eItems:'
-      '3': '%items%'
-      '4': ''
-      '5': '&aUnlocked'
-      '6': ''
-      '7': '&7Rarity: &b%rarity%'
-      '8': '&eClick to select!'
+      - '[lang]proskywars.Items.kits-shop.lore-unlocked.0[/lang]'
+      - >-
+        [lang]proskywars.Items.kits-shop.lore-unlocked.1[args][arg]%armor%[/arg][/args][/lang]
+      - '[lang]proskywars.Items.kits-shop.lore-unlocked.2[/lang]'
+      - >-
+        [lang]proskywars.Items.kits-shop.lore-unlocked.3[args][arg]%items%[/arg][/args][/lang]
+      - ''
+      - '[lang]proskywars.Items.kits-shop.lore-unlocked.5[/lang]'
+      - ''
+      - >-
+        [lang]proskywars.Items.kits-shop.lore-unlocked.7[args][arg]%rarity%[/arg][/args][/lang]
+      - '[lang]proskywars.Items.kits-shop.lore-unlocked.8[/lang]'
     lore-locked:
-      '0': '&eArmor:'
-      '1': '%armor%'
-      '2': '&eItems:'
-      '3': '%items%'
-      '4': ''
-      '5': '&7Price: &b%price%'
-      '6': ''
-      '7': '&7Rarity: &b%rarity%'
-      '8': '&eClick to buy!'
+      - '[lang]proskywars.Items.kits-shop.lore-locked.0[/lang]'
+      - >-
+        [lang]proskywars.Items.kits-shop.lore-locked.1[args][arg]%armor%[/arg][/args][/lang]
+      - '[lang]proskywars.Items.kits-shop.lore-locked.2[/lang]'
+      - >-
+        [lang]proskywars.Items.kits-shop.lore-locked.3[args][arg]%items%[/arg][/args][/lang]
+      - ''
+      - >-
+        [lang]proskywars.Items.kits-shop.lore-locked.5[args][arg]%price%[/arg][/args][/lang]
+      - ''
+      - >-
+        [lang]proskywars.Items.kits-shop.lore-locked.7[args][arg]%rarity%[/arg][/args][/lang]
+      - '[lang]proskywars.Items.kits-shop.lore-locked.8[/lang]'
     lore-no-permission:
-      '0': '&eArmor:'
-      '1': '%armor%'
-      '2': '&eItems:'
-      '3': '%items%'
-      '4': ''
-      '5': '&7Rarity: &b%rarity%'
-      '6': '&eCan be found in the soul well!'
+      - '[lang]proskywars.Items.kits-shop.lore-no-permission.0[/lang]'
+      - >-
+        [lang]proskywars.Items.kits-shop.lore-no-permission.1[args][arg]%armor%[/arg][/args][/lang]
+      - '[lang]proskywars.Items.kits-shop.lore-no-permission.2[/lang]'
+      - >-
+        [lang]proskywars.Items.kits-shop.lore-no-permission.3[args][arg]%items%[/arg][/args][/lang]
+      - ''
+      - >-
+        [lang]proskywars.Items.kits-shop.lore-no-permission.5[args][arg]%rarity%[/arg][/args][/lang]
+      - '[lang]proskywars.Items.kits-shop.lore-no-permission.6[/lang]'
   cages-shop:
     shop-menu: '[lang]proskywars.Items.cages-shop.shop-menu[/lang]'
     lore-unlocked:
-      '0': '&7Select the %name% cage. This'
-      '1': '&7change is cosmetic'
-      '2': ''
-      '3': '&aUnlocked'
-      '4': ''
-      '5': '&7Rarity: &b%rarity%'
-      '6': '&eClick to select!'
+      - >-
+        [lang]proskywars.Items.cages-shop.lore-unlocked.0[args][arg]%name%[/arg][/args][/lang]
+      - '[lang]proskywars.Items.cages-shop.lore-unlocked.1[/lang]'
+      - ''
+      - '[lang]proskywars.Items.cages-shop.lore-unlocked.3[/lang]'
+      - ''
+      - >-
+        [lang]proskywars.Items.cages-shop.lore-unlocked.5[args][arg]%rarity%[/arg][/args][/lang]
+      - '[lang]proskywars.Items.cages-shop.lore-unlocked.6[/lang]'
     lore-locked:
-      '0': '&7Select the %name% cage. This'
-      '1': '&7change is cosmetic'
-      '2': ''
-      '3': '&7Price: &b%price%'
-      '4': ''
-      '5': '&7Rarity: &b%rarity%'
-      '6': '&eClick to buy!'
+      - >-
+        [lang]proskywars.Items.cages-shop.lore-locked.0[args][arg]%name%[/arg][/args][/lang]
+      - '[lang]proskywars.Items.cages-shop.lore-locked.1[/lang]'
+      - ''
+      - >-
+        [lang]proskywars.Items.cages-shop.lore-locked.3[args][arg]%price%[/arg][/args][/lang]
+      - ''
+      - >-
+        [lang]proskywars.Items.cages-shop.lore-locked.5[args][arg]%rarity%[/arg][/args][/lang]
+      - '[lang]proskywars.Items.cages-shop.lore-locked.6[/lang]'
     lore-no-permission:
-      '0': '&7Select the %name% cage. This'
-      '1': '&7change is cosmetic'
-      '2': ''
-      '3': '&7Rarity: &b%rarity%'
-      '4': '&eCan be found in the soul well!'
+      - >-
+        [lang]proskywars.Items.cages-shop.lore-no-permission.0[args][arg]%name%[/arg][/args][/lang]
+      - '[lang]proskywars.Items.cages-shop.lore-no-permission.1[/lang]'
+      - ''
+      - >-
+        [lang]proskywars.Items.cages-shop.lore-no-permission.3[args][arg]%rarity%[/arg][/args][/lang]
+      - '[lang]proskywars.Items.cages-shop.lore-no-permission.4[/lang]'
   trails-shop:
     shop-menu: '[lang]proskywars.Items.trails-shop.shop-menu[/lang]'
     lore-unlocked:
-      '0': '&7Select the %name% trail. This'
-      '1': '&7change is cosmetic'
-      '2': ''
-      '3': '&aUnlocked'
-      '4': ''
-      '5': '&7Rarity: &b%rarity%'
-      '6': '&eClick to select!'
+      - >-
+        [lang]proskywars.Items.trails-shop.lore-unlocked.0[args][arg]%name%[/arg][/args][/lang]
+      - '[lang]proskywars.Items.trails-shop.lore-unlocked.1[/lang]'
+      - ''
+      - '[lang]proskywars.Items.trails-shop.lore-unlocked.3[/lang]'
+      - ''
+      - >-
+        [lang]proskywars.Items.trails-shop.lore-unlocked.5[args][arg]%rarity%[/arg][/args][/lang]
+      - '[lang]proskywars.Items.trails-shop.lore-unlocked.6[/lang]'
     lore-locked:
-      '0': '&7Select the %name% trail. This'
-      '1': '&7change is cosmetic'
-      '2': ''
-      '3': '&7Price: &b%price%'
-      '4': ''
-      '5': '&7Rarity: &b%rarity%'
-      '6': '&eClick to buy!'
+      - >-
+        [lang]proskywars.Items.trails-shop.lore-locked.0[args][arg]%name%[/arg][/args][/lang]
+      - '[lang]proskywars.Items.trails-shop.lore-locked.1[/lang]'
+      - ''
+      - >-
+        [lang]proskywars.Items.trails-shop.lore-locked.3[args][arg]%price%[/arg][/args][/lang]
+      - ''
+      - >-
+        [lang]proskywars.Items.trails-shop.lore-locked.5[args][arg]%rarity%[/arg][/args][/lang]
+      - '[lang]proskywars.Items.trails-shop.lore-locked.6[/lang]'
     lore-no-permission:
-      '0': '&7Select the %name% trail. This'
-      '1': '&7change is cosmetic'
-      '2': ''
-      '3': '&7Rarity: &b%rarity%'
-      '4': '&eCan be found in the soul well!'
+      - >-
+        [lang]proskywars.Items.trails-shop.lore-no-permission.0[args][arg]%name%[/arg][/args][/lang]
+      - '[lang]proskywars.Items.trails-shop.lore-no-permission.1[/lang]'
+      - ''
+      - >-
+        [lang]proskywars.Items.trails-shop.lore-no-permission.3[args][arg]%rarity%[/arg][/args][/lang]
+      - '[lang]proskywars.Items.trails-shop.lore-no-permission.4[/lang]'
   perks-shop:
     shop-menu: '[lang]proskywars.Items.perks-shop.shop-menu[/lang]'
 Kit:
@@ -327,45 +362,46 @@ Teleport:
 ArenasGUI:
   menu-name: '[lang]proskywars.ArenasGUI.menu-name[/lang]'
   lore:
-    '0': '                     '
-    '1': '&ePlayers: &b%ingame%&7/&b%max%'
-    '2': '&eType: &d%gametype%'
-    '3': '&eState: &a%state%'
-    '4': '                     '
-    '5': '&bClick to join!'
+    - '                     '
+    - >-
+      [lang]proskywars.ArenasGUI.lore.1[args][arg]%ingame%[/arg][arg]%max%[/arg][/args][/lang]
+    - '[lang]proskywars.ArenasGUI.lore.2[args][arg]%gametype%[/arg][/args][/lang]'
+    - '[lang]proskywars.ArenasGUI.lore.3[args][arg]%state%[/arg][/args][/lang]'
+    - '                     '
+    - '[lang]proskywars.ArenasGUI.lore.5[/lang]'
 PartyGUI:
   menu-name: '[lang]proskywars.PartyGUI.menu-name[/lang]'
   item-name: '[lang]proskywars.PartyGUI.item-name[/lang]'
-  material: '[lang]proskywars.PartyGUI.material[/lang]'
+  material: MAGMA_CREAM
   lore:
-    '0': '&eRight Click to open'
-    '1': '&eparty menu.'
-  invite-material: '[lang]proskywars.PartyGUI.invite-material[/lang]'
+    - '[lang]proskywars.PartyGUI.lore.0[/lang]'
+    - '[lang]proskywars.PartyGUI.lore.1[/lang]'
+  invite-material: PAPER
   invite-name: '[lang]proskywars.PartyGUI.invite-name[/lang]'
-  members-material: '[lang]proskywars.PartyGUI.members-material[/lang]'
+  members-material: BLAZE_ROD
   members-name: '[lang]proskywars.PartyGUI.members-name[/lang]'
-  leave-material: '[lang]proskywars.PartyGUI.leave-material[/lang]'
+  leave-material: 'WOOL:14'
   leave-name: '[lang]proskywars.PartyGUI.leave-name[/lang]'
-  not-in-party-material: '[lang]proskywars.PartyGUI.not-in-party-material[/lang]'
+  not-in-party-material: 'WOOL:14'
   not-in-party-name: '[lang]proskywars.PartyGUI.not-in-party-name[/lang]'
   party-members-menu-name: '[lang]proskywars.PartyGUI.party-members-menu-name[/lang]'
   party-invite-menu-name: '[lang]proskywars.PartyGUI.party-invite-menu-name[/lang]'
   slot: 8
   go-back: '[lang]proskywars.PartyGUI.go-back[/lang]'
 ArenaItem:
-  material: '[lang]proskywars.ArenaItem.material[/lang]'
+  material: 'WOOL:5'
   name: '[lang]proskywars.ArenaItem.name[/lang]'
   slot: 0
   lore:
-    '0': '&eRight Click to select'
-    '1': '&ean arena.'
+    - '[lang]proskywars.ArenaItem.lore.0[/lang]'
+    - '[lang]proskywars.ArenaItem.lore.1[/lang]'
 ShopItem:
-  material: '[lang]proskywars.ShopItem.material[/lang]'
+  material: EMERALD
   name: '[lang]proskywars.ShopItem.name[/lang]'
   slot: 4
   lore:
-    '0': '&eRight Click to open'
-    '1': '&eskywars shop.'
+    - '[lang]proskywars.ShopItem.lore.0[/lang]'
+    - '[lang]proskywars.ShopItem.lore.1[/lang]'
 Party:
   prefix: '[lang]proskywars.Party.prefix[args][arg]%partyname%[/arg][/args][/lang]'
   created: '[lang]proskywars.Party.created[args][arg]%name%[/arg][/args][/lang]'
@@ -417,90 +453,90 @@ Error:
   not-party-leader: '[lang]proskywars.Error.not-party-leader[/lang]'
   blockPlaceOutsideArena: '[lang]proskywars.Error.blockPlaceOutsideArena[/lang]'
 GameState:
-  Lobby: '[lang]proskywars.GameState.Lobby[/lang]'
-  Starting: '[lang]proskywars.GameState.Starting[/lang]'
-  InGame: '[lang]proskywars.GameState.InGame[/lang]'
-  End: '[lang]proskywars.GameState.End[/lang]'
+  Lobby: '&aLobby'
+  Starting: '&eStarting'
+  InGame: '&eInGame'
+  End: '&bEnd'
 Scoreboard-GameType:
-  solo: '[lang]proskywars.Scoreboard-GameType.solo[/lang]'
-  team: '[lang]proskywars.Scoreboard-GameType.team[/lang]'
+  solo: '&e&lSOLO'
+  team: '&e&lTEAM'
 ArenasItem:
-  material: '[lang]proskywars.ArenasItem.material[/lang]'
+  material: 'WOOL:6'
   name: '[lang]proskywars.ArenasItem.name[/lang]'
   slot: 0
   lore:
-    '0': '&eRight Click to select'
-    '1': '&ean arena.'
+    - '[lang]proskywars.ArenasItem.lore.0[/lang]'
+    - '[lang]proskywars.ArenasItem.lore.1[/lang]'
 CustomScoreboards:
   Events:
-    Starting: '[lang]proskywars.CustomScoreboards.Events.Starting[/lang]'
-    Refill: '[lang]proskywars.CustomScoreboards.Events.Refill[/lang]'
-    ingame-to-end: '[lang]proskywars.CustomScoreboards.Events.ingame-to-end[/lang]'
-    End: '[lang]proskywars.CustomScoreboards.Events.End[/lang]'
+    Starting: Starting
+    Refill: Refill
+    ingame-to-end: GameEnd
+    End: GameEnd
   lobby:
-    title: '[lang]proskywars.CustomScoreboards.lobby.title[/lang]'
+    title: '&eSkywars'
     scoreboard:
-      '0': '%blank%'
-      '1': '&fKills: &a%kills%'
-      '2': '&fWins: &a%wins%'
-      '3': '%blank%'
-      '4': '&fCoins: &a%coins%'
-      '5': '&FSouls: &a%souls%&7/%maxsouls%'
-      '6': '%blank%'
-      '7': '&fStarting In: &a%timer%'
-      '8': '%blank%'
-      '9': '&ewww.google.com'
+      - '%blank%'
+      - '&fKills: &a%kills%'
+      - '&fWins: &a%wins%'
+      - '%blank%'
+      - '&fCoins: &a%coins%'
+      - '&FSouls: &a%souls%&7/%maxsouls%'
+      - '%blank%'
+      - '&fStarting In: &a%timer%'
+      - '%blank%'
+      - '&ewww.google.com'
   ingame-solo:
-    title: '[lang]proskywars.CustomScoreboards.ingame-solo.title[/lang]'
+    title: '&eSkywars'
     scoreboard:
-      '0': '&e&l%gametype% &7%date%'
-      '1': '%blank%'
-      '2': '&fNext Event:'
-      '3': '&a%event% %timer%'
-      '4': '%blank%'
-      '5': '&fPlayers left: &a%ingame%'
-      '6': '%blank%'
-      '7': '&fKills: &a%killscounter%'
-      '8': '%blank%'
-      '9': '&fMap: &a%arena%'
-      '10': '%blank%'
-      '11': '&ewww.google.com'
+      - '&e&l%gametype% &7%date%'
+      - '%blank%'
+      - '&fNext Event:'
+      - '&a%event% %timer%'
+      - '%blank%'
+      - '&fPlayers left: &a%ingame%'
+      - '%blank%'
+      - '&fKills: &a%killscounter%'
+      - '%blank%'
+      - '&fMap: &a%arena%'
+      - '%blank%'
+      - '&ewww.google.com'
   ingame-team:
-    title: '[lang]proskywars.CustomScoreboards.ingame-team.title[/lang]'
+    title: '&eSkywars'
     scoreboard:
-      '0': '&e&l%gametype% &7%date%'
-      '1': '%blank%'
-      '2': '&fNext Event:'
-      '3': '&a%event% %timer%'
-      '4': '%blank%'
-      '5': '&fPlayers left: &a%ingame%'
-      '6': '%blank%'
-      '7': '&fTeams: &a%teamscount%'
-      '8': '%blank%'
-      '9': '&fKills: &a%killscounter%'
-      '10': '%blank%'
-      '11': '&fMap: &a%arena%'
-      '12': '%blank%'
-      '13': '&ewww.google.com'
+      - '&e&l%gametype% &7%date%'
+      - '%blank%'
+      - '&fNext Event:'
+      - '&a%event% %timer%'
+      - '%blank%'
+      - '&fPlayers left: &a%ingame%'
+      - '%blank%'
+      - '&fTeams: &a%teamscount%'
+      - '%blank%'
+      - '&fKills: &a%killscounter%'
+      - '%blank%'
+      - '&fMap: &a%arena%'
+      - '%blank%'
+      - '&ewww.google.com'
   main-lobby:
-    title: '[lang]proskywars.CustomScoreboards.main-lobby.title[/lang]'
+    title: '&eSkywars'
     scoreboard:
-      '0': '%blank%'
-      '1': '&fKills: &a%kills%'
-      '2': '&fWins: &a%wins%'
-      '3': '%blank%'
-      '4': '&fCoins: &a%coins%'
-      '5': '&FSouls: &a%souls%&7/%maxsouls%'
-      '6': '%blank%'
-      '7': '&fUsing Kit:'
-      '8': '&a%kit%'
-      '9': '&fUsing Cage:'
-      '10': '&a%cage%'
-      '11': '&fUsing Trail:'
-      '12': '&a%trail%'
-      '13': '%blank%'
-      '14': '&ewww.google.com'
-  not-in-arena: '[lang]proskywars.CustomScoreboards.not-in-arena[/lang]'
+      - '%blank%'
+      - '&fKills: &a%kills%'
+      - '&fWins: &a%wins%'
+      - '%blank%'
+      - '&fCoins: &a%coins%'
+      - '&FSouls: &a%souls%&7/%maxsouls%'
+      - '%blank%'
+      - '&fUsing Kit:'
+      - '&a%kit%'
+      - '&fUsing Cage:'
+      - '&a%cage%'
+      - '&fUsing Trail:'
+      - '&a%trail%'
+      - '%blank%'
+      - '&ewww.google.com'
+  not-in-arena: Not in arena!
 Motd:
   Lobby: '[lang]proskywars.Motd.Lobby[/lang]'
   Starting: '[lang]proskywars.Motd.Starting[/lang]'

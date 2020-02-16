@@ -133,10 +133,115 @@
     }
   },
   {
+    "key": "proskywars.MysteryBox.Items.confirm-item-lore.0",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Rolls for a random kit or"
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.Items.confirm-item-lore.1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7cage."
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.Items.confirm-item-lore.3",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Cost: &b10 Souls"
+    }
+  },
+  {
     "key": "proskywars.MysteryBox.Items.deny-item-name",
     "type": "text",
     "languages": {
       "en_GB": "&cDeny"
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.Items.deny-item-lore.0",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Go back to previous"
+    }
+  },
+  {
+    "key": "proskywars.MysteryBox.Items.deny-item-lore.1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7menu."
+    }
+  },
+  {
+    "key": "proskywars.Hologram.0",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7&m---  &a %1's &7stats &m---"
+    }
+  },
+  {
+    "key": "proskywars.Hologram.1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&bKills → &e%1"
+    }
+  },
+  {
+    "key": "proskywars.Hologram.2",
+    "type": "text",
+    "languages": {
+      "en_GB": "&bCoins → &e%1"
+    }
+  },
+  {
+    "key": "proskywars.Hologram.3",
+    "type": "text",
+    "languages": {
+      "en_GB": "&bSouls → &e%1"
+    }
+  },
+  {
+    "key": "proskywars.Hologram.4",
+    "type": "text",
+    "languages": {
+      "en_GB": "&bDeaths → &e%1"
+    }
+  },
+  {
+    "key": "proskywars.Hologram.5",
+    "type": "text",
+    "languages": {
+      "en_GB": "&bWins → &e%1"
+    }
+  },
+  {
+    "key": "proskywars.Hologram.6",
+    "type": "text",
+    "languages": {
+      "en_GB": "&bProjectiles launched → &e%1"
+    }
+  },
+  {
+    "key": "proskywars.Hologram.7",
+    "type": "text",
+    "languages": {
+      "en_GB": "&bProjectiles hit → &e%1"
+    }
+  },
+  {
+    "key": "proskywars.Hologram.8",
+    "type": "text",
+    "languages": {
+      "en_GB": "&bBlocks placed → &e%1"
+    }
+  },
+  {
+    "key": "proskywars.Hologram.9",
+    "type": "text",
+    "languages": {
+      "en_GB": "&bBlocks broken → &e%1"
     }
   },
   {
@@ -266,6 +371,13 @@
     }
   },
   {
+    "key": "proskywars.Arena-Broadcast.endBroadcast.top.3",
+    "type": "text",
+    "languages": {
+      "en_GB": "                  &eWinner &7- &b&l%1      "
+    }
+  },
+  {
     "key": "proskywars.Arena-Broadcast.endBroadcast.first-killer",
     "type": "text",
     "languages": {
@@ -284,167 +396,6 @@
     "type": "text",
     "languages": {
       "en_GB": "                 &c&l3rd Killer &7- %1 - %2"
-    }
-  },
-  {
-    "key": "proskywars.Scoreboard.in-game.title",
-    "type": "text",
-    "languages": {
-      "en_GB": "   &e&lSkyWars"
-    }
-  },
-  {
-    "key": "proskywars.Scoreboard.in-game.footer",
-    "type": "text",
-    "languages": {
-      "en_GB": "&e-------------"
-    }
-  },
-  {
-    "key": "proskywars.Scoreboard.in-game.tags.next-event",
-    "type": "text",
-    "languages": {
-      "en_GB": "&fNext Event: "
-    }
-  },
-  {
-    "key": "proskywars.Scoreboard.in-game.tags.players-left",
-    "type": "text",
-    "languages": {
-      "en_GB": "&fPlayers left: "
-    }
-  },
-  {
-    "key": "proskywars.Scoreboard.in-game.tags.kills",
-    "type": "text",
-    "languages": {
-      "en_GB": "&fKills: "
-    }
-  },
-  {
-    "key": "proskywars.Scoreboard.in-game.tags.map",
-    "type": "text",
-    "languages": {
-      "en_GB": "&fMap: "
-    }
-  },
-  {
-    "key": "proskywars.Scoreboard.in-game.tags.teams",
-    "type": "text",
-    "languages": {
-      "en_GB": "&fTeams: "
-    }
-  },
-  {
-    "key": "proskywars.Scoreboard.lobby.title",
-    "type": "text",
-    "languages": {
-      "en_GB": "   &e&lSkyWars"
-    }
-  },
-  {
-    "key": "proskywars.Scoreboard.lobby.footer",
-    "type": "text",
-    "languages": {
-      "en_GB": "&e-------------"
-    }
-  },
-  {
-    "key": "proskywars.Scoreboard.lobby.tags.kills",
-    "type": "text",
-    "languages": {
-      "en_GB": "&fKills: "
-    }
-  },
-  {
-    "key": "proskywars.Scoreboard.lobby.tags.wins",
-    "type": "text",
-    "languages": {
-      "en_GB": "&fWins: "
-    }
-  },
-  {
-    "key": "proskywars.Scoreboard.lobby.tags.coins",
-    "type": "text",
-    "languages": {
-      "en_GB": "&fCoins: "
-    }
-  },
-  {
-    "key": "proskywars.Scoreboard.lobby.tags.souls",
-    "type": "text",
-    "languages": {
-      "en_GB": "&fSouls: "
-    }
-  },
-  {
-    "key": "proskywars.Scoreboard.lobby.tags.timer",
-    "type": "text",
-    "languages": {
-      "en_GB": "&fStarting in: "
-    }
-  },
-  {
-    "key": "proskywars.LobbyScoreboard.title",
-    "type": "text",
-    "languages": {
-      "en_GB": "   &e&lSkyWars"
-    }
-  },
-  {
-    "key": "proskywars.LobbyScoreboard.footer",
-    "type": "text",
-    "languages": {
-      "en_GB": "&e-------------"
-    }
-  },
-  {
-    "key": "proskywars.LobbyScoreboard.tags.kills",
-    "type": "text",
-    "languages": {
-      "en_GB": "&fKills: "
-    }
-  },
-  {
-    "key": "proskywars.LobbyScoreboard.tags.wins",
-    "type": "text",
-    "languages": {
-      "en_GB": "&fWins: "
-    }
-  },
-  {
-    "key": "proskywars.LobbyScoreboard.tags.coins",
-    "type": "text",
-    "languages": {
-      "en_GB": "&fCoins: "
-    }
-  },
-  {
-    "key": "proskywars.LobbyScoreboard.tags.souls",
-    "type": "text",
-    "languages": {
-      "en_GB": "&fSouls: "
-    }
-  },
-  {
-    "key": "proskywars.LobbyScoreboard.tags.selected-kit",
-    "type": "text",
-    "languages": {
-      "en_GB": "&fUsing Kit: "
-    }
-  },
-  {
-    "key": "proskywars.LobbyScoreboard.tags.selected-cage",
-    "type": "text",
-    "languages": {
-      "en_GB": "&fUsing Cage: "
-    }
-  },
-  {
-    "key": "proskywars.LobbyScoreboard.tags.selected-trail",
-    "type": "text",
-    "languages": {
-      "en_GB": "&fUsing Trail: "
     }
   },
   {
@@ -658,10 +609,45 @@
     }
   },
   {
+    "key": "proskywars.Items.shop.kits-lore.0",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Selection of unique kits."
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.kits-lore.2",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eClick to view!"
+    }
+  },
+  {
     "key": "proskywars.Items.shop.cages",
     "type": "text",
     "languages": {
       "en_GB": "&aCustom Cages"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.cages-lore.0",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Change the color of your"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.cages-lore.1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7spawning cell."
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.cages-lore.3",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eClick to view!"
     }
   },
   {
@@ -672,10 +658,52 @@
     }
   },
   {
+    "key": "proskywars.Items.shop.trails-lore.0",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Change your projectile trail"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.trails-lore.1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7particle effect."
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.trails-lore.3",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eClick to view!"
+    }
+  },
+  {
     "key": "proskywars.Items.shop.perks",
     "type": "text",
     "languages": {
       "en_GB": "&aPerks"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.perks-lore.0",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Selection of unique perks"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.perks-lore.1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7for skywars."
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.perks-lore.3",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eClick to view!"
     }
   },
   {
@@ -686,10 +714,80 @@
     }
   },
   {
+    "key": "proskywars.Items.shop.stats-lore.0",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Check your stats."
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.stats-lore.2",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Kills: &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.stats-lore.3",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Deaths: &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.stats-lore.4",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Wins: &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.stats-lore.5",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Projectiles Launched: &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.stats-lore.6",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Projectiles Hit: &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.stats-lore.7",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Blocks Breaked: &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.stats-lore.8",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Blocks Placed: &b%1"
+    }
+  },
+  {
     "key": "proskywars.Items.shop.coins",
     "type": "text",
     "languages": {
       "en_GB": "&aCoins and Souls"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.coins-lore.1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&b%1 &eCoins"
+    }
+  },
+  {
+    "key": "proskywars.Items.shop.coins-lore.2",
+    "type": "text",
+    "languages": {
+      "en_GB": "&b%1 &eSouls"
     }
   },
   {
@@ -700,6 +798,146 @@
     }
   },
   {
+    "key": "proskywars.Items.kits-shop.lore-unlocked.0",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eArmor:"
+    }
+  },
+  {
+    "key": "proskywars.Items.kits-shop.lore-unlocked.1",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.kits-shop.lore-unlocked.2",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eItems:"
+    }
+  },
+  {
+    "key": "proskywars.Items.kits-shop.lore-unlocked.3",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.kits-shop.lore-unlocked.5",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aUnlocked"
+    }
+  },
+  {
+    "key": "proskywars.Items.kits-shop.lore-unlocked.7",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Rarity: &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.kits-shop.lore-unlocked.8",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eClick to select!"
+    }
+  },
+  {
+    "key": "proskywars.Items.kits-shop.lore-locked.0",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eArmor:"
+    }
+  },
+  {
+    "key": "proskywars.Items.kits-shop.lore-locked.1",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.kits-shop.lore-locked.2",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eItems:"
+    }
+  },
+  {
+    "key": "proskywars.Items.kits-shop.lore-locked.3",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.kits-shop.lore-locked.5",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Price: &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.kits-shop.lore-locked.7",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Rarity: &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.kits-shop.lore-locked.8",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eClick to buy!"
+    }
+  },
+  {
+    "key": "proskywars.Items.kits-shop.lore-no-permission.0",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eArmor:"
+    }
+  },
+  {
+    "key": "proskywars.Items.kits-shop.lore-no-permission.1",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.kits-shop.lore-no-permission.2",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eItems:"
+    }
+  },
+  {
+    "key": "proskywars.Items.kits-shop.lore-no-permission.3",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.kits-shop.lore-no-permission.5",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Rarity: &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.kits-shop.lore-no-permission.6",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eCan be found in the soul well!"
+    }
+  },
+  {
     "key": "proskywars.Items.cages-shop.shop-menu",
     "type": "text",
     "languages": {
@@ -707,10 +945,206 @@
     }
   },
   {
+    "key": "proskywars.Items.cages-shop.lore-unlocked.0",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Select the %1 cage. This"
+    }
+  },
+  {
+    "key": "proskywars.Items.cages-shop.lore-unlocked.1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7change is cosmetic"
+    }
+  },
+  {
+    "key": "proskywars.Items.cages-shop.lore-unlocked.3",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aUnlocked"
+    }
+  },
+  {
+    "key": "proskywars.Items.cages-shop.lore-unlocked.5",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Rarity: &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.cages-shop.lore-unlocked.6",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eClick to select!"
+    }
+  },
+  {
+    "key": "proskywars.Items.cages-shop.lore-locked.0",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Select the %1 cage. This"
+    }
+  },
+  {
+    "key": "proskywars.Items.cages-shop.lore-locked.1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7change is cosmetic"
+    }
+  },
+  {
+    "key": "proskywars.Items.cages-shop.lore-locked.3",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Price: &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.cages-shop.lore-locked.5",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Rarity: &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.cages-shop.lore-locked.6",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eClick to buy!"
+    }
+  },
+  {
+    "key": "proskywars.Items.cages-shop.lore-no-permission.0",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Select the %1 cage. This"
+    }
+  },
+  {
+    "key": "proskywars.Items.cages-shop.lore-no-permission.1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7change is cosmetic"
+    }
+  },
+  {
+    "key": "proskywars.Items.cages-shop.lore-no-permission.3",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Rarity: &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.cages-shop.lore-no-permission.4",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eCan be found in the soul well!"
+    }
+  },
+  {
     "key": "proskywars.Items.trails-shop.shop-menu",
     "type": "text",
     "languages": {
       "en_GB": "&8Trails Shop"
+    }
+  },
+  {
+    "key": "proskywars.Items.trails-shop.lore-unlocked.0",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Select the %1 trail. This"
+    }
+  },
+  {
+    "key": "proskywars.Items.trails-shop.lore-unlocked.1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7change is cosmetic"
+    }
+  },
+  {
+    "key": "proskywars.Items.trails-shop.lore-unlocked.3",
+    "type": "text",
+    "languages": {
+      "en_GB": "&aUnlocked"
+    }
+  },
+  {
+    "key": "proskywars.Items.trails-shop.lore-unlocked.5",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Rarity: &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.trails-shop.lore-unlocked.6",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eClick to select!"
+    }
+  },
+  {
+    "key": "proskywars.Items.trails-shop.lore-locked.0",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Select the %1 trail. This"
+    }
+  },
+  {
+    "key": "proskywars.Items.trails-shop.lore-locked.1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7change is cosmetic"
+    }
+  },
+  {
+    "key": "proskywars.Items.trails-shop.lore-locked.3",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Price: &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.trails-shop.lore-locked.5",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Rarity: &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.trails-shop.lore-locked.6",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eClick to buy!"
+    }
+  },
+  {
+    "key": "proskywars.Items.trails-shop.lore-no-permission.0",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Select the %1 trail. This"
+    }
+  },
+  {
+    "key": "proskywars.Items.trails-shop.lore-no-permission.1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7change is cosmetic"
+    }
+  },
+  {
+    "key": "proskywars.Items.trails-shop.lore-no-permission.3",
+    "type": "text",
+    "languages": {
+      "en_GB": "&7Rarity: &b%1"
+    }
+  },
+  {
+    "key": "proskywars.Items.trails-shop.lore-no-permission.4",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eCan be found in the soul well!"
     }
   },
   {
@@ -882,6 +1316,34 @@
     }
   },
   {
+    "key": "proskywars.ArenasGUI.lore.1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&ePlayers: &b%1&7/&b%2"
+    }
+  },
+  {
+    "key": "proskywars.ArenasGUI.lore.2",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eType: &d%1"
+    }
+  },
+  {
+    "key": "proskywars.ArenasGUI.lore.3",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eState: &a%1"
+    }
+  },
+  {
+    "key": "proskywars.ArenasGUI.lore.5",
+    "type": "text",
+    "languages": {
+      "en_GB": "&bClick to join!"
+    }
+  },
+  {
     "key": "proskywars.PartyGUI.menu-name",
     "type": "text",
     "languages": {
@@ -896,17 +1358,17 @@
     }
   },
   {
-    "key": "proskywars.PartyGUI.material",
+    "key": "proskywars.PartyGUI.lore.0",
     "type": "text",
     "languages": {
-      "en_GB": "MAGMA_CREAM"
+      "en_GB": "&eRight Click to open"
     }
   },
   {
-    "key": "proskywars.PartyGUI.invite-material",
+    "key": "proskywars.PartyGUI.lore.1",
     "type": "text",
     "languages": {
-      "en_GB": "PAPER"
+      "en_GB": "&eparty menu."
     }
   },
   {
@@ -917,13 +1379,6 @@
     }
   },
   {
-    "key": "proskywars.PartyGUI.members-material",
-    "type": "text",
-    "languages": {
-      "en_GB": "BLAZE_ROD"
-    }
-  },
-  {
     "key": "proskywars.PartyGUI.members-name",
     "type": "text",
     "languages": {
@@ -931,24 +1386,10 @@
     }
   },
   {
-    "key": "proskywars.PartyGUI.leave-material",
-    "type": "text",
-    "languages": {
-      "en_GB": "WOOL:14"
-    }
-  },
-  {
     "key": "proskywars.PartyGUI.leave-name",
     "type": "text",
     "languages": {
       "en_GB": "&cClick to leave party"
-    }
-  },
-  {
-    "key": "proskywars.PartyGUI.not-in-party-material",
-    "type": "text",
-    "languages": {
-      "en_GB": "WOOL:14"
     }
   },
   {
@@ -980,13 +1421,6 @@
     }
   },
   {
-    "key": "proskywars.ArenaItem.material",
-    "type": "text",
-    "languages": {
-      "en_GB": "WOOL:5"
-    }
-  },
-  {
     "key": "proskywars.ArenaItem.name",
     "type": "text",
     "languages": {
@@ -994,10 +1428,17 @@
     }
   },
   {
-    "key": "proskywars.ShopItem.material",
+    "key": "proskywars.ArenaItem.lore.0",
     "type": "text",
     "languages": {
-      "en_GB": "EMERALD"
+      "en_GB": "&eRight Click to select"
+    }
+  },
+  {
+    "key": "proskywars.ArenaItem.lore.1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&ean arena."
     }
   },
   {
@@ -1005,6 +1446,20 @@
     "type": "text",
     "languages": {
       "en_GB": "&aShop"
+    }
+  },
+  {
+    "key": "proskywars.ShopItem.lore.0",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eRight Click to open"
+    }
+  },
+  {
+    "key": "proskywars.ShopItem.lore.1",
+    "type": "text",
+    "languages": {
+      "en_GB": "&eskywars shop."
     }
   },
   {
@@ -1323,55 +1778,6 @@
     }
   },
   {
-    "key": "proskywars.GameState.Lobby",
-    "type": "text",
-    "languages": {
-      "en_GB": "&aLobby"
-    }
-  },
-  {
-    "key": "proskywars.GameState.Starting",
-    "type": "text",
-    "languages": {
-      "en_GB": "&eStarting"
-    }
-  },
-  {
-    "key": "proskywars.GameState.InGame",
-    "type": "text",
-    "languages": {
-      "en_GB": "&eInGame"
-    }
-  },
-  {
-    "key": "proskywars.GameState.End",
-    "type": "text",
-    "languages": {
-      "en_GB": "&bEnd"
-    }
-  },
-  {
-    "key": "proskywars.Scoreboard-GameType.solo",
-    "type": "text",
-    "languages": {
-      "en_GB": "&e&lSOLO"
-    }
-  },
-  {
-    "key": "proskywars.Scoreboard-GameType.team",
-    "type": "text",
-    "languages": {
-      "en_GB": "&e&lTEAM"
-    }
-  },
-  {
-    "key": "proskywars.ArenasItem.material",
-    "type": "text",
-    "languages": {
-      "en_GB": "WOOL:6"
-    }
-  },
-  {
     "key": "proskywars.ArenasItem.name",
     "type": "text",
     "languages": {
@@ -1379,66 +1785,17 @@
     }
   },
   {
-    "key": "proskywars.CustomScoreboards.Events.Starting",
+    "key": "proskywars.ArenasItem.lore.0",
     "type": "text",
     "languages": {
-      "en_GB": "Starting"
+      "en_GB": "&eRight Click to select"
     }
   },
   {
-    "key": "proskywars.CustomScoreboards.Events.Refill",
+    "key": "proskywars.ArenasItem.lore.1",
     "type": "text",
     "languages": {
-      "en_GB": "Refill"
-    }
-  },
-  {
-    "key": "proskywars.CustomScoreboards.Events.ingame-to-end",
-    "type": "text",
-    "languages": {
-      "en_GB": "GameEnd"
-    }
-  },
-  {
-    "key": "proskywars.CustomScoreboards.Events.End",
-    "type": "text",
-    "languages": {
-      "en_GB": "GameEnd"
-    }
-  },
-  {
-    "key": "proskywars.CustomScoreboards.lobby.title",
-    "type": "text",
-    "languages": {
-      "en_GB": "&eSkywars"
-    }
-  },
-  {
-    "key": "proskywars.CustomScoreboards.ingame-solo.title",
-    "type": "text",
-    "languages": {
-      "en_GB": "&eSkywars"
-    }
-  },
-  {
-    "key": "proskywars.CustomScoreboards.ingame-team.title",
-    "type": "text",
-    "languages": {
-      "en_GB": "&eSkywars"
-    }
-  },
-  {
-    "key": "proskywars.CustomScoreboards.main-lobby.title",
-    "type": "text",
-    "languages": {
-      "en_GB": "&eSkywars"
-    }
-  },
-  {
-    "key": "proskywars.CustomScoreboards.not-in-arena",
-    "type": "text",
-    "languages": {
-      "en_GB": "Not in arena!"
+      "en_GB": "&ean arena."
     }
   },
   {
