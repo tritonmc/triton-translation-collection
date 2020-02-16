@@ -5,8 +5,8 @@ A collection of translations made by the community to use with Triton!
 ## Using these translations in your server
 
 1. Find the folder for the plugin you want. If it doesn't exist, leave a suggestion in our [Discord server](https://triton.rexcantor64.com/discord) or [create a request](https://github.com/diogotcorreia/triton-translation-collection/issues/new/choose).
-2. Copy `output.json` to your `translations` folder.
-3. Rename it to something meaningful (like the name of the plugin).
+2. Copy `output.json` to your `translations` folder and rename it to something meaningful (like the name of the plugin).
+3. Copy `original.yml` / `original.properties` and replace the original file (in the original plugin) with it.
 4. By default, all plugins are translated, at least, in `en_GB`. If you want to add your own translations in a language that's not provided, you can do so in TWIN.
 5. _(Optional)_ If you don't have the same language name for the same language, use the `Find and replace` feature in your favorite text editor to change it.
 
