@@ -1,0 +1,3831 @@
+[
+  {
+    "key": "preciousstones.psDisabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1PreciousStones disabled in this world"
+    }
+  },
+  {
+    "key": "preciousstones.psLoaded",
+    "type": "text",
+    "languages": {
+      "en_GB": "Version %1 loaded"
+    }
+  },
+  {
+    "key": "preciousstones.debugEnabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Debug output enabled"
+    }
+  },
+  {
+    "key": "preciousstones.debugDisabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Debug output disabled"
+    }
+  },
+  {
+    "key": "preciousstones.placingEnabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Enabled the placing of pstones"
+    }
+  },
+  {
+    "key": "preciousstones.placingAlreadyEnabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Pstone placement is already enabled"
+    }
+  },
+  {
+    "key": "preciousstones.placingDisabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Disabled the placing of pstones"
+    }
+  },
+  {
+    "key": "preciousstones.placingAlreadyDisabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Pstone placement is already disabled"
+    }
+  },
+  {
+    "key": "preciousstones.onlyModWhileDisabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1This field can only be modified while disabled"
+    }
+  },
+  {
+    "key": "preciousstones.noPermsForAllow",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 does not have permissions to be allowed"
+    }
+  },
+  {
+    "key": "preciousstones.hasBeenAllowed",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 has been allowed in the field"
+    }
+  },
+  {
+    "key": "preciousstones.alreadyAllowed",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 is already allowed"
+    }
+  },
+  {
+    "key": "preciousstones.hasBeenAllowedIn",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 has been allowed in %3 fields"
+    }
+  },
+  {
+    "key": "preciousstones.isAlreadyAllowedOnAll",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 is already on all your lists"
+    }
+  },
+  {
+    "key": "preciousstones.cannotRemovePlayerInField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot remove a player that's currently in your field"
+    }
+  },
+  {
+    "key": "preciousstones.removedFromField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 was removed from the field"
+    }
+  },
+  {
+    "key": "preciousstones.playerNotFound",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 not found"
+    }
+  },
+  {
+    "key": "preciousstones.removedFromFields",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 was removed %3 fields"
+    }
+  },
+  {
+    "key": "preciousstones.nothingToBeDone",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Nothing to be done"
+    }
+  },
+  {
+    "key": "preciousstones.allowedList",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Allowed: %2%3"
+    }
+  },
+  {
+    "key": "preciousstones.noPlayersAllowedOnField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1No players allowed in this field"
+    }
+  },
+  {
+    "key": "preciousstones.noPlayersFoundOnField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1No players found in the field"
+    }
+  },
+  {
+    "key": "preciousstones.inhabitantsList",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Inhabitants: %2%3"
+    }
+  },
+  {
+    "key": "preciousstones.translocationUnlinked",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Translocation %2 unlinked from %3 blocks"
+    }
+  },
+  {
+    "key": "preciousstones.translocationNothingToUnlink",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1No blocks to unlink"
+    }
+  },
+  {
+    "key": "preciousstones.translocationExists",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1A translocation block already exists with that name"
+    }
+  },
+  {
+    "key": "preciousstones.translocationHasBlocks",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Translocation %2 has %3 stored blocks"
+    }
+  },
+  {
+    "key": "preciousstones.translocationCreated",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Translocation %2 created. Recoding changes..."
+    }
+  },
+  {
+    "key": "preciousstones.translocationRenamed",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Renamed field to %2"
+    }
+  },
+  {
+    "key": "preciousstones.translocationCannotReshape",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot reshape a translocation cuboid once its in use"
+    }
+  },
+  {
+    "key": "preciousstones.translocationMenu1",
+    "type": "text",
+    "languages": {
+      "en_GB": "* All commands (except for list) require you to be pointing at a field block or standing in the field"
+    }
+  },
+  {
+    "key": "preciousstones.translocationMenu2",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Usage: /ps translocation list"
+    }
+  },
+  {
+    "key": "preciousstones.translocationMenu3",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Usage: /ps translocation import %2* imports everything"
+    }
+  },
+  {
+    "key": "preciousstones.translocationMenu4",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Usage: /ps translocation delete %2* deletes everything"
+    }
+  },
+  {
+    "key": "preciousstones.translocationMenu5",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Usage: /ps translocation import [id] [id] ..."
+    }
+  },
+  {
+    "key": "preciousstones.translocationMenu6",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Usage: /ps translocation remove [id] [id] ..."
+    }
+  },
+  {
+    "key": "preciousstones.translocationMenu7",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Usage: /ps translocation delete [id] [id] ..."
+    }
+  },
+  {
+    "key": "preciousstones.translocationTakingPlace",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1A translocation is currently taking place"
+    }
+  },
+  {
+    "key": "preciousstones.translocationNamedFirst",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You must name your translocation field first"
+    }
+  },
+  {
+    "key": "preciousstones.translocationDeleted",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 has been deleted"
+    }
+  },
+  {
+    "key": "preciousstones.translocationDeletedBlocks",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Deleted %2 %3 from %4"
+    }
+  },
+  {
+    "key": "preciousstones.translocationEnabledFirst",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Translocation field must be enabled to remove blocks"
+    }
+  },
+  {
+    "key": "preciousstones.translocationEnabledToUnlink",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Translocation field must be enabled to unlink"
+    }
+  },
+  {
+    "key": "preciousstones.translocationEnabledToImport",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Translocation field must be enabled to import blocks"
+    }
+  },
+  {
+    "key": "preciousstones.translocationNotFound",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1No translocations found"
+    }
+  },
+  {
+    "key": "preciousstones.fieldNameCleared",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Field's name has been cleared"
+    }
+  },
+  {
+    "key": "preciousstones.noNameableFieldFound",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1No nameable fields found"
+    }
+  },
+  {
+    "key": "preciousstones.radiusSet",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Radius set to %2"
+    }
+  },
+  {
+    "key": "preciousstones.radiusMustBeLessThan",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Radius must be less than or equal to %2"
+    }
+  },
+  {
+    "key": "preciousstones.griefRevertIntervalSet",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The grief-revert interval has been set to %2 seconds"
+    }
+  },
+  {
+    "key": "preciousstones.minInterval",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The minimum interval is %2 seconds"
+    }
+  },
+  {
+    "key": "preciousstones.notPointingAtGriefRevert",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You are not pointing at a grief-revert block"
+    }
+  },
+  {
+    "key": "preciousstones.notPointingAtSnitch",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You are not pointing at a snitch block"
+    }
+  },
+  {
+    "key": "preciousstones.notPointingAtTranslocation",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You are not pointing at a translocation block"
+    }
+  },
+  {
+    "key": "preciousstones.notPointingAtPstone",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You are not pointing at a field or unbreakable block"
+    }
+  },
+  {
+    "key": "preciousstones.clearedSnitch",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cleared the snitch list"
+    }
+  },
+  {
+    "key": "preciousstones.snitchEmpty",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Snitch list is empty"
+    }
+  },
+  {
+    "key": "preciousstones.notValidBlockId",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 is not a valid block id, skipped."
+    }
+  },
+  {
+    "key": "preciousstones.noBlocksMatched",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1No blocks matched"
+    }
+  },
+  {
+    "key": "preciousstones.usageTranslocationRemove",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Usage: /ps translocation remove [id] [id] ..."
+    }
+  },
+  {
+    "key": "preciousstones.blockIsBlacklisted",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 is blacklisted, skipped."
+    }
+  },
+  {
+    "key": "preciousstones.moreNextPage",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Type /ps more to view next page."
+    }
+  },
+  {
+    "key": "preciousstones.moreNothingMore",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Nothing more to see."
+    }
+  },
+  {
+    "key": "preciousstones.playerHasNoFields",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Player does not have any fields"
+    }
+  },
+  {
+    "key": "preciousstones.notValidFieldType",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Not a valid field type"
+    }
+  },
+  {
+    "key": "preciousstones.protectionRemoved",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Protective field removed from the block"
+    }
+  },
+  {
+    "key": "preciousstones.protectionRemovedFrom",
+    "type": "text",
+    "languages": {
+      "en_GB": "Protective field removed from %1 blocks"
+    }
+  },
+  {
+    "key": "preciousstones.deletedFields",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Deleted %2 %3 fields"
+    }
+  },
+  {
+    "key": "preciousstones.deletedUnbreakables",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Deleted %2 %3 unbreakables"
+    }
+  },
+  {
+    "key": "preciousstones.deletedCountFields",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Deleted %2's %3 fields"
+    }
+  },
+  {
+    "key": "preciousstones.deletedCountUnbreakables",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Deleted %2's %3 unbreakables"
+    }
+  },
+  {
+    "key": "preciousstones.noPstonesFound",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1No pstones of the type found"
+    }
+  },
+  {
+    "key": "preciousstones.playerHasNoPstones",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The player had no pstones"
+    }
+  },
+  {
+    "key": "preciousstones.cannotAssignAsOwners",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot assign groups or clans as owners"
+    }
+  },
+  {
+    "key": "preciousstones.ownerSetTo",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Owner set to %2"
+    }
+  },
+  {
+    "key": "preciousstones.fieldCanBeTaken",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Field can now be taken by %2 via right-click"
+    }
+  },
+  {
+    "key": "preciousstones.fieldCannotChangeOwner",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Field type does not support the changing of ownership"
+    }
+  },
+  {
+    "key": "preciousstones.ownerCanOnlyChangeOwner",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Only the owner of the field can change its owner"
+    }
+  },
+  {
+    "key": "preciousstones.fieldsDown",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1All fields are temporarily down while being changed"
+    }
+  },
+  {
+    "key": "preciousstones.noFieldsFoundWithFlag",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1No fields found with that flag enabled"
+    }
+  },
+  {
+    "key": "preciousstones.flagEnabledOn",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Flag enabled on %2 fields"
+    }
+  },
+  {
+    "key": "preciousstones.flagDisabledOn",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Flag disabled on %2 fields"
+    }
+  },
+  {
+    "key": "preciousstones.cleanedOrphanedFields",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cleaned %2 orphaned fields"
+    }
+  },
+  {
+    "key": "preciousstones.cleanedOrphanedUnbreakables",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cleaned %2 orphaned unbreakable blocks"
+    }
+  },
+  {
+    "key": "preciousstones.noOrphansFound",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1No orphans found"
+    }
+  },
+  {
+    "key": "preciousstones.revertedOrphanFields",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Reverted %2 orphaned fields"
+    }
+  },
+  {
+    "key": "preciousstones.revertedOrphanUnbreakables",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Reverted %2 orphaned unbreakable blocks"
+    }
+  },
+  {
+    "key": "preciousstones.notValidCommand",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Not a valid command or insufficient permissions"
+    }
+  },
+  {
+    "key": "preciousstones.velocityMustBe",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Velocity must be from 0 to 5"
+    }
+  },
+  {
+    "key": "preciousstones.velocitySetTo",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Velocity set to %2"
+    }
+  },
+  {
+    "key": "preciousstones.fieldDisabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Field has been disabled"
+    }
+  },
+  {
+    "key": "preciousstones.fieldAlreadyDisabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Field is already disabled"
+    }
+  },
+  {
+    "key": "preciousstones.fieldEnabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Field has been enabled"
+    }
+  },
+  {
+    "key": "preciousstones.fieldAlreadyEnabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Field is already enabled"
+    }
+  },
+  {
+    "key": "preciousstones.visualizationChanged",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Visualization density changed to %2"
+    }
+  },
+  {
+    "key": "preciousstones.visualizationSet",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Your visualization density is set to %2"
+    }
+  },
+  {
+    "key": "preciousstones.flagsToggledWhileDisabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1This field's flags can only be toggled while disabled"
+    }
+  },
+  {
+    "key": "preciousstones.flagCannottoggle",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1This flag cannot be toggled"
+    }
+  },
+  {
+    "key": "preciousstones.flagEnabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The %2 flag has been enabled."
+    }
+  },
+  {
+    "key": "preciousstones.flagDisabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The %2 flag has been disabled."
+    }
+  },
+  {
+    "key": "preciousstones.flagNotFound",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The field does not contain this flag"
+    }
+  },
+  {
+    "key": "preciousstones.flagInserted",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The field flag inserted"
+    }
+  },
+  {
+    "key": "preciousstones.flagCleared",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The field flag cleared"
+    }
+  },
+  {
+    "key": "preciousstones.flagNotExists",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The field flag entered does not exist"
+    }
+  },
+  {
+    "key": "preciousstones.flagExists",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The field already contains this flag"
+    }
+  },
+  {
+    "key": "preciousstones.flagsReverted",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The field flags have been reverted to default."
+    }
+  },
+  {
+    "key": "preciousstones.visualizing",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Visualizing..."
+    }
+  },
+  {
+    "key": "preciousstones.noFieldsInArea",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1No fields in the area"
+    }
+  },
+  {
+    "key": "preciousstones.visualizationNotWhileCuboid",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot visualize while defining a cuboid"
+    }
+  },
+  {
+    "key": "preciousstones.fieldTypeEnabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 field has been enabled"
+    }
+  },
+  {
+    "key": "preciousstones.fieldTypeDisabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 field has been disabled"
+    }
+  },
+  {
+    "key": "preciousstones.noIntruders",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1There have been no intruders around here"
+    }
+  },
+  {
+    "key": "preciousstones.noGriefRecorded",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1No grief recorded on the field"
+    }
+  },
+  {
+    "key": "preciousstones.usageToggle",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Usage: '/ps toggle [flag]' to enable/disable flags"
+    }
+  },
+  {
+    "key": "preciousstones.notInsideField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You are not inside of a field"
+    }
+  },
+  {
+    "key": "preciousstones.visualizationTakingPlace",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1A visualization is already taking place"
+    }
+  },
+  {
+    "key": "preciousstones.markingFields",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Marking %2 field blocks..."
+    }
+  },
+  {
+    "key": "preciousstones.markingNotWhileCuboid",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot mark fields while defining a cuboid"
+    }
+  },
+  {
+    "key": "preciousstones.configReloaded",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Configuration and language files reloaded"
+    }
+  },
+  {
+    "key": "preciousstones.cannotReshapeWhileCuboid",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot reshape a translocation cuboid once its in use"
+    }
+  },
+  {
+    "key": "preciousstones.cannotRedefineWhileCuboid",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The field has sub-fields inside of it thus cannot be redifined."
+    }
+  },
+  {
+    "key": "preciousstones.redefineWhileDisabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1This field's cuboid can only be redefined while disabled"
+    }
+  },
+  {
+    "key": "preciousstones.takenFieldOwnership",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You have taken ownership of %2's field"
+    }
+  },
+  {
+    "key": "preciousstones.tookOwnership",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 has taken ownership of your field"
+    }
+  },
+  {
+    "key": "preciousstones.cannotTakeOwnership",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You cannot take ownership of this field. It has been given to: %2"
+    }
+  },
+  {
+    "key": "preciousstones.translocatorNameToBegin",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1To begin storage, you must first choose a name for your translocation with /ps setname"
+    }
+  },
+  {
+    "key": "preciousstones.translocationReachedSize",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You have reached the server-wide max translocation size."
+    }
+  },
+  {
+    "key": "preciousstones.cannotChangeGameMode",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot change your game mode in this field"
+    }
+  },
+  {
+    "key": "preciousstones.pickaxeDisabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Super duper pick axe disabled"
+    }
+  },
+  {
+    "key": "preciousstones.pickaxeEnabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Super duper pick axe enabled"
+    }
+  },
+  {
+    "key": "preciousstones.cannotRemoveWithSubplots",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot remove fields that have plot-fields inside of it.  You must remove them first before you can remove this field."
+    }
+  },
+  {
+    "key": "preciousstones.notifyUnbreakablePlaced",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Unbreakable block placed"
+    }
+  },
+  {
+    "key": "preciousstones.notifyRollbackGrief",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1* %2Rolled back %3 griefed blocks %4"
+    }
+  },
+  {
+    "key": "preciousstones.notifyTranslocatorEnabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Translocator %2 enabled. (Recording)"
+    }
+  },
+  {
+    "key": "preciousstones.notifyTranslocatorDisabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Translocator %2 disabled. (Safe to break)"
+    }
+  },
+  {
+    "key": "preciousstones.notifyFieldPlaced",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 placed"
+    }
+  },
+  {
+    "key": "preciousstones.notifyCuboidClosed",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 cuboid field closed"
+    }
+  },
+  {
+    "key": "preciousstones.notifyBreakablePlaced",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Breakable %2 placed"
+    }
+  },
+  {
+    "key": "preciousstones.notifyUnbreakableDestroyed",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Unbreakable block destroyed"
+    }
+  },
+  {
+    "key": "preciousstones.notifyFieldDestroyed",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 destroyed"
+    }
+  },
+  {
+    "key": "preciousstones.notifyBreakableDestroyed",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2's breakable %3 destroyed"
+    }
+  },
+  {
+    "key": "preciousstones.notifyBypassPlaced",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Block bypass-placed inside %2's %3 field"
+    }
+  },
+  {
+    "key": "preciousstones.notifyUnbreakableBypassPlaced",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Unbreakable block bypass-placed inside %2's %3 field"
+    }
+  },
+  {
+    "key": "preciousstones.notifyBypassDestroyed",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Block bypass-destroyed in %2's %3 field"
+    }
+  },
+  {
+    "key": "preciousstones.notifyVehicleBypassDestroyed",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Vehicle bypass-destroyed in %2's %3 field"
+    }
+  },
+  {
+    "key": "preciousstones.notifyVehicleBypassCreate",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Vehicle bypass-created in %2's %3 field"
+    }
+  },
+  {
+    "key": "preciousstones.notifyUnbreakableBypassDestroyed",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2's unbreakable block bypass-destroyed"
+    }
+  },
+  {
+    "key": "preciousstones.notifyFieldBypassDestroyed",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2's %3 field bypass-destroyed"
+    }
+  },
+  {
+    "key": "preciousstones.warnEnterProtectedArea",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot enter protected area"
+    }
+  },
+  {
+    "key": "preciousstones.warnPlaceFires",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot place fires here"
+    }
+  },
+  {
+    "key": "preciousstones.warnPlace",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot place here"
+    }
+  },
+  {
+    "key": "preciousstones.warnUse",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot use this"
+    }
+  },
+  {
+    "key": "preciousstones.warnEmpty",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot place here"
+    }
+  },
+  {
+    "key": "preciousstones.warnOwnerRemove",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Only the owner can remove this block"
+    }
+  },
+  {
+    "key": "preciousstones.warnDestroy",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot destroy here"
+    }
+  },
+  {
+    "key": "preciousstones.warnDestroyVehicle",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot destroy this vehicle"
+    }
+  },
+  {
+    "key": "preciousstones.warnCreateVehicle",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot create this vehicle"
+    }
+  },
+  {
+    "key": "preciousstones.warnConflictUnbreakablePlace",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot place unbreakable block here. Conflicting with %2's %3 field %4"
+    }
+  },
+  {
+    "key": "preciousstones.warnConflictUnbreakablePlace2",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot place unbreakable block here"
+    }
+  },
+  {
+    "key": "preciousstones.warnConflictFieldPlace",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot place field here. Conflicting with %2's %3 field %4"
+    }
+  },
+  {
+    "key": "preciousstones.warnConflictFieldPlace2",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot place field here"
+    }
+  },
+  {
+    "key": "preciousstones.warnPvP",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1PvP disabled in this area"
+    }
+  },
+  {
+    "key": "preciousstones.warnFire",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 attempted to light fire in %2's %3 field %4"
+    }
+  },
+  {
+    "key": "preciousstones.notifyPvPBypass",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1PvP bypass"
+    }
+  },
+  {
+    "key": "preciousstones.warnFieldPlaceUnprotectableTouching",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot place unprotectable %2 block here"
+    }
+  },
+  {
+    "key": "preciousstones.warnUnbreakablePlaceUnprotectableTouching",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot place unprotectable %2 block here"
+    }
+  },
+  {
+    "key": "preciousstones.warnCannotProtect",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot protect %2"
+    }
+  },
+  {
+    "key": "preciousstones.warnCannotProtectInside",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot protect %2 inside this %3 field"
+    }
+  },
+  {
+    "key": "preciousstones.warnPlaceFieldInUnprotectable",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot place %2 field. A %3 found in the area"
+    }
+  },
+  {
+    "key": "preciousstones.warnBypassPlacedUnprotectableInField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Unprotectable block %2 bypass-placed near %3 field"
+    }
+  },
+  {
+    "key": "preciousstones.warnBypassPlacedUnprotectableInUnbreakable",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Unprotectable block %2 bypass-placed near %3 unbreakable"
+    }
+  },
+  {
+    "key": "preciousstones.warnUnprotectableBypassProtected",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Unprotectable block %2 bypass-protected"
+    }
+  },
+  {
+    "key": "preciousstones.warnUnprotectableBypassPlaced",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Unprotectable block %2 bypass-placed in %3 field"
+    }
+  },
+  {
+    "key": "preciousstones.warnFieldBypassPlacedUnprotectable",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 field bypass-placed in an area with an %3 unprotectable block"
+    }
+  },
+  {
+    "key": "preciousstones.logUnbreakablePlace",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 placed an unbreakable block %2"
+    }
+  },
+  {
+    "key": "preciousstones.logBlockReverted",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1's %2 block reverted %3 blocks %4"
+    }
+  },
+  {
+    "key": "preciousstones.logTranslocationTranslocated",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1's translocation %2 translocated %3 blocks %4"
+    }
+  },
+  {
+    "key": "preciousstones.logTranslocationStored",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1's translocation %2 stored %3 blocks %4"
+    }
+  },
+  {
+    "key": "preciousstones.logFieldPlaced",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 placed a %2 field %3"
+    }
+  },
+  {
+    "key": "preciousstones.logCuboidFieldPlaced",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 placed a %2 cuboid field %3"
+    }
+  },
+  {
+    "key": "preciousstones.logBreakablePlaced",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 placed a breakable %2 field %3"
+    }
+  },
+  {
+    "key": "preciousstones.logDestroyedOwnUnbreakable",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 destroyed his own unbreakable block %2"
+    }
+  },
+  {
+    "key": "preciousstones.logDestroyedOwnField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 destroyed his %2 field %3"
+    }
+  },
+  {
+    "key": "preciousstones.logDestroyedOthersField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 destroyed %2's %3 field %4"
+    }
+  },
+  {
+    "key": "preciousstones.logBypassPlacedPainting",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 bypass-placed a painting inside %2's %3 field %4"
+    }
+  },
+  {
+    "key": "preciousstones.logBypassPlacedUnbreakable",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 bypass-placed an unbreakable block inside %2's %3 field %4"
+    }
+  },
+  {
+    "key": "preciousstones.logBypassDestroy",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 bypass-destroyed a block %2 in %3's %4 field %5"
+    }
+  },
+  {
+    "key": "preciousstones.logBypassDestroyVehicle",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 bypass-destroyed a vehicle %2 in %3's %4 field %5"
+    }
+  },
+  {
+    "key": "preciousstones.logBypassDestroyUnbreakable",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 bypass-destroyed %2's unbreakable block %3"
+    }
+  },
+  {
+    "key": "preciousstones.logBypassDestroyField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 bypass-destroyed %2's %3 field %4"
+    }
+  },
+  {
+    "key": "preciousstones.logEntry",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 attempted entry into %2's %3 field %4"
+    }
+  },
+  {
+    "key": "preciousstones.logUse",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 attempted to use a %2 in %3's %4 field %5"
+    }
+  },
+  {
+    "key": "preciousstones.logBucketEmpty",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 attempted empty a %2 in %3's %4 field %5"
+    }
+  },
+  {
+    "key": "preciousstones.logDestroyUnbreakable",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 attempted to destroy %2's unbreakable block %3"
+    }
+  },
+  {
+    "key": "preciousstones.logDestroyField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 attempted to destroy %2's %3 field %4"
+    }
+  },
+  {
+    "key": "preciousstones.logDestroyInField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 attempted to destroy a block %2 inside %3's %4 field %5"
+    }
+  },
+  {
+    "key": "preciousstones.logDestroyVehicle",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 attempted to destroy a vehicle %2 inside %3's %4 field %5"
+    }
+  },
+  {
+    "key": "preciousstones.logCreateVehicle",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 attempted to create a vehicle %2 inside %3's %4 field %5"
+    }
+  },
+  {
+    "key": "preciousstones.logDestroyOthers",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 destroyed %2's %3 field %4"
+    }
+  },
+  {
+    "key": "preciousstones.logDestroyBreakableField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 destroyed %2's breakable %3 field %4"
+    }
+  },
+  {
+    "key": "preciousstones.logPlaceUnbreakableConflict",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 attempted to place an unbreakable block %2 conflicting with %3's %4 field %5"
+    }
+  },
+  {
+    "key": "preciousstones.logPlaceFieldConflit",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 attempted to place a field %2 conflicting with %3's %4 field %5"
+    }
+  },
+  {
+    "key": "preciousstones.logPvP",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 tried to attack %2 in %3's %4 field %5"
+    }
+  },
+  {
+    "key": "preciousstones.warnProtectionIgnored",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1PvP Protection Ignored due to combat"
+    }
+  },
+  {
+    "key": "preciousstones.logBypassAttack",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 bypass-attack %2 in %3's %4 field %5"
+    }
+  },
+  {
+    "key": "preciousstones.logPlace",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 attempted to place a block %2 inside %3's %4 field %5"
+    }
+  },
+  {
+    "key": "preciousstones.logPlaceUnprotectableTouchingField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 attempted to place an unprotectable block %2 near %3"
+    }
+  },
+  {
+    "key": "preciousstones.logPlaceUnprotectableTouchingUnbreakable",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 attempted to place an unprotectable block %2 near %3"
+    }
+  },
+  {
+    "key": "preciousstones.logPlaceTouchingUnbreakableUnprotectable",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 attempted to protect an unprotectable block %2"
+    }
+  },
+  {
+    "key": "preciousstones.logPlaceTouchingFieldUnprotectable",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 attempted to protect an unprotectable block %2"
+    }
+  },
+  {
+    "key": "preciousstones.logPlaceUnprotectableInField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 attempted to protect an unprotectable block %2 inside a field %3"
+    }
+  },
+  {
+    "key": "preciousstones.logPlaceFieldUnprotectableInArea",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 attempted to place a field [%2] but an unprotectable was found in the area %3"
+    }
+  },
+  {
+    "key": "preciousstones.logUnbreakableBypassUnprotectableTouching",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 bypass-placed an unprotectable block %2 near %3"
+    }
+  },
+  {
+    "key": "preciousstones.logFieldBypassUnprotectableTouching",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 bypass-placed an unprotectable block %2 near %3"
+    }
+  },
+  {
+    "key": "preciousstones.logBypassTouchingUnprotectable",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 bypass-protected an unprotectable block %2 near unprotectable block %3"
+    }
+  },
+  {
+    "key": "preciousstones.logBypassPlaceUnprotectableInField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 bypass-placed an unprotectable block %2 inside a field %3"
+    }
+  },
+  {
+    "key": "preciousstones.logBypassFieldInUnprotectable",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 bypass-placed a field [%2] in an area with an unprotectable block %3"
+    }
+  },
+  {
+    "key": "preciousstones.logBypassCreateVehicle",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 bypass-created a vehicle %2 inside %3's %4 field %5"
+    }
+  },
+  {
+    "key": "preciousstones.logPayment",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 rented %2 time in %3's %4 field for %5 %6 %7"
+    }
+  },
+  {
+    "key": "preciousstones.logPaymentCollect",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 collected %2 %3 rent from %4 %5"
+    }
+  },
+  {
+    "key": "preciousstones.logPurchase",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 purchased %2's %3 field for %4 %5 %6"
+    }
+  },
+  {
+    "key": "preciousstones.logPurchaseCollect",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 collected %2 %3 purchase from %4 %5"
+    }
+  },
+  {
+    "key": "preciousstones.logDeletedNoPermission",
+    "type": "text",
+    "languages": {
+      "en_GB": "Deleted %1 fields belonging to %2 for lack of permissions"
+    }
+  },
+  {
+    "key": "preciousstones.enteringField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Entering %2's %3 field"
+    }
+  },
+  {
+    "key": "preciousstones.enteringNamedField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Entering %2"
+    }
+  },
+  {
+    "key": "preciousstones.enteringRentedNamedField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Entering %2 (%3)"
+    }
+  },
+  {
+    "key": "preciousstones.leavingField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Leaving %2's %3 field"
+    }
+  },
+  {
+    "key": "preciousstones.leavingNamedField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Leaving %2"
+    }
+  },
+  {
+    "key": "preciousstones.leavingRentedNamedField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Leaving %2 (%3)"
+    }
+  },
+  {
+    "key": "preciousstones.potionNeutralized",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*%2 neutralized*"
+    }
+  },
+  {
+    "key": "preciousstones.noFieldsFound",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1No fields found"
+    }
+  },
+  {
+    "key": "preciousstones.noCuboidsFound",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1No cuboids found"
+    }
+  },
+  {
+    "key": "preciousstones.notifyDoDamage",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*damage*"
+    }
+  },
+  {
+    "key": "preciousstones.notifyDoHealed",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*healed*"
+    }
+  },
+  {
+    "key": "preciousstones.notifyDoAir",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*air*"
+    }
+  },
+  {
+    "key": "preciousstones.notifyDoLaunch",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*launch*"
+    }
+  },
+  {
+    "key": "preciousstones.notifyDoCannon",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*boom*"
+    }
+  },
+  {
+    "key": "preciousstones.notifyDoMine",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*goodbye*"
+    }
+  },
+  {
+    "key": "preciousstones.notifyDoLightning",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*crash*"
+    }
+  },
+  {
+    "key": "preciousstones.notifyDoFall",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*thump*"
+    }
+  },
+  {
+    "key": "preciousstones.notifyDoFeeding",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*feeding*"
+    }
+  },
+  {
+    "key": "preciousstones.notifyRepairing",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*repairing*"
+    }
+  },
+  {
+    "key": "preciousstones.showOwner",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Owner: %2%3"
+    }
+  },
+  {
+    "key": "preciousstones.showProtected",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Protected"
+    }
+  },
+  {
+    "key": "preciousstones.showProtectedLocations",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2: %3%4"
+    }
+  },
+  {
+    "key": "preciousstones._fieldDisabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "Field Disabled"
+    }
+  },
+  {
+    "key": "preciousstones._type",
+    "type": "text",
+    "languages": {
+      "en_GB": "Type"
+    }
+  },
+  {
+    "key": "preciousstones._name",
+    "type": "text",
+    "languages": {
+      "en_GB": "Name"
+    }
+  },
+  {
+    "key": "preciousstones._owner",
+    "type": "text",
+    "languages": {
+      "en_GB": "Owner"
+    }
+  },
+  {
+    "key": "preciousstones._limit",
+    "type": "text",
+    "languages": {
+      "en_GB": "Limit"
+    }
+  },
+  {
+    "key": "preciousstones._field",
+    "type": "text",
+    "languages": {
+      "en_GB": "Field"
+    }
+  },
+  {
+    "key": "preciousstones._entry",
+    "type": "text",
+    "languages": {
+      "en_GB": "Entry"
+    }
+  },
+  {
+    "key": "preciousstones._everyone",
+    "type": "text",
+    "languages": {
+      "en_GB": "Everyone"
+    }
+  },
+  {
+    "key": "preciousstones._count",
+    "type": "text",
+    "languages": {
+      "en_GB": "Count"
+    }
+  },
+  {
+    "key": "preciousstones._location",
+    "type": "text",
+    "languages": {
+      "en_GB": "Location"
+    }
+  },
+  {
+    "key": "preciousstones._none",
+    "type": "text",
+    "languages": {
+      "en_GB": "NONE"
+    }
+  },
+  {
+    "key": "preciousstones._appliesTo",
+    "type": "text",
+    "languages": {
+      "en_GB": "Applies to"
+    }
+  },
+  {
+    "key": "preciousstones._reason",
+    "type": "text",
+    "languages": {
+      "en_GB": "Reason"
+    }
+  },
+  {
+    "key": "preciousstones._details",
+    "type": "text",
+    "languages": {
+      "en_GB": "Details"
+    }
+  },
+  {
+    "key": "preciousstones._allowed",
+    "type": "text",
+    "languages": {
+      "en_GB": "Allowed"
+    }
+  },
+  {
+    "key": "preciousstones._dimensions",
+    "type": "text",
+    "languages": {
+      "en_GB": "Dimensions"
+    }
+  },
+  {
+    "key": "preciousstones._distance",
+    "type": "text",
+    "languages": {
+      "en_GB": "Distance"
+    }
+  },
+  {
+    "key": "preciousstones._coords",
+    "type": "text",
+    "languages": {
+      "en_GB": "Coords"
+    }
+  },
+  {
+    "key": "preciousstones._velocity",
+    "type": "text",
+    "languages": {
+      "en_GB": "Velocity"
+    }
+  },
+  {
+    "key": "preciousstones._interval",
+    "type": "text",
+    "languages": {
+      "en_GB": "Interval"
+    }
+  },
+  {
+    "key": "preciousstones._flags",
+    "type": "text",
+    "languages": {
+      "en_GB": "Flags"
+    }
+  },
+  {
+    "key": "preciousstones._potions",
+    "type": "text",
+    "languages": {
+      "en_GB": "Potions"
+    }
+  },
+  {
+    "key": "preciousstones._neutralizes",
+    "type": "text",
+    "languages": {
+      "en_GB": "Neutralizes"
+    }
+  },
+  {
+    "key": "preciousstones._intruderLog",
+    "type": "text",
+    "languages": {
+      "en_GB": "Intruder Log"
+    }
+  },
+  {
+    "key": "preciousstones._kill",
+    "type": "text",
+    "languages": {
+      "en_GB": "Kill"
+    }
+  },
+  {
+    "key": "preciousstones._blockBreak",
+    "type": "text",
+    "languages": {
+      "en_GB": "Block Break"
+    }
+  },
+  {
+    "key": "preciousstones._blockPlace",
+    "type": "text",
+    "languages": {
+      "en_GB": "Block Place"
+    }
+  },
+  {
+    "key": "preciousstones._bucketEmpty",
+    "type": "text",
+    "languages": {
+      "en_GB": "Bucket Empty"
+    }
+  },
+  {
+    "key": "preciousstones._bucketFilled",
+    "type": "text",
+    "languages": {
+      "en_GB": "Bucket Filled"
+    }
+  },
+  {
+    "key": "preciousstones._used",
+    "type": "text",
+    "languages": {
+      "en_GB": "Used"
+    }
+  },
+  {
+    "key": "preciousstones._shopped",
+    "type": "text",
+    "languages": {
+      "en_GB": "Shopped"
+    }
+  },
+  {
+    "key": "preciousstones._ignited",
+    "type": "text",
+    "languages": {
+      "en_GB": "Ignited"
+    }
+  },
+  {
+    "key": "preciousstones._LWC",
+    "type": "text",
+    "languages": {
+      "en_GB": "LWC"
+    }
+  },
+  {
+    "key": "preciousstones._lore",
+    "type": "text",
+    "languages": {
+      "en_GB": "Lore"
+    }
+  },
+  {
+    "key": "preciousstones._for",
+    "type": "text",
+    "languages": {
+      "en_GB": "For"
+    }
+  },
+  {
+    "key": "preciousstones._blacklistedCommands",
+    "type": "text",
+    "languages": {
+      "en_GB": "Blacklisted Commands"
+    }
+  },
+  {
+    "key": "preciousstones.sepFieldInfo",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Field Info %2----------------------------------------------------------------------------------------"
+    }
+  },
+  {
+    "key": "preciousstones.sepFieldInfoDisabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Field Info %2(disabled) %3----------------------------------------------------------------------------------------"
+    }
+  },
+  {
+    "key": "preciousstones.sepStoredTranslocations",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Stored Translocations %2----------------------------------------------------------------------------------------"
+    }
+  },
+  {
+    "key": "preciousstones.sepCounts",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 Counts %3 ----------------------------------------------------------------------------------------"
+    }
+  },
+  {
+    "key": "preciousstones.sepConfiguredFields",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Configured Fields %2----------------------------------------------------------------------------------------"
+    }
+  },
+  {
+    "key": "preciousstones.sepFieldCounts",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1's Field Counts %2  ----------------------------------------------------------------------------------------"
+    }
+  },
+  {
+    "key": "preciousstones.sepFieldLocations",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1's %2 Field Locations %3 ----------------------------------------------------------------------------------------"
+    }
+  },
+  {
+    "key": "preciousstones.sepMenu",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 %2 %3 ----------------------------------------------------------------------------------------"
+    }
+  },
+  {
+    "key": "preciousstones.headerConfiguredFields",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 %3(%4%5%6)%7r:%8%9"
+    }
+  },
+  {
+    "key": "preciousstones.headerConfiguredFieldsHeight",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1h:%2%3"
+    }
+  },
+  {
+    "key": "preciousstones.headerConfiguredFieldsVolume",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1v:%2%3"
+    }
+  },
+  {
+    "key": "preciousstones.menuIdentifiers",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  Identifiers: %2player, g:group, c:clan, t:team, *"
+    }
+  },
+  {
+    "key": "preciousstones.menu1",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps on/off %2- Disable/Enable the placing of pstones"
+    }
+  },
+  {
+    "key": "preciousstones.menu2",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps enable/disable %2- Enable/disable a field"
+    }
+  },
+  {
+    "key": "preciousstones.menu3",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps allow <-g|-guest> [identifier(s)] %2- Allow to field"
+    }
+  },
+  {
+    "key": "preciousstones.menu4",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps allowall <-g|-guest> [identifier(s)] %2- Allow to all fields"
+    }
+  },
+  {
+    "key": "preciousstones.menu5",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps remove [identifier(s)] %2- Remove from field"
+    }
+  },
+  {
+    "key": "preciousstones.menu6",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps removeall [identifier(s)] %2- Remove from all fields"
+    }
+  },
+  {
+    "key": "preciousstones.menu7",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps allowed %2- List all allowed players on field"
+    }
+  },
+  {
+    "key": "preciousstones.menu8",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps who %2- List all inhabitants inside the fields"
+    }
+  },
+  {
+    "key": "preciousstones.menu9",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps counts %2- View your field counts"
+    }
+  },
+  {
+    "key": "preciousstones.menu10",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps locations %2- View your field locations"
+    }
+  },
+  {
+    "key": "preciousstones.menu11",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps toggle [flag]%2- Enable/Disable a field's flags"
+    }
+  },
+  {
+    "key": "preciousstones.menu12",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps changeowner [name] %2- Change owner of field"
+    }
+  },
+  {
+    "key": "preciousstones.menu13",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps setname [name] %2- Set the name of field"
+    }
+  },
+  {
+    "key": "preciousstones.menu14",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps setradius [radius] %2- Sets the field's radius"
+    }
+  },
+  {
+    "key": "preciousstones.menu15",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps setvelocity [.1-5] %2- For launchers/cannons (0=auto)"
+    }
+  },
+  {
+    "key": "preciousstones.menu16",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps setinterval [secs] %2- For automatic grief-revert"
+    }
+  },
+  {
+    "key": "preciousstones.menu17",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps snitch <clear> %2- View/clear snitch you're pointing at"
+    }
+  },
+  {
+    "key": "preciousstones.menu18",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps visualize %2- Visualize the field you are on"
+    }
+  },
+  {
+    "key": "preciousstones.menu19",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps visualize [radius]%2- Visualize fields for a radius"
+    }
+  },
+  {
+    "key": "preciousstones.menu20",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps density [1-100]%2- Change visualization density"
+    }
+  },
+  {
+    "key": "preciousstones.menu21",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps mark%2- Marks the location of fields"
+    }
+  },
+  {
+    "key": "preciousstones.menu22",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps translocation list %2- Lists stored translocations"
+    }
+  },
+  {
+    "key": "preciousstones.menu23",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps translocation import %2- Import all blocks in field"
+    }
+  },
+  {
+    "key": "preciousstones.menu24",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps translocation import [id] [id] ... %2- Import specific blocks"
+    }
+  },
+  {
+    "key": "preciousstones.menu25",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps translocation delete %2- Delete all blocks in field"
+    }
+  },
+  {
+    "key": "preciousstones.menu26",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps translocation delete [id] [id] ... %2- Delete specific blocks"
+    }
+  },
+  {
+    "key": "preciousstones.menu27",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps translocation remove [id] [id] ... %2- Remove specific blocks"
+    }
+  },
+  {
+    "key": "preciousstones.menu28",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps translocation unlink %2- Unlinks the blocks"
+    }
+  },
+  {
+    "key": "preciousstones.menu29",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps insert [flag]%2- Inserts flags into fields"
+    }
+  },
+  {
+    "key": "preciousstones.menu30",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps reset%2- Resets the flags of the field to defaults"
+    }
+  },
+  {
+    "key": "preciousstones.menu31",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps mark%2- Marks the location of fields"
+    }
+  },
+  {
+    "key": "preciousstones.menu34",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps info %2- Get info for the field youre standing on"
+    }
+  },
+  {
+    "key": "preciousstones.menu35",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps counts [identifier(s)] %2- View field counts"
+    }
+  },
+  {
+    "key": "preciousstones.menu36",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps locations [identifier(s)] <typeid> %2- View field locations"
+    }
+  },
+  {
+    "key": "preciousstones.menu37",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps list [chunks-in-radius]%2- Lists all pstones in area"
+    }
+  },
+  {
+    "key": "preciousstones.menu38",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps setowner [player] %2- Of the block you're pointing at"
+    }
+  },
+  {
+    "key": "preciousstones.menu39",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps reload %2- Reloads configuraton file"
+    }
+  },
+  {
+    "key": "preciousstones.menu40",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps fields %2- List the configured field types"
+    }
+  },
+  {
+    "key": "preciousstones.menu41",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps clean <world>%2- Cleans up all orphan fields in the world"
+    }
+  },
+  {
+    "key": "preciousstones.menu42",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps revert <world>%2- Reverts all orphan fields in the world"
+    }
+  },
+  {
+    "key": "preciousstones.menu43",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps enableall [flag] %2- Enables the flag on all fields"
+    }
+  },
+  {
+    "key": "preciousstones.menu44",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps disableall [flag] %2- Disables the flag on all fields"
+    }
+  },
+  {
+    "key": "preciousstones.menu45",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps debug %2- Prints timing info to console"
+    }
+  },
+  {
+    "key": "preciousstones.menu48",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps bypass <on/off>%2- Toggle bypass mode"
+    }
+  },
+  {
+    "key": "preciousstones.menu49",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps hide %2- Hides field"
+    }
+  },
+  {
+    "key": "preciousstones.menu50",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps unhide %2- Unhides field"
+    }
+  },
+  {
+    "key": "preciousstones.menu51",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps hide <all>%2- Hides field(s)"
+    }
+  },
+  {
+    "key": "preciousstones.menu52",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps unhide <all>%2- Unhides field(s)"
+    }
+  },
+  {
+    "key": "preciousstones.menu53",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps cuboid [open/close] %2- Open close cuboid mode"
+    }
+  },
+  {
+    "key": "preciousstones.menu54",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps setlimit [time] %2- Set renting limit on a field"
+    }
+  },
+  {
+    "key": "preciousstones.menu32",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps delete %2- Delete the field you're standing on"
+    }
+  },
+  {
+    "key": "preciousstones.menu33",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps delete [player] %2- Delete all pstones from player"
+    }
+  },
+  {
+    "key": "preciousstones.menu55",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps delete [typeId] %2- Delete of pstones of block a type"
+    }
+  },
+  {
+    "key": "preciousstones.menu56",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps delete [player] [typeId] %2- Delete player's fields"
+    }
+  },
+  {
+    "key": "preciousstones.menu57",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps blacklistcommand [command] %2- Blacklist command in field"
+    }
+  },
+  {
+    "key": "preciousstones.menu58",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps blacklistcommand clear %2- Clear the blacklist"
+    }
+  },
+  {
+    "key": "preciousstones.menu59",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps rent <clear/remove> %2- Clear out renters or remove rent"
+    }
+  },
+  {
+    "key": "preciousstones.menu60",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps rent %2- Rent the field you are pointing at"
+    }
+  },
+  {
+    "key": "preciousstones.menu61",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps buy %2- Buy the field you are pointing at"
+    }
+  },
+  {
+    "key": "preciousstones.menu62",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps clear [flag]%2- Clears flags from field"
+    }
+  },
+  {
+    "key": "preciousstones.menu63",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps pull %2- Pull all data from the database"
+    }
+  },
+  {
+    "key": "preciousstones.menu64",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps expand [num] <direction> %2- Expand the cuboid"
+    }
+  },
+  {
+    "key": "preciousstones.menu65",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps expand [u] [d] [n] [s] [e] [w] %2- Expand the cuboid"
+    }
+  },
+  {
+    "key": "preciousstones.menu66",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps contract [num] <direction> %2- Contract the cuboid"
+    }
+  },
+  {
+    "key": "preciousstones.menu67",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps contract [u] [d] [n] [s] [e] [w] %2- Contract the cuboid"
+    }
+  },
+  {
+    "key": "preciousstones.menu68",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps take %2- Breaks the field and puts it in your inventory"
+    }
+  },
+  {
+    "key": "preciousstones.menu69",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps migrate [from] [to] %2- Migrate fields to new username"
+    }
+  },
+  {
+    "key": "preciousstones.menu70",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps give [player] [field t] <amount>"
+    }
+  },
+  {
+    "key": "preciousstones.menu71",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1  /ps place [owner] [field name] [x] [y] [z] [world] <r> <h>"
+    }
+  },
+  {
+    "key": "preciousstones.confiscatedFrom",
+    "type": "text",
+    "languages": {
+      "en_GB": "Confiscated %1 from %2 at %3. Leave the area to get your item back."
+    }
+  },
+  {
+    "key": "preciousstones.confiscated",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Confiscated: %2%3"
+    }
+  },
+  {
+    "key": "preciousstones.returnedTo",
+    "type": "text",
+    "languages": {
+      "en_GB": "Returned %1 to %2"
+    }
+  },
+  {
+    "key": "preciousstones.returned",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Returned: %2%3"
+    }
+  },
+  {
+    "key": "preciousstones.mustBeInCuboidToExpand",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Must be inside the cuboid to expand"
+    }
+  },
+  {
+    "key": "preciousstones.cuboidAvailableProtection",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Available protection: %2%3 blocks"
+    }
+  },
+  {
+    "key": "preciousstones.cuboidAvailableProtectionBypass",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Available protection: %2%3 blocks (bypassing)"
+    }
+  },
+  {
+    "key": "preciousstones.cuboidCannotExtendWG",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot extend inside WorldGuard region"
+    }
+  },
+  {
+    "key": "preciousstones.cuboidExceeds",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cuboid exceeds available volume"
+    }
+  },
+  {
+    "key": "preciousstones.cuboidOutline",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot click on the outline"
+    }
+  },
+  {
+    "key": "preciousstones.cuboidDrawingMode",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You are in drawing mode. Click on the block to finish."
+    }
+  },
+  {
+    "key": "preciousstones.cuboidExceedsMax",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cuboid exceeds available volume"
+    }
+  },
+  {
+    "key": "preciousstones.cuboidConflicts",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The cuboid conflicts with someone else's field"
+    }
+  },
+  {
+    "key": "preciousstones.cuboidConflictsWG",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The cuboid conflicts with a worldguard region"
+    }
+  },
+  {
+    "key": "preciousstones.cuboidCancelled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cuboid has been cancelled."
+    }
+  },
+  {
+    "key": "preciousstones.cuboidReverted",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Selection reverted"
+    }
+  },
+  {
+    "key": "preciousstones.noFlyEnter",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Entering no fly zone"
+    }
+  },
+  {
+    "key": "preciousstones.noFlyLeave",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Leaving no fly zone"
+    }
+  },
+  {
+    "key": "preciousstones.entryAnnounce",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 entry at %2 %3%4"
+    }
+  },
+  {
+    "key": "preciousstones.fieldWillDisable",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 field will disable itself after %3 seconds"
+    }
+  },
+  {
+    "key": "preciousstones.fieldHasDisabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 field has been disabled"
+    }
+  },
+  {
+    "key": "preciousstones.flagsImported",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2's flags imported"
+    }
+  },
+  {
+    "key": "preciousstones.announceToAllowedPlayers",
+    "type": "text",
+    "languages": {
+      "en_GB": " %1* %2%3"
+    }
+  },
+  {
+    "key": "preciousstones.fieldsSkipped",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 fields were skipped that can only be modified while disabled"
+    }
+  },
+  {
+    "key": "preciousstones.playerInsideNotRemoved",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Player could not be removed from a field because he was currently inside of it"
+    }
+  },
+  {
+    "key": "preciousstones.economyNotEnoughMoney",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You do not have sufficient money in your account"
+    }
+  },
+  {
+    "key": "preciousstones.economyNotEnoughItems",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You do not have the required payment"
+    }
+  },
+  {
+    "key": "preciousstones.economyCredited",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Your account has been credited $%2"
+    }
+  },
+  {
+    "key": "preciousstones.economyCharged",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Your account has been charged $%2"
+    }
+  },
+  {
+    "key": "preciousstones.limitsCannotPlace",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You cannot place any %2"
+    }
+  },
+  {
+    "key": "preciousstones.limitsReached",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You have reached the %2 limit of %3"
+    }
+  },
+  {
+    "key": "preciousstones.limitsReachedGlobal",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You have reached the global field limit of %2"
+    }
+  },
+  {
+    "key": "preciousstones.cannotPlaceNextToRedstone",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot place blocks next to a redstone-enabled field you don't own"
+    }
+  },
+  {
+    "key": "preciousstones.fieldsDontMix",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The field type does not mix"
+    }
+  },
+  {
+    "key": "preciousstones.noUnbreakableInsideTranslocation",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot place unbreakable blocks inside translocation fields"
+    }
+  },
+  {
+    "key": "preciousstones.noChestNextToField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot place chest next so someone else's field"
+    }
+  },
+  {
+    "key": "preciousstones.noConfiscatingBelowField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot place a confiscating field below a field block"
+    }
+  },
+  {
+    "key": "preciousstones.noConfiscatingBelowUnbreakable",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot place a confiscating field below an unbreakable"
+    }
+  },
+  {
+    "key": "preciousstones.noFieldNearPlayer",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot place field near players"
+    }
+  },
+  {
+    "key": "preciousstones.noPlaceInWG",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot place field in worldguard regions"
+    }
+  },
+  {
+    "key": "preciousstones.foresterNeedsFertile",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 blocks must be placed on fertile land to activate"
+    }
+  },
+  {
+    "key": "preciousstones.fieldInsideAllowedInside",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 needs to be be placed inside %3"
+    }
+  },
+  {
+    "key": "preciousstones.fieldOutsideAllowedOutside",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 needs to be be placed inside %3"
+    }
+  },
+  {
+    "key": "preciousstones.translocationNoFields",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot place field blocks inside translocation fields"
+    }
+  },
+  {
+    "key": "preciousstones.importComplete",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Import complete"
+    }
+  },
+  {
+    "key": "preciousstones.importedBlocks",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Imported %2 blocks"
+    }
+  },
+  {
+    "key": "preciousstones.translocationImportingBlocks",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Importing %2 blocks into the translocation..."
+    }
+  },
+  {
+    "key": "preciousstones.translocationSkippedDueToLimit",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 blocks skipped due to the max translocation limit"
+    }
+  },
+  {
+    "key": "preciousstones.nothingToImport",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1No blocks to import"
+    }
+  },
+  {
+    "key": "preciousstones.translocationRemovingBlocks",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Removing %2 blocks from the translocation..."
+    }
+  },
+  {
+    "key": "preciousstones.nothingToRemove",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1No blocks to remove"
+    }
+  },
+  {
+    "key": "preciousstones.removalComplete",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Removal complete"
+    }
+  },
+  {
+    "key": "preciousstones.blocksSkipped",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 blocks skipped."
+    }
+  },
+  {
+    "key": "preciousstones.blocksSkipped2",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1(Their destination locations already had blocks on them)"
+    }
+  },
+  {
+    "key": "preciousstones.removedBlocks",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Removed %2 blocks"
+    }
+  },
+  {
+    "key": "preciousstones.countsOrphan",
+    "type": "text",
+    "languages": {
+      "en_GB": "(%1) orphan-fields: %2"
+    }
+  },
+  {
+    "key": "preciousstones.countsFields",
+    "type": "text",
+    "languages": {
+      "en_GB": "(%1) fields: %2"
+    }
+  },
+  {
+    "key": "preciousstones.countsCuboids",
+    "type": "text",
+    "languages": {
+      "en_GB": "(%1) cuboids: %2"
+    }
+  },
+  {
+    "key": "preciousstones.countsUnbreakables",
+    "type": "text",
+    "languages": {
+      "en_GB": "(%1) unbreakables: %2"
+    }
+  },
+  {
+    "key": "preciousstones.countsPurgedSnitches",
+    "type": "text",
+    "languages": {
+      "en_GB": "(%1) unused snitches purged: %2"
+    }
+  },
+  {
+    "key": "preciousstones.fieldsInWrongTable",
+    "type": "text",
+    "languages": {
+      "en_GB": "Fields found in wrong table, moving.."
+    }
+  },
+  {
+    "key": "preciousstones.countsPurgedFields",
+    "type": "text",
+    "languages": {
+      "en_GB": "(%1) inactivity purge: %2 fields"
+    }
+  },
+  {
+    "key": "preciousstones.countsPurgedUnbreakables",
+    "type": "text",
+    "languages": {
+      "en_GB": "(%1) inactivity purge: %2 unbreakables"
+    }
+  },
+  {
+    "key": "preciousstones.countsPurgedUnbreakabes2",
+    "type": "text",
+    "languages": {
+      "en_GB": "(%1) unbreakables purged: %2"
+    }
+  },
+  {
+    "key": "preciousstones.countsOrphanedUnbreakables",
+    "type": "text",
+    "languages": {
+      "en_GB": "(%1) orphan-unbreakables: %2"
+    }
+  },
+  {
+    "key": "preciousstones.dbMysqlConnected",
+    "type": "text",
+    "languages": {
+      "en_GB": "MySQL Connection successful"
+    }
+  },
+  {
+    "key": "preciousstones.dbMysqlFailed",
+    "type": "text",
+    "languages": {
+      "en_GB": "MySQL Connection failed"
+    }
+  },
+  {
+    "key": "preciousstones.dbSqliteConnected",
+    "type": "text",
+    "languages": {
+      "en_GB": "SQLite Connection successful"
+    }
+  },
+  {
+    "key": "preciousstones.dbSqliteFailed",
+    "type": "text",
+    "languages": {
+      "en_GB": "SQLite Connection failed"
+    }
+  },
+  {
+    "key": "preciousstones.rentQuestion",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1* %2Type %3/ps rent %4to rent"
+    }
+  },
+  {
+    "key": "preciousstones.buyQuestion",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1* %2Type %3/ps buy %4to purchase"
+    }
+  },
+  {
+    "key": "preciousstones.noSharing",
+    "type": "text",
+    "languages": {
+      "en_GB": "You cannot allow others into this field"
+    }
+  },
+  {
+    "key": "preciousstones.teleportAnnounceHasItems",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*teleported for having forbidden items*"
+    }
+  },
+  {
+    "key": "preciousstones.teleportAnnounceNotHasItems",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*teleported for not having required items*"
+    }
+  },
+  {
+    "key": "preciousstones.teleportAnnounceHoldingItems",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*teleported for holding forbidden item*"
+    }
+  },
+  {
+    "key": "preciousstones.teleportAnnounceNotHoldingItems",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*teleported for not holding required items*"
+    }
+  },
+  {
+    "key": "preciousstones.teleportAnnounceWalking",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*teleported for walking on forbidden blocks*"
+    }
+  },
+  {
+    "key": "preciousstones.teleportAnnounceNotWalking",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*teleported for walking outside required blocks*"
+    }
+  },
+  {
+    "key": "preciousstones.teleportAnnounceDeath",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*teleported before death*"
+    }
+  },
+  {
+    "key": "preciousstones.teleportAnnounceFeeding",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*teleported for feeding inside the area*"
+    }
+  },
+  {
+    "key": "preciousstones.teleportAnnounceFire",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*teleported for lighting fires inside the area*"
+    }
+  },
+  {
+    "key": "preciousstones.teleportAnnouncePvp",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*teleported for pvp inside the area*"
+    }
+  },
+  {
+    "key": "preciousstones.teleportAnnounceBreak",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*teleported for breaking blocks inside the area*"
+    }
+  },
+  {
+    "key": "preciousstones.teleportAnnouncePlace",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*teleported for placing blocks inside the area*"
+    }
+  },
+  {
+    "key": "preciousstones.teleportAnnounceExit",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*teleported for leaving the area*"
+    }
+  },
+  {
+    "key": "preciousstones.teleportAnnounceEnter",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*teleported for entering the area*"
+    }
+  },
+  {
+    "key": "preciousstones.teleportAnnounceDamage",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*teleported for getting hurt inside the area*"
+    }
+  },
+  {
+    "key": "preciousstones.teleportAnnounce",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*teleported*"
+    }
+  },
+  {
+    "key": "preciousstones.teleportAnnounceBack",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1*You will be teleported back in %2 seconds*"
+    }
+  },
+  {
+    "key": "preciousstones.teleportMaxDistance",
+    "type": "text",
+    "languages": {
+      "en_GB": "Your teleport setup exeeds the max distance allowed of %1 blocks, teleport canceled"
+    }
+  },
+  {
+    "key": "preciousstones.bypassEnabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Bypass mode enabled"
+    }
+  },
+  {
+    "key": "preciousstones.bypassDisabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Bypass mode disabled"
+    }
+  },
+  {
+    "key": "preciousstones.hideHide",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The field has been hidden"
+    }
+  },
+  {
+    "key": "preciousstones.hideUnhide",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The field is now visible"
+    }
+  },
+  {
+    "key": "preciousstones.hideHideAll",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Hid %2 fields"
+    }
+  },
+  {
+    "key": "preciousstones.hideUnhideAll",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1UnHid %2 fields"
+    }
+  },
+  {
+    "key": "preciousstones.hideHiddenAlready",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The field is already hidden"
+    }
+  },
+  {
+    "key": "preciousstones.hideUnHiddenAlready",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The field is already visible"
+    }
+  },
+  {
+    "key": "preciousstones.hideCannot",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1This type of field cannot be hidden"
+    }
+  },
+  {
+    "key": "preciousstones.hideNoneFound",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Not pointing at a hidden block"
+    }
+  },
+  {
+    "key": "preciousstones.commandCanceled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You cannot use that command here"
+    }
+  },
+  {
+    "key": "preciousstones.cuboidCannotMix",
+    "type": "text",
+    "languages": {
+      "en_GB": "Cannot mix fields that are not in the same mixing group."
+    }
+  },
+  {
+    "key": "preciousstones.cuboidCannotAddProps",
+    "type": "text",
+    "languages": {
+      "en_GB": "Cannot add on properties of more valuable fields"
+    }
+  },
+  {
+    "key": "preciousstones.fieldIntersectsWG",
+    "type": "text",
+    "languages": {
+      "en_GB": "The field intersects with a WorldGuard region you are not allowed in."
+    }
+  },
+  {
+    "key": "preciousstones.worldNotFound",
+    "type": "text",
+    "languages": {
+      "en_GB": "World not found"
+    }
+  },
+  {
+    "key": "preciousstones.mustBeAbove",
+    "type": "text",
+    "languages": {
+      "en_GB": "This field can only be placed above y=%1"
+    }
+  },
+  {
+    "key": "preciousstones.mustBeBelow",
+    "type": "text",
+    "languages": {
+      "en_GB": "This field can only be placed below y=%1"
+    }
+  },
+  {
+    "key": "preciousstones.cannotEnable",
+    "type": "text",
+    "languages": {
+      "en_GB": "Could not enable the field"
+    }
+  },
+  {
+    "key": "preciousstones.cuboidSelectionConflicts",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot extend inside other player's fields"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignRentExpired",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2*** Your rent has expired at %3 ***"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignRentExpiredNoName",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2*** Your rent has expired ***"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignRentAbandoned",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You have abandoned your rent"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignRentRented",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You have purchased %2 of time"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignRentError",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Badly formatted time period, ask owner to fix"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignRentMaxPeriod",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You can't purchase any more time right now"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignBuyCreated",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Buy sign creation successful"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignRentCreated",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Rent sign creation successful"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignNoPrice",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The price was formatted incorrectly"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignInvalidPeriod",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The time period was formatted incorrectly"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignNoEco",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You must specify an item id in parenthesis"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignFieldNotFound",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1A field was not found attached to this sign"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignNotOwner",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Only the owner can create Buy/Share/Rent signs"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignNotRentable",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1This field does not support renting"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignNotShareable",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1This field does not support sharing"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignNotBuyable",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1This field does not support buying"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignCannotChange",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot modify the field while its under rent"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignCannotDestroy",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot destroy the field while its under rent or purchase"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignCannotDisable",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot disable the field while its under rent"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignCannotRentDisabled",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Field has been disabled by owner, come back later"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignAlreadyRented",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1This field is already rented, come back later"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignBought",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You have bought this field and the area it covers, it is now yours!"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignPaymentReceivedNoName",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1* %2Received %3%4 %5payment from %6 for field in %7"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignItemPaymentReceivedNoName",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1* %2Received %3%4 %5 %6payment from %7 for field in %8"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignPaymentReceived",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1* %2Received %3%4 %5payment from %6 for field in %7 (%8)"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignItemPaymentReceived",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1* %2Received %3%4 %5 %6payment from %7 for field in %8 (%9)"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignNoTennant",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The field has no tennant"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignOnlyOne",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You can only have one field-sign per field"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignAlreadyBought",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Sorry, this place has already been sold"
+    }
+  },
+  {
+    "key": "preciousstones.fieldSignBadTag",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The tag on the field sign is bad"
+    }
+  },
+  {
+    "key": "preciousstones.fieldNotFound",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The word \"%2\" did not match any configured field title"
+    }
+  },
+  {
+    "key": "preciousstones._tenant",
+    "type": "text",
+    "languages": {
+      "en_GB": "Tenant"
+    }
+  },
+  {
+    "key": "preciousstones._tenants",
+    "type": "text",
+    "languages": {
+      "en_GB": "Tenants"
+    }
+  },
+  {
+    "key": "preciousstones.limitReached",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The renting limit for this field has been reached"
+    }
+  },
+  {
+    "key": "preciousstones.limitMalformed",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Renting limit in the wrong format"
+    }
+  },
+  {
+    "key": "preciousstones.limitMalformed2",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Format: w = week, d = day, h = hour, m = minute"
+    }
+  },
+  {
+    "key": "preciousstones.limitMalformed3",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1i.e.: /ps setlimit 3d12h"
+    }
+  },
+  {
+    "key": "preciousstones.limitSet",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Limit has been set"
+    }
+  },
+  {
+    "key": "preciousstones._rentingLimit",
+    "type": "text",
+    "languages": {
+      "en_GB": "Renting Limit"
+    }
+  },
+  {
+    "key": "preciousstones.limitBadField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot set renting limit on a field that is not rentable or shareable"
+    }
+  },
+  {
+    "key": "preciousstones.fenceGenerated",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The fence has been created"
+    }
+  },
+  {
+    "key": "preciousstones.cannotHideOrphan",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot hide orphaned field"
+    }
+  },
+  {
+    "key": "preciousstones.noBlacklistingFieldFound",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Not standing on or pointing at a field that has the command-blacklisting flag"
+    }
+  },
+  {
+    "key": "preciousstones.commandBlacklistUsage",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Usage: /ps blacklistcommand who"
+    }
+  },
+  {
+    "key": "preciousstones.commandBlacklistCleared",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Blacklisted commands cleared"
+    }
+  },
+  {
+    "key": "preciousstones.commandBlacklistAdded",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The command has been blacklisted"
+    }
+  },
+  {
+    "key": "preciousstones.cannotTeleportInsideField",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot teleport inside a field with the prevent-teleport flag"
+    }
+  },
+  {
+    "key": "preciousstones.notAllowedToCreateLWC",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Only allowed players can create LWC protections inside this field"
+    }
+  },
+  {
+    "key": "preciousstones.notAllowedToDestroyLWC",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Only alowed players can destroy LWC protecitons inside this field"
+    }
+  },
+  {
+    "key": "preciousstones.rentsCleared",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Renters cleared"
+    }
+  },
+  {
+    "key": "preciousstones.rentsClearedNone",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1There are no renters in this field"
+    }
+  },
+  {
+    "key": "preciousstones.rentsRemoved",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Rent removed"
+    }
+  },
+  {
+    "key": "preciousstones.rentsRemovedNone",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1There are no rent/share/buy signs on this field"
+    }
+  },
+  {
+    "key": "preciousstones.inventoryDeny",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You do not have permission to access this inventory"
+    }
+  },
+  {
+    "key": "preciousstones.surfaceWarning",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You can only place this field on the following blocks: %2"
+    }
+  },
+  {
+    "key": "preciousstones.radiusOverFlow",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Could not set the radious.  It is larger than the available volume by %2 blocks."
+    }
+  },
+  {
+    "key": "preciousstones.foresterActivating",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Activating..."
+    }
+  },
+  {
+    "key": "preciousstones.foresterUsesLeft",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 %2 uses left."
+    }
+  },
+  {
+    "key": "preciousstones.cuboidExpanded",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The field was expanded."
+    }
+  },
+  {
+    "key": "preciousstones.cuboidContracted",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1The field was contracted."
+    }
+  },
+  {
+    "key": "preciousstones.cannotExpand",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1 Cannot expand the field, it overflows available volume by %2 blocks."
+    }
+  },
+  {
+    "key": "preciousstones.cannotUseItemMoved",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You cannot hold that item here, it has been moved out of the way."
+    }
+  },
+  {
+    "key": "preciousstones.cannotUseItemHere",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You cannot hold that item here."
+    }
+  },
+  {
+    "key": "preciousstones.noPositive",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1No positive values allowed."
+    }
+  },
+  {
+    "key": "preciousstones.taken",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You have taken the %2 field at %3."
+    }
+  },
+  {
+    "key": "preciousstones.usernameChanged",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Username migration has completed. You now have ownership of the fields from your old username."
+    }
+  },
+  {
+    "key": "preciousstones.migrateDone",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1All fields belonging to %2 have been migrated to %3"
+    }
+  },
+  {
+    "key": "preciousstones.fieldsGiven",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 %3 fields given to %4"
+    }
+  },
+  {
+    "key": "preciousstones.fieldsGivenPlayer",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You were given %2 %3 fields by %4"
+    }
+  },
+  {
+    "key": "preciousstones.removedConflictingFields",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 sub-fields owned by %3 removed"
+    }
+  },
+  {
+    "key": "preciousstones.noResize",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1This type of field cannot be resized by players"
+    }
+  },
+  {
+    "key": "preciousstones.notifyDeletedNoPermission",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You have lost the%2 %3 %4permission, %5 of your fields have been deleted"
+    }
+  },
+  {
+    "key": "preciousstones.fieldPlaced",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1%2 placed for %3 at %4 %5 %6 %7 with r:%8 h:%9"
+    }
+  },
+  {
+    "key": "preciousstones.fieldExists",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1A field already exists at that location"
+    }
+  },
+  {
+    "key": "preciousstones.cannotBreakHidden",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1Cannot break hidden field, unhide it first"
+    }
+  },
+  {
+    "key": "preciousstones.cannotAllowAsGuest",
+    "type": "text",
+    "languages": {
+      "en_GB": "%1You are a guest in this field, you cannot allow players."
+    }
+  }
+]
