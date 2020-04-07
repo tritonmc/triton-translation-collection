@@ -6,9 +6,8 @@
 
 ## Settings
 
-**Prefix:** `preciousstones.`
-**File type:** YAML
-**Variable Regex:** `{[\w.-]+}`
+**Prefix:** `preciousstones.`  
+**Variable Regex:** `{[\w.-]+}`  
 **Ignore keys:**
 
 ```

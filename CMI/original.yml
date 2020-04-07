@@ -1,6 +1,7 @@
 info:
   prefix: '[lang]cmi.info.prefix[/lang]'
   NoPermission: '[lang]cmi.info.NoPermission[/lang]'
+  CantHavePermission: '[lang]cmi.info.CantHavePermission[/lang]'
   NoPlayerPermission: >-
     [lang]cmi.info.NoPlayerPermission[args][arg][playerName][/arg][arg][permission][/arg][/args][/lang]
   Ingame: '[lang]cmi.info.Ingame[/lang]'
@@ -18,8 +19,12 @@ info:
   cantFindCommand: '[lang]cmi.info.cantFindCommand[/lang]'
   PurgeNotEnabled: '[lang]cmi.info.PurgeNotEnabled[/lang]'
   FeatureNotEnabled: '[lang]cmi.info.FeatureNotEnabled[/lang]'
+  TeamManagementDisabled: '[lang]cmi.info.TeamManagementDisabled[/lang]'
+  ModuleNotEnabled: '[lang]cmi.info.ModuleNotEnabled[/lang]'
   versionNotSupported: '[lang]cmi.info.versionNotSupported[/lang]'
+  bungeeNoGo: '[lang]cmi.info.bungeeNoGo[/lang]'
   clickToTeleport: '[lang]cmi.info.clickToTeleport[/lang]'
+  UseMaterial: '[lang]cmi.info.UseMaterial[/lang]'
   UseInteger: '[lang]cmi.info.UseInteger[/lang]'
   UseBoolean: '[lang]cmi.info.UseBoolean[/lang]'
   NoLessThan: '[lang]cmi.info.NoLessThan[args][arg][amount][/arg][/args][/lang]'
@@ -43,6 +48,10 @@ info:
   ChunksLoading: '[lang]cmi.info.ChunksLoading[/lang]'
   ShulkerBox: '[lang]cmi.info.ShulkerBox[/lang]'
   CantuseShulkerBox: '[lang]cmi.info.CantuseShulkerBox[args][arg][time][/arg][/args][/lang]'
+  CantUseNonEncrypted: '!actionbar!&cCommands on this item are not encrypted. Can''t use them!'
+  CantDecode: >-
+    !actionbar!&cCan't decode message/command. Key file contains wrong key for
+    this task. Inform server administration about this
   Show: '[lang]cmi.info.Show[/lang]'
   Remove: '[lang]cmi.info.Remove[/lang]'
   Back: '[lang]cmi.info.Back[/lang]'
@@ -61,19 +70,25 @@ info:
   PlayerSpliter: >-
     [lang]cmi.info.PlayerSpliter[args][arg][playerDisplayName][/arg][/args][/lang]
   Spliter: '[lang]cmi.info.Spliter[/lang]'
+  ListSpliter: '[lang]cmi.info.ListSpliter[/lang]'
   ProgressBarFill: '[lang]cmi.info.ProgressBarFill[/lang]'
   ProgressBarEmpty: '[lang]cmi.info.ProgressBarEmpty[/lang]'
   nothingInHand: '!actionbar!&eYou need to hold item in hand'
-  nothingInHandLeather: '&eYou need to hold leather item in hand'
+  nothingInHandLeather: '[lang]cmi.info.nothingInHandLeather[/lang]'
   nothingToShow: '[lang]cmi.info.nothingToShow[/lang]'
   noItem: '[lang]cmi.info.noItem[/lang]'
   dontHaveItem: >-
     [lang]cmi.info.dontHaveItem[args][arg][amount][/arg][arg][itemName][/arg][/args][/lang]
+  wrongWorld: '[lang]cmi.info.wrongWorld[/lang]'
+  differentWorld: '[lang]cmi.info.differentWorld[/lang]'
+  HaveItem: >-
+    [lang]cmi.info.HaveItem[args][arg][amount][/arg][arg][itemName][/arg][/args][/lang]
   ItemWillBreak: >-
     !actionbar!&eYour item (&6[itemName]&e) will break soon!
     &e[current]&6/&e[max]
   cantDoForPlayer: >-
     [lang]cmi.info.cantDoForPlayer[args][arg][playerDisplayName][/arg][/args][/lang]
+  cantDoForYourSelf: '[lang]cmi.info.cantDoForYourSelf[/lang]'
   cantDetermineMobType: '[lang]cmi.info.cantDetermineMobType[args][arg][type][/arg][/args][/lang]'
   cantRename: '!actionbar!&eYou can''t use this name'
   wrongName: '[lang]cmi.info.wrongName[/lang]'
@@ -85,24 +100,33 @@ info:
   specializedItemFail: '[lang]cmi.info.specializedItemFail[args][arg][value][/arg][/args][/lang]'
   sunSpeeding: >-
     [lang]cmi.info.sunSpeeding[args][arg][count][/arg][arg][total][/arg][arg][hour][/arg][arg][speed][/arg][/args][/lang]
+  sleepersRequired: >-
+    !actionbar!&f[sleeping] &7of &f[required] &7sleeping from required for night
+    time speedup
   sunSpeedingTitle: '[lang]cmi.info.sunSpeedingTitle[args][arg][hour][/arg][/args][/lang]'
   sunSpeedingSubTitle: >-
     [lang]cmi.info.sunSpeedingSubTitle[args][arg][count][/arg][arg][total][/arg][arg][speed][/arg][/args][/lang]
+  repairConfirm: >-
+    [lang]cmi.info.repairConfirm[args][arg][items][/arg][arg][cost][/arg][/args][/lang]
+  bookDate: '[lang]cmi.info.bookDate[args][arg][date][/arg][/args][/lang]'
+  maintenance: '[lang]cmi.info.maintenance[/lang]'
   notSet: '[lang]cmi.info.notSet[/lang]'
+  mapLimit: '[lang]cmi.info.mapLimit[/lang]'
   startedEditingPainting: '[lang]cmi.info.startedEditingPainting[/lang]'
   canceledEditingPainting: '[lang]cmi.info.canceledEditingPainting[/lang]'
   changedPainting: '!actionbar!&eChanged painting to &6[name] &ewith id of &6[id]'
   noSpam: '!title!&cNo spamming!'
   noCmdSpam: '!title!&cNo command spamming!'
+  spamConsoleInform: >-
+    [lang]cmi.info.spamConsoleInform[args][arg][playerName][/arg][arg][rules][/arg][arg][message][/arg][/args][/lang]
   lookAtSign: '[lang]cmi.info.lookAtSign[/lang]'
   lookAtBlock: '[lang]cmi.info.lookAtBlock[/lang]'
   lookAtEntity: '[lang]cmi.info.lookAtEntity[/lang]'
   notOnGround: '[lang]cmi.info.notOnGround[/lang]'
   FirstJoin: '[lang]cmi.info.FirstJoin[args][arg][playerDisplayName][/arg][/args][/lang]'
   LogoutCustom: >-
-    [lang]cmi.info.LogoutCustom[args][arg][prefix][/arg][arg][playerDisplayName][/arg][/args][/lang]
-  LoginCustom: >-
-    [lang]cmi.info.LoginCustom[args][arg][prefix][/arg][arg][playerDisplayName][/arg][/args][/lang]
+    [lang]cmi.info.LogoutCustom[args][arg][playerDisplayName][/arg][/args][/lang]
+  LoginCustom: '[lang]cmi.info.LoginCustom[args][arg][playerDisplayName][/arg][/args][/lang]'
   deathlocation: >-
     [lang]cmi.info.deathlocation[args][arg][x][/arg][arg][y][/arg][arg][z][/arg][arg][world][/arg][/args][/lang]
   bungee:
@@ -172,169 +196,185 @@ info:
   prevPageClean: '[lang]cmi.info.prevPageClean[/lang]'
   prevPageOff: '[lang]cmi.info.prevPageOff[/lang]'
   prevPageHover: '[lang]cmi.info.prevPageHover[/lang]'
+  firstPageHover: '[lang]cmi.info.firstPageHover[/lang]'
   nextPage: '[lang]cmi.info.nextPage[/lang]'
   nextPageGui: '[lang]cmi.info.nextPageGui[/lang]'
   nextPageClean: '[lang]cmi.info.nextPageClean[/lang]'
   nextPageOff: '[lang]cmi.info.nextPageOff[/lang]'
   nextPageHover: '[lang]cmi.info.nextPageHover[/lang]'
+  lastPageHover: '[lang]cmi.info.lastPageHover[/lang]'
   pageCount: >-
     [lang]cmi.info.pageCount[args][arg][current][/arg][arg][total][/arg][/args][/lang]
   pageCountHover: '[lang]cmi.info.pageCountHover[args][arg][totalEntries][/arg][/args][/lang]'
+  skullOwner: '[lang]cmi.info.skullOwner[args][arg][playerName][/arg][/args][/lang]'
+  beehive: '!actionbar!&7Honey level: &e[level]&7/&e5 &7Bees inside: &e[count]&7/&e3'
   circle: '[lang]cmi.info.circle[/lang]'
   square: '[lang]cmi.info.square[/lang]'
   protectedArea: '[lang]cmi.info.protectedArea[/lang]'
   valueToLong: '[lang]cmi.info.valueToLong[args][arg][max][/arg][/args][/lang]'
   valueToShort: '[lang]cmi.info.valueToShort[args][arg][min][/arg][/args][/lang]'
+  InvEmpty:
+    armor: '[lang]cmi.info.InvEmpty.armor[/lang]'
+    hand: '[lang]cmi.info.InvEmpty.hand[/lang]'
+    maininv: '[lang]cmi.info.InvEmpty.maininv[/lang]'
+    maininvslots: '[lang]cmi.info.InvEmpty.maininvslots[args][arg][count][/arg][/args][/lang]'
+    inv: '[lang]cmi.info.InvEmpty.inv[/lang]'
+    offhand: '[lang]cmi.info.InvEmpty.offhand[/lang]'
+    quickbar: '[lang]cmi.info.InvEmpty.quickbar[/lang]'
+    quickbarslots: >-
+      [lang]cmi.info.InvEmpty.quickbarslots[args][arg][count][/arg][/args][/lang]
+    subinv: '[lang]cmi.info.InvEmpty.subinv[/lang]'
+    subinvslots: '[lang]cmi.info.InvEmpty.subinvslots[args][arg][count][/arg][/args][/lang]'
   DamageCause:
+    block_explosion: '[lang]cmi.info.DamageCause.block_explosion[/lang]'
     contact: '[lang]cmi.info.DamageCause.contact[/lang]'
+    cramming: '[lang]cmi.info.DamageCause.cramming[/lang]'
+    custom: '[lang]cmi.info.DamageCause.custom[/lang]'
+    dragon_breath: '[lang]cmi.info.DamageCause.dragon_breath[/lang]'
+    drowning: '[lang]cmi.info.DamageCause.drowning[/lang]'
     entity_attack: '[lang]cmi.info.DamageCause.entity_attack[/lang]'
+    entity_explosion: '[lang]cmi.info.DamageCause.entity_explosion[/lang]'
     entity_sweep_attack: '[lang]cmi.info.DamageCause.entity_sweep_attack[/lang]'
-    projectile: '[lang]cmi.info.DamageCause.projectile[/lang]'
-    suffocation: '[lang]cmi.info.DamageCause.suffocation[/lang]'
     fall: '[lang]cmi.info.DamageCause.fall[/lang]'
+    falling_block: '[lang]cmi.info.DamageCause.falling_block[/lang]'
     fire: '[lang]cmi.info.DamageCause.fire[/lang]'
     fire_tick: '[lang]cmi.info.DamageCause.fire_tick[/lang]'
-    melting: '[lang]cmi.info.DamageCause.melting[/lang]'
-    lava: '[lang]cmi.info.DamageCause.lava[/lang]'
-    drowning: '[lang]cmi.info.DamageCause.drowning[/lang]'
-    block_explosion: '[lang]cmi.info.DamageCause.block_explosion[/lang]'
-    entity_explosion: '[lang]cmi.info.DamageCause.entity_explosion[/lang]'
-    void: '[lang]cmi.info.DamageCause.void[/lang]'
-    lightning: '[lang]cmi.info.DamageCause.lightning[/lang]'
-    suicide: '[lang]cmi.info.DamageCause.suicide[/lang]'
-    starvation: '[lang]cmi.info.DamageCause.starvation[/lang]'
-    poison: '[lang]cmi.info.DamageCause.poison[/lang]'
-    magic: '[lang]cmi.info.DamageCause.magic[/lang]'
-    wither: '[lang]cmi.info.DamageCause.wither[/lang]'
-    falling_block: '[lang]cmi.info.DamageCause.falling_block[/lang]'
-    thorns: '[lang]cmi.info.DamageCause.thorns[/lang]'
-    dragon_breath: '[lang]cmi.info.DamageCause.dragon_breath[/lang]'
-    custom: '[lang]cmi.info.DamageCause.custom[/lang]'
     fly_into_wall: '[lang]cmi.info.DamageCause.fly_into_wall[/lang]'
     hot_floor: '[lang]cmi.info.DamageCause.hot_floor[/lang]'
-    cramming: '[lang]cmi.info.DamageCause.cramming[/lang]'
+    lava: '[lang]cmi.info.DamageCause.lava[/lang]'
+    lightning: '[lang]cmi.info.DamageCause.lightning[/lang]'
+    magic: '[lang]cmi.info.DamageCause.magic[/lang]'
+    melting: '[lang]cmi.info.DamageCause.melting[/lang]'
+    poison: '[lang]cmi.info.DamageCause.poison[/lang]'
+    projectile: '[lang]cmi.info.DamageCause.projectile[/lang]'
+    starvation: '[lang]cmi.info.DamageCause.starvation[/lang]'
+    suffocation: '[lang]cmi.info.DamageCause.suffocation[/lang]'
+    suicide: '[lang]cmi.info.DamageCause.suicide[/lang]'
+    thorns: '[lang]cmi.info.DamageCause.thorns[/lang]'
+    void: '[lang]cmi.info.DamageCause.void[/lang]'
+    wither: '[lang]cmi.info.DamageCause.wither[/lang]'
     dryout: '[lang]cmi.info.DamageCause.dryout[/lang]'
   Biomes:
-    OCEAN: '[lang]cmi.info.Biomes.OCEAN[/lang]'
-    PLAINS: '[lang]cmi.info.Biomes.PLAINS[/lang]'
-    DESERT: '[lang]cmi.info.Biomes.DESERT[/lang]'
-    EXTREME_HILLS: '[lang]cmi.info.Biomes.EXTREME_HILLS[/lang]'
-    FOREST: '[lang]cmi.info.Biomes.FOREST[/lang]'
-    TAIGA: '[lang]cmi.info.Biomes.TAIGA[/lang]'
-    SWAMPLAND: '[lang]cmi.info.Biomes.SWAMPLAND[/lang]'
-    RIVER: '[lang]cmi.info.Biomes.RIVER[/lang]'
-    HELL: '[lang]cmi.info.Biomes.HELL[/lang]'
-    SKY: '[lang]cmi.info.Biomes.SKY[/lang]'
-    FROZEN_OCEAN: '[lang]cmi.info.Biomes.FROZEN_OCEAN[/lang]'
-    FROZEN_RIVER: '[lang]cmi.info.Biomes.FROZEN_RIVER[/lang]'
-    ICE_FLATS: '[lang]cmi.info.Biomes.ICE_FLATS[/lang]'
-    ICE_MOUNTAINS: '[lang]cmi.info.Biomes.ICE_MOUNTAINS[/lang]'
-    MUSHROOM_ISLAND: '[lang]cmi.info.Biomes.MUSHROOM_ISLAND[/lang]'
-    MUSHROOM_ISLAND_SHORE: '[lang]cmi.info.Biomes.MUSHROOM_ISLAND_SHORE[/lang]'
     BEACHES: '[lang]cmi.info.Biomes.BEACHES[/lang]'
-    DESERT_HILLS: '[lang]cmi.info.Biomes.DESERT_HILLS[/lang]'
-    FOREST_HILLS: '[lang]cmi.info.Biomes.FOREST_HILLS[/lang]'
-    TAIGA_HILLS: '[lang]cmi.info.Biomes.TAIGA_HILLS[/lang]'
-    SMALLER_EXTREME_HILLS: '[lang]cmi.info.Biomes.SMALLER_EXTREME_HILLS[/lang]'
-    JUNGLE: '[lang]cmi.info.Biomes.JUNGLE[/lang]'
-    JUNGLE_HILLS: '[lang]cmi.info.Biomes.JUNGLE_HILLS[/lang]'
-    JUNGLE_EDGE: '[lang]cmi.info.Biomes.JUNGLE_EDGE[/lang]'
-    DEEP_OCEAN: '[lang]cmi.info.Biomes.DEEP_OCEAN[/lang]'
-    STONE_BEACH: '[lang]cmi.info.Biomes.STONE_BEACH[/lang]'
-    COLD_BEACH: '[lang]cmi.info.Biomes.COLD_BEACH[/lang]'
     BIRCH_FOREST: '[lang]cmi.info.Biomes.BIRCH_FOREST[/lang]'
     BIRCH_FOREST_HILLS: '[lang]cmi.info.Biomes.BIRCH_FOREST_HILLS[/lang]'
-    ROOFED_FOREST: '[lang]cmi.info.Biomes.ROOFED_FOREST[/lang]'
-    TAIGA_COLD: '[lang]cmi.info.Biomes.TAIGA_COLD[/lang]'
-    TAIGA_COLD_HILLS: '[lang]cmi.info.Biomes.TAIGA_COLD_HILLS[/lang]'
-    REDWOOD_TAIGA: '[lang]cmi.info.Biomes.REDWOOD_TAIGA[/lang]'
-    REDWOOD_TAIGA_HILLS: '[lang]cmi.info.Biomes.REDWOOD_TAIGA_HILLS[/lang]'
+    COLD_BEACH: '[lang]cmi.info.Biomes.COLD_BEACH[/lang]'
+    DEEP_OCEAN: '[lang]cmi.info.Biomes.DEEP_OCEAN[/lang]'
+    DESERT: '[lang]cmi.info.Biomes.DESERT[/lang]'
+    DESERT_HILLS: '[lang]cmi.info.Biomes.DESERT_HILLS[/lang]'
+    EXTREME_HILLS: '[lang]cmi.info.Biomes.EXTREME_HILLS[/lang]'
     EXTREME_HILLS_WITH_TREES: '[lang]cmi.info.Biomes.EXTREME_HILLS_WITH_TREES[/lang]'
-    SAVANNA: '[lang]cmi.info.Biomes.SAVANNA[/lang]'
-    SAVANNA_ROCK: '[lang]cmi.info.Biomes.SAVANNA_ROCK[/lang]'
+    FOREST: '[lang]cmi.info.Biomes.FOREST[/lang]'
+    FOREST_HILLS: '[lang]cmi.info.Biomes.FOREST_HILLS[/lang]'
+    FROZEN_OCEAN: '[lang]cmi.info.Biomes.FROZEN_OCEAN[/lang]'
+    FROZEN_RIVER: '[lang]cmi.info.Biomes.FROZEN_RIVER[/lang]'
+    HELL: '[lang]cmi.info.Biomes.HELL[/lang]'
+    ICE_FLATS: '[lang]cmi.info.Biomes.ICE_FLATS[/lang]'
+    ICE_MOUNTAINS: '[lang]cmi.info.Biomes.ICE_MOUNTAINS[/lang]'
+    JUNGLE: '[lang]cmi.info.Biomes.JUNGLE[/lang]'
+    JUNGLE_EDGE: '[lang]cmi.info.Biomes.JUNGLE_EDGE[/lang]'
+    JUNGLE_HILLS: '[lang]cmi.info.Biomes.JUNGLE_HILLS[/lang]'
     MESA: '[lang]cmi.info.Biomes.MESA[/lang]'
-    MESA_ROCK: '[lang]cmi.info.Biomes.MESA_ROCK[/lang]'
     MESA_CLEAR_ROCK: '[lang]cmi.info.Biomes.MESA_CLEAR_ROCK[/lang]'
-    VOID: '[lang]cmi.info.Biomes.VOID[/lang]'
-    MUTATED_PLAINS: '[lang]cmi.info.Biomes.MUTATED_PLAINS[/lang]'
+    MESA_ROCK: '[lang]cmi.info.Biomes.MESA_ROCK[/lang]'
+    MUSHROOM_ISLAND: '[lang]cmi.info.Biomes.MUSHROOM_ISLAND[/lang]'
+    MUSHROOM_ISLAND_SHORE: '[lang]cmi.info.Biomes.MUSHROOM_ISLAND_SHORE[/lang]'
+    MUTATED_BIRCH_FOREST: '[lang]cmi.info.Biomes.MUTATED_BIRCH_FOREST[/lang]'
+    MUTATED_BIRCH_FOREST_HILLS: '[lang]cmi.info.Biomes.MUTATED_BIRCH_FOREST_HILLS[/lang]'
     MUTATED_DESERT: '[lang]cmi.info.Biomes.MUTATED_DESERT[/lang]'
     MUTATED_EXTREME_HILLS: '[lang]cmi.info.Biomes.MUTATED_EXTREME_HILLS[/lang]'
+    MUTATED_EXTREME_HILLS_WITH_TREES: '[lang]cmi.info.Biomes.MUTATED_EXTREME_HILLS_WITH_TREES[/lang]'
     MUTATED_FOREST: '[lang]cmi.info.Biomes.MUTATED_FOREST[/lang]'
-    MUTATED_TAIGA: '[lang]cmi.info.Biomes.MUTATED_TAIGA[/lang]'
-    MUTATED_SWAMPLAND: '[lang]cmi.info.Biomes.MUTATED_SWAMPLAND[/lang]'
     MUTATED_ICE_FLATS: '[lang]cmi.info.Biomes.MUTATED_ICE_FLATS[/lang]'
     MUTATED_JUNGLE: '[lang]cmi.info.Biomes.MUTATED_JUNGLE[/lang]'
     MUTATED_JUNGLE_EDGE: '[lang]cmi.info.Biomes.MUTATED_JUNGLE_EDGE[/lang]'
-    MUTATED_BIRCH_FOREST: '[lang]cmi.info.Biomes.MUTATED_BIRCH_FOREST[/lang]'
-    MUTATED_BIRCH_FOREST_HILLS: '[lang]cmi.info.Biomes.MUTATED_BIRCH_FOREST_HILLS[/lang]'
-    MUTATED_ROOFED_FOREST: '[lang]cmi.info.Biomes.MUTATED_ROOFED_FOREST[/lang]'
-    MUTATED_TAIGA_COLD: '[lang]cmi.info.Biomes.MUTATED_TAIGA_COLD[/lang]'
+    MUTATED_MESA: '[lang]cmi.info.Biomes.MUTATED_MESA[/lang]'
+    MUTATED_MESA_CLEAR_ROCK: '[lang]cmi.info.Biomes.MUTATED_MESA_CLEAR_ROCK[/lang]'
+    MUTATED_MESA_ROCK: '[lang]cmi.info.Biomes.MUTATED_MESA_ROCK[/lang]'
+    MUTATED_PLAINS: '[lang]cmi.info.Biomes.MUTATED_PLAINS[/lang]'
     MUTATED_REDWOOD_TAIGA: '[lang]cmi.info.Biomes.MUTATED_REDWOOD_TAIGA[/lang]'
     MUTATED_REDWOOD_TAIGA_HILLS: '[lang]cmi.info.Biomes.MUTATED_REDWOOD_TAIGA_HILLS[/lang]'
-    MUTATED_EXTREME_HILLS_WITH_TREES: '[lang]cmi.info.Biomes.MUTATED_EXTREME_HILLS_WITH_TREES[/lang]'
+    MUTATED_ROOFED_FOREST: '[lang]cmi.info.Biomes.MUTATED_ROOFED_FOREST[/lang]'
     MUTATED_SAVANNA: '[lang]cmi.info.Biomes.MUTATED_SAVANNA[/lang]'
     MUTATED_SAVANNA_ROCK: '[lang]cmi.info.Biomes.MUTATED_SAVANNA_ROCK[/lang]'
-    MUTATED_MESA: '[lang]cmi.info.Biomes.MUTATED_MESA[/lang]'
-    MUTATED_MESA_ROCK: '[lang]cmi.info.Biomes.MUTATED_MESA_ROCK[/lang]'
-    MUTATED_MESA_CLEAR_ROCK: '[lang]cmi.info.Biomes.MUTATED_MESA_CLEAR_ROCK[/lang]'
-    MOUNTAINS: '[lang]cmi.info.Biomes.MOUNTAINS[/lang]'
-    SWAMP: '[lang]cmi.info.Biomes.SWAMP[/lang]'
-    NETHER: '[lang]cmi.info.Biomes.NETHER[/lang]'
-    THE_END: '[lang]cmi.info.Biomes.THE_END[/lang]'
-    SNOWY_TUNDRA: '[lang]cmi.info.Biomes.SNOWY_TUNDRA[/lang]'
-    SNOWY_MOUNTAINS: '[lang]cmi.info.Biomes.SNOWY_MOUNTAINS[/lang]'
-    MUSHROOM_FIELDS: '[lang]cmi.info.Biomes.MUSHROOM_FIELDS[/lang]'
-    MUSHROOM_FIELD_SHORE: '[lang]cmi.info.Biomes.MUSHROOM_FIELD_SHORE[/lang]'
-    BEACH: '[lang]cmi.info.Biomes.BEACH[/lang]'
-    WOODED_HILLS: '[lang]cmi.info.Biomes.WOODED_HILLS[/lang]'
-    MOUNTAIN_EDGE: '[lang]cmi.info.Biomes.MOUNTAIN_EDGE[/lang]'
-    STONE_SHORE: '[lang]cmi.info.Biomes.STONE_SHORE[/lang]'
-    SNOWY_BEACH: '[lang]cmi.info.Biomes.SNOWY_BEACH[/lang]'
-    DARK_FOREST: '[lang]cmi.info.Biomes.DARK_FOREST[/lang]'
-    SNOWY_TAIGA: '[lang]cmi.info.Biomes.SNOWY_TAIGA[/lang]'
-    SNOWY_TAIGA_HILLS: '[lang]cmi.info.Biomes.SNOWY_TAIGA_HILLS[/lang]'
-    GIANT_TREE_TAIGA: '[lang]cmi.info.Biomes.GIANT_TREE_TAIGA[/lang]'
-    GIANT_TREE_TAIGA_HILLS: '[lang]cmi.info.Biomes.GIANT_TREE_TAIGA_HILLS[/lang]'
-    WOODED_MOUNTAINS: '[lang]cmi.info.Biomes.WOODED_MOUNTAINS[/lang]'
-    SAVANNA_PLATEAU: '[lang]cmi.info.Biomes.SAVANNA_PLATEAU[/lang]'
+    MUTATED_SWAMPLAND: '[lang]cmi.info.Biomes.MUTATED_SWAMPLAND[/lang]'
+    MUTATED_TAIGA: '[lang]cmi.info.Biomes.MUTATED_TAIGA[/lang]'
+    MUTATED_TAIGA_COLD: '[lang]cmi.info.Biomes.MUTATED_TAIGA_COLD[/lang]'
+    OCEAN: '[lang]cmi.info.Biomes.OCEAN[/lang]'
+    PLAINS: '[lang]cmi.info.Biomes.PLAINS[/lang]'
+    REDWOOD_TAIGA: '[lang]cmi.info.Biomes.REDWOOD_TAIGA[/lang]'
+    REDWOOD_TAIGA_HILLS: '[lang]cmi.info.Biomes.REDWOOD_TAIGA_HILLS[/lang]'
+    RIVER: '[lang]cmi.info.Biomes.RIVER[/lang]'
+    ROOFED_FOREST: '[lang]cmi.info.Biomes.ROOFED_FOREST[/lang]'
+    SAVANNA: '[lang]cmi.info.Biomes.SAVANNA[/lang]'
+    SAVANNA_ROCK: '[lang]cmi.info.Biomes.SAVANNA_ROCK[/lang]'
+    SKY: '[lang]cmi.info.Biomes.SKY[/lang]'
+    SMALLER_EXTREME_HILLS: '[lang]cmi.info.Biomes.SMALLER_EXTREME_HILLS[/lang]'
+    STONE_BEACH: '[lang]cmi.info.Biomes.STONE_BEACH[/lang]'
+    SWAMPLAND: '[lang]cmi.info.Biomes.SWAMPLAND[/lang]'
+    TAIGA: '[lang]cmi.info.Biomes.TAIGA[/lang]'
+    TAIGA_COLD: '[lang]cmi.info.Biomes.TAIGA_COLD[/lang]'
+    TAIGA_COLD_HILLS: '[lang]cmi.info.Biomes.TAIGA_COLD_HILLS[/lang]'
+    TAIGA_HILLS: '[lang]cmi.info.Biomes.TAIGA_HILLS[/lang]'
+    VOID: '[lang]cmi.info.Biomes.VOID[/lang]'
     BADLANDS: '[lang]cmi.info.Biomes.BADLANDS[/lang]'
-    WOODED_BADLANDS_PLATEAU: '[lang]cmi.info.Biomes.WOODED_BADLANDS_PLATEAU[/lang]'
     BADLANDS_PLATEAU: '[lang]cmi.info.Biomes.BADLANDS_PLATEAU[/lang]'
-    SMALL_END_ISLANDS: '[lang]cmi.info.Biomes.SMALL_END_ISLANDS[/lang]'
-    END_MIDLANDS: '[lang]cmi.info.Biomes.END_MIDLANDS[/lang]'
-    END_HIGHLANDS: '[lang]cmi.info.Biomes.END_HIGHLANDS[/lang]'
-    END_BARRENS: '[lang]cmi.info.Biomes.END_BARRENS[/lang]'
-    WARM_OCEAN: '[lang]cmi.info.Biomes.WARM_OCEAN[/lang]'
-    LUKEWARM_OCEAN: '[lang]cmi.info.Biomes.LUKEWARM_OCEAN[/lang]'
-    COLD_OCEAN: '[lang]cmi.info.Biomes.COLD_OCEAN[/lang]'
-    DEEP_WARM_OCEAN: '[lang]cmi.info.Biomes.DEEP_WARM_OCEAN[/lang]'
-    DEEP_LUKEWARM_OCEAN: '[lang]cmi.info.Biomes.DEEP_LUKEWARM_OCEAN[/lang]'
-    DEEP_COLD_OCEAN: '[lang]cmi.info.Biomes.DEEP_COLD_OCEAN[/lang]'
-    DEEP_FROZEN_OCEAN: '[lang]cmi.info.Biomes.DEEP_FROZEN_OCEAN[/lang]'
-    THE_VOID: '[lang]cmi.info.Biomes.THE_VOID[/lang]'
-    SUNFLOWER_PLAINS: '[lang]cmi.info.Biomes.SUNFLOWER_PLAINS[/lang]'
-    DESERT_LAKES: '[lang]cmi.info.Biomes.DESERT_LAKES[/lang]'
-    GRAVELLY_MOUNTAINS: '[lang]cmi.info.Biomes.GRAVELLY_MOUNTAINS[/lang]'
-    FLOWER_FOREST: '[lang]cmi.info.Biomes.FLOWER_FOREST[/lang]'
-    TAIGA_MOUNTAINS: '[lang]cmi.info.Biomes.TAIGA_MOUNTAINS[/lang]'
-    SWAMP_HILLS: '[lang]cmi.info.Biomes.SWAMP_HILLS[/lang]'
-    ICE_SPIKES: '[lang]cmi.info.Biomes.ICE_SPIKES[/lang]'
-    MODIFIED_JUNGLE: '[lang]cmi.info.Biomes.MODIFIED_JUNGLE[/lang]'
-    MODIFIED_JUNGLE_EDGE: '[lang]cmi.info.Biomes.MODIFIED_JUNGLE_EDGE[/lang]'
-    TALL_BIRCH_FOREST: '[lang]cmi.info.Biomes.TALL_BIRCH_FOREST[/lang]'
-    TALL_BIRCH_HILLS: '[lang]cmi.info.Biomes.TALL_BIRCH_HILLS[/lang]'
-    DARK_FOREST_HILLS: '[lang]cmi.info.Biomes.DARK_FOREST_HILLS[/lang]'
-    SNOWY_TAIGA_MOUNTAINS: '[lang]cmi.info.Biomes.SNOWY_TAIGA_MOUNTAINS[/lang]'
-    GIANT_SPRUCE_TAIGA: '[lang]cmi.info.Biomes.GIANT_SPRUCE_TAIGA[/lang]'
-    GIANT_SPRUCE_TAIGA_HILLS: '[lang]cmi.info.Biomes.GIANT_SPRUCE_TAIGA_HILLS[/lang]'
-    MODIFIED_GRAVELLY_MOUNTAINS: '[lang]cmi.info.Biomes.MODIFIED_GRAVELLY_MOUNTAINS[/lang]'
-    SHATTERED_SAVANNA: '[lang]cmi.info.Biomes.SHATTERED_SAVANNA[/lang]'
-    SHATTERED_SAVANNA_PLATEAU: '[lang]cmi.info.Biomes.SHATTERED_SAVANNA_PLATEAU[/lang]'
-    ERODED_BADLANDS: '[lang]cmi.info.Biomes.ERODED_BADLANDS[/lang]'
-    MODIFIED_WOODED_BADLANDS_PLATEAU: '[lang]cmi.info.Biomes.MODIFIED_WOODED_BADLANDS_PLATEAU[/lang]'
-    MODIFIED_BADLANDS_PLATEAU: '[lang]cmi.info.Biomes.MODIFIED_BADLANDS_PLATEAU[/lang]'
     BAMBOO_JUNGLE: '[lang]cmi.info.Biomes.BAMBOO_JUNGLE[/lang]'
     BAMBOO_JUNGLE_HILLS: '[lang]cmi.info.Biomes.BAMBOO_JUNGLE_HILLS[/lang]'
+    BEACH: '[lang]cmi.info.Biomes.BEACH[/lang]'
+    COLD_OCEAN: '[lang]cmi.info.Biomes.COLD_OCEAN[/lang]'
+    DARK_FOREST: '[lang]cmi.info.Biomes.DARK_FOREST[/lang]'
+    DARK_FOREST_HILLS: '[lang]cmi.info.Biomes.DARK_FOREST_HILLS[/lang]'
+    DEEP_COLD_OCEAN: '[lang]cmi.info.Biomes.DEEP_COLD_OCEAN[/lang]'
+    DEEP_FROZEN_OCEAN: '[lang]cmi.info.Biomes.DEEP_FROZEN_OCEAN[/lang]'
+    DEEP_LUKEWARM_OCEAN: '[lang]cmi.info.Biomes.DEEP_LUKEWARM_OCEAN[/lang]'
+    DEEP_WARM_OCEAN: '[lang]cmi.info.Biomes.DEEP_WARM_OCEAN[/lang]'
+    DESERT_LAKES: '[lang]cmi.info.Biomes.DESERT_LAKES[/lang]'
+    END_BARRENS: '[lang]cmi.info.Biomes.END_BARRENS[/lang]'
+    END_HIGHLANDS: '[lang]cmi.info.Biomes.END_HIGHLANDS[/lang]'
+    END_MIDLANDS: '[lang]cmi.info.Biomes.END_MIDLANDS[/lang]'
+    ERODED_BADLANDS: '[lang]cmi.info.Biomes.ERODED_BADLANDS[/lang]'
+    FLOWER_FOREST: '[lang]cmi.info.Biomes.FLOWER_FOREST[/lang]'
+    GIANT_SPRUCE_TAIGA: '[lang]cmi.info.Biomes.GIANT_SPRUCE_TAIGA[/lang]'
+    GIANT_SPRUCE_TAIGA_HILLS: '[lang]cmi.info.Biomes.GIANT_SPRUCE_TAIGA_HILLS[/lang]'
+    GIANT_TREE_TAIGA: '[lang]cmi.info.Biomes.GIANT_TREE_TAIGA[/lang]'
+    GIANT_TREE_TAIGA_HILLS: '[lang]cmi.info.Biomes.GIANT_TREE_TAIGA_HILLS[/lang]'
+    GRAVELLY_MOUNTAINS: '[lang]cmi.info.Biomes.GRAVELLY_MOUNTAINS[/lang]'
+    ICE_SPIKES: '[lang]cmi.info.Biomes.ICE_SPIKES[/lang]'
+    LUKEWARM_OCEAN: '[lang]cmi.info.Biomes.LUKEWARM_OCEAN[/lang]'
+    MODIFIED_BADLANDS_PLATEAU: '[lang]cmi.info.Biomes.MODIFIED_BADLANDS_PLATEAU[/lang]'
+    MODIFIED_GRAVELLY_MOUNTAINS: '[lang]cmi.info.Biomes.MODIFIED_GRAVELLY_MOUNTAINS[/lang]'
+    MODIFIED_JUNGLE: '[lang]cmi.info.Biomes.MODIFIED_JUNGLE[/lang]'
+    MODIFIED_JUNGLE_EDGE: '[lang]cmi.info.Biomes.MODIFIED_JUNGLE_EDGE[/lang]'
+    MODIFIED_WOODED_BADLANDS_PLATEAU: '[lang]cmi.info.Biomes.MODIFIED_WOODED_BADLANDS_PLATEAU[/lang]'
+    MOUNTAINS: '[lang]cmi.info.Biomes.MOUNTAINS[/lang]'
+    MOUNTAIN_EDGE: '[lang]cmi.info.Biomes.MOUNTAIN_EDGE[/lang]'
+    MUSHROOM_FIELDS: '[lang]cmi.info.Biomes.MUSHROOM_FIELDS[/lang]'
+    MUSHROOM_FIELD_SHORE: '[lang]cmi.info.Biomes.MUSHROOM_FIELD_SHORE[/lang]'
+    NETHER: '[lang]cmi.info.Biomes.NETHER[/lang]'
+    SAVANNA_PLATEAU: '[lang]cmi.info.Biomes.SAVANNA_PLATEAU[/lang]'
+    SHATTERED_SAVANNA: '[lang]cmi.info.Biomes.SHATTERED_SAVANNA[/lang]'
+    SHATTERED_SAVANNA_PLATEAU: '[lang]cmi.info.Biomes.SHATTERED_SAVANNA_PLATEAU[/lang]'
+    SMALL_END_ISLANDS: '[lang]cmi.info.Biomes.SMALL_END_ISLANDS[/lang]'
+    SNOWY_BEACH: '[lang]cmi.info.Biomes.SNOWY_BEACH[/lang]'
+    SNOWY_MOUNTAINS: '[lang]cmi.info.Biomes.SNOWY_MOUNTAINS[/lang]'
+    SNOWY_TAIGA: '[lang]cmi.info.Biomes.SNOWY_TAIGA[/lang]'
+    SNOWY_TAIGA_HILLS: '[lang]cmi.info.Biomes.SNOWY_TAIGA_HILLS[/lang]'
+    SNOWY_TAIGA_MOUNTAINS: '[lang]cmi.info.Biomes.SNOWY_TAIGA_MOUNTAINS[/lang]'
+    SNOWY_TUNDRA: '[lang]cmi.info.Biomes.SNOWY_TUNDRA[/lang]'
+    STONE_SHORE: '[lang]cmi.info.Biomes.STONE_SHORE[/lang]'
+    SUNFLOWER_PLAINS: '[lang]cmi.info.Biomes.SUNFLOWER_PLAINS[/lang]'
+    SWAMP: '[lang]cmi.info.Biomes.SWAMP[/lang]'
+    SWAMP_HILLS: '[lang]cmi.info.Biomes.SWAMP_HILLS[/lang]'
+    TAIGA_MOUNTAINS: '[lang]cmi.info.Biomes.TAIGA_MOUNTAINS[/lang]'
+    TALL_BIRCH_FOREST: '[lang]cmi.info.Biomes.TALL_BIRCH_FOREST[/lang]'
+    TALL_BIRCH_HILLS: '[lang]cmi.info.Biomes.TALL_BIRCH_HILLS[/lang]'
+    THE_END: '[lang]cmi.info.Biomes.THE_END[/lang]'
+    THE_VOID: '[lang]cmi.info.Biomes.THE_VOID[/lang]'
+    WARM_OCEAN: '[lang]cmi.info.Biomes.WARM_OCEAN[/lang]'
+    WOODED_BADLANDS_PLATEAU: '[lang]cmi.info.Biomes.WOODED_BADLANDS_PLATEAU[/lang]'
+    WOODED_HILLS: '[lang]cmi.info.Biomes.WOODED_HILLS[/lang]'
+    WOODED_MOUNTAINS: '[lang]cmi.info.Biomes.WOODED_MOUNTAINS[/lang]'
   EntityType:
     area_effect_cloud: '[lang]cmi.info.EntityType.area_effect_cloud[/lang]'
     armor_stand: '[lang]cmi.info.EntityType.armor_stand[/lang]'
@@ -427,21 +467,21 @@ info:
     zombie: '[lang]cmi.info.EntityType.zombie[/lang]'
     zombie_horse: '[lang]cmi.info.EntityType.zombie_horse[/lang]'
     zombie_villager: '[lang]cmi.info.EntityType.zombie_villager[/lang]'
+    cat: '[lang]cmi.info.EntityType.cat[/lang]'
     cod: '[lang]cmi.info.EntityType.cod[/lang]'
     dolphin: '[lang]cmi.info.EntityType.dolphin[/lang]'
     drowned: '[lang]cmi.info.EntityType.drowned[/lang]'
+    fox: '[lang]cmi.info.EntityType.fox[/lang]'
+    panda: '[lang]cmi.info.EntityType.panda[/lang]'
     phantom: '[lang]cmi.info.EntityType.phantom[/lang]'
+    pillager: '[lang]cmi.info.EntityType.pillager[/lang]'
     pufferfish: '[lang]cmi.info.EntityType.pufferfish[/lang]'
+    ravager: '[lang]cmi.info.EntityType.ravager[/lang]'
     salmon: '[lang]cmi.info.EntityType.salmon[/lang]'
+    trader_llama: '[lang]cmi.info.EntityType.trader_llama[/lang]'
     trident: '[lang]cmi.info.EntityType.trident[/lang]'
     tropical_fish: '[lang]cmi.info.EntityType.tropical_fish[/lang]'
     turtle: '[lang]cmi.info.EntityType.turtle[/lang]'
-    cat: '[lang]cmi.info.EntityType.cat[/lang]'
-    fox: '[lang]cmi.info.EntityType.fox[/lang]'
-    panda: '[lang]cmi.info.EntityType.panda[/lang]'
-    pillager: '[lang]cmi.info.EntityType.pillager[/lang]'
-    ravager: '[lang]cmi.info.EntityType.ravager[/lang]'
-    trader_llama: '[lang]cmi.info.EntityType.trader_llama[/lang]'
     wandering_trader: '[lang]cmi.info.EntityType.wandering_trader[/lang]'
     bee: '[lang]cmi.info.EntityType.bee[/lang]'
   EnchantAliases:
@@ -468,12 +508,16 @@ info:
       - '[lang]cmi.info.EnchantAliases.vanishing_curse.0[/lang]'
     depth_strider:
       - '[lang]cmi.info.EnchantAliases.depth_strider.0[/lang]'
+    'null':
+      - '[lang]cmi.info.EnchantAliases.null.0[/lang]'
     frost_walker:
       - '[lang]cmi.info.EnchantAliases.frost_walker.0[/lang]'
     binding_curse:
       - '[lang]cmi.info.EnchantAliases.binding_curse.0[/lang]'
     damage_all:
       - '[lang]cmi.info.EnchantAliases.damage_all.0[/lang]'
+    glow:
+      - '[lang]cmi.info.EnchantAliases.glow.0[/lang]'
     damage_undead:
       - '[lang]cmi.info.EnchantAliases.damage_undead.0[/lang]'
     damage_arthropods:
@@ -494,6 +538,8 @@ info:
       - '[lang]cmi.info.EnchantAliases.durability.0[/lang]'
     loot_bonus_blocks:
       - '[lang]cmi.info.EnchantAliases.loot_bonus_blocks.0[/lang]'
+    superiorskyblockglow:
+      - '[lang]cmi.info.EnchantAliases.superiorskyblockglow.0[/lang]'
     arrow_damage:
       - '[lang]cmi.info.EnchantAliases.arrow_damage.0[/lang]'
     arrow_knockback:
@@ -506,28 +552,22 @@ info:
       - '[lang]cmi.info.EnchantAliases.luck.0[/lang]'
     lure:
       - '[lang]cmi.info.EnchantAliases.lure.0[/lang]'
+    multshot:
+      - '[lang]cmi.info.EnchantAliases.multshot.0[/lang]'
     loyalty:
       - '[lang]cmi.info.EnchantAliases.loyalty.0[/lang]'
+    piercing:
+      - '[lang]cmi.info.EnchantAliases.piercing.0[/lang]'
     channeling:
       - '[lang]cmi.info.EnchantAliases.channeling.0[/lang]'
     riptide:
       - '[lang]cmi.info.EnchantAliases.riptide.0[/lang]'
-    impaling:
-      - '[lang]cmi.info.EnchantAliases.impaling.0[/lang]'
-    piercing:
-      - '[lang]cmi.info.EnchantAliases.piercing.0[/lang]'
-    multishot:
-      - '[lang]cmi.info.EnchantAliases.multishot.0[/lang]'
     quick_charge:
       - '[lang]cmi.info.EnchantAliases.quick_charge.0[/lang]'
-    multshot:
-      - '[lang]cmi.info.EnchantAliases.multshot.0[/lang]'
-    'null':
-      - '[lang]cmi.info.EnchantAliases.null.0[/lang]'
-    glow:
-      - '[lang]cmi.info.EnchantAliases.glow.0[/lang]'
-    superiorskyblockglow:
-      - '[lang]cmi.info.EnchantAliases.superiorskyblockglow.0[/lang]'
+    impaling:
+      - '[lang]cmi.info.EnchantAliases.impaling.0[/lang]'
+    multishot:
+      - '[lang]cmi.info.EnchantAliases.multishot.0[/lang]'
   PotionEffectAliases:
     speed:
       - '[lang]cmi.info.PotionEffectAliases.speed.0[/lang]'
@@ -593,47 +633,15 @@ info:
       - '[lang]cmi.info.PotionEffectAliases.bad_omen.0[/lang]'
     hero_of_the_village:
       - '[lang]cmi.info.PotionEffectAliases.hero_of_the_village.0[/lang]'
-  CantHavePermission: '[lang]cmi.info.CantHavePermission[/lang]'
-  ModuleNotEnabled: '[lang]cmi.info.ModuleNotEnabled[/lang]'
-  HaveItem: >-
-    [lang]cmi.info.HaveItem[args][arg][amount][/arg][arg][itemName][/arg][/args][/lang]
-  cantDoForYourSelf: '[lang]cmi.info.cantDoForYourSelf[/lang]'
-  InvEmpty:
-    armor: '[lang]cmi.info.InvEmpty.armor[/lang]'
-    hand: '[lang]cmi.info.InvEmpty.hand[/lang]'
-    inv: '[lang]cmi.info.InvEmpty.inv[/lang]'
-    offhand: '[lang]cmi.info.InvEmpty.offhand[/lang]'
-    quickbar: '[lang]cmi.info.InvEmpty.quickbar[/lang]'
-    subinv: '[lang]cmi.info.InvEmpty.subinv[/lang]'
-    maininv: '[lang]cmi.info.InvEmpty.maininv[/lang]'
-    maininvslots: '[lang]cmi.info.InvEmpty.maininvslots[args][arg][count][/arg][/args][/lang]'
-    quickbarslots: >-
-      [lang]cmi.info.InvEmpty.quickbarslots[args][arg][count][/arg][/args][/lang]
-    subinvslots: '[lang]cmi.info.InvEmpty.subinvslots[args][arg][count][/arg][/args][/lang]'
-  TeamManagementDisabled: '[lang]cmi.info.TeamManagementDisabled[/lang]'
-  bungeeNoGo: '[lang]cmi.info.bungeeNoGo[/lang]'
-  UseMaterial: '[lang]cmi.info.UseMaterial[/lang]'
-  CantUseNonEncrypted: '!actionbar!&cCommands on this item are not encrypted. Can''t use them!'
-  CantDecode: >-
-    !actionbar!&cCan't decode message/command. Key file contains wrong key for
-    this task. Inform server administration about this
-  ListSpliter: '[lang]cmi.info.ListSpliter[/lang]'
-  wrongWorld: '[lang]cmi.info.wrongWorld[/lang]'
-  differentWorld: '[lang]cmi.info.differentWorld[/lang]'
-  sleepersRequired: >-
-    !actionbar!&f[sleeping] &7of &f[required] &7sleeping from required for night
-    time speedup
-  repairConfirm: >-
-    [lang]cmi.info.repairConfirm[args][arg][items][/arg][arg][cost][/arg][/args][/lang]
-  bookDate: '[lang]cmi.info.bookDate[args][arg][date][/arg][/args][/lang]'
-  maintenance: '[lang]cmi.info.maintenance[/lang]'
-  mapLimit: '[lang]cmi.info.mapLimit[/lang]'
-  spamConsoleInform: >-
-    [lang]cmi.info.spamConsoleInform[args][arg][playerName][/arg][arg][rules][/arg][arg][message][/arg][/args][/lang]
-  firstPageHover: '[lang]cmi.info.firstPageHover[/lang]'
-  lastPageHover: '[lang]cmi.info.lastPageHover[/lang]'
-  skullOwner: '[lang]cmi.info.skullOwner[args][arg][playerName][/arg][/args][/lang]'
-  beehive: '!actionbar!&7Honey level: &e[level]&7/&e5 &7Bees inside: &e[count]&7/&e3'
+direction:
+  'n': '[lang]cmi.direction.n[/lang]'
+  ne: '[lang]cmi.direction.ne[/lang]'
+  e: '[lang]cmi.direction.e[/lang]'
+  se: '[lang]cmi.direction.se[/lang]'
+  s: '[lang]cmi.direction.s[/lang]'
+  sw: '[lang]cmi.direction.sw[/lang]'
+  w: '[lang]cmi.direction.w[/lang]'
+  nw: '[lang]cmi.direction.nw[/lang]'
 modify:
   middlemouse: '[lang]cmi.modify.middlemouse[/lang]'
   newItem: '[lang]cmi.modify.newItem[/lang]'
@@ -643,11 +651,13 @@ modify:
   newPageHover: '[lang]cmi.modify.newPageHover[/lang]'
   removePage: '[lang]cmi.modify.removePage[/lang]'
   removePageHover: '[lang]cmi.modify.removePageHover[/lang]'
-  deleteSymbol: '[lang]cmi.modify.deleteSymbol[/lang]'
+  deleteSymbol: '[lang]cmi.modify.deleteSymbol[args][arg][X][/arg][/args][/lang]'
   deleteSymbolHover: '[lang]cmi.modify.deleteSymbolHover[args][arg][text][/arg][/args][/lang]'
   extraEditSymbol: '[lang]cmi.modify.extraEditSymbol[/lang]'
   addSymbol: '[lang]cmi.modify.addSymbol[/lang]'
   addSymbolHover: '[lang]cmi.modify.addSymbolHover[/lang]'
+  cancelSymbol: '[lang]cmi.modify.cancelSymbol[args][arg][X][/arg][/args][/lang]'
+  cancelSymbolHover: '[lang]cmi.modify.cancelSymbolHover[/lang]'
   acceptSymbol: '[lang]cmi.modify.acceptSymbol[/lang]'
   acceptSymbolHover: '[lang]cmi.modify.acceptSymbolHover[/lang]'
   denySymbol: '[lang]cmi.modify.denySymbol[args][arg][X][/arg][/args][/lang]'
@@ -675,8 +685,6 @@ modify:
     [lang]cmi.modify.commandAddInformationHover[args][arg][playerName][/arg][/args][/lang]
   commandEditInfo: '[lang]cmi.modify.commandEditInfo[/lang]'
   commandEditInfoHover: '[lang]cmi.modify.commandEditInfoHover[/lang]'
-  cancelSymbol: '[lang]cmi.modify.cancelSymbol[args][arg][X][/arg][/args][/lang]'
-  cancelSymbolHover: '[lang]cmi.modify.cancelSymbolHover[/lang]'
 warp:
   list: >-
     [lang]cmi.warp.list[args][arg][pos][/arg][arg][warpName][/arg][arg][worldName][/arg][arg][x][/arg][arg][y][/arg][arg][z][/arg][/args][/lang]
@@ -692,7 +700,7 @@ afk:
   MayNotRespondStaff: '[lang]cmi.afk.MayNotRespondStaff[/lang]'
 BossBar:
   hpBar: >-
-    [lang]cmi.BossBar.hpBar[args][arg][victim][/arg][arg][current][/arg][arg][max][/arg][arg][damage][/arg][/args][/lang]
+    [lang]cmi.BossBar.hpBar[args][arg][victim][/arg][arg][max][/arg][arg][current][/arg][arg][damage][/arg][/args][/lang]
 Potion:
   Effects: '[lang]cmi.Potion.Effects[/lang]'
   List: >-
@@ -708,7 +716,10 @@ Information:
   NotEnoughExp: '[lang]cmi.Information.NotEnoughExp[args][arg][Exp][/arg][/args][/lang]'
   NotEnoughExpNeed: >-
     [lang]cmi.Information.NotEnoughExpNeed[args][arg][Exp][/arg][arg][need][/arg][/args][/lang]
+  tooMuchExp: >-
+    [lang]cmi.Information.tooMuchExp[args][arg][Exp][/arg][arg][need][/arg][/args][/lang]
   NotEnoughVotes: '[lang]cmi.Information.NotEnoughVotes[args][arg][votes][/arg][/args][/lang]'
+  TooMuchVotes: '[lang]cmi.Information.TooMuchVotes[args][arg][votes][/arg][/args][/lang]'
   BadGameMode: '[lang]cmi.Information.BadGameMode[/lang]'
   BadArea: '[lang]cmi.Information.BadArea[/lang]'
   GameMode: '[lang]cmi.Information.GameMode[args][arg][GameMode][/arg][/args][/lang]'
@@ -722,16 +733,13 @@ Information:
   Onlinesince: '[lang]cmi.Information.Onlinesince[args][arg][time][/arg][/args][/lang]'
   Money: '[lang]cmi.Information.Money[args][arg][money][/arg][/args][/lang]'
   Group: '[lang]cmi.Information.Group[args][arg][group][/arg][/args][/lang]'
-  tooMuchExp: >-
-    [lang]cmi.Information.tooMuchExp[args][arg][Exp][/arg][arg][need][/arg][/args][/lang]
-  TooMuchVotes: '[lang]cmi.Information.TooMuchVotes[args][arg][votes][/arg][/args][/lang]'
   FirstConnect: >-
     [lang]cmi.Information.FirstConnect[args][arg][y][/arg][arg][m][/arg][arg][d][/arg][/args][/lang]
 econ:
   disabled: '[lang]cmi.econ.disabled[/lang]'
   noMoney: '[lang]cmi.econ.noMoney[/lang]'
-  tooMuchMoney: '[lang]cmi.econ.tooMuchMoney[/lang]'
   notEnoughMoney: '[lang]cmi.econ.notEnoughMoney[args][arg][amount][/arg][/args][/lang]'
+  tooMuchMoney: '[lang]cmi.econ.tooMuchMoney[/lang]'
   currencyPlacing: >-
     [lang]cmi.econ.currencyPlacing[args][arg][money][/arg][arg][symbol][/arg][/args][/lang]
 Elytra:
@@ -755,6 +763,7 @@ NetherPortal:
 Location:
   Title: '[lang]cmi.Location.Title[/lang]'
   Killer: '[lang]cmi.Location.Killer[args][arg][killer][/arg][/args][/lang]'
+  OneLiner: '[lang]cmi.Location.OneLiner[args][arg][location][/arg][/args][/lang]'
   DeathReason: '[lang]cmi.Location.DeathReason[args][arg][reason][/arg][/args][/lang]'
   World: '[lang]cmi.Location.World[args][arg][world][/arg][/args][/lang]'
   X: '[lang]cmi.Location.X[args][arg][x][/arg][/args][/lang]'
@@ -762,7 +771,6 @@ Location:
   Z: '[lang]cmi.Location.Z[args][arg][z][/arg][/args][/lang]'
   Pitch: '[lang]cmi.Location.Pitch[args][arg][pitch][/arg][/args][/lang]'
   Yaw: '[lang]cmi.Location.Yaw[args][arg][yaw][/arg][/args][/lang]'
-  OneLiner: '[lang]cmi.Location.OneLiner[args][arg][location][/arg][/args][/lang]'
 Ender:
   Title: '[lang]cmi.Ender.Title[/lang]'
 Chat:
@@ -822,9 +830,9 @@ command:
       args: '[playerName] [amount]'
     info:
       feedback: >-
-        [lang]cmi.command.air.info.feedback[args][arg][playerName][/arg][arg][amount][/arg][arg][offon][/arg][/args][/lang]
+        [lang]cmi.command.air.info.feedback[args][arg][amount][/arg][arg][playerName][/arg][arg][offon][/arg][/args][/lang]
       targetFeedback: >-
-        [lang]cmi.command.air.info.targetFeedback[args][arg][senderDisplayName][/arg][arg][amount][/arg][/args][/lang]
+        [lang]cmi.command.air.info.targetFeedback[args][arg][amount][/arg][arg][senderDisplayName][/arg][/args][/lang]
       current: >-
         [lang]cmi.command.air.info.current[args][arg][playerDisplayName][/arg][arg][amount][/arg][/args][/lang]
   alert:
@@ -863,11 +871,20 @@ command:
         [lang]cmi.command.aliaseditor.info.permReq[args][arg][state][/arg][/args][/lang]
       permReqExplanation: >-
         [lang]cmi.command.aliaseditor.info.permReqExplanation[args][arg][alias][/arg][/args][/lang]
-      addAliasInfo: '[lang]cmi.command.aliaseditor.info.addAliasInfo[/lang]'
+      newAliasInfo: '[lang]cmi.command.aliaseditor.info.newAliasInfo[/lang]'
       addInfo: '[lang]cmi.command.aliaseditor.info.addInfo[/lang]'
       addInformationHover: '[lang]cmi.command.aliaseditor.info.addInformationHover[/lang]'
       editInfo: '[lang]cmi.command.aliaseditor.info.editInfo[/lang]'
-      newAliasInfo: '[lang]cmi.command.aliaseditor.info.newAliasInfo[/lang]'
+      addAliasInfo: '[lang]cmi.command.aliaseditor.info.addAliasInfo[/lang]'
+  anvil:
+    help:
+      info: '[lang]cmi.command.anvil.help.info[/lang]'
+      args: (playerName)
+    info:
+      feedback: >-
+        [lang]cmi.command.anvil.info.feedback[args][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
+      targetfeedback: >-
+        [lang]cmi.command.anvil.info.targetfeedback[args][arg][senderDisplayName][/arg][/args][/lang]
   armorstand:
     help:
       info: '[lang]cmi.command.armorstand.help.info[/lang]'
@@ -875,6 +892,7 @@ command:
     info:
       cantClick: '[lang]cmi.command.armorstand.info.cantClick[/lang]'
       tooFar: '[lang]cmi.command.armorstand.info.tooFar[/lang]'
+      title: '[lang]cmi.command.armorstand.info.title[/lang]'
       coordX: '[lang]cmi.command.armorstand.info.coordX[/lang]'
       coordY: '[lang]cmi.command.armorstand.info.coordY[/lang]'
       coordZ: '[lang]cmi.command.armorstand.info.coordZ[/lang]'
@@ -906,7 +924,6 @@ command:
       explanation: '[lang]cmi.command.armorstand.info.explanation[/lang]'
       explanation2: '[lang]cmi.command.armorstand.info.explanation2[/lang]'
       disableGravity: '[lang]cmi.command.armorstand.info.disableGravity[/lang]'
-      title: '[lang]cmi.command.armorstand.info.title[/lang]'
   attachcommand:
     help:
       info: '[lang]cmi.command.attachcommand.help.info[/lang]'
@@ -1197,7 +1214,7 @@ command:
         [lang]cmi.command.cheque.info.chequeName[args][arg][amount][/arg][/args][/lang]
       chequeLore:
         - >-
-          [lang]cmi.command.cheque.info.chequeLore.0[args][arg][playerDisplayName][/arg][/args][/lang]
+          [lang]cmi.command.cheque.info.chequeLore.0[args][arg][senderDisplayName][/arg][/args][/lang]
         - '[lang]cmi.command.cheque.info.chequeLore.1[/lang]'
       holdPaper: '[lang]cmi.command.cheque.info.holdPaper[/lang]'
       cantUse: '[lang]cmi.command.cheque.info.cantUse[/lang]'
@@ -1247,9 +1264,9 @@ command:
       privatemessage: '[lang]cmi.command.colorlimits.info.privatemessage[/lang]'
       nickname: '[lang]cmi.command.colorlimits.info.nickname[/lang]'
       signs: '[lang]cmi.command.colorlimits.info.signs[/lang]'
+      books: '[lang]cmi.command.colorlimits.info.books[/lang]'
       me: '[lang]cmi.command.colorlimits.info.me[/lang]'
       None: '[lang]cmi.command.colorlimits.info.None[/lang]'
-      books: '[lang]cmi.command.colorlimits.info.books[/lang]'
   colors:
     help:
       info: '[lang]cmi.command.colors.help.info[/lang]'
@@ -1291,9 +1308,9 @@ command:
       feedbackCustom: >-
         [lang]cmi.command.compass.info.feedbackCustom[args][arg][playerDisplayName][/arg][arg][x][/arg][arg][z][/arg][arg][world][/arg][/args][/lang]
       targetFeedback: >-
-        [lang]cmi.command.compass.info.targetFeedback[args][arg][senderName][/arg][arg][sourceDisplayName][/arg][/args][/lang]
+        [lang]cmi.command.compass.info.targetFeedback[args][arg][sourceDisplayName][/arg][arg][senderName][/arg][/args][/lang]
       targetFeedbackCustom: >-
-        [lang]cmi.command.compass.info.targetFeedbackCustom[args][arg][sourceDisplayName][/arg][arg][x][/arg][arg][z][/arg][arg][world][/arg][/args][/lang]
+        [lang]cmi.command.compass.info.targetFeedbackCustom[args][arg][x][/arg][arg][z][/arg][arg][world][/arg][arg][sourceDisplayName][/arg][/args][/lang]
       reset: '[lang]cmi.command.compass.info.reset[/lang]'
   condense:
     help:
@@ -1350,6 +1367,14 @@ command:
       thisyear: '[lang]cmi.command.cplaytime.info.thisyear[/lang]'
       year: '[lang]cmi.command.cplaytime.info.year[/lang]'
       total: '[lang]cmi.command.cplaytime.info.total[/lang]'
+  ctellraw:
+    help:
+      info: '[lang]cmi.command.ctellraw.help.info[/lang]'
+      args: '[playerName/all] [formattedMessage]'
+      explanation:
+        - >-
+          Usage is same as shown in http://www.zrips.net/cmi/custom-text/ aka
+          customtext command
   ctext:
     help:
       info: '[lang]cmi.command.ctext.help.info[/lang]'
@@ -1370,8 +1395,8 @@ command:
         [lang]cmi.command.cuff.info.unCuffed[args][arg][playerDisplayName][/arg][/args][/lang]
       free: '[lang]cmi.command.cuff.info.free[/lang]'
       gotCuffed: '[lang]cmi.command.cuff.info.gotCuffed[/lang]'
-      cantCuff: '[lang]cmi.command.cuff.info.cantCuff[/lang]'
       cuffedInfo: '[lang]cmi.command.cuff.info.cuffedInfo[/lang]'
+      cantCuff: '[lang]cmi.command.cuff.info.cantCuff[/lang]'
   customrecipe:
     help:
       info: '[lang]cmi.command.customrecipe.help.info[/lang]'
@@ -1411,6 +1436,27 @@ command:
       args: (playerName)
     info:
       title: '[lang]cmi.command.dispose.info.title[/lang]'
+  distance:
+    help:
+      info: '[lang]cmi.command.distance.help.info[/lang]'
+      args: (playerName) (playerName)
+    info:
+      feedback: >-
+        [lang]cmi.command.distance.info.feedback[args][arg][dist][/arg][arg][x][/arg][arg][y][/arg][arg][z][/arg][arg][dir][/arg][/args][/lang]
+  donate:
+    help:
+      info: '[lang]cmi.command.donate.help.info[/lang]'
+      args: '[playerName] (amount)'
+    info:
+      donated: >-
+        [lang]cmi.command.donate.info.donated[args][arg][type][/arg][arg][amount][/arg][arg][playerDisplayName][/arg][/args][/lang]
+      got: >-
+        [lang]cmi.command.donate.info.got[args][arg][type][/arg][arg][amount][/arg][arg][playerDisplayName][/arg][/args][/lang]
+      sentOffer: >-
+        [lang]cmi.command.donate.info.sentOffer[args][arg][playerDisplayName][/arg][/args][/lang]
+      gotOffer: >-
+        [lang]cmi.command.donate.info.gotOffer[args][arg][type][/arg][arg][amount][/arg][arg][sourceDisplayName][/arg][/args][/lang]
+      doesnthave: '[lang]cmi.command.donate.info.doesnthave[/lang]'
   dsign:
     help:
       info: '[lang]cmi.command.dsign.help.info[/lang]'
@@ -1542,7 +1588,7 @@ command:
           online
     info:
       feedback: >-
-        [lang]cmi.command.effect.info.feedback[args][arg][sec][/arg][arg][effect][/arg][arg][playerDisplayName][/arg][arg][power][/arg][arg][offon][/arg][/args][/lang]
+        [lang]cmi.command.effect.info.feedback[args][arg][effect][/arg][arg][playerDisplayName][/arg][arg][sec][/arg][arg][power][/arg][arg][offon][/arg][/args][/lang]
       cleared: >-
         [lang]cmi.command.effect.info.cleared[args][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
   enchant:
@@ -1555,23 +1601,23 @@ command:
         - '-o will take item from offhand'
     info:
       feedback: >-
-        [lang]cmi.command.enchant.info.feedback[args][arg][playerDisplayName][/arg][arg][enchant][/arg][arg][level][/arg][arg][offon][/arg][/args][/lang]
+        [lang]cmi.command.enchant.info.feedback[args][arg][enchant][/arg][arg][level][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
       removed: >-
         [lang]cmi.command.enchant.info.removed[args][arg][enchant][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
       cleared: >-
         [lang]cmi.command.enchant.info.cleared[args][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
       noitem: '[lang]cmi.command.enchant.info.noitem[/lang]'
       invalidEnchant: '[lang]cmi.command.enchant.info.invalidEnchant[/lang]'
+      clearedInvalid: >-
+        [lang]cmi.command.enchant.info.clearedInvalid[args][arg][amount][/arg][/args][/lang]
       inccorectId: '[lang]cmi.command.enchant.info.inccorectId[/lang]'
       wrongItem: '[lang]cmi.command.enchant.info.wrongItem[/lang]'
+      enchantlimit: '[lang]cmi.command.enchant.info.enchantlimit[/lang]'
       levellimit: >-
         [lang]cmi.command.enchant.info.levellimit[args][arg][level][/arg][/args][/lang]
       posible: '[lang]cmi.command.enchant.info.posible[/lang]'
       posibleList: >-
         [lang]cmi.command.enchant.info.posibleList[args][arg][enchant][/arg][/args][/lang]
-      clearedInvalid: >-
-        [lang]cmi.command.enchant.info.clearedInvalid[args][arg][amount][/arg][/args][/lang]
-      enchantlimit: '[lang]cmi.command.enchant.info.enchantlimit[/lang]'
   ender:
     help:
       info: '[lang]cmi.command.ender.help.info[/lang]'
@@ -1584,6 +1630,13 @@ command:
         [lang]cmi.command.ender.info.title[args][arg][playerDisplayName][/arg][/args][/lang]
       feedback: >-
         [lang]cmi.command.ender.info.feedback[args][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
+  endgateway:
+    help:
+      info: '[lang]cmi.command.endgateway.help.info[/lang]'
+      args: ''
+    info:
+      'off': '[lang]cmi.command.endgateway.info.off[/lang]'
+      'on': '[lang]cmi.command.endgateway.info.on[/lang]'
   entityinfo:
     help:
       info: '[lang]cmi.command.entityinfo.help.info[/lang]'
@@ -1621,9 +1674,9 @@ command:
       current: >-
         [lang]cmi.command.exp.info.current[args][arg][playerDisplayName][/arg][arg][lvl][/arg][arg][currentExp][/arg][arg][exp][/arg][/args][/lang]
       selfFeedback: >-
-        [lang]cmi.command.exp.info.selfFeedback[args][arg][playerDisplayName][/arg][arg][exp][/arg][arg][offon][/arg][/args][/lang]
+        [lang]cmi.command.exp.info.selfFeedback[args][arg][exp][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
       targetFeedback: >-
-        [lang]cmi.command.exp.info.targetFeedback[args][arg][senderDisplayName][/arg][arg][exp][/arg][/args][/lang]
+        [lang]cmi.command.exp.info.targetFeedback[args][arg][exp][/arg][arg][senderDisplayName][/arg][/args][/lang]
       currentExp: >-
         [lang]cmi.command.exp.info.currentExp[args][arg][playerDisplayName][/arg][arg][lvl][/arg][arg][exp][/arg][/args][/lang]
   ext:
@@ -1644,6 +1697,18 @@ command:
         [lang]cmi.command.feed.info.feedback[args][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
       targetfeedback: >-
         [lang]cmi.command.feed.info.targetfeedback[args][arg][senderDisplayName][/arg][/args][/lang]
+  findbiome:
+    help:
+      info: '[lang]cmi.command.findbiome.help.info[/lang]'
+      args: '&3(biomeName/stop/stopall)'
+    info:
+      infoShow: >-
+        [lang]cmi.command.findbiome.info.infoShow[args][arg][tps][/arg][arg][left][/arg][arg][time][/arg][arg][speed][/arg][/args][/lang]
+      stopped: '[lang]cmi.command.findbiome.info.stopped[/lang]'
+      cantFindBiome: >-
+        [lang]cmi.command.findbiome.info.cantFindBiome[args][arg][amount][/arg][/args][/lang]
+      teleportedTo: >-
+        [lang]cmi.command.findbiome.info.teleportedTo[args][arg][biome][/arg][/args][/lang]
   fixchunk:
     help:
       info: '[lang]cmi.command.fixchunk.help.info[/lang]'
@@ -1677,7 +1742,7 @@ command:
         [lang]cmi.command.fixchunk.info.messagesChange[args][arg][state][/arg][/args][/lang]
       NoInfo: '[lang]cmi.command.fixchunk.info.NoInfo[/lang]'
       InfoShow: >-
-        [lang]cmi.command.fixchunk.info.InfoShow[args][arg][left][/arg][arg][min][/arg][arg][sec][/arg][arg][tps][/arg][arg][speed][/arg][arg][found][/arg][/args][/lang]
+        [lang]cmi.command.fixchunk.info.InfoShow[args][arg][tps][/arg][arg][left][/arg][arg][min][/arg][arg][sec][/arg][arg][speed][/arg][arg][found][/arg][/args][/lang]
       scanList: >-
         [lang]cmi.command.fixchunk.info.scanList[args][arg][number][/arg][arg][x][/arg][arg][z][/arg][/args][/lang]
       finished: '[lang]cmi.command.fixchunk.info.finished[/lang]'
@@ -1718,6 +1783,7 @@ command:
       guiTitle: '[lang]cmi.command.flightcharge.info.guiTitle[/lang]'
       buttonExp: '[lang]cmi.command.flightcharge.info.buttonExp[/lang]'
       buttonMoney: '[lang]cmi.command.flightcharge.info.buttonMoney[/lang]'
+      max: '[lang]cmi.command.flightcharge.info.max[/lang]'
       guiLore:
         - '[lang]cmi.command.flightcharge.info.guiLore.0[/lang]'
         - '[lang]cmi.command.flightcharge.info.guiLore.1[/lang]'
@@ -1725,7 +1791,6 @@ command:
         - '[lang]cmi.command.flightcharge.info.guiLore.3[/lang]'
       changeAmount: >-
         [lang]cmi.command.flightcharge.info.changeAmount[args][arg][amount][/arg][/args][/lang]
-      max: '[lang]cmi.command.flightcharge.info.max[/lang]'
   fly:
     help:
       info: '[lang]cmi.command.fly.help.info[/lang]'
@@ -1734,7 +1799,7 @@ command:
       feedback: >-
         [lang]cmi.command.fly.info.feedback[args][arg][boolean][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
       targetFeedback: >-
-        [lang]cmi.command.fly.info.targetFeedback[args][arg][senderDisplayName][/arg][arg][boolean][/arg][/args][/lang]
+        [lang]cmi.command.fly.info.targetFeedback[args][arg][boolean][/arg][arg][senderDisplayName][/arg][/args][/lang]
   flyc:
     help:
       info: '[lang]cmi.command.flyc.help.info[/lang]'
@@ -1743,7 +1808,7 @@ command:
       feedback: >-
         [lang]cmi.command.flyc.info.feedback[args][arg][boolean][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
       targetFeedback: >-
-        [lang]cmi.command.flyc.info.targetFeedback[args][arg][senderDisplayName][/arg][arg][boolean][/arg][/args][/lang]
+        [lang]cmi.command.flyc.info.targetFeedback[args][arg][boolean][/arg][arg][senderDisplayName][/arg][/args][/lang]
       targetFeedbackSelf: >-
         [lang]cmi.command.flyc.info.targetFeedbackSelf[args][arg][boolean][/arg][/args][/lang]
       noCharge: '[lang]cmi.command.flyc.info.noCharge[/lang]'
@@ -1755,7 +1820,7 @@ command:
       feedback: >-
         [lang]cmi.command.flyspeed.info.feedback[args][arg][amount][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
       targetfeedback: >-
-        [lang]cmi.command.flyspeed.info.targetfeedback[args][arg][senderDisplayName][/arg][arg][amount][/arg][/args][/lang]
+        [lang]cmi.command.flyspeed.info.targetfeedback[args][arg][amount][/arg][arg][senderDisplayName][/arg][/args][/lang]
       max: '[lang]cmi.command.flyspeed.info.max[args][arg][max][/arg][/args][/lang]'
   gamerule:
     help:
@@ -1791,7 +1856,7 @@ command:
           {ench:[{id:0,lvl:100},{id:2,lvl:100},{id:34,lvl:100}]}
     info:
       feedback: >-
-        [lang]cmi.command.give.info.feedback[args][arg][playerDisplayName][/arg][arg][amount][/arg][arg][itemname][/arg][arg][customitemname][/arg][/args][/lang]
+        [lang]cmi.command.give.info.feedback[args][arg][amount][/arg][arg][itemname][/arg][arg][customitemname][/arg][arg][playerDisplayName][/arg][/args][/lang]
       wrongEntityId: '[lang]cmi.command.give.info.wrongEntityId[/lang]'
       maxLimit: '[lang]cmi.command.give.info.maxLimit[args][arg][max][/arg][/args][/lang]'
       maxLimitResize: >-
@@ -1833,27 +1898,27 @@ command:
           color
     info:
       feedback: >-
-        [lang]cmi.command.glow.info.feedback[args][arg][playerDisplayName][/arg][arg][color][/arg][arg][boolean][/arg][arg][offon][/arg][/args][/lang]
+        [lang]cmi.command.glow.info.feedback[args][arg][color][/arg][arg][boolean][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
       targetfeedback: >-
-        [lang]cmi.command.glow.info.targetfeedback[args][arg][senderDisplayName][/arg][arg][color][/arg][arg][boolean][/arg][/args][/lang]
+        [lang]cmi.command.glow.info.targetfeedback[args][arg][color][/arg][arg][boolean][/arg][arg][senderDisplayName][/arg][/args][/lang]
   gm:
     help:
       info: '[lang]cmi.command.gm.help.info[/lang]'
       args: '(playerName) [gamemode]'
     info:
       feedback: >-
-        [lang]cmi.command.gm.info.feedback[args][arg][playerDisplayName][/arg][arg][gameMode][/arg][arg][offon][/arg][/args][/lang]
+        [lang]cmi.command.gm.info.feedback[args][arg][playerDisplayName][/arg][arg][offon][/arg][arg][gameMode][/arg][/args][/lang]
       targetfeedback: >-
-        [lang]cmi.command.gm.info.targetfeedback[args][arg][senderDisplayName][/arg][arg][gameMode][/arg][/args][/lang]
+        [lang]cmi.command.gm.info.targetfeedback[args][arg][gameMode][/arg][arg][senderDisplayName][/arg][/args][/lang]
   god:
     help:
       info: '[lang]cmi.command.god.help.info[/lang]'
       args: '[playerName] (true/false) (-s)'
     info:
       feedback: >-
-        [lang]cmi.command.god.info.feedback[args][arg][playerDisplayName][/arg][arg][boolean][/arg][arg][offon][/arg][/args][/lang]
+        [lang]cmi.command.god.info.feedback[args][arg][boolean][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
       targetfeedback: >-
-        [lang]cmi.command.god.info.targetfeedback[args][arg][senderDisplayName][/arg][arg][boolean][/arg][/args][/lang]
+        [lang]cmi.command.god.info.targetfeedback[args][arg][boolean][/arg][arg][senderDisplayName][/arg][/args][/lang]
   groundclean:
     help:
       info: '[lang]cmi.command.groundclean.help.info[/lang]'
@@ -1893,13 +1958,13 @@ command:
         [lang]cmi.command.haspermission.info.title[args][arg][playerDisplayName][/arg][arg][permission][/arg][/args][/lang]
       none: >-
         [lang]cmi.command.haspermission.info.none[args][arg][state][/arg][/args][/lang]
+      softSet: >-
+        [lang]cmi.command.haspermission.info.softSet[args][arg][state][/arg][/args][/lang]
       hardSet: >-
         [lang]cmi.command.haspermission.info.hardSet[args][arg][state][/arg][/args][/lang]
       notHardSet: '[lang]cmi.command.haspermission.info.notHardSet[/lang]'
       ops: >-
         [lang]cmi.command.haspermission.info.ops[args][arg][state][/arg][/args][/lang]
-      softSet: >-
-        [lang]cmi.command.haspermission.info.softSet[args][arg][state][/arg][/args][/lang]
   hat:
     help:
       info: '[lang]cmi.command.hat.help.info[/lang]'
@@ -1918,7 +1983,7 @@ command:
       Feedback: >-
         [lang]cmi.command.head.info.Feedback[args][arg][headName][/arg][/args][/lang]
       targetFeedback: >-
-        [lang]cmi.command.head.info.targetFeedback[args][arg][senderDisplayName][/arg][arg][headName][/arg][/args][/lang]
+        [lang]cmi.command.head.info.targetFeedback[args][arg][headName][/arg][arg][senderDisplayName][/arg][/args][/lang]
   heal:
     help:
       info: '[lang]cmi.command.heal.help.info[/lang]'
@@ -1926,10 +1991,10 @@ command:
     info:
       feedback: >-
         [lang]cmi.command.heal.info.feedback[args][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
-      targetfeedback: >-
-        [lang]cmi.command.heal.info.targetfeedback[args][arg][senderDisplayName][/arg][/args][/lang]
       feedbackMulti: >-
         [lang]cmi.command.heal.info.feedbackMulti[args][arg][count][/arg][/args][/lang]
+      targetfeedback: >-
+        [lang]cmi.command.heal.info.targetfeedback[args][arg][senderDisplayName][/arg][/args][/lang]
   helpop:
     help:
       info: '[lang]cmi.command.helpop.help.info[/lang]'
@@ -1938,7 +2003,7 @@ command:
         - Requires cmi.command.helpop.inform too see messages
     info:
       message: >-
-        [lang]cmi.command.helpop.info.message[args][arg][senderDisplayName][/arg][arg][message][/arg][/args][/lang]
+        [lang]cmi.command.helpop.info.message[args][arg][Help][/arg][arg][senderDisplayName][/arg][arg][message][/arg][/args][/lang]
       feedback: >-
         [lang]cmi.command.helpop.info.feedback[args][arg][Help][/arg][/args][/lang]
       offline: >-
@@ -1960,7 +2025,7 @@ command:
       args: ''
     info:
       howTo: >-
-        [lang]cmi.command.hologram.info.howTo[args][arg][nombre][/arg][/args][/lang]
+        [lang]cmi.command.hologram.info.howTo[args][arg][name][/arg][/args][/lang]
       gui: '[lang]cmi.command.hologram.info.gui[/lang]'
       guiHover: '[lang]cmi.command.hologram.info.guiHover[/lang]'
       interval: >-
@@ -1969,10 +2034,17 @@ command:
         - '[lang]cmi.command.hologram.info.intervalLore.0[/lang]'
         - '[lang]cmi.command.hologram.info.intervalLore.1[/lang]'
         - '[lang]cmi.command.hologram.info.intervalLore.2[/lang]'
+      pageInterval: >-
+        [lang]cmi.command.hologram.info.pageInterval[args][arg][second][/arg][/args][/lang]
+      pageIntervalLore:
+        - '[lang]cmi.command.hologram.info.pageIntervalLore.0[/lang]'
+      pageIntervalNoPages: '[lang]cmi.command.hologram.info.pageIntervalNoPages[/lang]'
       text: >-
         [lang]cmi.command.hologram.info.text[args][arg][space][/arg][/args][/lang]
       usync: >-
         [lang]cmi.command.hologram.info.usync[args][arg][state][/arg][/args][/lang]
+      reqPermission: >-
+        [lang]cmi.command.hologram.info.reqPermission[args][arg][state][/arg][/args][/lang]
       teleport: '[lang]cmi.command.hologram.info.teleport[/lang]'
       icon: >-
         [lang]cmi.command.hologram.info.icon[args][arg][space][/arg][/args][/lang]
@@ -2013,13 +2085,6 @@ command:
         [lang]cmi.command.hologram.info.list[args][arg][place][/arg][arg][name][/arg][/args][/lang]
       addInfo: >-
         [lang]cmi.command.hologram.info.addInfo[args][arg][Value][/arg][arg][Value][/arg][arg][headOwner][/arg][/args][/lang]
-      pageInterval: >-
-        [lang]cmi.command.hologram.info.pageInterval[args][arg][second][/arg][/args][/lang]
-      pageIntervalLore:
-        - '[lang]cmi.command.hologram.info.pageIntervalLore.0[/lang]'
-      pageIntervalNoPages: '[lang]cmi.command.hologram.info.pageIntervalNoPages[/lang]'
-      reqPermission: >-
-        [lang]cmi.command.hologram.info.reqPermission[args][arg][state][/arg][/args][/lang]
   hologrampages:
     help:
       info: '[lang]cmi.command.hologrampages.help.info[/lang]'
@@ -2050,9 +2115,9 @@ command:
       args: '[playerName] [amount] (-s)'
     info:
       feedback: >-
-        [lang]cmi.command.hunger.info.feedback[args][arg][playerDisplayName][/arg][arg][hunger][/arg][arg][offon][/arg][/args][/lang]
+        [lang]cmi.command.hunger.info.feedback[args][arg][hunger][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
       targetfeedback: >-
-        [lang]cmi.command.hunger.info.targetfeedback[args][arg][senderDisplayName][/arg][arg][hunger][/arg][/args][/lang]
+        [lang]cmi.command.hunger.info.targetfeedback[args][arg][hunger][/arg][arg][senderDisplayName][/arg][/args][/lang]
   ic:
     help:
       info: '[lang]cmi.command.ic.help.info[/lang]'
@@ -2063,9 +2128,15 @@ command:
       public: '[lang]cmi.command.ic.info.public[args][arg][Public][/arg][/args][/lang]'
       notPublic: >-
         [lang]cmi.command.ic.info.notPublic[args][arg][NotPublic][/arg][/args][/lang]
+      reqPerm: >-
+        [lang]cmi.command.ic.info.reqPerm[args][arg][ReqPerm][/arg][/args][/lang]
+      noPerm: '[lang]cmi.command.ic.info.noPerm[args][arg][ReqPerm][/arg][/args][/lang]'
+      permHover: >-
+        [lang]cmi.command.ic.info.permHover[args][arg][permission][/arg][/args][/lang]
       editSign: >-
         [lang]cmi.command.ic.info.editSign[args][arg][EditSignLines][/arg][/args][/lang]
-      publicHover: '[lang]cmi.command.ic.info.publicHover[/lang]'
+      publicHover: >-
+        [lang]cmi.command.ic.info.publicHover[args][arg][name][/arg][/args][/lang]
       createdPublic: '[lang]cmi.command.ic.info.createdPublic[/lang]'
       list: >-
         [lang]cmi.command.ic.info.list[args][arg][place][/arg][arg][name][/arg][/args][/lang]
@@ -2104,11 +2175,6 @@ command:
       addInfo: '[lang]cmi.command.ic.info.addInfo[/lang]'
       addInformationHover: '[lang]cmi.command.ic.info.addInformationHover[/lang]'
       editInfo: '[lang]cmi.command.ic.info.editInfo[/lang]'
-      reqPerm: >-
-        [lang]cmi.command.ic.info.reqPerm[args][arg][ReqPerm][/arg][/args][/lang]
-      noPerm: '[lang]cmi.command.ic.info.noPerm[args][arg][ReqPerm][/arg][/args][/lang]'
-      permHover: >-
-        [lang]cmi.command.ic.info.permHover[args][arg][permission][/arg][/args][/lang]
   ifoffline:
     help:
       info: '[lang]cmi.command.ifoffline.help.info[/lang]'
@@ -2195,7 +2261,7 @@ command:
       Location: >-
         [lang]cmi.command.info.info.Location[args][arg][world][/arg][arg][x][/arg][arg][y][/arg][arg][z][/arg][/args][/lang]
       deathLocation: >-
-        [lang]cmi.command.info.info.deathLocation[args][arg][x][/arg][arg][y][/arg][arg][z][/arg][arg][world][/arg][/args][/lang]
+        [lang]cmi.command.info.info.deathLocation[args][arg][world][/arg][arg][x][/arg][arg][y][/arg][arg][z][/arg][/args][/lang]
       bed: >-
         [lang]cmi.command.info.info.bed[args][arg][bworld][/arg][arg][bx][/arg][arg][by][/arg][arg][bz][/arg][/args][/lang]
       respawn: >-
@@ -2259,12 +2325,13 @@ command:
         - >-
           [lang]cmi.command.info.info.List.13[args][arg][location][/arg][/args][/lang]
         - >-
-          [lang]cmi.command.info.info.List.14[args][arg][banned][/arg][arg][canSee][/arg][arg][afk][/arg][/args][/lang]
+          [lang]cmi.command.info.info.List.14[args][arg][bed][/arg][/args][/lang]
         - >-
-          [lang]cmi.command.info.info.List.15[args][arg][cuffed][/arg][arg][muted][/arg][arg][jailed][/arg][/args][/lang]
+          [lang]cmi.command.info.info.List.15[args][arg][respawn][/arg][/args][/lang]
         - >-
-          [lang]cmi.command.info.info.List.16[args][arg][online][/arg][/args][/lang]
-        - '[lang]cmi.command.info.info.List.17[/lang]'
+          [lang]cmi.command.info.info.List.16[args][arg][banned][/arg][arg][canSee][/arg][arg][afk][/arg][/args][/lang]
+        - >-
+          [lang]cmi.command.info.info.List.17[args][arg][cuffed][/arg][arg][muted][/arg][arg][jailed][/arg][/args][/lang]
         - >-
           [lang]cmi.command.info.info.List.18[args][arg][online][/arg][/args][/lang]
         - >-
@@ -2320,9 +2387,9 @@ command:
         [lang]cmi.command.ipban.info.reason[args][arg][reason][/arg][/args][/lang]
       defaultReason: '[lang]cmi.command.ipban.info.defaultReason[/lang]'
       messageToAll: >-
-        [lang]cmi.command.ipban.info.messageToAll[args][arg][senderDisplayName][/arg][arg][playerDisplayName][/arg][arg][reason][/arg][/args][/lang]
+        [lang]cmi.command.ipban.info.messageToAll[args][arg][playerDisplayName][/arg][arg][senderDisplayName][/arg][arg][reason][/arg][/args][/lang]
       banedSilent: >-
-        [lang]cmi.command.ipban.info.banedSilent[args][arg][senderDisplayName][/arg][arg][playerDisplayName][/arg][arg][reason][/arg][/args][/lang]
+        [lang]cmi.command.ipban.info.banedSilent[args][arg][playerDisplayName][/arg][arg][senderDisplayName][/arg][arg][reason][/arg][/args][/lang]
   ipbanlist:
     help:
       info: '[lang]cmi.command.ipbanlist.help.info[/lang]'
@@ -2336,6 +2403,24 @@ command:
         [lang]cmi.command.ipbanlist.info.ends[args][arg][time][/arg][/args][/lang]
       related: >-
         [lang]cmi.command.ipbanlist.info.related[args][arg][list][/arg][/args][/lang]
+  item:
+    help:
+      info: '[lang]cmi.command.item.help.info[/lang]'
+      args: '[itemname] (amount)'
+      explanation:
+        - Name and lore supports placeholders
+        - 'Example: /give stone'
+        - /give stone 5 n Stonehenge
+        - '/give stick e knockback:1'
+        - '/give sponge l Got_item_on:_%date/YY/MM/dd-HH:mm:ss%'
+        - '/cmi give sponge 1 e Knockback:%rand/1-5%'
+        - /cmi give sponge %rand/1-10%
+        - '/give sponge a maxhealth:5:mainhand'
+        - /give diamond_sword unbreakable
+        - '/give mob_spawner:creeper'
+        - >-
+          /give minecraft:diamond_helmet 1 0
+          {ench:[{id:0,lvl:100},{id:2,lvl:100},{id:34,lvl:100}]}
   iteminfo:
     help:
       info: '[lang]cmi.command.iteminfo.help.info[/lang]'
@@ -2349,17 +2434,17 @@ command:
         [lang]cmi.command.iteminfo.info.bukkitName[args][arg][name][/arg][/args][/lang]
       mojangName: >-
         [lang]cmi.command.iteminfo.info.mojangName[args][arg][name][/arg][/args][/lang]
-      durability: >-
-        [lang]cmi.command.iteminfo.info.durability[args][arg][current][/arg][arg][max][/arg][/args][/lang]
       entityType: >-
         [lang]cmi.command.iteminfo.info.entityType[args][arg][type][/arg][/args][/lang]
+      durability: >-
+        [lang]cmi.command.iteminfo.info.durability[args][arg][current][/arg][arg][max][/arg][/args][/lang]
   itemlore:
     help:
       info: '[lang]cmi.command.itemlore.help.info[/lang]'
       args: '(-p:[playerName]) [linenumber] [remove/insert/ new lore line]'
     info:
       feedback: >-
-        [lang]cmi.command.itemlore.info.feedback[args][arg][line][/arg][arg][loreLine][/arg][/args][/lang]
+        [lang]cmi.command.itemlore.info.feedback[args][arg][loreLine][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
       noitem: '[lang]cmi.command.itemlore.info.noitem[/lang]'
       removed: >-
         [lang]cmi.command.itemlore.info.removed[args][arg][line][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
@@ -2374,7 +2459,7 @@ command:
       args: '(-p:[playerName]) [remove/your new item name]'
     info:
       feedback: >-
-        [lang]cmi.command.itemname.info.feedback[args][arg][playerDisplayName][/arg][arg][itemname][/arg][arg][offon][/arg][/args][/lang]
+        [lang]cmi.command.itemname.info.feedback[args][arg][itemname][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
       noitem: '[lang]cmi.command.itemname.info.noitem[/lang]'
       removed: >-
         [lang]cmi.command.itemname.info.removed[args][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
@@ -2399,18 +2484,19 @@ command:
         [lang]cmi.command.jail.info.jailed[args][arg][playerDisplayName][/arg][arg][time][/arg][/args][/lang]
       jailedPlayer: >-
         [lang]cmi.command.jail.info.jailedPlayer[args][arg][playerDisplayName][/arg][arg][time][/arg][/args][/lang]
-      reasson: >-
-        [lang]cmi.command.jail.info.reasson[args][arg][reasson][/arg][/args][/lang]
+      reason: >-
+        [lang]cmi.command.jail.info.reason[args][arg][reason][/arg][/args][/lang]
       leftTime: '!title!&7Jail time:!subtitle![time]'
-      jailedTarget: '[lang]cmi.command.jail.info.jailedTarget[/lang]'
+      jailedTarget: >-
+        [lang]cmi.command.jail.info.jailedTarget[args][arg][time][/arg][/args][/lang]
       cantTalk: '[lang]cmi.command.jail.info.cantTalk[/lang]'
       cantTalkRange: '!actionbar!&fYour chat range is limited to &c[range] &fblocks'
       failed: '[lang]cmi.command.jail.info.failed[/lang]'
       bossbar: >-
         [lang]cmi.command.jail.info.bossbar[args][arg][autoTimeLeft][/arg][/args][/lang]
       noCommand: '[lang]cmi.command.jail.info.noCommand[/lang]'
-      reason: >-
-        [lang]cmi.command.jail.info.reason[args][arg][reason][/arg][/args][/lang]
+      reasson: >-
+        [lang]cmi.command.jail.info.reasson[args][arg][reasson][/arg][/args][/lang]
   jailedit:
     help:
       info: '[lang]cmi.command.jailedit.help.info[/lang]'
@@ -2424,15 +2510,18 @@ command:
         [lang]cmi.command.jailedit.info.createdJail[args][arg][jail][/arg][/args][/lang]
       createdCell: >-
         [lang]cmi.command.jailedit.info.createdCell[args][arg][jail][/arg][arg][cellId][/arg][/args][/lang]
+      collides: >-
+        [lang]cmi.command.jailedit.info.collides[args][arg][jailName][/arg][/args][/lang]
       jailList: >-
         [lang]cmi.command.jailedit.info.jailList[args][arg][place][/arg][arg][jail][/arg][arg][cells][/arg][arg][amount][/arg][/args][/lang]
       editCells: '[lang]cmi.command.jailedit.info.editCells[/lang]'
       cellList: >-
         [lang]cmi.command.jailedit.info.cellList[args][arg][id][/arg][arg][amount][/arg][/args][/lang]
       jailListTp: >-
-        [lang]cmi.command.jailedit.info.jailListTp[args][arg][salida][/arg][/args][/lang]
+        [lang]cmi.command.jailedit.info.jailListTp[args][arg][tp][/arg][/args][/lang]
       jailListTpHover: '[lang]cmi.command.jailedit.info.jailListTpHover[/lang]'
-      jailListArea: '[lang]cmi.command.jailedit.info.jailListArea[/lang]'
+      jailListArea: >-
+        [lang]cmi.command.jailedit.info.jailListArea[args][arg][area][/arg][/args][/lang]
       jailListAreaHover: '[lang]cmi.command.jailedit.info.jailListAreaHover[/lang]'
       jailRemoved: >-
         [lang]cmi.command.jailedit.info.jailRemoved[args][arg][jail][/arg][/args][/lang]
@@ -2441,8 +2530,18 @@ command:
         [lang]cmi.command.jailedit.info.jailArea[args][arg][jail][/arg][/args][/lang]
       cellRemoved: >-
         [lang]cmi.command.jailedit.info.cellRemoved[args][arg][cellId][/arg][arg][jail][/arg][/args][/lang]
-      collides: >-
-        [lang]cmi.command.jailedit.info.collides[args][arg][jailName][/arg][/args][/lang]
+  jaillist:
+    help:
+      info: '[lang]cmi.command.jaillist.help.info[/lang]'
+      args: (jailName) (cellId)
+    info:
+      jailList: >-
+        [lang]cmi.command.jaillist.info.jailList[args][arg][place][/arg][arg][jailName][/arg][arg][cellCount][/arg][arg][count][/arg][/args][/lang]
+      cellList: >-
+        [lang]cmi.command.jaillist.info.cellList[args][arg][place][/arg][arg][cellId][/arg][arg][count][/arg][/args][/lang]
+      cellJailedList: >-
+        [lang]cmi.command.jaillist.info.cellJailedList[args][arg][place][/arg][arg][playerDisplayName][/arg][arg][time][/arg][/args][/lang]
+      Release: '[lang]cmi.command.jaillist.info.Release[/lang]'
   jump:
     help:
       info: '[lang]cmi.command.jump.help.info[/lang]'
@@ -2518,14 +2617,14 @@ command:
       givenKit: >-
         [lang]cmi.command.kit.info.givenKit[args][arg][kit][/arg][arg][playerDisplayName][/arg][/args][/lang]
       title: '[lang]cmi.command.kit.info.title[/lang]'
-      group: '[lang]cmi.command.kit.info.group[args][arg][group][/arg][/args][/lang]'
-      left: '[lang]cmi.command.kit.info.left[/lang]'
-      right: '[lang]cmi.command.kit.info.right[/lang]'
-      take: '[lang]cmi.command.kit.info.take[/lang]'
       nameCanUse: >-
         [lang]cmi.command.kit.info.nameCanUse[args][arg][kitName][/arg][/args][/lang]
       nameCantUse: >-
         [lang]cmi.command.kit.info.nameCantUse[args][arg][kitName][/arg][/args][/lang]
+      group: '[lang]cmi.command.kit.info.group[args][arg][group][/arg][/args][/lang]'
+      left: '[lang]cmi.command.kit.info.left[/lang]'
+      right: '[lang]cmi.command.kit.info.right[/lang]'
+      take: '[lang]cmi.command.kit.info.take[/lang]'
   kitcdreset:
     help:
       info: '[lang]cmi.command.kitcdreset.help.info[/lang]'
@@ -2642,6 +2741,8 @@ command:
         - '[lang]cmi.command.kiteditor.info.editCommandName.2[/lang]'
       kitGroup: >-
         [lang]cmi.command.kiteditor.info.kitGroup[args][arg][group][/arg][/args][/lang]
+      dropItems: >-
+        [lang]cmi.command.kiteditor.info.dropItems[args][arg][state][/arg][/args][/lang]
       commands: '[lang]cmi.command.kiteditor.info.commands[/lang]'
       conditions: '[lang]cmi.command.kiteditor.info.conditions[/lang]'
       desc: '[lang]cmi.command.kiteditor.info.desc[/lang]'
@@ -2649,8 +2750,6 @@ command:
       settings: '[lang]cmi.command.kiteditor.info.settings[/lang]'
       icon: '[lang]cmi.command.kiteditor.info.icon[/lang]'
       iconCd: '[lang]cmi.command.kiteditor.info.iconCd[/lang]'
-      dropItems: >-
-        [lang]cmi.command.kiteditor.info.dropItems[args][arg][state][/arg][/args][/lang]
   kitusagereset:
     help:
       info: '[lang]cmi.command.kitusagereset.help.info[/lang]'
@@ -2717,6 +2816,50 @@ command:
         - cmi.command.list.hidden
         - 'cmi.command.list.group.[number]'
     info:
+      List:
+        - '[lang]cmi.command.list.info.List.0[/lang]'
+        - >-
+          [lang]cmi.command.list.info.List.1[args][arg][amount][/arg][arg][hidden][/arg][arg][maxamount][/arg][/args][/lang]
+        - >-
+          [lang]cmi.command.list.info.List.2[args][arg][adminLine][/arg][/args][/lang]
+        - >-
+          [lang]cmi.command.list.info.List.3[args][arg][staffLine][/arg][/args][/lang]
+        - >-
+          [lang]cmi.command.list.info.List.4[args][arg][groupLine][/arg][/args][/lang]
+        - '[lang]cmi.command.list.info.List.5[/lang]'
+      staffL: '[lang]cmi.command.list.info.staffL[args][arg][list][/arg][/args][/lang]'
+      adminL: '[lang]cmi.command.list.info.adminL[args][arg][list][/arg][/args][/lang]'
+      hiddenPref: '[lang]cmi.command.list.info.hiddenPref[args][arg][H][/arg][/args][/lang]'
+      hiddenCount: >-
+        [lang]cmi.command.list.info.hiddenCount[args][arg][amount][/arg][/args][/lang]
+      groupL: >-
+        [lang]cmi.command.list.info.groupL[args][arg][groupName][/arg][arg][list][/arg][/args][/lang]
+      player: >-
+        [lang]cmi.command.list.info.player[args][arg][playerDisplayName][/arg][/args][/lang]
+      groups:
+        group1: >-
+          [lang]cmi.command.list.info.groups.group1[args][arg][list][/arg][/args][/lang]
+        group2: >-
+          [lang]cmi.command.list.info.groups.group2[args][arg][list][/arg][/args][/lang]
+        group3: >-
+          [lang]cmi.command.list.info.groups.group3[args][arg][list][/arg][/args][/lang]
+        group4: >-
+          [lang]cmi.command.list.info.groups.group4[args][arg][list][/arg][/args][/lang]
+        group5: >-
+          [lang]cmi.command.list.info.groups.group5[args][arg][list][/arg][/args][/lang]
+        group6: >-
+          [lang]cmi.command.list.info.groups.group6[args][arg][list][/arg][/args][/lang]
+        group7: >-
+          [lang]cmi.command.list.info.groups.group7[args][arg][list][/arg][/args][/lang]
+        group8: >-
+          [lang]cmi.command.list.info.groups.group8[args][arg][list][/arg][/args][/lang]
+        group9: >-
+          [lang]cmi.command.list.info.groups.group9[args][arg][list][/arg][/args][/lang]
+        group10: >-
+          [lang]cmi.command.list.info.groups.group10[args][arg][list][/arg][/args][/lang]
+      noGroupLine: '[lang]cmi.command.list.info.noGroupLine[/lang]'
+      playerF: >-
+        [lang]cmi.command.list.info.playerF[args][arg][playerDisplayName][/arg][/args][/lang]
       ListFormat:
         - '[lang]cmi.command.list.info.ListFormat.0[/lang]'
         - >-
@@ -2741,50 +2884,6 @@ command:
         [lang]cmi.command.list.info.groupLine[args][arg][groupName][/arg][arg][list][/arg][/args][/lang]
       playerFormat: >-
         [lang]cmi.command.list.info.playerFormat[args][arg][playerDisplayName][/arg][/args][/lang]
-      groups:
-        group1: >-
-          [lang]cmi.command.list.info.groups.group1[args][arg][list][/arg][/args][/lang]
-        group2: >-
-          [lang]cmi.command.list.info.groups.group2[args][arg][list][/arg][/args][/lang]
-        group3: >-
-          [lang]cmi.command.list.info.groups.group3[args][arg][list][/arg][/args][/lang]
-        group4: >-
-          [lang]cmi.command.list.info.groups.group4[args][arg][list][/arg][/args][/lang]
-        group5: >-
-          [lang]cmi.command.list.info.groups.group5[args][arg][list][/arg][/args][/lang]
-        group6: >-
-          [lang]cmi.command.list.info.groups.group6[args][arg][list][/arg][/args][/lang]
-        group7: >-
-          [lang]cmi.command.list.info.groups.group7[args][arg][list][/arg][/args][/lang]
-        group8: >-
-          [lang]cmi.command.list.info.groups.group8[args][arg][list][/arg][/args][/lang]
-        group9: >-
-          [lang]cmi.command.list.info.groups.group9[args][arg][list][/arg][/args][/lang]
-        group10: >-
-          [lang]cmi.command.list.info.groups.group10[args][arg][list][/arg][/args][/lang]
-      noGroupLine: '[lang]cmi.command.list.info.noGroupLine[/lang]'
-      List:
-        - '[lang]cmi.command.list.info.List.0[/lang]'
-        - >-
-          [lang]cmi.command.list.info.List.1[args][arg][amount][/arg][arg][hidden][/arg][arg][maxamount][/arg][/args][/lang]
-        - >-
-          [lang]cmi.command.list.info.List.2[args][arg][adminLine][/arg][/args][/lang]
-        - >-
-          [lang]cmi.command.list.info.List.3[args][arg][staffLine][/arg][/args][/lang]
-        - >-
-          [lang]cmi.command.list.info.List.4[args][arg][groupLine][/arg][/args][/lang]
-        - '[lang]cmi.command.list.info.List.5[/lang]'
-      staffL: '[lang]cmi.command.list.info.staffL[args][arg][list][/arg][/args][/lang]'
-      adminL: '[lang]cmi.command.list.info.adminL[args][arg][list][/arg][/args][/lang]'
-      hiddenPref: '[lang]cmi.command.list.info.hiddenPref[args][arg][H][/arg][/args][/lang]'
-      hiddenCount: >-
-        [lang]cmi.command.list.info.hiddenCount[args][arg][amount][/arg][/args][/lang]
-      groupL: >-
-        [lang]cmi.command.list.info.groupL[args][arg][groupName][/arg][arg][list][/arg][/args][/lang]
-      playerF: >-
-        [lang]cmi.command.list.info.playerF[args][arg][playerDisplayName][/arg][/args][/lang]
-      player: >-
-        [lang]cmi.command.list.info.player[args][arg][playerDisplayName][/arg][/args][/lang]
   lockip:
     help:
       info: '[lang]cmi.command.lockip.help.info[/lang]'
@@ -2816,7 +2915,7 @@ command:
       mailHover: >-
         [lang]cmi.command.mail.info.mailHover[args][arg][senderName][/arg][arg][time][/arg][/args][/lang]
       list: >-
-        [lang]cmi.command.mail.info.list[args][arg][id][/arg][arg][mail][/arg][/args][/lang]
+        [lang]cmi.command.mail.info.list[args][arg][id][/arg][arg][senderDisplayName][/arg][arg][mail][/arg][/args][/lang]
       waitingMail: >-
         [lang]cmi.command.mail.info.waitingMail[args][arg][amount][/arg][/args][/lang]
   mailall:
@@ -2846,9 +2945,9 @@ command:
       args: 'set/add/take/clear [playerName] [amount] (-s)'
     info:
       feedback: >-
-        [lang]cmi.command.maxhp.info.feedback[args][arg][playerDisplayName][/arg][arg][maxHp][/arg][arg][offon][/arg][/args][/lang]
+        [lang]cmi.command.maxhp.info.feedback[args][arg][maxHp][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
       targetfeedback: >-
-        [lang]cmi.command.maxhp.info.targetfeedback[args][arg][senderDisplayName][/arg][arg][maxHp][/arg][/args][/lang]
+        [lang]cmi.command.maxhp.info.targetfeedback[args][arg][maxHp][/arg][arg][senderDisplayName][/arg][/args][/lang]
   maxplayers:
     help:
       info: '[lang]cmi.command.maxplayers.help.info[/lang]'
@@ -2924,6 +3023,20 @@ command:
           Rotate180H: '[lang]cmi.command.mirror.info.Action.Desc.Rotate180H[/lang]'
           Pause: '[lang]cmi.command.mirror.info.Action.Desc.Pause[/lang]'
           Location: '[lang]cmi.command.mirror.info.Action.Desc.Location[/lang]'
+  mobhead:
+    help:
+      info: '[lang]cmi.command.mobhead.help.info[/lang]'
+      args: '[mobType] (entryNumber) (playerName) (-s)'
+    info:
+      got: '[lang]cmi.command.mobhead.info.got[args][arg][type][/arg][/args][/lang]'
+      base: >-
+        [lang]cmi.command.mobhead.info.base[args][arg][chance][/arg][/args][/lang]
+      personal: >-
+        [lang]cmi.command.mobhead.info.personal[args][arg][chance][/arg][/args][/lang]
+      headSpecific: >-
+        [lang]cmi.command.mobhead.info.headSpecific[args][arg][chance][/arg][/args][/lang]
+      criteria: >-
+        [lang]cmi.command.mobhead.info.criteria[args][arg][criteria][/arg][/args][/lang]
   money:
     help:
       info: '[lang]cmi.command.money.help.info[/lang]'
@@ -2936,7 +3049,7 @@ command:
       paid: >-
         [lang]cmi.command.money.info.paid[args][arg][amount][/arg][arg][playerDisplayName][/arg][/args][/lang]
       gotMoney: >-
-        [lang]cmi.command.money.info.gotMoney[args][arg][senderDisplayName][/arg][arg][amount][/arg][arg][money][/arg][/args][/lang]
+        [lang]cmi.command.money.info.gotMoney[args][arg][amount][/arg][arg][senderDisplayName][/arg][arg][money][/arg][/args][/lang]
       gotMoneyGive: >-
         [lang]cmi.command.money.info.gotMoneyGive[args][arg][amount][/arg][arg][money][/arg][/args][/lang]
       noMoney: '[lang]cmi.command.money.info.noMoney[/lang]'
@@ -2958,7 +3071,7 @@ command:
         - ' &6cmi.command.more.oversize &e- to get oversized stacks'
     info:
       feedback: >-
-        [lang]cmi.command.more.info.feedback[args][arg][playerDisplayName][/arg][arg][amount][/arg][arg][offon][/arg][/args][/lang]
+        [lang]cmi.command.more.info.feedback[args][arg][amount][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
   msg:
     help:
       info: '[lang]cmi.command.msg.help.info[/lang]'
@@ -2977,9 +3090,9 @@ command:
         [lang]cmi.command.msg.info.TargetMsg[args][arg][senderDisplayName][/arg][arg][message][/arg][/args][/lang]
       SenderMsg: >-
         [lang]cmi.command.msg.info.SenderMsg[args][arg][playerDisplayName][/arg][arg][message][/arg][/args][/lang]
-      noPM: '[lang]cmi.command.msg.info.noPM[/lang]'
       consoleMsg: >-
         [lang]cmi.command.msg.info.consoleMsg[args][arg][senderDisplayName][/arg][arg][playerDisplayName][/arg][arg][message][/arg][/args][/lang]
+      noPM: '[lang]cmi.command.msg.info.noPM[/lang]'
       badGroup: '[lang]cmi.command.msg.info.badGroup[/lang]'
   msgtoggle:
     help:
@@ -3072,6 +3185,10 @@ command:
       noNotes: '[lang]cmi.command.note.info.noNotes[/lang]'
       list: >-
         [lang]cmi.command.note.info.list[args][arg][id][/arg][arg][note][/arg][/args][/lang]
+  openbook:
+    help:
+      info: '[lang]cmi.command.openbook.help.info[/lang]'
+      args: (cText) (playerName)
   oplist:
     help:
       info: '[lang]cmi.command.oplist.help.info[/lang]'
@@ -3079,6 +3196,14 @@ command:
     info:
       feedback: >-
         [lang]cmi.command.oplist.info.feedback[args][arg][number][/arg][arg][playerName][/arg][/args][/lang]
+  panimation:
+    help:
+      info: '[lang]cmi.command.panimation.help.info[/lang]'
+      args: ''
+      explanation:
+        - >-
+          Information on usage can be found at
+          http://www.zrips.net/cmi/extra/particles/
   patrol:
     help:
       info: '[lang]cmi.command.patrol.help.info[/lang]'
@@ -3108,7 +3233,7 @@ command:
       args: (playerName/message)
     info:
       feedback: >-
-        [lang]cmi.command.ping.info.feedback[args][arg][playerName][/arg][arg][ping][/arg][/args][/lang]
+        [lang]cmi.command.ping.info.feedback[args][arg][ping][/arg][/args][/lang]
       selffeedback: >-
         [lang]cmi.command.ping.info.selffeedback[args][arg][ping][/arg][/args][/lang]
       customMessage: >-
@@ -3140,7 +3265,8 @@ command:
     info:
       total: >-
         [lang]cmi.command.playtime.info.total[args][arg][time][/arg][/args][/lang]
-      joined: ''
+      joined: >-
+        [lang]cmi.command.playtime.info.joined[args][arg][time][/arg][/args][/lang]
   playtimetop:
     help:
       info: '[lang]cmi.command.playtimetop.help.info[/lang]'
@@ -3188,6 +3314,10 @@ command:
         [lang]cmi.command.portals.info.activationRange[args][arg][amount][/arg][/args][/lang]
       bungeeTeleport: >-
         [lang]cmi.command.portals.info.bungeeTeleport[args][arg][state][/arg][/args][/lang]
+      requiresPermission: >-
+        [lang]cmi.command.portals.info.requiresPermission[args][arg][perm][/arg][arg][state][/arg][/args][/lang]
+      informPermission: >-
+        [lang]cmi.command.portals.info.informPermission[args][arg][state][/arg][/args][/lang]
       teleportToLocation: '[lang]cmi.command.portals.info.teleportToLocation[/lang]'
       teleportToTarget: '[lang]cmi.command.portals.info.teleportToTarget[/lang]'
       performCommandsWithoutTp: '[lang]cmi.command.portals.info.performCommandsWithoutTp[/lang]'
@@ -3196,10 +3326,6 @@ command:
       setSafeLocation: '[lang]cmi.command.portals.info.setSafeLocation[/lang]'
       save: '[lang]cmi.command.portals.info.save[/lang]'
       removePortal: '[lang]cmi.command.portals.info.removePortal[/lang]'
-      requiresPermission: >-
-        [lang]cmi.command.portals.info.requiresPermission[args][arg][perm][/arg][arg][state][/arg][/args][/lang]
-      informPermission: >-
-        [lang]cmi.command.portals.info.informPermission[args][arg][state][/arg][/args][/lang]
       cantUsePortal: '[lang]cmi.command.portals.info.cantUsePortal[/lang]'
   pos:
     help:
@@ -3207,7 +3333,7 @@ command:
       args: (playerName)
     info:
       feedback: >-
-        [lang]cmi.command.pos.info.feedback[args][arg][playerDisplayName][/arg][arg][x][/arg][arg][y][/arg][arg][z][/arg][arg][world][/arg][arg][offon][/arg][/args][/lang]
+        [lang]cmi.command.pos.info.feedback[args][arg][playerDisplayName][/arg][arg][offon][/arg][arg][world][/arg][arg][x][/arg][arg][y][/arg][arg][z][/arg][/args][/lang]
       feedbackRegion: >-
         [lang]cmi.command.pos.info.feedbackRegion[args][arg][chunkx][/arg][arg][chunkz][/arg][arg][regionx][/arg][arg][regionz][/arg][/args][/lang]
       feedbackDirection: >-
@@ -3290,7 +3416,7 @@ command:
       gotreseted: >-
         [lang]cmi.command.pweather.info.gotreseted[args][arg][playerDisplayName][/arg][/args][/lang]
       setto: >-
-        [lang]cmi.command.pweather.info.setto[args][arg][playerDisplayName][/arg][arg][weather][/arg][/args][/lang]
+        [lang]cmi.command.pweather.info.setto[args][arg][weather][/arg][arg][playerDisplayName][/arg][/args][/lang]
       gotset: >-
         [lang]cmi.command.pweather.info.gotset[args][arg][weather][/arg][/args][/lang]
       reset: '[lang]cmi.command.pweather.info.reset[/lang]'
@@ -3372,7 +3498,7 @@ command:
       args: ''
     info:
       list: >-
-        [lang]cmi.command.ranklist.info.list[args][arg][place][/arg][arg][rankName][/arg][arg][currentRankMarker][/arg][/args][/lang]
+        [lang]cmi.command.ranklist.info.list[args][arg][place][/arg][arg][currentRankMarker][/arg][arg][rankName][/arg][arg][currentRankMarker][/arg][/args][/lang]
       currentRankMarker: '[lang]cmi.command.ranklist.info.currentRankMarker[/lang]'
   rankset:
     help:
@@ -3399,7 +3525,7 @@ command:
         [lang]cmi.command.rankup.info.requiresPrevious[args][arg][rank][/arg][/args][/lang]
       list: '[lang]cmi.command.rankup.info.list[/lang]'
       confirm: >-
-        [lang]cmi.command.rankup.info.confirm[args][arg][rank][/arg][/args][/lang]
+        [lang]cmi.command.rankup.info.confirm[args][arg][ranks][/arg][/args][/lang]
   realname:
     help:
       info: '[lang]cmi.command.realname.help.info[/lang]'
@@ -3412,12 +3538,12 @@ command:
       info: '[lang]cmi.command.recipe.help.info[/lang]'
       args: (itemName)
     info:
-      title: >-
-        [lang]cmi.command.recipe.info.title[args][arg][itemName][/arg][/args][/lang]
+      type: '[lang]cmi.command.recipe.info.type[args][arg][type][/arg][/args][/lang]'
       page: >-
         [lang]cmi.command.recipe.info.page[args][arg][current][/arg][arg][total][/arg][/args][/lang]
       noRecipes: '[lang]cmi.command.recipe.info.noRecipes[/lang]'
-      type: '[lang]cmi.command.recipe.info.type[args][arg][type][/arg][/args][/lang]'
+      title: >-
+        [lang]cmi.command.recipe.info.title[args][arg][itemName][/arg][/args][/lang]
   reload:
     help:
       info: '[lang]cmi.command.reload.help.info[/lang]'
@@ -3470,11 +3596,11 @@ command:
     info:
       feedback: >-
         [lang]cmi.command.repair.info.feedback[args][arg][amount][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
+      feedbackMoney: >-
+        [lang]cmi.command.repair.info.feedbackMoney[args][arg][amount][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][arg][cost][/arg][/args][/lang]
       itemOwner: >-
         [lang]cmi.command.repair.info.itemOwner[args][arg][owner][/arg][/args][/lang]
       cantUse: '!title!&cCan''t use this item!!subtitle!&eRepair it your self!'
-      feedbackMoney: >-
-        [lang]cmi.command.repair.info.feedbackMoney[args][arg][amount][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][arg][cost][/arg][/args][/lang]
   repaircost:
     help:
       info: '[lang]cmi.command.repaircost.help.info[/lang]'
@@ -3495,7 +3621,7 @@ command:
       selffeedback: >-
         [lang]cmi.command.repaircost.info.selffeedback[args][arg][amount][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
       targetfeedback: >-
-        [lang]cmi.command.repaircost.info.targetfeedback[args][arg][senderDisplayNaame][/arg][arg][amount][/arg][/args][/lang]
+        [lang]cmi.command.repaircost.info.targetfeedback[args][arg][amount][/arg][arg][senderDisplayNaame][/arg][/args][/lang]
   replaceblock:
     help:
       info: '[lang]cmi.command.replaceblock.help.info[/lang]'
@@ -3582,9 +3708,9 @@ command:
       args: '(playerName) [amount]'
     info:
       feedback: >-
-        [lang]cmi.command.saturation.info.feedback[args][arg][playerDisplayName][/arg][arg][amount][/arg][arg][offon][/arg][/args][/lang]
+        [lang]cmi.command.saturation.info.feedback[args][arg][amount][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
       targetfeedback: >-
-        [lang]cmi.command.saturation.info.targetfeedback[args][arg][senderDisplayName][/arg][arg][amount][/arg][/args][/lang]
+        [lang]cmi.command.saturation.info.targetfeedback[args][arg][amount][/arg][arg][senderDisplayName][/arg][/args][/lang]
   saveall:
     help:
       info: '[lang]cmi.command.saveall.help.info[/lang]'
@@ -3701,6 +3827,39 @@ command:
         - >-
           [lang]cmi.command.scan.info.Stats.10[args][arg][lore][/arg][/args][/lang]
         - '[lang]cmi.command.scan.info.Stats.11[/lang]'
+  scavenge:
+    help:
+      info: '[lang]cmi.command.scavenge.help.info[/lang]'
+      args: (playerName)
+    info:
+      enchantWorth: >-
+        [lang]cmi.command.scavenge.info.enchantWorth[args][arg][price][/arg][/args][/lang]
+      enchantFailChance: >-
+        [lang]cmi.command.scavenge.info.enchantFailChance[args][arg][chance][/arg][/args][/lang]
+      enchantFailed: >-
+        [lang]cmi.command.scavenge.info.enchantFailed[args][arg][enchant][/arg][arg][level][/arg][arg][chance][/arg][/args][/lang]
+      enchantLevelChance: >-
+        [lang]cmi.command.scavenge.info.enchantLevelChance[args][arg][chance][/arg][/args][/lang]
+      gotIngredients: >-
+        [lang]cmi.command.scavenge.info.gotIngredients[args][arg][itemList][/arg][/args][/lang]
+      gotIngredientsFormat: >-
+        [lang]cmi.command.scavenge.info.gotIngredientsFormat[args][arg][material][/arg][arg][amount][/arg][/args][/lang]
+      itemBroke: >-
+        [lang]cmi.command.scavenge.info.itemBroke[args][arg][chance][/arg][/args][/lang]
+      confirm: >-
+        [lang]cmi.command.scavenge.info.confirm[args][arg][price][/arg][/args][/lang]
+      itemBreakChance: >-
+        [lang]cmi.command.scavenge.info.itemBreakChance[args][arg][chance][/arg][/args][/lang]
+      itemBreakChanceExtra: >-
+        [lang]cmi.command.scavenge.info.itemBreakChanceExtra[args][arg][durability][/arg][arg][chance][/arg][/args][/lang]
+      itemBreak: '[lang]cmi.command.scavenge.info.itemBreak[/lang]'
+      ingredientReturnChance: >-
+        [lang]cmi.command.scavenge.info.ingredientReturnChance[args][arg][chance][/arg][/args][/lang]
+      cantScavenge: '[lang]cmi.command.scavenge.info.cantScavenge[/lang]'
+      insertItem: '[lang]cmi.command.scavenge.info.insertItem[/lang]'
+      scavengeCost: >-
+        [lang]cmi.command.scavenge.info.scavengeCost[args][arg][cost][/arg][/args][/lang]
+      title: '[lang]cmi.command.scavenge.info.title[/lang]'
   schedule:
     help:
       info: '[lang]cmi.command.schedule.help.info[/lang]'
@@ -3738,7 +3897,7 @@ command:
       totalfound: >-
         [lang]cmi.command.search.info.totalfound[args][arg][amount][/arg][arg][files][/arg][/args][/lang]
       total: >-
-        [lang]cmi.command.search.info.total[args][arg][total][/arg][arg][current][/arg][arg][until][/arg][/args][/lang]
+        [lang]cmi.command.search.info.total[args][arg][current][/arg][arg][until][/arg][arg][total][/arg][/args][/lang]
       location:
         ender: '[lang]cmi.command.search.info.location.ender[/lang]'
         inv: '[lang]cmi.command.search.info.location.inv[/lang]'
@@ -3778,6 +3937,15 @@ command:
     help:
       info: '[lang]cmi.command.server.help.info[/lang]'
       args: '[serverName] (playerName) (-f)'
+  serverlist:
+    help:
+      info: '[lang]cmi.command.serverlist.help.info[/lang]'
+      args: ''
+    info:
+      listOnline: >-
+        [lang]cmi.command.serverlist.info.listOnline[args][arg][place][/arg][arg][serverName][/arg][arg][count][/arg][arg][max][/arg][/args][/lang]
+      listOffline: >-
+        [lang]cmi.command.serverlist.info.listOffline[args][arg][place][/arg][arg][serverName][/arg][/args][/lang]
   servertime:
     help:
       info: '[lang]cmi.command.servertime.help.info[/lang]'
@@ -3792,6 +3960,10 @@ command:
         [lang]cmi.command.servertime.info.timeZoneId[args][arg][id][/arg][/args][/lang]
       timeZoneOffset: >-
         [lang]cmi.command.servertime.info.timeZoneOffset[args][arg][offset][/arg][/args][/lang]
+  setenchantworth:
+    help:
+      info: '[lang]cmi.command.setenchantworth.help.info[/lang]'
+      args: ''
   setfirstspawn:
     help:
       info: '[lang]cmi.command.setfirstspawn.help.info[/lang]'
@@ -3811,10 +3983,10 @@ command:
     info:
       set: >-
         [lang]cmi.command.sethome.info.set[args][arg][homeName][/arg][/args][/lang]
+      setBed: '[lang]cmi.command.sethome.info.setBed[/lang]'
       private: '[lang]cmi.command.sethome.info.private[/lang]'
       noMore: '[lang]cmi.command.sethome.info.noMore[/lang]'
       noOverwrite: '[lang]cmi.command.sethome.info.noOverwrite[/lang]'
-      setBed: '[lang]cmi.command.sethome.info.setBed[/lang]'
   setmotd:
     help:
       info: '[lang]cmi.command.setmotd.help.info[/lang]'
@@ -3982,6 +4154,14 @@ command:
         [lang]cmi.command.socialspy.info.msg[args][arg][senderDisplayName][/arg][arg][playerDisplayName][/arg][arg][message][/arg][/args][/lang]
       toggled: >-
         [lang]cmi.command.socialspy.info.toggled[args][arg][state][/arg][/args][/lang]
+  solve:
+    help:
+      info: '[lang]cmi.command.solve.help.info[/lang]'
+      args: '[equation]'
+    info:
+      result: '[lang]cmi.command.solve.info.result[args][arg][res][/arg][/args][/lang]'
+      incorrect: >-
+        [lang]cmi.command.solve.info.incorrect[args][arg][input][/arg][/args][/lang]
   sound:
     help:
       info: '[lang]cmi.command.sound.help.info[/lang]'
@@ -4059,7 +4239,7 @@ command:
       args: '[message/toggle/on/off]'
     info:
       message: >-
-        [lang]cmi.command.staffmsg.info.message[args][arg][senderDisplayName][/arg][arg][message][/arg][/args][/lang]
+        [lang]cmi.command.staffmsg.info.message[args][arg][Staff][/arg][arg][senderDisplayName][/arg][arg][message][/arg][/args][/lang]
       toggledOn: '[lang]cmi.command.staffmsg.info.toggledOn[/lang]'
       toggledOff: '[lang]cmi.command.staffmsg.info.toggledOff[/lang]'
   stats:
@@ -4169,6 +4349,7 @@ command:
         LEAVE_GAME: '[lang]cmi.command.stats.info.Statistics.LEAVE_GAME[/lang]'
         PLAY_ONE_TICK: '[lang]cmi.command.stats.info.Statistics.PLAY_ONE_TICK[/lang]'
         TIME_SINCE_DEATH: '[lang]cmi.command.stats.info.Statistics.TIME_SINCE_DEATH[/lang]'
+        TIME_SINCE_REST: '[lang]cmi.command.stats.info.Statistics.TIME_SINCE_REST[/lang]'
         SNEAK_TIME: '[lang]cmi.command.stats.info.Statistics.SNEAK_TIME[/lang]'
         ACOUNT_AGE: '[lang]cmi.command.stats.info.Statistics.ACOUNT_AGE[/lang]'
         TRAVEL: '[lang]cmi.command.stats.info.Statistics.TRAVEL[/lang]'
@@ -4181,6 +4362,7 @@ command:
         FLY_ONE_CM: '[lang]cmi.command.stats.info.Statistics.FLY_ONE_CM[/lang]'
         DIVE_ONE_CM: '[lang]cmi.command.stats.info.Statistics.DIVE_ONE_CM[/lang]'
         WALK_UNDER_WATER_ONE_CM: '[lang]cmi.command.stats.info.Statistics.WALK_UNDER_WATER_ONE_CM[/lang]'
+        WALK_ON_WATER_ONE_CM: '[lang]cmi.command.stats.info.Statistics.WALK_ON_WATER_ONE_CM[/lang]'
         MINECART_ONE_CM: '[lang]cmi.command.stats.info.Statistics.MINECART_ONE_CM[/lang]'
         BOAT_ONE_CM: '[lang]cmi.command.stats.info.Statistics.BOAT_ONE_CM[/lang]'
         PIG_ONE_CM: '[lang]cmi.command.stats.info.Statistics.PIG_ONE_CM[/lang]'
@@ -4189,6 +4371,12 @@ command:
         JUMP: '[lang]cmi.command.stats.info.Statistics.JUMP[/lang]'
         DAMAGE_DEALT: '[lang]cmi.command.stats.info.Statistics.DAMAGE_DEALT[/lang]'
         DAMAGE_TAKEN: '[lang]cmi.command.stats.info.Statistics.DAMAGE_TAKEN[/lang]'
+        DAMAGE_DEALT_ABSORBED: '[lang]cmi.command.stats.info.Statistics.DAMAGE_DEALT_ABSORBED[/lang]'
+        DAMAGE_DEALT_RESISTED: '[lang]cmi.command.stats.info.Statistics.DAMAGE_DEALT_RESISTED[/lang]'
+        DAMAGE_BLOCKED_BY_SHIELD: >-
+          [lang]cmi.command.stats.info.Statistics.DAMAGE_BLOCKED_BY_SHIELD[/lang]
+        DAMAGE_ABSORBED: '[lang]cmi.command.stats.info.Statistics.DAMAGE_ABSORBED[/lang]'
+        DAMAGE_RESISTED: '[lang]cmi.command.stats.info.Statistics.DAMAGE_RESISTED[/lang]'
         DEATHS: '[lang]cmi.command.stats.info.Statistics.DEATHS[/lang]'
         ENTITY_KILLED_BY: '[lang]cmi.command.stats.info.Statistics.ENTITY_KILLED_BY[/lang]'
         MOB_KILLS: '[lang]cmi.command.stats.info.Statistics.MOB_KILLS[/lang]'
@@ -4221,6 +4409,7 @@ command:
         RECORD_PLAYED: '[lang]cmi.command.stats.info.Statistics.RECORD_PLAYED[/lang]'
         SLEEP_IN_BED: '[lang]cmi.command.stats.info.Statistics.SLEEP_IN_BED[/lang]'
         SHULKER_BOX_OPENED: '[lang]cmi.command.stats.info.Statistics.SHULKER_BOX_OPENED[/lang]'
+        CLEAN_SHULKER_BOX: '[lang]cmi.command.stats.info.Statistics.CLEAN_SHULKER_BOX[/lang]'
         DROP: '[lang]cmi.command.stats.info.Statistics.DROP[/lang]'
         MINE_BLOCK: '[lang]cmi.command.stats.info.Statistics.MINE_BLOCK[/lang]'
         BREAK_ITEM: '[lang]cmi.command.stats.info.Statistics.BREAK_ITEM[/lang]'
@@ -4228,15 +4417,6 @@ command:
         USE_ITEM: '[lang]cmi.command.stats.info.Statistics.USE_ITEM[/lang]'
         PICKUP: '[lang]cmi.command.stats.info.Statistics.PICKUP[/lang]'
         KILL_ENTITY: '[lang]cmi.command.stats.info.Statistics.KILL_ENTITY[/lang]'
-        TIME_SINCE_REST: '[lang]cmi.command.stats.info.Statistics.TIME_SINCE_REST[/lang]'
-        WALK_ON_WATER_ONE_CM: '[lang]cmi.command.stats.info.Statistics.WALK_ON_WATER_ONE_CM[/lang]'
-        DAMAGE_DEALT_ABSORBED: '[lang]cmi.command.stats.info.Statistics.DAMAGE_DEALT_ABSORBED[/lang]'
-        DAMAGE_DEALT_RESISTED: '[lang]cmi.command.stats.info.Statistics.DAMAGE_DEALT_RESISTED[/lang]'
-        DAMAGE_BLOCKED_BY_SHIELD: >-
-          [lang]cmi.command.stats.info.Statistics.DAMAGE_BLOCKED_BY_SHIELD[/lang]
-        DAMAGE_ABSORBED: '[lang]cmi.command.stats.info.Statistics.DAMAGE_ABSORBED[/lang]'
-        DAMAGE_RESISTED: '[lang]cmi.command.stats.info.Statistics.DAMAGE_RESISTED[/lang]'
-        CLEAN_SHULKER_BOX: '[lang]cmi.command.stats.info.Statistics.CLEAN_SHULKER_BOX[/lang]'
   statsedit:
     help:
       info: '[lang]cmi.command.statsedit.help.info[/lang]'
@@ -4246,7 +4426,7 @@ command:
       reqSubType: >-
         [lang]cmi.command.statsedit.info.reqSubType[args][arg][type][/arg][/args][/lang]
       set: >-
-        [lang]cmi.command.statsedit.info.set[args][arg][statistic][/arg][arg][extra][/arg][arg][old][/arg][arg][new][/arg][/args][/lang]
+        [lang]cmi.command.statsedit.info.set[args][arg][old][/arg][arg][new][/arg][arg][statistic][/arg][arg][extra][/arg][/args][/lang]
   status:
     help:
       info: '[lang]cmi.command.status.help.info[/lang]'
@@ -4287,7 +4467,7 @@ command:
         - cmi.command.sudo.bypass - protects player from being 'trolled'
     info:
       performed: >-
-        [lang]cmi.command.sudo.info.performed[args][arg][playerDisplayName][/arg][arg][command][/arg][/args][/lang]
+        [lang]cmi.command.sudo.info.performed[args][arg][command][/arg][arg][playerDisplayName][/arg][/args][/lang]
   suicide:
     help:
       info: '[lang]cmi.command.suicide.help.info[/lang]'
@@ -4335,15 +4515,15 @@ command:
         - /cmi tempban zrips 5m For swearing
     info:
       messageToAll: >-
-        [lang]cmi.command.tempban.info.messageToAll[args][arg][senderDisplayName][/arg][arg][time][/arg][arg][playerDisplayName][/arg][arg][reason][/arg][/args][/lang]
+        [lang]cmi.command.tempban.info.messageToAll[args][arg][playerDisplayName][/arg][arg][senderDisplayName][/arg][arg][time][/arg][arg][reason][/arg][/args][/lang]
       banedSilent: >-
-        [lang]cmi.command.tempban.info.banedSilent[args][arg][senderDisplayName][/arg][arg][time][/arg][arg][playerDisplayName][/arg][arg][reason][/arg][/args][/lang]
+        [lang]cmi.command.tempban.info.banedSilent[args][arg][playerDisplayName][/arg][arg][senderDisplayName][/arg][arg][time][/arg][arg][reason][/arg][/args][/lang]
       time: '[lang]cmi.command.tempban.info.time[args][arg][time][/arg][/args][/lang]'
       badTime: '[lang]cmi.command.tempban.info.badTime[/lang]'
-      badTimeRange: >-
-        [lang]cmi.command.tempban.info.badTimeRange[args][arg][seconds][/arg][/args][/lang]
       badTimeRanges: >-
         [lang]cmi.command.tempban.info.badTimeRanges[args][arg][time][/arg][arg][seconds][/arg][/args][/lang]
+      badTimeRange: >-
+        [lang]cmi.command.tempban.info.badTimeRange[args][arg][seconds][/arg][/args][/lang]
   tempipban:
     help:
       info: '[lang]cmi.command.tempipban.help.info[/lang]'
@@ -4356,9 +4536,9 @@ command:
         [lang]cmi.command.tempipban.info.reason[args][arg][reason][/arg][/args][/lang]
       defaultReason: '[lang]cmi.command.tempipban.info.defaultReason[/lang]'
       messageToAll: >-
-        [lang]cmi.command.tempipban.info.messageToAll[args][arg][senderDisplayName][/arg][arg][playerDisplayName][/arg][arg][time][/arg][arg][reason][/arg][/args][/lang]
+        [lang]cmi.command.tempipban.info.messageToAll[args][arg][playerDisplayName][/arg][arg][time][/arg][arg][senderDisplayName][/arg][arg][reason][/arg][/args][/lang]
       banedSilent: >-
-        [lang]cmi.command.tempipban.info.banedSilent[args][arg][senderDisplayName][/arg][arg][playerDisplayName][/arg][arg][time][/arg][arg][reason][/arg][/args][/lang]
+        [lang]cmi.command.tempipban.info.banedSilent[args][arg][playerDisplayName][/arg][arg][time][/arg][arg][reason][/arg][/args][/lang]
   tfly:
     help:
       info: '[lang]cmi.command.tfly.help.info[/lang]'
@@ -4373,7 +4553,7 @@ command:
       setTimedFly: >-
         [lang]cmi.command.tfly.info.setTimedFly[args][arg][playerDisplayName][/arg][arg][time][/arg][/args][/lang]
       addTimedFly: >-
-        [lang]cmi.command.tfly.info.addTimedFly[args][arg][addTime][/arg][arg][playerDisplayName][/arg][arg][time][/arg][/args][/lang]
+        [lang]cmi.command.tfly.info.addTimedFly[args][arg][addTime][/arg][arg][time][/arg][arg][playerDisplayName][/arg][/args][/lang]
       setUntilRelogFly: >-
         [lang]cmi.command.tfly.info.setUntilRelogFly[args][arg][playerDisplayName][/arg][/args][/lang]
       targetTimedEnabled: >-
@@ -4434,7 +4614,7 @@ command:
         - /time autorealtime start/stop
     info:
       check: >-
-        [lang]cmi.command.time.info.check[args][arg][world][/arg][arg][24h][/arg][arg][12h][/arg][arg][ticks][/arg][/args][/lang]
+        [lang]cmi.command.time.info.check[args][arg][24h][/arg][arg][12h][/arg][arg][ticks][/arg][arg][world][/arg][/args][/lang]
       frozen: '[lang]cmi.command.time.info.frozen[/lang]'
       frozenTime: '[lang]cmi.command.time.info.frozenTime[/lang]'
       real: '[lang]cmi.command.time.info.real[/lang]'
@@ -4449,7 +4629,7 @@ command:
         [lang]cmi.command.time.info.gotunfrozen[args][arg][world][/arg][/args][/lang]
       cantset: '[lang]cmi.command.time.info.cantset[/lang]'
       setto: >-
-        [lang]cmi.command.time.info.setto[args][arg][world][/arg][arg][24h][/arg][arg][12h][/arg][arg][ticks][/arg][/args][/lang]
+        [lang]cmi.command.time.info.setto[args][arg][24h][/arg][arg][12h][/arg][arg][ticks][/arg][arg][world][/arg][/args][/lang]
       am: '[lang]cmi.command.time.info.am[/lang]'
       pm: '[lang]cmi.command.time.info.pm[/lang]'
   titlemsg:
@@ -4487,9 +4667,9 @@ command:
       info: '[lang]cmi.command.toggletotem.help.info[/lang]'
       args: ''
     info:
-      notActive: '[lang]cmi.command.toggletotem.info.notActive[/lang]'
       toggle: >-
         [lang]cmi.command.toggletotem.info.toggle[args][arg][state][/arg][/args][/lang]
+      notActive: '[lang]cmi.command.toggletotem.info.notActive[/lang]'
   top:
     help:
       info: '[lang]cmi.command.top.help.info[/lang]'
@@ -4523,11 +4703,11 @@ command:
       gotRequest: >-
         [lang]cmi.command.tpa.info.gotRequest[args][arg][senderDisplayName][/arg][/args][/lang]
       time: '[lang]cmi.command.tpa.info.time[args][arg][time][/arg][/args][/lang]'
+      canceled: '[lang]cmi.command.tpa.info.canceled[/lang]'
       alreadyRequesting: >-
         [lang]cmi.command.tpa.info.alreadyRequesting[args][arg][playerDisplayName][/arg][/args][/lang]
       banned: >-
         [lang]cmi.command.tpa.info.banned[args][arg][playerDisplayName][/arg][arg][time][/arg][/args][/lang]
-      canceled: '[lang]cmi.command.tpa.info.canceled[/lang]'
   tpaall:
     help:
       info: '[lang]cmi.command.tpaall.help.info[/lang]'
@@ -4558,7 +4738,7 @@ command:
       args: (playerName)
     info:
       feedback: >-
-        [lang]cmi.command.tpall.info.feedback[args][arg][playerDisplayName][/arg][arg][world][/arg][arg][x][/arg][arg][y][/arg][arg][z][/arg][/args][/lang]
+        [lang]cmi.command.tpall.info.feedback[args][arg][world][/arg][arg][x][/arg][arg][y][/arg][arg][z][/arg][arg][playerDisplayName][/arg][/args][/lang]
   tpallworld:
     help:
       info: '[lang]cmi.command.tpallworld.help.info[/lang]'
@@ -4598,7 +4778,7 @@ command:
     info:
       feedback:
         offline: >-
-          [lang]cmi.command.tphere.info.feedback.offline[args][arg][playerDisplayName][/arg][arg][world][/arg][arg][x][/arg][arg][y][/arg][arg][z][/arg][arg][offon][/arg][/args][/lang]
+          [lang]cmi.command.tphere.info.feedback.offline[args][arg][world][/arg][arg][x][/arg][arg][y][/arg][arg][z][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
         online: >-
           [lang]cmi.command.tphere.info.feedback.online[args][arg][playerDisplayName][/arg][/args][/lang]
         player: >-
@@ -4612,15 +4792,24 @@ command:
     help:
       info: '[lang]cmi.command.tpohere.help.info[/lang]'
       args: '[playerName] (playerName)'
+  tpopos:
+    help:
+      info: '[lang]cmi.command.tpopos.help.info[/lang]'
+      args: '(-p:playerName) [x] [y] [z] (world) (pitch) (yaw) (-rng:[range])'
+    info:
+      feedback: >-
+        [lang]cmi.command.tpopos.info.feedback[args][arg][world][/arg][arg][x][/arg][arg][y][/arg][arg][z][/arg][/args][/lang]
+      feedbackOther: >-
+        [lang]cmi.command.tpopos.info.feedbackOther[args][arg][playerDisplayName][/arg][arg][world][/arg][arg][x][/arg][arg][y][/arg][arg][z][/arg][/args][/lang]
   tppos:
     help:
       info: '[lang]cmi.command.tppos.help.info[/lang]'
       args: '(-p:playerName) [x] [y] [z] (world) (pitch) (yaw) (-rng:[range])'
     info:
       feedback: >-
-        [lang]cmi.command.tppos.info.feedback[args][arg][x][/arg][arg][y][/arg][arg][z][/arg][arg][world][/arg][/args][/lang]
+        [lang]cmi.command.tppos.info.feedback[args][arg][world][/arg][arg][x][/arg][arg][y][/arg][arg][z][/arg][/args][/lang]
       feedbackOther: >-
-        [lang]cmi.command.tppos.info.feedbackOther[args][arg][playerDisplayName][/arg][arg][x][/arg][arg][y][/arg][arg][z][/arg][arg][world][/arg][/args][/lang]
+        [lang]cmi.command.tppos.info.feedbackOther[args][arg][playerDisplayName][/arg][arg][world][/arg][arg][x][/arg][arg][y][/arg][arg][z][/arg][/args][/lang]
   tps:
     help:
       info: '[lang]cmi.command.tps.help.info[/lang]'
@@ -4649,7 +4838,8 @@ command:
       args: '[playerName/ip] (-s)'
     info:
       unBaned: '!broadcast!&6[playerDisplayName] &eunbanned'
-      unBanedSilent: '&7[&8Silent&7]&6[playerDisplayName] &eunbanned'
+      unBanedSilent: >-
+        [lang]cmi.command.unban.info.unBanedSilent[args][arg][playerDisplayName][/arg][/args][/lang]
       notBanned: >-
         [lang]cmi.command.unban.info.notBanned[args][arg][playerDisplayName][/arg][/args][/lang]
   unbreakable:
@@ -4701,6 +4891,12 @@ command:
       notMuted: '[lang]cmi.command.unmute.info.notMuted[/lang]'
       unmuted: '[lang]cmi.command.unmute.info.unmuted[/lang]'
       unmutedTarget: '[lang]cmi.command.unmute.info.unmutedTarget[/lang]'
+  unmutechat:
+    help:
+      info: '[lang]cmi.command.unmutechat.help.info[/lang]'
+      args: (-s)
+    info:
+      unmuted: '[lang]cmi.command.unmutechat.info.unmuted[/lang]'
   usermeta:
     help:
       info: '[lang]cmi.command.usermeta.help.info[/lang]'
@@ -4757,10 +4953,10 @@ command:
       informOnJoin: '[lang]cmi.command.vanishedit.info.informOnJoin[/lang]'
       PrivateMessages: '[lang]cmi.command.vanishedit.info.PrivateMessages[/lang]'
       nightVision: '[lang]cmi.command.vanishedit.info.nightVision[/lang]'
+      relogDisable: '[lang]cmi.command.vanishedit.info.relogDisable[/lang]'
       bossbar: '[lang]cmi.command.vanishedit.info.bossbar[/lang]'
       afkcommands: '[lang]cmi.command.vanishedit.info.afkcommands[/lang]'
       bossbarTitle: '[lang]cmi.command.vanishedit.info.bossbarTitle[/lang]'
-      relogDisable: '[lang]cmi.command.vanishedit.info.relogDisable[/lang]'
   version:
     help:
       info: '[lang]cmi.command.version.help.info[/lang]'
@@ -4799,9 +4995,9 @@ command:
       currentVotes: >-
         [lang]cmi.command.voteedit.info.currentVotes[args][arg][playerDisplayName][/arg][arg][votes][/arg][/args][/lang]
       selfFeedback: >-
-        [lang]cmi.command.voteedit.info.selfFeedback[args][arg][playerDisplayName][/arg][arg][votes][/arg][arg][offon][/arg][/args][/lang]
+        [lang]cmi.command.voteedit.info.selfFeedback[args][arg][votes][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
       targetFeedback: >-
-        [lang]cmi.command.voteedit.info.targetFeedback[args][arg][senderDisplayName][/arg][arg][votes][/arg][/args][/lang]
+        [lang]cmi.command.voteedit.info.targetFeedback[args][arg][votes][/arg][arg][senderDisplayName][/arg][/args][/lang]
   votes:
     help:
       info: '[lang]cmi.command.votes.help.info[/lang]'
@@ -4831,9 +5027,9 @@ command:
       args: '[playerName] [amount]'
     info:
       feedback: >-
-        [lang]cmi.command.walkspeed.info.feedback[args][arg][playerDisplayName][/arg][arg][amount][/arg][arg][offon][/arg][/args][/lang]
+        [lang]cmi.command.walkspeed.info.feedback[args][arg][amount][/arg][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
       targetfeedback: >-
-        [lang]cmi.command.walkspeed.info.targetfeedback[args][arg][senderDisplayName][/arg][arg][amount][/arg][/args][/lang]
+        [lang]cmi.command.walkspeed.info.targetfeedback[args][arg][amount][/arg][arg][senderDisplayName][/arg][/args][/lang]
       max: '[lang]cmi.command.walkspeed.info.max[args][arg][max][/arg][/args][/lang]'
   warn:
     help:
@@ -4843,9 +5039,9 @@ command:
       noSelfWarning: '[lang]cmi.command.warn.info.noSelfWarning[/lang]'
       cantBan: '[lang]cmi.command.warn.info.cantBan[/lang]'
       messageToAll: >-
-        [lang]cmi.command.warn.info.messageToAll[args][arg][senderDisplayName][/arg][arg][playerDisplayName][/arg][arg][reason][/arg][/args][/lang]
+        [lang]cmi.command.warn.info.messageToAll[args][arg][playerDisplayName][/arg][arg][senderDisplayName][/arg][arg][reason][/arg][/args][/lang]
       banedSilent: >-
-        [lang]cmi.command.warn.info.banedSilent[args][arg][senderDisplayName][/arg][arg][playerDisplayName][/arg][arg][reason][/arg][/args][/lang]
+        [lang]cmi.command.warn.info.banedSilent[args][arg][playerDisplayName][/arg][arg][senderDisplayName][/arg][arg][reason][/arg][/args][/lang]
   warnings:
     help:
       info: '[lang]cmi.command.warnings.help.info[/lang]'
@@ -4855,7 +5051,7 @@ command:
         [lang]cmi.command.warnings.info.totalPoints[args][arg][playerDisplayName][/arg][arg][totalPoints][/arg][/args][/lang]
       noWarnings: '[lang]cmi.command.warnings.info.noWarnings[/lang]'
       list: >-
-        [lang]cmi.command.warnings.info.list[args][arg][place][/arg][arg][warnedBy][/arg][arg][time][/arg][arg][warnedFor][/arg][/args][/lang]
+        [lang]cmi.command.warnings.info.list[args][arg][place][/arg][arg][time][/arg][arg][warnedBy][/arg][arg][warnedFor][/arg][/args][/lang]
       hover:
         - >-
           [lang]cmi.command.warnings.info.hover.0[args][arg][time][/arg][/args][/lang]
@@ -4893,7 +5089,7 @@ command:
         - /sun 10m
     info:
       currentState: >-
-        [lang]cmi.command.weather.info.currentState[args][arg][weather][/arg][arg][time][/arg][arg][world][/arg][/args][/lang]
+        [lang]cmi.command.weather.info.currentState[args][arg][world][/arg][arg][weather][/arg][arg][time][/arg][/args][/lang]
       sunny: '[lang]cmi.command.weather.info.sunny[/lang]'
       rainy: '[lang]cmi.command.weather.info.rainy[/lang]'
       thundering: '[lang]cmi.command.weather.info.thundering[/lang]'
@@ -4937,194 +5133,3 @@ command:
       fullPrice: >-
         [lang]cmi.command.worth.info.fullPrice[args][arg][price][/arg][/args][/lang]
       total: '[lang]cmi.command.worth.info.total[args][arg][total][/arg][/args][/lang]'
-  donate:
-    help:
-      info: '[lang]cmi.command.donate.help.info[/lang]'
-      args: '[playerName] (amount)'
-    info:
-      donated: >-
-        [lang]cmi.command.donate.info.donated[args][arg][type][/arg][arg][amount][/arg][arg][playerDisplayName][/arg][/args][/lang]
-      got: >-
-        [lang]cmi.command.donate.info.got[args][arg][type][/arg][arg][amount][/arg][arg][playerDisplayName][/arg][/args][/lang]
-      sentOffer: >-
-        [lang]cmi.command.donate.info.sentOffer[args][arg][playerDisplayName][/arg][/args][/lang]
-      gotOffer: >-
-        [lang]cmi.command.donate.info.gotOffer[args][arg][type][/arg][arg][amount][/arg][arg][sourceDisplayName][/arg][/args][/lang]
-      doesnthave: '[lang]cmi.command.donate.info.doesnthave[/lang]'
-  findbiome:
-    help:
-      info: '[lang]cmi.command.findbiome.help.info[/lang]'
-      args: '&3(biomeName/stop/stopall)'
-    info:
-      infoShow: >-
-        [lang]cmi.command.findbiome.info.infoShow[args][arg][tps][/arg][arg][left][/arg][arg][time][/arg][arg][speed][/arg][/args][/lang]
-      stopped: '[lang]cmi.command.findbiome.info.stopped[/lang]'
-      cantFindBiome: >-
-        [lang]cmi.command.findbiome.info.cantFindBiome[args][arg][amount][/arg][/args][/lang]
-      teleportedTo: >-
-        [lang]cmi.command.findbiome.info.teleportedTo[args][arg][biome][/arg][/args][/lang]
-  jaillist:
-    help:
-      info: '[lang]cmi.command.jaillist.help.info[/lang]'
-      args: (jailName) (cellId)
-    info:
-      jailList: >-
-        [lang]cmi.command.jaillist.info.jailList[args][arg][place][/arg][arg][jailName][/arg][arg][cellCount][/arg][arg][count][/arg][/args][/lang]
-      cellList: >-
-        [lang]cmi.command.jaillist.info.cellList[args][arg][place][/arg][arg][cellId][/arg][arg][count][/arg][/args][/lang]
-      cellJailedList: >-
-        [lang]cmi.command.jaillist.info.cellJailedList[args][arg][place][/arg][arg][playerDisplayName][/arg][arg][time][/arg][/args][/lang]
-      Release: '[lang]cmi.command.jaillist.info.Release[/lang]'
-  mobhead:
-    help:
-      info: '[lang]cmi.command.mobhead.help.info[/lang]'
-      args: '[mobType] (entryNumber) (playerName) (-s)'
-    info:
-      got: '[lang]cmi.command.mobhead.info.got[args][arg][type][/arg][/args][/lang]'
-      base: >-
-        [lang]cmi.command.mobhead.info.base[args][arg][chance][/arg][/args][/lang]
-      personal: >-
-        [lang]cmi.command.mobhead.info.personal[args][arg][chance][/arg][/args][/lang]
-      headSpecific: >-
-        [lang]cmi.command.mobhead.info.headSpecific[args][arg][chance][/arg][/args][/lang]
-      criteria: >-
-        [lang]cmi.command.mobhead.info.criteria[args][arg][criteria][/arg][/args][/lang]
-  panimation:
-    help:
-      info: '[lang]cmi.command.panimation.help.info[/lang]'
-      args: ''
-      explanation:
-        - >-
-          Information on usage can be found at
-          http://www.zrips.net/cmi/extra/particles/
-  solve:
-    help:
-      info: '[lang]cmi.command.solve.help.info[/lang]'
-      args: '[equation]'
-    info:
-      result: '[lang]cmi.command.solve.info.result[args][arg][res][/arg][/args][/lang]'
-      incorrect: >-
-        [lang]cmi.command.solve.info.incorrect[args][arg][input][/arg][/args][/lang]
-  ctellraw:
-    help:
-      info: '[lang]cmi.command.ctellraw.help.info[/lang]'
-      args: '[playerName/all] [formattedMessage]'
-      explanation:
-        - >-
-          Usage is same as shown in http://www.zrips.net/cmi/custom-text/ aka
-          customtext command
-  distance:
-    help:
-      info: '[lang]cmi.command.distance.help.info[/lang]'
-      args: (playerName) (playerName)
-    info:
-      feedback: >-
-        [lang]cmi.command.distance.info.feedback[args][arg][dist][/arg][arg][x][/arg][arg][y][/arg][arg][z][/arg][arg][dir][/arg][/args][/lang]
-  endgateway:
-    help:
-      info: '[lang]cmi.command.endgateway.help.info[/lang]'
-      args: ''
-    info:
-      'off': '[lang]cmi.command.endgateway.info.off[/lang]'
-      'on': '[lang]cmi.command.endgateway.info.on[/lang]'
-  item:
-    help:
-      info: '[lang]cmi.command.item.help.info[/lang]'
-      args: '[itemname] (amount)'
-      explanation:
-        - Name and lore supports placeholders
-        - 'Example: /give stone'
-        - /give stone 5 n Stonehenge
-        - '/give stick e knockback:1'
-        - '/give sponge l Got_item_on:_%date/YY/MM/dd-HH:mm:ss%'
-        - '/cmi give sponge 1 e Knockback:%rand/1-5%'
-        - /cmi give sponge %rand/1-10%
-        - '/give sponge a maxhealth:5:mainhand'
-        - /give diamond_sword unbreakable
-        - '/give mob_spawner:creeper'
-        - >-
-          /give minecraft:diamond_helmet 1 0
-          {ench:[{id:0,lvl:100},{id:2,lvl:100},{id:34,lvl:100}]}
-  openbook:
-    help:
-      info: '[lang]cmi.command.openbook.help.info[/lang]'
-      args: (cText) (playerName)
-  scavenge:
-    help:
-      info: '[lang]cmi.command.scavenge.help.info[/lang]'
-      args: (playerName)
-    info:
-      enchantWorth: >-
-        [lang]cmi.command.scavenge.info.enchantWorth[args][arg][price][/arg][/args][/lang]
-      enchantFailChance: >-
-        [lang]cmi.command.scavenge.info.enchantFailChance[args][arg][chance][/arg][/args][/lang]
-      enchantFailed: >-
-        [lang]cmi.command.scavenge.info.enchantFailed[args][arg][enchant][/arg][arg][level][/arg][arg][chance][/arg][/args][/lang]
-      enchantLevelChance: >-
-        [lang]cmi.command.scavenge.info.enchantLevelChance[args][arg][chance][/arg][/args][/lang]
-      gotIngredients: >-
-        [lang]cmi.command.scavenge.info.gotIngredients[args][arg][itemList][/arg][/args][/lang]
-      gotIngredientsFormat: >-
-        [lang]cmi.command.scavenge.info.gotIngredientsFormat[args][arg][material][/arg][arg][amount][/arg][/args][/lang]
-      itemBroke: >-
-        [lang]cmi.command.scavenge.info.itemBroke[args][arg][chance][/arg][/args][/lang]
-      confirm: >-
-        [lang]cmi.command.scavenge.info.confirm[args][arg][price][/arg][/args][/lang]
-      itemBreakChance: >-
-        [lang]cmi.command.scavenge.info.itemBreakChance[args][arg][chance][/arg][/args][/lang]
-      itemBreakChanceExtra: >-
-        [lang]cmi.command.scavenge.info.itemBreakChanceExtra[args][arg][durability][/arg][arg][chance][/arg][/args][/lang]
-      itemBreak: '[lang]cmi.command.scavenge.info.itemBreak[/lang]'
-      ingredientReturnChance: >-
-        [lang]cmi.command.scavenge.info.ingredientReturnChance[args][arg][chance][/arg][/args][/lang]
-      cantScavenge: '[lang]cmi.command.scavenge.info.cantScavenge[/lang]'
-      insertItem: '[lang]cmi.command.scavenge.info.insertItem[/lang]'
-      scavengeCost: >-
-        [lang]cmi.command.scavenge.info.scavengeCost[args][arg][cost][/arg][/args][/lang]
-      title: '[lang]cmi.command.scavenge.info.title[/lang]'
-  serverlist:
-    help:
-      info: '[lang]cmi.command.serverlist.help.info[/lang]'
-      args: ''
-    info:
-      listOnline: >-
-        [lang]cmi.command.serverlist.info.listOnline[args][arg][place][/arg][arg][serverName][/arg][arg][count][/arg][arg][max][/arg][/args][/lang]
-      listOffline: >-
-        [lang]cmi.command.serverlist.info.listOffline[args][arg][place][/arg][arg][serverName][/arg][/args][/lang]
-  setenchantworth:
-    help:
-      info: '[lang]cmi.command.setenchantworth.help.info[/lang]'
-      args: ''
-  tpopos:
-    help:
-      info: '[lang]cmi.command.tpopos.help.info[/lang]'
-      args: '(-p:playerName) [x] [y] [z] (world) (pitch) (yaw) (-rng:[range])'
-    info:
-      feedback: >-
-        [lang]cmi.command.tpopos.info.feedback[args][arg][world][/arg][arg][x][/arg][arg][y][/arg][arg][z][/arg][/args][/lang]
-      feedbackOther: >-
-        [lang]cmi.command.tpopos.info.feedbackOther[args][arg][playerDisplayName][/arg][arg][world][/arg][arg][x][/arg][arg][y][/arg][arg][z][/arg][/args][/lang]
-  unmutechat:
-    help:
-      info: '[lang]cmi.command.unmutechat.help.info[/lang]'
-      args: (-s)
-    info:
-      unmuted: '[lang]cmi.command.unmutechat.info.unmuted[/lang]'
-  anvil:
-    help:
-      info: '[lang]cmi.command.anvil.help.info[/lang]'
-      args: (playerName)
-    info:
-      feedback: >-
-        [lang]cmi.command.anvil.info.feedback[args][arg][playerDisplayName][/arg][arg][offon][/arg][/args][/lang]
-      targetfeedback: >-
-        [lang]cmi.command.anvil.info.targetfeedback[args][arg][senderDisplayName][/arg][/args][/lang]
-direction:
-  'n': '[lang]cmi.direction.n[/lang]'
-  ne: '[lang]cmi.direction.ne[/lang]'
-  e: '[lang]cmi.direction.e[/lang]'
-  se: '[lang]cmi.direction.se[/lang]'
-  s: '[lang]cmi.direction.s[/lang]'
-  sw: '[lang]cmi.direction.sw[/lang]'
-  w: '[lang]cmi.direction.w[/lang]'
-  nw: '[lang]cmi.direction.nw[/lang]'

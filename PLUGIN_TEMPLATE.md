@@ -6,10 +6,9 @@
 
 ## Settings
 
-**Prefix:** [insert here]
-**File type:** YAML/Properties
-**Variable Regex:** [insert here]
-**Ignore keys:**
+**Prefix:** [insert here]  
+**Variable Regex:** [insert here]  
+**Ignored keys:**
 
 ```
 list of ignored keys here

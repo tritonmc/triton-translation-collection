@@ -6,10 +6,9 @@
 
 ## Settings
 
-**Prefix:** `cmi.`
-**File type:** YAML/
-**Variable Regex:** `\[\w+\]`
-**Ignore keys:**
+**Prefix:** `cmi.`  
+**Variable Regex:** `\[\w+\]`  
+**Ignored keys:**
 
 ```
 info\.WarmUp\.(?:counter|DontMove)
