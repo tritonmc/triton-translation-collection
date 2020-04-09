@@ -1,0 +1,58 @@
+error:
+  no-permission: '[lang]triton.error.no-permission[args][arg]%1[/arg][/args][/lang]'
+  message-not-found: '[lang]triton.error.message-not-found[args][arg]%1[/arg][/args][/lang]'
+  lang-not-found: '[lang]triton.error.lang-not-found[args][arg]%1[/arg][/args][/lang]'
+  player-not-found: '[lang]triton.error.player-not-found[args][arg]%1[/arg][/args][/lang]'
+  player-not-found-use-uuid: >-
+    [lang]triton.error.player-not-found-use-uuid[args][arg]%1[/arg][/args][/lang]
+  bungee-reload-invalid-mode: >-
+    [lang]triton.error.bungee-reload-invalid-mode[args][arg]%1[/arg][/args][/lang]
+  not-sign: '[lang]triton.error.not-sign[/lang]'
+  sign-not-found: '[lang]triton.error.sign-not-found[args][arg]%1[/arg][/args][/lang]'
+help:
+  menu:
+    - '&a---------Triton---------'
+    - '[lang]triton.help.menu.1[/lang]'
+    - '%1'
+    - '&a---------Triton---------'
+  menu-item: '&6/%1 %2 &e&l- &f%3'
+  getflag: '[lang]triton.help.getflag[args][arg]%1[/arg][/args][/lang]'
+  setlanguage: '[lang]triton.help.setlanguage[args][arg]%1[/arg][/args][/lang]'
+  sign: '[lang]triton.help.sign[args][arg]%1[/arg][/args][/lang]'
+command:
+  help: '[lang]triton.command.help[/lang]'
+  getflag: '[lang]triton.command.getflag[/lang]'
+  openselector: '[lang]triton.command.openselector[/lang]'
+  reload: '[lang]triton.command.reload[/lang]'
+  setlanguage: '[lang]triton.command.setlanguage[/lang]'
+  sign: '[lang]triton.command.sign[/lang]'
+  twin: '[lang]triton.command.twin[/lang]'
+success:
+  getflag: '[lang]triton.success.getflag[args][arg]%1[/arg][/args][/lang]'
+  selector: '[lang]triton.success.selector[args][arg]%1[/arg][/args][/lang]'
+  reload: '[lang]triton.success.reload[/lang]'
+  bungee-reload: '[lang]triton.success.bungee-reload[/lang]'
+  setlanguage: '[lang]triton.success.setlanguage[args][arg]%1[/arg][/args][/lang]'
+  setlanguage-others: >-
+    [lang]triton.success.setlanguage-others[args][arg]%1[/arg][arg]%2[/arg][/args][/lang]
+  detected-language: '[lang]triton.success.detected-language[args][arg]%1[/arg][/args][/lang]'
+twin:
+  failed-bungeecord: '[lang]triton.twin.failed-bungeecord[/lang]'
+  no-internet: '[lang]triton.twin.no-internet[args][arg]%1[/arg][/args][/lang]'
+  failed-fetch: '[lang]triton.twin.failed-fetch[args][arg]%1[/arg][/args][/lang]'
+  failed-upload: '[lang]triton.twin.failed-upload[args][arg]%1[/arg][/args][/lang]'
+  incorrect-status: '[lang]triton.twin.incorrect-status[args][arg]%1[/arg][/args][/lang]'
+  connecting: '[lang]triton.twin.connecting[/lang]'
+  uploaded: '[lang]triton.twin.uploaded[args][arg]%1[/arg][/args][/lang]'
+  failed-file-update: >-
+    [lang]triton.twin.failed-file-update[args][arg]%1[/arg][arg]%2[/arg][/args][/lang]
+  success: '[lang]triton.twin.success[/lang]'
+  no-token: '[lang]triton.twin.no-token[/lang]'
+  repeated-download: '[lang]triton.twin.repeated-download[/lang]'
+other:
+  selector-gui-name: '[lang]triton.other.selector-gui-name[/lang]'
+  selector-gui-prev: '[lang]triton.other.selector-gui-prev[/lang]'
+  selector-gui-forward: '[lang]triton.other.selector-gui-forward[/lang]'
+  selector-gui-currentpage: >-
+    [lang]triton.other.selector-gui-currentpage[args][arg]%1[/arg][arg]%2[/arg][/args][/lang]
+  selected: '[lang]triton.other.selected[/lang]'
