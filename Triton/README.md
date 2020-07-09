@@ -1,7 +1,7 @@
 # Triton - Translate your server
 
 [Spigot](https://www.spigotmc.org/resources/triton-translate-your-server.30331/) |
-[Songoda](https://songoda.com/marketplace/product/triton-translate-your-server.223) - v2.6.3
+[Polymart](https://polymart.org/resource/triton.38) - v3.0.0
 
 **Source language:** English
 
