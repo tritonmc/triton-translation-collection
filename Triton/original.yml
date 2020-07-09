@@ -2,23 +2,25 @@ error:
   no-permission: '[lang]triton.error.no-permission[args][arg]%1[/arg][/args][/lang]'
   message-not-found: '[lang]triton.error.message-not-found[args][arg]%1[/arg][/args][/lang]'
   lang-not-found: '[lang]triton.error.lang-not-found[args][arg]%1[/arg][/args][/lang]'
-  player-not-found: '[lang]triton.error.player-not-found[args][arg]%1[/arg][/args][/lang]'
   player-not-found-use-uuid: >-
     [lang]triton.error.player-not-found-use-uuid[args][arg]%1[/arg][/args][/lang]
   bungee-reload-invalid-mode: >-
     [lang]triton.error.bungee-reload-invalid-mode[args][arg]%1[/arg][/args][/lang]
   not-sign: '[lang]triton.error.not-sign[/lang]'
   sign-not-found: '[lang]triton.error.sign-not-found[args][arg]%1[/arg][/args][/lang]'
+  database-invalid-mode: '[lang]triton.error.database-invalid-mode[args][arg]%1[/arg][/args][/lang]'
+  database-not-supported: '[lang]triton.error.database-not-supported[/lang]'
+  not-available-on-spigot: '[lang]triton.error.not-available-on-spigot[/lang]'
 help:
   menu:
-    - '&a---------Triton---------'
+    - '&8-------[ &b&lTriton&8 ]-------'
     - '[lang]triton.help.menu.1[/lang]'
     - '%1'
-    - '&a---------Triton---------'
-  menu-item: '&6/%1 %2 &e&l- &f%3'
+  menu-item: '&b/%1 &3%2 &8&l- &f%3'
   getflag: '[lang]triton.help.getflag[args][arg]%1[/arg][/args][/lang]'
   setlanguage: '[lang]triton.help.setlanguage[args][arg]%1[/arg][/args][/lang]'
   sign: '[lang]triton.help.sign[args][arg]%1[/arg][/args][/lang]'
+  database: '[lang]triton.help.database[args][arg]%1[/arg][/args][/lang]'
 command:
   help: '[lang]triton.command.help[/lang]'
   getflag: '[lang]triton.command.getflag[/lang]'
@@ -27,6 +29,8 @@ command:
   setlanguage: '[lang]triton.command.setlanguage[/lang]'
   sign: '[lang]triton.command.sign[/lang]'
   twin: '[lang]triton.command.twin[/lang]'
+  database: '[lang]triton.command.database[/lang]'
+  info: '[lang]triton.command.info[/lang]'
 success:
   getflag: '[lang]triton.success.getflag[args][arg]%1[/arg][/args][/lang]'
   selector: '[lang]triton.success.selector[args][arg]%1[/arg][/args][/lang]'
@@ -36,6 +40,9 @@ success:
   setlanguage-others: >-
     [lang]triton.success.setlanguage-others[args][arg]%1[/arg][arg]%2[/arg][/args][/lang]
   detected-language: '[lang]triton.success.detected-language[args][arg]%1[/arg][/args][/lang]'
+  sign-set: '[lang]triton.success.sign-set[args][arg]%1[/arg][/args][/lang]'
+  sign-remove: '[lang]triton.success.sign-remove[/lang]'
+  database: '[lang]triton.success.database[/lang]'
 twin:
   failed-bungeecord: '[lang]triton.twin.failed-bungeecord[/lang]'
   no-internet: '[lang]triton.twin.no-internet[args][arg]%1[/arg][/args][/lang]'
@@ -56,3 +63,10 @@ other:
   selector-gui-currentpage: >-
     [lang]triton.other.selector-gui-currentpage[args][arg]%1[/arg][arg]%2[/arg][/args][/lang]
   selected: '[lang]triton.other.selected[/lang]'
+  database-loading: '[lang]triton.other.database-loading[/lang]'
+info-command:
+  - '&8-------[ &b&lTriton&8 ]-------'
+  - '[lang]triton.info-command.1[args][arg]%1[/arg][/args][/lang]'
+  - '[lang]triton.info-command.2[args][arg]%2[/arg][/args][/lang]'
+  - '[lang]triton.info-command.3[args][arg]%3[/arg][/args][/lang]'
+  - '[lang]triton.info-command.4[args][arg]%4[/arg][/args][/lang]'

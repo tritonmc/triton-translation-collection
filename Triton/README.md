@@ -23,3 +23,9 @@ _none_
 ## Other information
 
 These are the official Triton translations.
+
+## Contributors
+
+- English (original): @diogotcorreia
+- Portuguese (Portugal): @diogotcorreia
+- French: @ZeProf2Code
