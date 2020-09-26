@@ -48,10 +48,10 @@ twin:
   incorrect-status: "&7le status n'est pas 200 (&c%1 &7reçu)"
   connecting: "&bConnexion à TWIN... Veuillez patienter"
   uploaded: "&bVotre configuration est en ligne! Commencez à éditer maintenant sur &3%1"
-  failed-file-update: "&cErreur lors de l'écriture du fichier '%1': &7%2"
   success: "&bLa configuration de TWIN a été récupérée avec succès et appliquée au serveur!"
   no-token: "&cJeton invalide! Veuillez vérifier si TWIN est correctement configuré dans la configuration."
   repeated-download: "&c&lAVERTISSEMENT &cVous essayez de télécharger deux fois la même configuration! Cela pourrait casser les fichiers de traduction. Si vous voulez contourner ce message, exécutez simplement la même commande à nouveau."
+  failed-collection-save: "&cErreur lors de l'enregistrement des collections au stockage. Vérifiez les détails de l'erreur sur la console."
 other:
   selector-gui-name: Sélectionnez une langue
   selector-gui-prev: "&bPrécédent"

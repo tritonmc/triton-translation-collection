@@ -48,10 +48,10 @@ twin:
   incorrect-status: "&7estado não é 200 (recebido &c%1&7)"
   connecting: "&bA conectar ao TWIN... Por favor aguarde"
   uploaded: "&bO teu config está online! Começa a editar agora em &6%1"
-  failed-file-update: "&cErro ao guardar o ficheiro '%1': &7%2"
   success: "&bO config foi aplicado no server com sucesso!"
   no-token: "&cToken inválido! Por favor verifica se o TWIN está configurado corretamente no config."
   repeated-download: "&c&lAVISO &cEstás a tentar fazer download do mesmo config duas vezes! Isto pode estragar as traduções. Se quiseres ignorar esta mensagem, executa o comando outra vez."
+  failed-collection-save: "&cErro ao guardar as traduções no armazenamento. Verifica a consola para detalhes sobre o erro."
 other:
   selector-gui-name: "&bSeleciona uma linguagem"
   selector-gui-prev: "&bAnterior"

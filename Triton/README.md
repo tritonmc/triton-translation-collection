@@ -1,7 +1,7 @@
 # Triton - Translate your server
 
 [Spigot](https://www.spigotmc.org/resources/triton-translate-your-server.30331/) |
-[Polymart](https://polymart.org/resource/triton.38) - v3.0.0
+[Polymart](https://polymart.org/resource/triton.38) - v3.1.1
 
 **Source language:** English
 
@@ -14,6 +14,7 @@
 ```
 help\.menu\.(?!1$).+
 help\.menu-item
+info-command\.0
 ```
 
 ## Manual changes

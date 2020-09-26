@@ -51,11 +51,12 @@ twin:
   incorrect-status: '[lang]triton.twin.incorrect-status[args][arg]%1[/arg][/args][/lang]'
   connecting: '[lang]triton.twin.connecting[/lang]'
   uploaded: '[lang]triton.twin.uploaded[args][arg]%1[/arg][/args][/lang]'
-  failed-file-update: >-
-    [lang]triton.twin.failed-file-update[args][arg]%1[/arg][arg]%2[/arg][/args][/lang]
   success: '[lang]triton.twin.success[/lang]'
   no-token: '[lang]triton.twin.no-token[/lang]'
   repeated-download: '[lang]triton.twin.repeated-download[/lang]'
+  failed-collection-save: '[lang]triton.twin.failed-collection-save[/lang]'
+  failed-file-update: >-
+    [lang]triton.twin.failed-file-update[args][arg]%1[/arg][arg]%2[/arg][/args][/lang]
 other:
   selector-gui-name: '[lang]triton.other.selector-gui-name[/lang]'
   selector-gui-prev: '[lang]triton.other.selector-gui-prev[/lang]'

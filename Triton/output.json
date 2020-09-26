@@ -3,495 +3,502 @@
     "key": "triton.error.no-permission",
     "type": "text",
     "languages": {
-      "pt_PT": "&cNão tens permissão. Permissão necessária: &4%1",
       "en_GB": "&cNo permission. Permission required: &4%1",
-      "fr_FR": "&cPermission manquante. Permission requise: &4%1"
+      "fr_FR": "&cPermission manquante. Permission requise: &4%1",
+      "pt_PT": "&cNão tens permissão. Permissão necessária: &4%1"
     }
   },
   {
     "key": "triton.error.message-not-found",
     "type": "text",
     "languages": {
-      "pt_PT": "ERRO 404: Mensagem não encontrada: '%1'!",
       "en_GB": "ERROR 404: Message not found: '%1'!",
-      "fr_FR": "ERREUR 404 : Message non trouvé : '%1'!"
+      "fr_FR": "ERREUR 404 : Message non trouvé : '%1'!",
+      "pt_PT": "ERRO 404: Mensagem não encontrada: '%1'!"
     }
   },
   {
     "key": "triton.error.lang-not-found",
     "type": "text",
     "languages": {
-      "pt_PT": "&cLinguagem &4%1&c não encontrada! &7&oNota: É sensível a maiúsculas e minúsculas. Utiliza o TAB para ver todas as linguagens disponíveis.",
       "en_GB": "&cLanguage &4%1&c not found! &7&oNote: It's case sensitive. Use TAB to show all the available languages.",
-      "fr_FR": "&cLangue &4%1&c introuvable! &7&oNote: It's case sensitive. Note: C'est sensible à la casse. Utilisez TAB pour afficher toutes les langues disponibles."
+      "fr_FR": "&cLangue &4%1&c introuvable! &7&oNote: It's case sensitive. Note: C'est sensible à la casse. Utilisez TAB pour afficher toutes les langues disponibles.",
+      "pt_PT": "&cLinguagem &4%1&c não encontrada! &7&oNota: É sensível a maiúsculas e minúsculas. Utiliza o TAB para ver todas as linguagens disponíveis."
     }
   },
   {
     "key": "triton.error.player-not-found-use-uuid",
     "type": "text",
     "languages": {
-      "pt_PT": "&cJogador &4%1&c não encontrado! Usa um UUID para procurares em jogadores offline.",
       "en_GB": "&cPlayer &4%1&c not found! Use UUID to search through offline players.",
-      "fr_FR": "&cJoueur &4%1&c non trouvé! Utilisez l'UUID pour effectuer une recherche parmi les joueurs hors ligne."
+      "fr_FR": "&cJoueur &4%1&c non trouvé! Utilisez l'UUID pour effectuer une recherche parmi les joueurs hors ligne.",
+      "pt_PT": "&cJogador &4%1&c não encontrado! Usa um UUID para procurares em jogadores offline."
     }
   },
   {
     "key": "triton.error.bungee-reload-invalid-mode",
     "type": "text",
     "languages": {
-      "pt_PT": "&cModo &4%1&c não existe. Os modos disponíveis são 'bungee' (ou 'b'), 'server' (ou 's') e 'all' (ou 'a').",
       "en_GB": "&cMode &4%1&c does not exist. Available modes are 'bungee' (or 'b'), 'server' (or 's') and 'all' (or 'a').",
-      "fr_FR": "&cLe mode &4%1&c n'existe pas. Les modes disponibles sont 'bungee' (ou 'b'), 'server' (ou 's') et 'all' (ou 'a')."
+      "fr_FR": "&cLe mode &4%1&c n'existe pas. Les modes disponibles sont 'bungee' (ou 'b'), 'server' (ou 's') et 'all' (ou 'a').",
+      "pt_PT": "&cModo &4%1&c não existe. Os modos disponíveis são 'bungee' (ou 'b'), 'server' (ou 's') e 'all' (ou 'a')."
     }
   },
   {
     "key": "triton.error.not-sign",
     "type": "text",
     "languages": {
-      "pt_PT": "&cNão estás a olhar para uma placa.",
       "en_GB": "&cYou're not looking at a sign.",
-      "fr_FR": "&cVous ne regardez pas un panneau."
+      "fr_FR": "&cVous ne regardez pas un panneau.",
+      "pt_PT": "&cNão estás a olhar para uma placa."
     }
   },
   {
     "key": "triton.error.sign-not-found",
     "type": "text",
     "languages": {
-      "pt_PT": "&cGrupo de placas &4%1&c não encontrado! &7&oNota: É sensível a maiúsculas e minúsculas. Utiliza o TAB para ver todos os grupos disponíveis.",
       "en_GB": "&cSign group &4%1&c not found! &7&oNote: It's case sensitive. Use TAB to all the available options.",
-      "fr_FR": "&cLe groupe de panneau &4%1&c n'a pas été trouvé! &7&oNote: C'est sensible à la casse. Utilisez la touche TAB pour accéder à toutesles options disponibles."
+      "fr_FR": "&cLe groupe de panneau &4%1&c n'a pas été trouvé! &7&oNote: C'est sensible à la casse. Utilisez la touche TAB pour accéder à toutesles options disponibles.",
+      "pt_PT": "&cGrupo de placas &4%1&c não encontrado! &7&oNota: É sensível a maiúsculas e minúsculas. Utiliza o TAB para ver todos os grupos disponíveis."
     }
   },
   {
     "key": "triton.error.database-invalid-mode",
     "type": "text",
     "languages": {
-      "pt_PT": "&cO modo &4%1&c não existe. Os modos disponíveis são 'upload' (ou 'u') e 'download' (ou 'd').",
       "en_GB": "&cMode &4%1&c does not exist. Available modes are 'upload' (or 'u') and 'download' (or 'd').",
-      "fr_FR": "&cLe mode &4%1&c n'existe pas. Les modes disponibles sont 'upload' (ou 'u') et 'download' (ou 'd')."
+      "fr_FR": "&cLe mode &4%1&c n'existe pas. Les modes disponibles sont 'upload' (ou 'u') et 'download' (ou 'd').",
+      "pt_PT": "&cO modo &4%1&c não existe. Os modos disponíveis são 'upload' (ou 'u') e 'download' (ou 'd')."
     }
   },
   {
     "key": "triton.error.database-not-supported",
     "type": "text",
     "languages": {
-      "pt_PT": "&cEste comando não é suportado com armazenamento local.",
       "en_GB": "&cThis command isn't supported on local storage.",
-      "fr_FR": "&cCette commande n'est pas supportée avec un stockage local."
+      "fr_FR": "&cCette commande n'est pas supportée avec un stockage local.",
+      "pt_PT": "&cEste comando não é suportado com armazenamento local."
     }
   },
   {
     "key": "triton.error.not-available-on-spigot",
     "type": "text",
     "languages": {
-      "pt_PT": "&cEsta ação não está disponível no Spigot quando se utiliza o BungeeCord. Por favor, execute o comando pelo BungeeCord.",
       "en_GB": "&cThis action isn't available on Spigot when using BungeeCord. Please run this through BungeeCord instead.",
-      "fr_FR": "&cCette action n'est pas disponible sur Spigot lorsque vous utilisez BungeeCord. Veuillez l'exécuter par BungeeCord à la place."
+      "fr_FR": "&cCette action n'est pas disponible sur Spigot lorsque vous utilisez BungeeCord. Veuillez l'exécuter par BungeeCord à la place.",
+      "pt_PT": "&cEsta ação não está disponível no Spigot quando se utiliza o BungeeCord. Por favor, execute o comando pelo BungeeCord."
     }
   },
   {
     "key": "triton.help.menu.1",
     "type": "text",
     "languages": {
-      "pt_PT": "&bComandos disponíveis:",
       "en_GB": "&bAvailable commands:",
-      "fr_FR": "&bCommandes disponibles:"
+      "fr_FR": "&bCommandes disponibles:",
+      "pt_PT": "&bComandos disponíveis:"
     }
   },
   {
     "key": "triton.help.getflag",
     "type": "text",
     "languages": {
-      "pt_PT": "&7Usa &b/%1 getflag <nome da linguagem>",
       "en_GB": "&7Use &b/%1 getflag <language name>",
-      "fr_FR": "&7Utilisez &b/%1 getflag <nom de la langue>"
+      "fr_FR": "&7Utilisez &b/%1 getflag <nom de la langue>",
+      "pt_PT": "&7Usa &b/%1 getflag <nome da linguagem>"
     }
   },
   {
     "key": "triton.help.setlanguage",
     "type": "text",
     "languages": {
-      "pt_PT": "&7Usa &b/%1 setlanguage <nome da linguagem> [jogador]",
       "en_GB": "&7Use &b/%1 setlanguage <language name> [player]",
-      "fr_FR": "&7Utilisez &b/%1 setlanguage <nom de la langue> [joueur]"
+      "fr_FR": "&7Utilisez &b/%1 setlanguage <nom de la langue> [joueur]",
+      "pt_PT": "&7Usa &b/%1 setlanguage <nome da linguagem> [jogador]"
     }
   },
   {
     "key": "triton.help.sign",
     "type": "text",
     "languages": {
-      "pt_PT": "&7Usa &b/%1 sign <set|remove> <chave do grupo (apenas para 'set')>&7 para adicionar uma placa a um grupo.",
       "en_GB": "&7Use &b/%1 sign <set|remove> <group key (set only)>&7 to add a sign to a group.",
-      "fr_FR": "&7Utilisez &b/%1 sign <set|remove> <clé de groupe (set seulement)>&7 pour ajouter une pancarte à un groupe."
+      "fr_FR": "&7Utilisez &b/%1 sign <set|remove> <clé de groupe (set seulement)>&7 pour ajouter une pancarte à un groupe.",
+      "pt_PT": "&7Usa &b/%1 sign <set|remove> <chave do grupo (apenas para 'set')>&7 para adicionar uma placa a um grupo."
     }
   },
   {
     "key": "triton.help.database",
     "type": "text",
     "languages": {
-      "pt_PT": "&7Usa &b/%1 database <upload/download/u/d>",
       "en_GB": "&7Use &b/%1 database <upload/download/u/d>",
-      "fr_FR": "&7Utilisez &b/%1 database <upload/download/u/d>"
+      "fr_FR": "&7Utilisez &b/%1 database <upload/download/u/d>",
+      "pt_PT": "&7Usa &b/%1 database <upload/download/u/d>"
     }
   },
   {
     "key": "triton.command.help",
     "type": "text",
     "languages": {
-      "pt_PT": "Mostra esta mensagem",
       "en_GB": "Displays this message",
-      "fr_FR": "Affiche ce message"
+      "fr_FR": "Affiche ce message",
+      "pt_PT": "Mostra esta mensagem"
     }
   },
   {
     "key": "triton.command.getflag",
     "type": "text",
     "languages": {
-      "pt_PT": "Adiciona a bandeira (banner) da uma linguagem ao teu inventário",
       "en_GB": "Gives the flag (banner) of a language to you",
-      "fr_FR": "Vous donne le drapeau (bannière) d'une langue"
+      "fr_FR": "Vous donne le drapeau (bannière) d'une langue",
+      "pt_PT": "Adiciona a bandeira (banner) da uma linguagem ao teu inventário"
     }
   },
   {
     "key": "triton.command.openselector",
     "type": "text",
     "languages": {
-      "pt_PT": "Abre um GUI onde podes alterar a tua linguagem",
       "en_GB": "Opens a GUI where you can change your language",
-      "fr_FR": "Ouvre une interface graphique où vous pouvez changer votre langue"
+      "fr_FR": "Ouvre une interface graphique où vous pouvez changer votre langue",
+      "pt_PT": "Abre um GUI onde podes alterar a tua linguagem"
     }
   },
   {
     "key": "triton.command.reload",
     "type": "text",
     "languages": {
-      "pt_PT": "Recarrega o plugin",
       "en_GB": "Reloads the plugin",
-      "fr_FR": "Recharger le plugin"
+      "fr_FR": "Recharger le plugin",
+      "pt_PT": "Recarrega o plugin"
     }
   },
   {
     "key": "triton.command.setlanguage",
     "type": "text",
     "languages": {
-      "pt_PT": "Altera a linguagem de um jogador",
       "en_GB": "Changes the language of a player",
-      "fr_FR": "Changer la langue d'un joueur"
+      "fr_FR": "Changer la langue d'un joueur",
+      "pt_PT": "Altera a linguagem de um jogador"
     }
   },
   {
     "key": "triton.command.sign",
     "type": "text",
     "languages": {
-      "pt_PT": "Adiciona ou remove placas de grupos de placas",
       "en_GB": "Adds or removes signs from sign groups",
-      "fr_FR": "Ajouter ou retirer des panneaux des groupes de panneaux"
+      "fr_FR": "Ajouter ou retirer des panneaux des groupes de panneaux",
+      "pt_PT": "Adiciona ou remove placas de grupos de placas"
     }
   },
   {
     "key": "triton.command.twin",
     "type": "text",
     "languages": {
-      "pt_PT": "Dá upload/download das traduções para o TWIN de forma a facilitar a configuração",
       "en_GB": "Uploads/downloads your config to/from TWIN for easy configuration",
-      "fr_FR": "Télécharger votre configuration vers/depuis TWIN pour une configuration facile"
+      "fr_FR": "Télécharger votre configuration vers/depuis TWIN pour une configuration facile",
+      "pt_PT": "Dá upload/download das traduções para o TWIN de forma a facilitar a configuração"
     }
   },
   {
     "key": "triton.command.database",
     "type": "text",
     "languages": {
-      "pt_PT": "Dá upload/download das translations para a base de dados",
       "en_GB": "Uploads/downloads translations to/from a database",
-      "fr_FR": "Télécharger de vos traductions depuis/vers une base de données"
+      "fr_FR": "Télécharger de vos traductions depuis/vers une base de données",
+      "pt_PT": "Dá upload/download das translations para a base de dados"
     }
   },
   {
     "key": "triton.command.info",
     "type": "text",
     "languages": {
-      "pt_PT": "Mostra informação sobre o plugin (versão, autor, armazenamento, etc)",
       "en_GB": "Shows information about the plugin (version, author, storage, etc)",
-      "fr_FR": "Affiche des informations sur le plugin (version, auteur, stockage, etc.)"
+      "fr_FR": "Affiche des informations sur le plugin (version, auteur, stockage, etc.)",
+      "pt_PT": "Mostra informação sobre o plugin (versão, autor, armazenamento, etc)"
     }
   },
   {
     "key": "triton.success.getflag",
     "type": "text",
     "languages": {
-      "pt_PT": "&bRecebeste a bandeira de &7%1&b!",
       "en_GB": "&bYou received the &7%1&b flag!",
-      "fr_FR": "&bVous avez reçu le drapeau &7%1 &b!"
+      "fr_FR": "&bVous avez reçu le drapeau &7%1 &b!",
+      "pt_PT": "&bRecebeste a bandeira de &7%1&b!"
     }
   },
   {
     "key": "triton.success.selector",
     "type": "text",
     "languages": {
-      "pt_PT": "&bA tua linguagem foi alterada para &7%1",
       "en_GB": "&bYour language has been changed to &7%1",
-      "fr_FR": "&bVotre langue a été changée en &7%1"
+      "fr_FR": "&bVotre langue a été changée en &7%1",
+      "pt_PT": "&bA tua linguagem foi alterada para &7%1"
     }
   },
   {
     "key": "triton.success.reload",
     "type": "text",
     "languages": {
-      "pt_PT": "&bConfig recarregado com sucesso.",
       "en_GB": "&bConfig successfully reloaded",
-      "fr_FR": "&bLa configuration a été rechargée avec succès"
+      "fr_FR": "&bLa configuration a été rechargée avec succès",
+      "pt_PT": "&bConfig recarregado com sucesso."
     }
   },
   {
     "key": "triton.success.bungee-reload",
     "type": "text",
     "languages": {
-      "pt_PT": "&bConfig do BungeeCord recarregado com sucesso.",
       "en_GB": "&bBungeeCord config successfully reloaded",
-      "fr_FR": "&bLa configuration BungeeCord a été rechargée avec succès"
+      "fr_FR": "&bLa configuration BungeeCord a été rechargée avec succès",
+      "pt_PT": "&bConfig do BungeeCord recarregado com sucesso."
     }
   },
   {
     "key": "triton.success.setlanguage",
     "type": "text",
     "languages": {
-      "pt_PT": "&bA tua linguagem foi alterada para &7%1",
       "en_GB": "&bYour language has been changed to &7%1",
-      "fr_FR": "&bVotre langue a été changée en &7%1"
+      "fr_FR": "&bVotre langue a été changée en &7%1",
+      "pt_PT": "&bA tua linguagem foi alterada para &7%1"
     }
   },
   {
     "key": "triton.success.setlanguage-others",
     "type": "text",
     "languages": {
-      "pt_PT": "&bA linguagem de &7%1&b foi alterada para &7%2",
       "en_GB": "&7%1&b's language has been changed to &7%2",
-      "fr_FR": "&bLa langue de &7%1&b a été changée en &7%2"
+      "fr_FR": "&bLa langue de &7%1&b a été changée en &7%2",
+      "pt_PT": "&bA linguagem de &7%1&b foi alterada para &7%2"
     }
   },
   {
     "key": "triton.success.detected-language",
     "type": "text",
     "languages": {
-      "pt_PT": "&bA tua linguagem foi automaticamente definida para &7%1",
       "en_GB": "&bYour language has been automatically set to &7%1",
-      "fr_FR": "&bVotre langue a été automatiquement réglée sur &7%1"
+      "fr_FR": "&bVotre langue a été automatiquement réglée sur &7%1",
+      "pt_PT": "&bA tua linguagem foi automaticamente definida para &7%1"
     }
   },
   {
     "key": "triton.success.sign-set",
     "type": "text",
     "languages": {
-      "pt_PT": "&bPlaca adicionada ao grupo &7%1",
       "en_GB": "&bSign successfully added to group &7%1",
-      "fr_FR": "&bPanneau ajouté avec succès au groupe &7%1"
+      "fr_FR": "&bPanneau ajouté avec succès au groupe &7%1",
+      "pt_PT": "&bPlaca adicionada ao grupo &7%1"
     }
   },
   {
     "key": "triton.success.sign-remove",
     "type": "text",
     "languages": {
-      "pt_PT": "&bPlaca removida de todos os grupos com sucesso",
       "en_GB": "&bSuccessfully removed sign from all groups",
-      "fr_FR": "&bSuppression réussie du panneau de tous les groupes"
+      "fr_FR": "&bSuppression réussie du panneau de tous les groupes",
+      "pt_PT": "&bPlaca removida de todos os grupos com sucesso"
     }
   },
   {
     "key": "triton.success.database",
     "type": "text",
     "languages": {
-      "pt_PT": "&bOperação bem sucedida",
       "en_GB": "&bOperation successful",
-      "fr_FR": "&bOpération réussie"
+      "fr_FR": "&bOpération réussie",
+      "pt_PT": "&bOperação bem sucedida"
     }
   },
   {
     "key": "triton.twin.failed-bungeecord",
     "type": "text",
     "languages": {
-      "pt_PT": "&cNão é possível fazer upload do config porque a funcionalidade 'bungeecord' está ligada no config. Executa este comando pelo BungeeCord.",
       "en_GB": "&cCan't upload the config because you have BungeeCord enabled on config! Please execute this command through BungeeCord.",
-      "fr_FR": "&cImpossible de télécharger la configuration car BungeeCord est activé dans la configuration! Veuillez exécuter cette commande via BungeeCord."
+      "fr_FR": "&cImpossible de télécharger la configuration car BungeeCord est activé dans la configuration! Veuillez exécuter cette commande via BungeeCord.",
+      "pt_PT": "&cNão é possível fazer upload do config porque a funcionalidade 'bungeecord' está ligada no config. Executa este comando pelo BungeeCord."
     }
   },
   {
     "key": "triton.twin.no-internet",
     "type": "text",
     "languages": {
-      "pt_PT": "&cErro ao fazer upload do config. Por favor verifica a tua conexão à internet e/ou firewall! Descrição do erro: %1",
       "en_GB": "&cFailed to upload config. Please check your internet connection and/or firewall! Error description: %1",
-      "fr_FR": "&cImpossible de télécharger la configuration. Veuillez vérifier votre connexion Internet et/ou votre pare-feu! Description de l'erreur: %1"
+      "fr_FR": "&cImpossible de télécharger la configuration. Veuillez vérifier votre connexion Internet et/ou votre pare-feu! Description de l'erreur: %1",
+      "pt_PT": "&cErro ao fazer upload do config. Por favor verifica a tua conexão à internet e/ou firewall! Descrição do erro: %1"
     }
   },
   {
     "key": "triton.twin.failed-fetch",
     "type": "text",
     "languages": {
-      "pt_PT": "&cErro ao fazer download do config: &7%1",
       "en_GB": "&cFailed to fetch the config: &7%1",
-      "fr_FR": "&cImpossible de récupérer la configuration: &7%1"
+      "fr_FR": "&cImpossible de récupérer la configuration: &7%1",
+      "pt_PT": "&cErro ao fazer download do config: &7%1"
     }
   },
   {
     "key": "triton.twin.failed-upload",
     "type": "text",
     "languages": {
-      "pt_PT": "&cErro ao fazer upload do config: &7%1",
       "en_GB": "&cFailed to upload the config: &7%1",
-      "fr_FR": "&cImpossible de télécharger la configuration: &7%1"
+      "fr_FR": "&cImpossible de télécharger la configuration: &7%1",
+      "pt_PT": "&cErro ao fazer upload do config: &7%1"
     }
   },
   {
     "key": "triton.twin.incorrect-status",
     "type": "text",
     "languages": {
-      "pt_PT": "&7estado não é 200 (recebido &c%1&7)",
       "en_GB": "&7status is not 200 (received &c%1&7)",
-      "fr_FR": "&7le status n'est pas 200 (&c%1 &7reçu)"
+      "fr_FR": "&7le status n'est pas 200 (&c%1 &7reçu)",
+      "pt_PT": "&7estado não é 200 (recebido &c%1&7)"
     }
   },
   {
     "key": "triton.twin.connecting",
     "type": "text",
     "languages": {
-      "pt_PT": "&bA conectar ao TWIN... Por favor aguarde",
       "en_GB": "&bConnecting to TWIN... Please wait",
-      "fr_FR": "&bConnexion à TWIN... Veuillez patienter"
+      "fr_FR": "&bConnexion à TWIN... Veuillez patienter",
+      "pt_PT": "&bA conectar ao TWIN... Por favor aguarde"
     }
   },
   {
     "key": "triton.twin.uploaded",
     "type": "text",
     "languages": {
-      "pt_PT": "&bO teu config está online! Começa a editar agora em &6%1",
       "en_GB": "&bYour config is live! Start editing now at &3%1",
-      "fr_FR": "&bVotre configuration est en ligne! Commencez à éditer maintenant sur &3%1"
-    }
-  },
-  {
-    "key": "triton.twin.failed-file-update",
-    "type": "text",
-    "languages": {
-      "pt_PT": "&cErro ao guardar o ficheiro '%1': &7%2",
-      "en_GB": "&cError while writing to file '%1': &7%2",
-      "fr_FR": "&cErreur lors de l'écriture du fichier '%1': &7%2"
+      "fr_FR": "&bVotre configuration est en ligne! Commencez à éditer maintenant sur &3%1",
+      "pt_PT": "&bO teu config está online! Começa a editar agora em &6%1"
     }
   },
   {
     "key": "triton.twin.success",
     "type": "text",
     "languages": {
-      "pt_PT": "&bO config foi aplicado no server com sucesso!",
       "en_GB": "&bSuccessfully fetched the config from TWIN and applied it into the server!",
-      "fr_FR": "&bLa configuration de TWIN a été récupérée avec succès et appliquée au serveur!"
+      "fr_FR": "&bLa configuration de TWIN a été récupérée avec succès et appliquée au serveur!",
+      "pt_PT": "&bO config foi aplicado no server com sucesso!"
     }
   },
   {
     "key": "triton.twin.no-token",
     "type": "text",
     "languages": {
-      "pt_PT": "&cToken inválido! Por favor verifica se o TWIN está configurado corretamente no config.",
       "en_GB": "&cInvalid token! Please check if TWIN is setup correctly on config.",
-      "fr_FR": "&cJeton invalide! Veuillez vérifier si TWIN est correctement configuré dans la configuration."
+      "fr_FR": "&cJeton invalide! Veuillez vérifier si TWIN est correctement configuré dans la configuration.",
+      "pt_PT": "&cToken inválido! Por favor verifica se o TWIN está configurado corretamente no config."
     }
   },
   {
     "key": "triton.twin.repeated-download",
     "type": "text",
     "languages": {
-      "pt_PT": "&c&lAVISO &cEstás a tentar fazer download do mesmo config duas vezes! Isto pode estragar as traduções. Se quiseres ignorar esta mensagem, executa o comando outra vez.",
       "en_GB": "&c&lWARNING &cYou're trying to download the same config twice! This might break the translation files. If you want to bypass this message, just execute the same command again.",
-      "fr_FR": "&c&lAVERTISSEMENT &cVous essayez de télécharger deux fois la même configuration! Cela pourrait casser les fichiers de traduction. Si vous voulez contourner ce message, exécutez simplement la même commande à nouveau."
+      "fr_FR": "&c&lAVERTISSEMENT &cVous essayez de télécharger deux fois la même configuration! Cela pourrait casser les fichiers de traduction. Si vous voulez contourner ce message, exécutez simplement la même commande à nouveau.",
+      "pt_PT": "&c&lAVISO &cEstás a tentar fazer download do mesmo config duas vezes! Isto pode estragar as traduções. Se quiseres ignorar esta mensagem, executa o comando outra vez."
+    }
+  },
+  {
+    "key": "triton.twin.failed-collection-save",
+    "type": "text",
+    "languages": {
+      "en_GB": "&cError while saving collections to storage. Check the console for error details.",
+      "fr_FR": "&cErreur lors de l'enregistrement des collections au stockage. Vérifiez les détails de l'erreur sur la console.",
+      "pt_PT": "&cErro ao guardar as traduções no armazenamento. Verifica a consola para detalhes sobre o erro."
     }
   },
   {
     "key": "triton.other.selector-gui-name",
     "type": "text",
     "languages": {
-      "pt_PT": "&bSeleciona uma linguagem",
       "en_GB": "&bSelect a language",
-      "fr_FR": "Sélectionnez une langue"
+      "fr_FR": "Sélectionnez une langue",
+      "pt_PT": "&bSeleciona uma linguagem"
     }
   },
   {
     "key": "triton.other.selector-gui-prev",
     "type": "text",
     "languages": {
-      "pt_PT": "&bAnterior",
       "en_GB": "&bPrevious",
-      "fr_FR": "&bPrécédent"
+      "fr_FR": "&bPrécédent",
+      "pt_PT": "&bAnterior"
     }
   },
   {
     "key": "triton.other.selector-gui-forward",
     "type": "text",
     "languages": {
-      "pt_PT": "&bPróximo",
       "en_GB": "&bNext",
-      "fr_FR": "&bSuivant"
+      "fr_FR": "&bSuivant",
+      "pt_PT": "&bPróximo"
     }
   },
   {
     "key": "triton.other.selector-gui-currentpage",
     "type": "text",
     "languages": {
-      "pt_PT": "&bPágina &3%1&b de &3%2",
       "en_GB": "&bPage &3%1&b of &3%2",
-      "fr_FR": "&bPage &3%1&b sur &3%2"
+      "fr_FR": "&bPage &3%1&b sur &3%2",
+      "pt_PT": "&bPágina &3%1&b de &3%2"
     }
   },
   {
     "key": "triton.other.selected",
     "type": "text",
     "languages": {
-      "pt_PT": "&bSelecionada atualmente",
       "en_GB": "&bCurrently selected",
-      "fr_FR": "&bActuellement sélectionné"
+      "fr_FR": "&bActuellement sélectionné",
+      "pt_PT": "&bSelecionada atualmente"
     }
   },
   {
     "key": "triton.other.database-loading",
     "type": "text",
     "languages": {
-      "pt_PT": "&bA executar operação...",
       "en_GB": "&bPerforming operation...",
-      "fr_FR": "&bExécution de l'opération..."
+      "fr_FR": "&bExécution de l'opération...",
+      "pt_PT": "&bA executar operação..."
     }
   },
   {
     "key": "triton.info-command.1",
     "type": "text",
     "languages": {
-      "pt_PT": "&bVersão: &7%1",
       "en_GB": "&bVersion: &7%1",
-      "fr_FR": "&bVersion : &7%1"
+      "fr_FR": "&bVersion : &7%1",
+      "pt_PT": "&bVersão: &7%1"
     }
   },
   {
     "key": "triton.info-command.2",
     "type": "text",
     "languages": {
-      "pt_PT": "&bDesenvolvido por: &7%1",
       "en_GB": "&bDeveloped by: &7%1",
-      "fr_FR": "&bDéveloppé par : &7%1"
+      "fr_FR": "&bDéveloppé par : &7%1",
+      "pt_PT": "&bDesenvolvido por: &7%1"
     }
   },
   {
     "key": "triton.info-command.3",
     "type": "text",
     "languages": {
-      "pt_PT": "&bArmazenamento em uso: &7%1",
       "en_GB": "&bStorage in use: &7%1",
-      "fr_FR": "&bStockage utilisé : &7%1"
+      "fr_FR": "&bStockage utilisé : &7%1",
+      "pt_PT": "&bArmazenamento em uso: &7%1"
     }
   },
   {
     "key": "triton.info-command.4",
     "type": "text",
     "languages": {
-      "pt_PT": "&bA utilizar BungeeCord: &7%1",
       "en_GB": "&bUsing BungeeCord: &7%1",
-      "fr_FR": "&bUtilise BungeeCord : &7%1"
+      "fr_FR": "&bUtilise BungeeCord : &7%1",
+      "pt_PT": "&bA utilizar BungeeCord: &7%1"
+    }
+  },
+  {
+    "key": "triton.twin.failed-file-update",
+    "type": "text",
+    "languages": {
+      "fr_FR": "&cErreur lors de l'écriture du fichier '%1': &7%2"
     }
   }
 ]
