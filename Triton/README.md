@@ -1,7 +1,7 @@
 # Triton - Translate your server
 
 [Spigot](https://www.spigotmc.org/resources/triton-translate-your-server.30331/) |
-[Polymart](https://polymart.org/resource/triton.38) - v3.1.1
+[Polymart](https://polymart.org/resource/triton.38) - v3.1.8
 
 **Source language:** English
 
@@ -30,3 +30,4 @@ These are the official Triton translations.
 - English (original): @diogotcorreia
 - Portuguese (Portugal): @diogotcorreia
 - French: @ZeProf2Code
+- Chinese: Spihea
