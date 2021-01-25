@@ -4,9 +4,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&cNo permission. Permission required: &4%1",
-      "cn_CN": "&c你没有权限. 索需权限: &4%1",
       "fr_FR": "&cPermission manquante. Permission requise: &4%1",
-      "pt_PT": "&cNão tens permissão. Permissão necessária: &4%1"
+      "pt_PT": "&cNão tens permissão. Permissão necessária: &4%1",
+      "zh_CN": "&c你没有权限. 索需权限: &4%1"
     }
   },
   {
@@ -14,9 +14,9 @@
     "type": "text",
     "languages": {
       "en_GB": "ERROR 404: Message not found: '%1'!",
-      "cn_CN": "错误 404: 消息不存在: '%1'!",
       "fr_FR": "ERREUR 404 : Message non trouvé : '%1'!",
-      "pt_PT": "ERRO 404: Mensagem não encontrada: '%1'!"
+      "pt_PT": "ERRO 404: Mensagem não encontrada: '%1'!",
+      "zh_CN": "错误 404: 消息不存在: '%1'!"
     }
   },
   {
@@ -24,9 +24,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&cLanguage &4%1&c not found! &7&oNote: It's case sensitive. Use TAB to show all the available languages.",
-      "cn_CN": "&c没有为 &4%1&c 的语言! &7&o提示: 你可以按TAB键查看可用语言",
       "fr_FR": "&cLangue &4%1&c introuvable! &7&oNote: It's case sensitive. Note: C'est sensible à la casse. Utilisez TAB pour afficher toutes les langues disponibles.",
-      "pt_PT": "&cLinguagem &4%1&c não encontrada! &7&oNota: É sensível a maiúsculas e minúsculas. Utiliza o TAB para ver todas as linguagens disponíveis."
+      "pt_PT": "&cLinguagem &4%1&c não encontrada! &7&oNota: É sensível a maiúsculas e minúsculas. Utiliza o TAB para ver todas as linguagens disponíveis.",
+      "zh_CN": "&c没有为 &4%1&c 的语言! &7&o提示: 你可以按TAB键查看可用语言"
     }
   },
   {
@@ -34,9 +34,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&cPlayer &4%1&c not found! Use UUID to search through offline players.",
-      "cn_CN": "&c玩家 &4%1&c 没有找到! 请使用UUID查询离线玩家",
       "fr_FR": "&cJoueur &4%1&c non trouvé! Utilisez l'UUID pour effectuer une recherche parmi les joueurs hors ligne.",
-      "pt_PT": "&cJogador &4%1&c não encontrado! Usa um UUID para procurares em jogadores offline."
+      "pt_PT": "&cJogador &4%1&c não encontrado! Usa um UUID para procurares em jogadores offline.",
+      "zh_CN": "&c玩家 &4%1&c 没有找到! 请使用UUID查询离线玩家"
     }
   },
   {
@@ -44,9 +44,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&cMode &4%1&c does not exist. Available modes are 'bungee' (or 'b'), 'server' (or 's') and 'all' (or 'a').",
-      "cn_CN": "&c模式 &4%1&c 不存在. 可用模式有: 'bungee' (或简写'b'), 'server' (或简写 's') 和 'all' (或简写 'a').",
       "fr_FR": "&cLe mode &4%1&c n'existe pas. Les modes disponibles sont 'bungee' (ou 'b'), 'server' (ou 's') et 'all' (ou 'a').",
-      "pt_PT": "&cModo &4%1&c não existe. Os modos disponíveis são 'bungee' (ou 'b'), 'server' (ou 's') e 'all' (ou 'a')."
+      "pt_PT": "&cModo &4%1&c não existe. Os modos disponíveis são 'bungee' (ou 'b'), 'server' (ou 's') e 'all' (ou 'a').",
+      "zh_CN": "&c模式 &4%1&c 不存在. 可用模式有: 'bungee' (或简写'b'), 'server' (或简写 's') 和 'all' (或简写 'a')."
     }
   },
   {
@@ -54,9 +54,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&cYou're not looking at a sign.",
-      "cn_CN": "&c你没有看向告示牌.",
       "fr_FR": "&cVous ne regardez pas un panneau.",
-      "pt_PT": "&cNão estás a olhar para uma placa."
+      "pt_PT": "&cNão estás a olhar para uma placa.",
+      "zh_CN": "&c你没有看向告示牌."
     }
   },
   {
@@ -64,9 +64,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&cSign group &4%1&c not found! &7&oNote: It's case sensitive. Use TAB to all the available options.",
-      "cn_CN": "&c告示牌组 &4%1&c 不存在! &7&o提示: 你可以按TAB键查看可用的组",
       "fr_FR": "&cLe groupe de panneau &4%1&c n'a pas été trouvé! &7&oNote: C'est sensible à la casse. Utilisez la touche TAB pour accéder à toutesles options disponibles.",
-      "pt_PT": "&cGrupo de placas &4%1&c não encontrado! &7&oNota: É sensível a maiúsculas e minúsculas. Utiliza o TAB para ver todos os grupos disponíveis."
+      "pt_PT": "&cGrupo de placas &4%1&c não encontrado! &7&oNota: É sensível a maiúsculas e minúsculas. Utiliza o TAB para ver todos os grupos disponíveis.",
+      "zh_CN": "&c告示牌组 &4%1&c 不存在! &7&o提示: 你可以按TAB键查看可用的组"
     }
   },
   {
@@ -74,9 +74,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&cMode &4%1&c does not exist. Available modes are 'upload' (or 'u') and 'download' (or 'd').",
-      "cn_CN": "&c模式 &4%1&c 不存在. 可用模式 'upload' (或简写 'u') 和 'download' (或简写 'd').",
       "fr_FR": "&cLe mode &4%1&c n'existe pas. Les modes disponibles sont 'upload' (ou 'u') et 'download' (ou 'd').",
-      "pt_PT": "&cO modo &4%1&c não existe. Os modos disponíveis são 'upload' (ou 'u') e 'download' (ou 'd')."
+      "pt_PT": "&cO modo &4%1&c não existe. Os modos disponíveis são 'upload' (ou 'u') e 'download' (ou 'd').",
+      "zh_CN": "&c模式 &4%1&c 不存在. 可用模式 'upload' (或简写 'u') 和 'download' (或简写 'd')."
     }
   },
   {
@@ -84,9 +84,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&cThis command isn't supported on local storage.",
-      "cn_CN": "&c本地存储不能使用此指令 请开启数据库存储",
       "fr_FR": "&cCette commande n'est pas supportée avec un stockage local.",
-      "pt_PT": "&cEste comando não é suportado com armazenamento local."
+      "pt_PT": "&cEste comando não é suportado com armazenamento local.",
+      "zh_CN": "&c本地存储不能使用此指令 请开启数据库存储"
     }
   },
   {
@@ -94,9 +94,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&cThis action isn't available on Spigot when using BungeeCord. Please run this through BungeeCord instead.",
-      "cn_CN": "&c此操作只能在蹦极端使用 不可在 Spigot 使用,请通过蹦极端执行本操作",
       "fr_FR": "&cCette action n'est pas disponible sur Spigot lorsque vous utilisez BungeeCord. Veuillez l'exécuter par BungeeCord à la place.",
-      "pt_PT": "&cEsta ação não está disponível no Spigot quando se utiliza o BungeeCord. Por favor, execute o comando pelo BungeeCord."
+      "pt_PT": "&cEsta ação não está disponível no Spigot quando se utiliza o BungeeCord. Por favor, execute o comando pelo BungeeCord.",
+      "zh_CN": "&c此操作只能在蹦极端使用 不可在 Spigot 使用,请通过蹦极端执行本操作"
     }
   },
   {
@@ -104,9 +104,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bAvailable commands:",
-      "cn_CN": "&b可用命令:",
       "fr_FR": "&bCommandes disponibles:",
-      "pt_PT": "&bComandos disponíveis:"
+      "pt_PT": "&bComandos disponíveis:",
+      "zh_CN": "&b可用命令:"
     }
   },
   {
@@ -114,9 +114,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&7Use &b/%1 getflag <language name>",
-      "cn_CN": "&7输入 &b/%1 getflag <语言名>",
       "fr_FR": "&7Utilisez &b/%1 getflag <nom de la langue>",
-      "pt_PT": "&7Usa &b/%1 getflag <nome da linguagem>"
+      "pt_PT": "&7Usa &b/%1 getflag <nome da linguagem>",
+      "zh_CN": "&7输入 &b/%1 getflag <语言名>"
     }
   },
   {
@@ -124,9 +124,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&7Use &b/%1 setlanguage <language name> [player]",
-      "cn_CN": "&7输入 &b/%1 setlanguage <语言名> [player]",
       "fr_FR": "&7Utilisez &b/%1 setlanguage <nom de la langue> [joueur]",
-      "pt_PT": "&7Usa &b/%1 setlanguage <nome da linguagem> [jogador]"
+      "pt_PT": "&7Usa &b/%1 setlanguage <nome da linguagem> [jogador]",
+      "zh_CN": "&7输入 &b/%1 setlanguage <语言名> [player]"
     }
   },
   {
@@ -134,9 +134,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&7Use &b/%1 sign <set|remove> <group key (set only)>&7 to add a sign to a group.",
-      "cn_CN": "&7输入 &b/%1 sign <set|remove> <组名 (仅设置)>&7 把一个告示牌加入一个组",
       "fr_FR": "&7Utilisez &b/%1 sign <set|remove> <clé de groupe (set seulement)>&7 pour ajouter une pancarte à un groupe.",
-      "pt_PT": "&7Usa &b/%1 sign <set|remove> <chave do grupo (apenas para 'set')>&7 para adicionar uma placa a um grupo."
+      "pt_PT": "&7Usa &b/%1 sign <set|remove> <chave do grupo (apenas para 'set')>&7 para adicionar uma placa a um grupo.",
+      "zh_CN": "&7输入 &b/%1 sign <set|remove> <组名 (仅设置)>&7 把一个告示牌加入一个组"
     }
   },
   {
@@ -144,9 +144,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&7Use &b/%1 database <upload/download/u/d>",
-      "cn_CN": "&7输入 &b/%1 database <upload/download/u/d>",
       "fr_FR": "&7Utilisez &b/%1 database <upload/download/u/d>",
-      "pt_PT": "&7Usa &b/%1 database <upload/download/u/d>"
+      "pt_PT": "&7Usa &b/%1 database <upload/download/u/d>",
+      "zh_CN": "&7输入 &b/%1 database <upload/download/u/d>"
     }
   },
   {
@@ -154,9 +154,9 @@
     "type": "text",
     "languages": {
       "en_GB": "Displays this message",
-      "cn_CN": "显示帮助消息",
       "fr_FR": "Affiche ce message",
-      "pt_PT": "Mostra esta mensagem"
+      "pt_PT": "Mostra esta mensagem",
+      "zh_CN": "显示帮助消息"
     }
   },
   {
@@ -164,9 +164,9 @@
     "type": "text",
     "languages": {
       "en_GB": "Gives the flag (banner) of a language to you",
-      "cn_CN": "给自己一个 语言旗帜 (横幅)",
       "fr_FR": "Vous donne le drapeau (bannière) d'une langue",
-      "pt_PT": "Adiciona a bandeira (banner) da uma linguagem ao teu inventário"
+      "pt_PT": "Adiciona a bandeira (banner) da uma linguagem ao teu inventário",
+      "zh_CN": "给自己一个 语言旗帜 (横幅)"
     }
   },
   {
@@ -174,9 +174,9 @@
     "type": "text",
     "languages": {
       "en_GB": "Opens a GUI where you can change your language",
-      "cn_CN": "打开GUI界面 你可在此设置语言",
       "fr_FR": "Ouvre une interface graphique où vous pouvez changer votre langue",
-      "pt_PT": "Abre um GUI onde podes alterar a tua linguagem"
+      "pt_PT": "Abre um GUI onde podes alterar a tua linguagem",
+      "zh_CN": "打开GUI界面 你可在此设置语言"
     }
   },
   {
@@ -184,9 +184,9 @@
     "type": "text",
     "languages": {
       "en_GB": "Reloads the plugin",
-      "cn_CN": "重载插件",
       "fr_FR": "Recharger le plugin",
-      "pt_PT": "Recarrega o plugin"
+      "pt_PT": "Recarrega o plugin",
+      "zh_CN": "重载插件"
     }
   },
   {
@@ -194,9 +194,9 @@
     "type": "text",
     "languages": {
       "en_GB": "Changes the language of a player",
-      "cn_CN": "给玩家设置一种语言",
       "fr_FR": "Changer la langue d'un joueur",
-      "pt_PT": "Altera a linguagem de um jogador"
+      "pt_PT": "Altera a linguagem de um jogador",
+      "zh_CN": "给玩家设置一种语言"
     }
   },
   {
@@ -204,9 +204,9 @@
     "type": "text",
     "languages": {
       "en_GB": "Adds or removes signs from sign groups",
-      "cn_CN": "从告示牌组添加或删除一个告示牌",
       "fr_FR": "Ajouter ou retirer des panneaux des groupes de panneaux",
-      "pt_PT": "Adiciona ou remove placas de grupos de placas"
+      "pt_PT": "Adiciona ou remove placas de grupos de placas",
+      "zh_CN": "从告示牌组添加或删除一个告示牌"
     }
   },
   {
@@ -214,9 +214,9 @@
     "type": "text",
     "languages": {
       "en_GB": "Uploads/downloads your config to/from TWIN for easy configuration",
-      "cn_CN": "在Twin更新/下载 你的配置",
       "fr_FR": "Télécharger votre configuration vers/depuis TWIN pour une configuration facile",
-      "pt_PT": "Dá upload/download das traduções para o TWIN de forma a facilitar a configuração"
+      "pt_PT": "Dá upload/download das traduções para o TWIN de forma a facilitar a configuração",
+      "zh_CN": "在Twin更新/下载 你的配置"
     }
   },
   {
@@ -224,9 +224,9 @@
     "type": "text",
     "languages": {
       "en_GB": "Uploads/downloads translations to/from a database",
-      "cn_CN": "从数据库更新/下载 你的翻译",
       "fr_FR": "Télécharger de vos traductions depuis/vers une base de données",
-      "pt_PT": "Dá upload/download das translations para a base de dados"
+      "pt_PT": "Dá upload/download das translations para a base de dados",
+      "zh_CN": "从数据库更新/下载 你的翻译"
     }
   },
   {
@@ -234,9 +234,9 @@
     "type": "text",
     "languages": {
       "en_GB": "Shows information about the plugin (version, author, storage, etc)",
-      "cn_CN": "查看插件信息 (版本, 作者, 存储, 等)",
       "fr_FR": "Affiche des informations sur le plugin (version, auteur, stockage, etc.)",
-      "pt_PT": "Mostra informação sobre o plugin (versão, autor, armazenamento, etc)"
+      "pt_PT": "Mostra informação sobre o plugin (versão, autor, armazenamento, etc)",
+      "zh_CN": "查看插件信息 (版本, 作者, 存储, 等)"
     }
   },
   {
@@ -244,9 +244,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bYou received the &7%1&b flag!",
-      "cn_CN": "&b你获得了 &7%1&b 旗帜!",
       "fr_FR": "&bVous avez reçu le drapeau &7%1 &b!",
-      "pt_PT": "&bRecebeste a bandeira de &7%1&b!"
+      "pt_PT": "&bRecebeste a bandeira de &7%1&b!",
+      "zh_CN": "&b你获得了 &7%1&b 旗帜!"
     }
   },
   {
@@ -254,9 +254,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bYour language has been changed to &7%1",
-      "cn_CN": "&b你的语言设置为了 &7%1",
       "fr_FR": "&bVotre langue a été changée en &7%1",
-      "pt_PT": "&bA tua linguagem foi alterada para &7%1"
+      "pt_PT": "&bA tua linguagem foi alterada para &7%1",
+      "zh_CN": "&b你的语言设置为了 &7%1"
     }
   },
   {
@@ -264,9 +264,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bConfig successfully reloaded",
-      "cn_CN": "&b配置重载完毕",
       "fr_FR": "&bLa configuration a été rechargée avec succès",
-      "pt_PT": "&bConfig recarregado com sucesso."
+      "pt_PT": "&bConfig recarregado com sucesso.",
+      "zh_CN": "&b配置重载完毕"
     }
   },
   {
@@ -274,9 +274,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bBungeeCord config successfully reloaded",
-      "cn_CN": "&b蹦极端配置重载完毕",
       "fr_FR": "&bLa configuration BungeeCord a été rechargée avec succès",
-      "pt_PT": "&bConfig do BungeeCord recarregado com sucesso."
+      "pt_PT": "&bConfig do BungeeCord recarregado com sucesso.",
+      "zh_CN": "&b蹦极端配置重载完毕"
     }
   },
   {
@@ -284,9 +284,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bYour language has been changed to &7%1",
-      "cn_CN": "&b你的语言设置为了 &7%1",
       "fr_FR": "&bVotre langue a été changée en &7%1",
-      "pt_PT": "&bA tua linguagem foi alterada para &7%1"
+      "pt_PT": "&bA tua linguagem foi alterada para &7%1",
+      "zh_CN": "&b你的语言设置为了 &7%1"
     }
   },
   {
@@ -294,9 +294,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&7%1&b's language has been changed to &7%2",
-      "cn_CN": "&7%1&b'的语言设置为了 &7%2",
       "fr_FR": "&bLa langue de &7%1&b a été changée en &7%2",
-      "pt_PT": "&bA linguagem de &7%1&b foi alterada para &7%2"
+      "pt_PT": "&bA linguagem de &7%1&b foi alterada para &7%2",
+      "zh_CN": "&7%1&b'的语言设置为了 &7%2"
     }
   },
   {
@@ -304,9 +304,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bYour language has been automatically set to &7%1",
-      "cn_CN": "&b你的语言已自动设置为了 &7%1",
       "fr_FR": "&bVotre langue a été automatiquement réglée sur &7%1",
-      "pt_PT": "&bA tua linguagem foi automaticamente definida para &7%1"
+      "pt_PT": "&bA tua linguagem foi automaticamente definida para &7%1",
+      "zh_CN": "&b你的语言已自动设置为了 &7%1"
     }
   },
   {
@@ -314,9 +314,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bSign successfully added to group &7%1",
-      "cn_CN": "&b告示牌已添加到组 &7%1",
       "fr_FR": "&bPanneau ajouté avec succès au groupe &7%1",
-      "pt_PT": "&bPlaca adicionada ao grupo &7%1"
+      "pt_PT": "&bPlaca adicionada ao grupo &7%1",
+      "zh_CN": "&b告示牌已添加到组 &7%1"
     }
   },
   {
@@ -324,9 +324,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bSuccessfully removed sign from all groups",
-      "cn_CN": "&b已从所有组中删除了此告示牌",
       "fr_FR": "&bSuppression réussie du panneau de tous les groupes",
-      "pt_PT": "&bPlaca removida de todos os grupos com sucesso"
+      "pt_PT": "&bPlaca removida de todos os grupos com sucesso",
+      "zh_CN": "&b已从所有组中删除了此告示牌"
     }
   },
   {
@@ -334,9 +334,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bOperation successful",
-      "cn_CN": "&b执行成功",
       "fr_FR": "&bOpération réussie",
-      "pt_PT": "&bOperação bem sucedida"
+      "pt_PT": "&bOperação bem sucedida",
+      "zh_CN": "&b执行成功"
     }
   },
   {
@@ -344,9 +344,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&cCan't upload the config because you have BungeeCord enabled on config! Please execute this command through BungeeCord.",
-      "cn_CN": "&c不可上传此配置,因为您在config中开启了Bungeecord,请在蹦极端执行本指令",
       "fr_FR": "&cImpossible de télécharger la configuration car BungeeCord est activé dans la configuration! Veuillez exécuter cette commande via BungeeCord.",
-      "pt_PT": "&cNão é possível fazer upload do config porque a funcionalidade 'bungeecord' está ligada no config. Executa este comando pelo BungeeCord."
+      "pt_PT": "&cNão é possível fazer upload do config porque a funcionalidade 'bungeecord' está ligada no config. Executa este comando pelo BungeeCord.",
+      "zh_CN": "&c不可上传此配置,因为您在config中开启了Bungeecord,请在蹦极端执行本指令"
     }
   },
   {
@@ -354,9 +354,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&cFailed to upload config. Please check your internet connection and/or firewall! Error description: %1",
-      "cn_CN": "&c上传配置失败.请检查服务器的网络连接/防火墙! 错误原因: %1",
       "fr_FR": "&cImpossible de télécharger la configuration. Veuillez vérifier votre connexion Internet et/ou votre pare-feu! Description de l'erreur: %1",
-      "pt_PT": "&cErro ao fazer upload do config. Por favor verifica a tua conexão à internet e/ou firewall! Descrição do erro: %1"
+      "pt_PT": "&cErro ao fazer upload do config. Por favor verifica a tua conexão à internet e/ou firewall! Descrição do erro: %1",
+      "zh_CN": "&c上传配置失败.请检查服务器的网络连接/防火墙! 错误原因: %1"
     }
   },
   {
@@ -364,9 +364,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&cFailed to fetch the config: &7%1",
-      "cn_CN": "&c获取配置失败: &7%1",
       "fr_FR": "&cImpossible de récupérer la configuration: &7%1",
-      "pt_PT": "&cErro ao fazer download do config: &7%1"
+      "pt_PT": "&cErro ao fazer download do config: &7%1",
+      "zh_CN": "&c获取配置失败: &7%1"
     }
   },
   {
@@ -374,9 +374,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&cFailed to upload the config: &7%1",
-      "cn_CN": "&c上传配置失败: &7%1",
       "fr_FR": "&cImpossible de télécharger la configuration: &7%1",
-      "pt_PT": "&cErro ao fazer upload do config: &7%1"
+      "pt_PT": "&cErro ao fazer upload do config: &7%1",
+      "zh_CN": "&c上传配置失败: &7%1"
     }
   },
   {
@@ -384,9 +384,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&7status is not 200 (received &c%1&7)",
-      "cn_CN": "&7状态不是200 (已收到 &c%1&7)",
       "fr_FR": "&7le status n'est pas 200 (&c%1 &7reçu)",
-      "pt_PT": "&7estado não é 200 (recebido &c%1&7)"
+      "pt_PT": "&7estado não é 200 (recebido &c%1&7)",
+      "zh_CN": "&7状态不是200 (已收到 &c%1&7)"
     }
   },
   {
@@ -394,9 +394,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bConnecting to TWIN... Please wait",
-      "cn_CN": "&b正在连接至Twin... 请稍后等待",
       "fr_FR": "&bConnexion à TWIN... Veuillez patienter",
-      "pt_PT": "&bA conectar ao TWIN... Por favor aguarde"
+      "pt_PT": "&bA conectar ao TWIN... Por favor aguarde",
+      "zh_CN": "&b正在连接至Twin... 请稍后等待"
     }
   },
   {
@@ -404,9 +404,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bYour config is live! Start editing now at &3%1",
-      "cn_CN": "&b你的配置已上传! 开始编辑 &3%1",
       "fr_FR": "&bVotre configuration est en ligne! Commencez à éditer maintenant sur &3%1",
-      "pt_PT": "&bO teu config está online! Começa a editar agora em &6%1"
+      "pt_PT": "&bO teu config está online! Começa a editar agora em &6%1",
+      "zh_CN": "&b你的配置已上传! 开始编辑 &3%1"
     }
   },
   {
@@ -414,9 +414,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bSuccessfully fetched the config from TWIN and applied it into the server!",
-      "cn_CN": "&b已成功从TWIN获取配置并同步到服务器!",
       "fr_FR": "&bLa configuration de TWIN a été récupérée avec succès et appliquée au serveur!",
-      "pt_PT": "&bO config foi aplicado no server com sucesso!"
+      "pt_PT": "&bO config foi aplicado no server com sucesso!",
+      "zh_CN": "&b已成功从TWIN获取配置并同步到服务器!"
     }
   },
   {
@@ -424,9 +424,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&cInvalid token! Please check if TWIN is setup correctly on config.",
-      "cn_CN": "&c错误的token! 请检查Config.yml中的设置是否正确",
       "fr_FR": "&cJeton invalide! Veuillez vérifier si TWIN est correctement configuré dans la configuration.",
-      "pt_PT": "&cToken inválido! Por favor verifica se o TWIN está configurado corretamente no config."
+      "pt_PT": "&cToken inválido! Por favor verifica se o TWIN está configurado corretamente no config.",
+      "zh_CN": "&c错误的token! 请检查Config.yml中的设置是否正确"
     }
   },
   {
@@ -434,9 +434,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&c&lWARNING &cYou're trying to download the same config twice! This might break the translation files. If you want to bypass this message, just execute the same command again.",
-      "cn_CN": "&c&警告 &c你正在尝试下载同一配置两次,此操作可能损坏翻译文件!如还要继续执行请再次输入本指令",
       "fr_FR": "&c&lAVERTISSEMENT &cVous essayez de télécharger deux fois la même configuration! Cela pourrait casser les fichiers de traduction. Si vous voulez contourner ce message, exécutez simplement la même commande à nouveau.",
-      "pt_PT": "&c&lAVISO &cEstás a tentar fazer download do mesmo config duas vezes! Isto pode estragar as traduções. Se quiseres ignorar esta mensagem, executa o comando outra vez."
+      "pt_PT": "&c&lAVISO &cEstás a tentar fazer download do mesmo config duas vezes! Isto pode estragar as traduções. Se quiseres ignorar esta mensagem, executa o comando outra vez.",
+      "zh_CN": "&c&警告 &c你正在尝试下载同一配置两次,此操作可能损坏翻译文件!如还要继续执行请再次输入本指令"
     }
   },
   {
@@ -444,9 +444,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&cError while saving collections to storage. Check the console for error details.",
-      "cn_CN": "&c错误 无法保存到存储文件内. 请查看控制台内的报错",
       "fr_FR": "&cErreur lors de l'enregistrement des collections au stockage. Vérifiez les détails de l'erreur sur la console.",
-      "pt_PT": "&cErro ao guardar as traduções no armazenamento. Verifica a consola para detalhes sobre o erro."
+      "pt_PT": "&cErro ao guardar as traduções no armazenamento. Verifica a consola para detalhes sobre o erro.",
+      "zh_CN": "&c错误 无法保存到存储文件内. 请查看控制台内的报错"
     }
   },
   {
@@ -454,9 +454,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bSelect a language",
-      "cn_CN": "&b选择语言",
       "fr_FR": "Sélectionnez une langue",
-      "pt_PT": "&bSeleciona uma linguagem"
+      "pt_PT": "&bSeleciona uma linguagem",
+      "zh_CN": "&b选择语言"
     }
   },
   {
@@ -464,9 +464,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bPrevious",
-      "cn_CN": "&b上一页",
       "fr_FR": "&bPrécédent",
-      "pt_PT": "&bAnterior"
+      "pt_PT": "&bAnterior",
+      "zh_CN": "&b上一页"
     }
   },
   {
@@ -474,9 +474,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bNext",
-      "cn_CN": "&b下一页",
       "fr_FR": "&bSuivant",
-      "pt_PT": "&bPróximo"
+      "pt_PT": "&bPróximo",
+      "zh_CN": "&b下一页"
     }
   },
   {
@@ -484,9 +484,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bPage &3%1&b of &3%2",
-      "cn_CN": "&b页数 &3%1&b/&3%2",
       "fr_FR": "&bPage &3%1&b sur &3%2",
-      "pt_PT": "&bPágina &3%1&b de &3%2"
+      "pt_PT": "&bPágina &3%1&b de &3%2",
+      "zh_CN": "&b页数 &3%1&b/&3%2"
     }
   },
   {
@@ -494,9 +494,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bCurrently selected",
-      "cn_CN": "&b当前选定",
       "fr_FR": "&bActuellement sélectionné",
-      "pt_PT": "&bSelecionada atualmente"
+      "pt_PT": "&bSelecionada atualmente",
+      "zh_CN": "&b当前选定"
     }
   },
   {
@@ -504,9 +504,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bPerforming operation...",
-      "cn_CN": "&b正在执行...",
       "fr_FR": "&bExécution de l'opération...",
-      "pt_PT": "&bA executar operação..."
+      "pt_PT": "&bA executar operação...",
+      "zh_CN": "&b正在执行..."
     }
   },
   {
@@ -514,9 +514,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bVersion: &7%1",
-      "cn_CN": "&b版本: &7%1",
       "fr_FR": "&bVersion : &7%1",
-      "pt_PT": "&bVersão: &7%1"
+      "pt_PT": "&bVersão: &7%1",
+      "zh_CN": "&b版本: &7%1"
     }
   },
   {
@@ -524,9 +524,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bDeveloped by: &7%1",
-      "cn_CN": "&b开发者: &7%1",
       "fr_FR": "&bDéveloppé par : &7%1",
-      "pt_PT": "&bDesenvolvido por: &7%1"
+      "pt_PT": "&bDesenvolvido por: &7%1",
+      "zh_CN": "&b开发者: &7%1"
     }
   },
   {
@@ -534,9 +534,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bStorage in use: &7%1",
-      "cn_CN": "&b存储方式: &7%1",
       "fr_FR": "&bStockage utilisé : &7%1",
-      "pt_PT": "&bArmazenamento em uso: &7%1"
+      "pt_PT": "&bArmazenamento em uso: &7%1",
+      "zh_CN": "&b存储方式: &7%1"
     }
   },
   {
@@ -544,9 +544,9 @@
     "type": "text",
     "languages": {
       "en_GB": "&bUsing BungeeCord: &7%1",
-      "cn_CN": "&b正在使用蹦极: &7%1",
       "fr_FR": "&bUtilise BungeeCord : &7%1",
-      "pt_PT": "&bA utilizar BungeeCord: &7%1"
+      "pt_PT": "&bA utilizar BungeeCord: &7%1",
+      "zh_CN": "&b正在使用蹦极: &7%1"
     }
   }
 ]
