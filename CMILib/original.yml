@@ -1,0 +1,867 @@
+info:
+  prefix: '[lang]cmilib.info.prefix[/lang]'
+  NoPermission: '[lang]cmilib.info.NoPermission[/lang]'
+  CantHavePermission: '[lang]cmilib.info.CantHavePermission[/lang]'
+  WrongGroup: '[lang]cmilib.info.WrongGroup[/lang]'
+  NoPlayerPermission: >-
+    [lang]cmilib.info.NoPlayerPermission[args][arg][playerName][/arg][arg][permission][/arg][/args][/lang]
+  Ingame: '[lang]cmilib.info.Ingame[/lang]'
+  NoInformation: '[lang]cmilib.info.NoInformation[/lang]'
+  Console: '[lang]cmilib.info.Console[/lang]'
+  FromConsole: '[lang]cmilib.info.FromConsole[/lang]'
+  NotOnline: '[lang]cmilib.info.NotOnline[/lang]'
+  NobodyOnline: '[lang]cmilib.info.NobodyOnline[/lang]'
+  Same: '[lang]cmilib.info.Same[/lang]'
+  cantLoginWithDifCap: >-
+    [lang]cmilib.info.cantLoginWithDifCap[args][arg][oldName][/arg][arg][currentName][/arg][/args][/lang]
+  Searching: '[lang]cmilib.info.Searching[/lang]'
+  NoPlayer: '[lang]cmilib.info.NoPlayer[/lang]'
+  NoCommand: '[lang]cmilib.info.NoCommand[/lang]'
+  NoCommandWhileSleeping: '[lang]cmilib.info.NoCommandWhileSleeping[/lang]'
+  cantFindCommand: '[lang]cmilib.info.cantFindCommand[/lang]'
+  nolocation: '[lang]cmilib.info.nolocation[/lang]'
+  PurgeNotEnabled: '[lang]cmilib.info.PurgeNotEnabled[/lang]'
+  FeatureNotEnabled: '[lang]cmilib.info.FeatureNotEnabled[/lang]'
+  TeamManagementDisabled: '[lang]cmilib.info.TeamManagementDisabled[/lang]'
+  ModuleNotEnabled: '[lang]cmilib.info.ModuleNotEnabled[/lang]'
+  versionNotSupported: '[lang]cmilib.info.versionNotSupported[/lang]'
+  bungeeNoGo: '[lang]cmilib.info.bungeeNoGo[/lang]'
+  clickToTeleport: '[lang]cmilib.info.clickToTeleport[/lang]'
+  UseMaterial: '[lang]cmilib.info.UseMaterial[/lang]'
+  IncorrectMaterial: '[lang]cmilib.info.IncorrectMaterial[/lang]'
+  UseInteger: '[lang]cmilib.info.UseInteger[/lang]'
+  UseBoolean: '[lang]cmilib.info.UseBoolean[/lang]'
+  NoLessThan: '[lang]cmilib.info.NoLessThan[args][arg][amount][/arg][/args][/lang]'
+  NoMoreThan: '[lang]cmilib.info.NoMoreThan[args][arg][amount][/arg][/args][/lang]'
+  NoGameMode: '[lang]cmilib.info.NoGameMode[/lang]'
+  NoWorld: '[lang]cmilib.info.NoWorld[/lang]'
+  IncorrectLocation: '[lang]cmilib.info.IncorrectLocation[/lang]'
+  NameChange: >-
+    [lang]cmilib.info.NameChange[args][arg][playerDisplayName][/arg][arg][namelist][/arg][/args][/lang]
+  Cooldowns: '[lang]cmilib.info.Cooldowns[args][arg][time][/arg][/args][/lang]'
+  specializedCooldowns: '[lang]cmilib.info.specializedCooldowns[args][arg][time][/arg][/args][/lang]'
+  specializedRunning: '[lang]cmilib.info.specializedRunning[args][arg][time][/arg][/args][/lang]'
+  CooldownOneTime: '[lang]cmilib.info.CooldownOneTime[/lang]'
+  WarmUp:
+    canceled: '[lang]cmilib.info.WarmUp.canceled[/lang]'
+    counter: '!actionbar!&b--> &7[time] &b<--'
+    DontMove: '!title!!subtitle!&bPrašome nejudėti!'
+    Boss:
+      DontMove: >-
+        [lang]cmilib.info.WarmUp.Boss.DontMove[args][arg][autoTimeLeft][/arg][/args][/lang]
+      WaitFor: >-
+        [lang]cmilib.info.WarmUp.Boss.WaitFor[args][arg][autoTimeLeft][/arg][/args][/lang]
+  Spawner: '[lang]cmilib.info.Spawner[args][arg][type][/arg][/args][/lang]'
+  FailedSpawnerMine: '!actionbar!&cFailed to mine spawner. &7[percent]% &cdrop chance'
+  ClickSpawner: '!actionbar!&7[percent]% &eDrop chance'
+  Elevator:
+    created: '[lang]cmilib.info.Elevator.created[/lang]'
+  CantPlaceSpawner: '[lang]cmilib.info.CantPlaceSpawner[args][arg][range][/arg][/args][/lang]'
+  ChunksLoading: '[lang]cmilib.info.ChunksLoading[/lang]'
+  ShulkerBox: '[lang]cmilib.info.ShulkerBox[/lang]'
+  CantUseNonEncrypted: >-
+    !actionbar!&cKomandos ant šio daikto nėra užkoduotos. Jus negalite naudoti
+    jį!
+  CantDecode: >-
+    !actionbar!&cNepavyko iššifruoti pranešimo / komandos. Rakto faile yra
+    neteisingas šios užduoties raktas. Apie tai informuokite serverio
+    administraciją
+  Show: '[lang]cmilib.info.Show[/lang]'
+  Remove: '[lang]cmilib.info.Remove[/lang]'
+  Back: '[lang]cmilib.info.Back[/lang]'
+  Forward: '[lang]cmilib.info.Forward[/lang]'
+  Update: '[lang]cmilib.info.Update[/lang]'
+  Save: '[lang]cmilib.info.Save[/lang]'
+  Delete: '[lang]cmilib.info.Delete[/lang]'
+  Click: '[lang]cmilib.info.Click[/lang]'
+  Preview: '[lang]cmilib.info.Preview[/lang]'
+  PasteOld: '[lang]cmilib.info.PasteOld[/lang]'
+  ClickToPaste: '[lang]cmilib.info.ClickToPaste[/lang]'
+  CantTeleportWorld: '[lang]cmilib.info.CantTeleportWorld[/lang]'
+  CantTeleportNoWorld: '[lang]cmilib.info.CantTeleportNoWorld[/lang]'
+  CantTeleport: '[lang]cmilib.info.CantTeleport[/lang]'
+  ClickToConfirmDelete: '[lang]cmilib.info.ClickToConfirmDelete[args][arg][name][/arg][/args][/lang]'
+  teleported: '[lang]cmilib.info.teleported[/lang]'
+  BlackList: >-
+    [lang]cmilib.info.BlackList[args][arg][material][/arg][arg][amount][/arg][arg][max][/arg][/args][/lang]
+  PlayerSpliter: >-
+    [lang]cmilib.info.PlayerSpliter[args][arg][playerDisplayName][/arg][/args][/lang]
+  Spliter: '[lang]cmilib.info.Spliter[/lang]'
+  SpliterValue: '[lang]cmilib.info.SpliterValue[args][arg][value][/arg][/args][/lang]'
+  singleSpliter: '[lang]cmilib.info.singleSpliter[/lang]'
+  SpliterMiddle: '[lang]cmilib.info.SpliterMiddle[args][arg][value][/arg][/args][/lang]'
+  ListSpliter: '[lang]cmilib.info.ListSpliter[/lang]'
+  ProgressBarFill: '[lang]cmilib.info.ProgressBarFill[/lang]'
+  ProgressBarEmpty: '[lang]cmilib.info.ProgressBarEmpty[/lang]'
+  nothingInHand: '&cJus turite laikyti daiktą rankoje'
+  nothingInHandLeather: '[lang]cmilib.info.nothingInHandLeather[/lang]'
+  nothingToShow: '[lang]cmilib.info.nothingToShow[/lang]'
+  noItem: '[lang]cmilib.info.noItem[/lang]'
+  dontHaveItem: >-
+    [lang]cmilib.info.dontHaveItem[args][arg][amount][/arg][arg][itemName][/arg][/args][/lang]
+  wrongWorld: '[lang]cmilib.info.wrongWorld[/lang]'
+  wrongPortal: '[lang]cmilib.info.wrongPortal[/lang]'
+  differentWorld: '[lang]cmilib.info.differentWorld[/lang]'
+  HaveItem: >-
+    [lang]cmilib.info.HaveItem[args][arg][amount][/arg][arg][itemName][/arg][/args][/lang]
+  ItemWillBreak: >-
+    !actionbar!&7Jūsų daiktas (&b[itemName]&7) greitai sulūš!
+    &b[current]&7/&b[max]
+  ArmorWillBreak: '!actionbar!&eYour [itemName] will break soon! &e[current]&6/&e[max]'
+  cantDoInGamemode: '[lang]cmilib.info.cantDoInGamemode[/lang]'
+  cantDoForPlayer: >-
+    [lang]cmilib.info.cantDoForPlayer[args][arg][playerDisplayName][/arg][/args][/lang]
+  cantDoForYourSelf: '[lang]cmilib.info.cantDoForYourSelf[/lang]'
+  cantDetermineMobType: '[lang]cmilib.info.cantDetermineMobType[args][arg][type][/arg][/args][/lang]'
+  cantRename: '!actionbar!&cJus negalite naudoti šio slapyvardžio'
+  confirmRedefine: '[lang]cmilib.info.confirmRedefine[/lang]'
+  cantEdit: '[lang]cmilib.info.cantEdit[/lang]'
+  wrongName: '[lang]cmilib.info.wrongName[/lang]'
+  unknown: '[lang]cmilib.info.unknown[/lang]'
+  invalidName: '[lang]cmilib.info.invalidName[/lang]'
+  alreadyexist: '[lang]cmilib.info.alreadyexist[/lang]'
+  dontexist: '[lang]cmilib.info.dontexist[/lang]'
+  worldDontExist: '[lang]cmilib.info.worldDontExist[/lang]'
+  flyingToHigh: '[lang]cmilib.info.flyingToHigh[args][arg][max][/arg][/args][/lang]'
+  specializedItemFail: '[lang]cmilib.info.specializedItemFail[args][arg][value][/arg][/args][/lang]'
+  sunSpeeding: >-
+    [lang]cmilib.info.sunSpeeding[args][arg][count][/arg][arg][total][/arg][arg][hour][/arg][arg][speed][/arg][/args][/lang]
+  sleepersRequired: >-
+    &f[sleeping] &7apie &f[required] &7miegojimas nuo būtino nakties laiko
+    pagreitinimo
+  sunSpeedingTitle: '[lang]cmilib.info.sunSpeedingTitle[args][arg][hour][/arg][/args][/lang]'
+  skippingNight: '!title!&7Skipping entire night'
+  sunSpeedingSubTitle: >-
+    [lang]cmilib.info.sunSpeedingSubTitle[args][arg][count][/arg][arg][total][/arg][arg][speed][/arg][/args][/lang]
+  repairConfirm: >-
+    [lang]cmilib.info.repairConfirm[args][arg][items][/arg][arg][cost][/arg][/args][/lang]
+  bookDate: '[lang]cmilib.info.bookDate[args][arg][date][/arg][/args][/lang]'
+  maintenance: '[lang]cmilib.info.maintenance[/lang]'
+  notSet: '[lang]cmilib.info.notSet[/lang]'
+  mapLimit: '[lang]cmilib.info.mapLimit[/lang]'
+  startedEditingPainting: '[lang]cmilib.info.startedEditingPainting[/lang]'
+  canceledEditingPainting: '[lang]cmilib.info.canceledEditingPainting[/lang]'
+  changedPainting: '!actionbar!&7Paveikslas pakeistas į &b[name] &7, kurio id buvo &b[id]'
+  noSpam: '!title!&cPrašome nespaminti!'
+  noCmdSpam: '!title!&cPrašome nespaminti komandų!'
+  spamConsoleInform: >-
+    [lang]cmilib.info.spamConsoleInform[args][arg][playerName][/arg][arg][rules][/arg][arg][message][/arg][/args][/lang]
+  lookAtSign: '[lang]cmilib.info.lookAtSign[/lang]'
+  lookAtBlock: '[lang]cmilib.info.lookAtBlock[/lang]'
+  lookAtEntity: '[lang]cmilib.info.lookAtEntity[/lang]'
+  noSpace: '[lang]cmilib.info.noSpace[/lang]'
+  notOnGround: '[lang]cmilib.info.notOnGround[/lang]'
+  FirstJoin: >-
+    [lang]cmilib.info.FirstJoin[args][arg][playerDisplayName][/arg][/args][/lang]
+  LogoutCustom: >-
+    [lang]cmilib.info.LogoutCustom[args][arg][playerDisplayName][/arg][/args][/lang]
+  LoginCustom: >-
+    [lang]cmilib.info.LoginCustom[args][arg][playerDisplayName][/arg][/args][/lang]
+  deathlocation: >-
+    [lang]cmilib.info.deathlocation[args][arg][x][/arg][arg][y][/arg][arg][z][/arg][arg][world][/arg][/args][/lang]
+  book:
+    exploit: '[lang]cmilib.info.book.exploit[args][arg][amount][/arg][/args][/lang]'
+  combat:
+    CantUseShulkerBox: >-
+      [lang]cmilib.info.combat.CantUseShulkerBox[args][arg][time][/arg][/args][/lang]
+    CantUseCommand: '!actionbar!&cCan''t use command while in combat mobe. Wait: [time]'
+    bossBarPvp: >-
+      [lang]cmilib.info.combat.bossBarPvp[args][arg][autoTimeLeft][/arg][/args][/lang]
+    bossBarPve: >-
+      [lang]cmilib.info.combat.bossBarPve[args][arg][autoTimeLeft][/arg][/args][/lang]
+  bungee:
+    Online: '[lang]cmilib.info.bungee.Online[/lang]'
+    Offline: '[lang]cmilib.info.bungee.Offline[/lang]'
+    not: '[lang]cmilib.info.bungee.not[/lang]'
+    noserver: '[lang]cmilib.info.bungee.noserver[/lang]'
+    server: '[lang]cmilib.info.bungee.server[args][arg][name][/arg][/args][/lang]'
+  variables:
+    am: '&eAM'
+    pm: '&ePM'
+    Online: '&cPrisijunges'
+    Offline: '&cAtsijunges'
+    TrueColor: '&2'
+    FalseColor: '&4'
+    'True': '&aTiesa'
+    'False': '&cNetiesa'
+    Enabled: '&aĮjungtas'
+    Disabled: '&cIšjunktas'
+    survival: '&cIšlikimas'
+    creative: '&aKūrybinis'
+    adventure: '&cNuotykių'
+    spectator: '&cStebėtojas'
+    flying: '&cSkraidyti'
+    notflying: '&cNe skraidyti'
+  noSchedule: '[lang]cmilib.info.noSchedule[/lang]'
+  totem:
+    cooldown: '[lang]cmilib.info.totem.cooldown[args][arg][time][/arg][/args][/lang]'
+    warmup: '[lang]cmilib.info.totem.warmup[args][arg][time][/arg][/args][/lang]'
+    cantConsume: '[lang]cmilib.info.totem.cantConsume[/lang]'
+  Inventory:
+    FullDrop: '[lang]cmilib.info.Inventory.FullDrop[/lang]'
+  InventorySave:
+    info: >-
+      [lang]cmilib.info.InventorySave.info[args][arg][playerDisplayName][/arg][/args][/lang]
+    saved: >-
+      [lang]cmilib.info.InventorySave.saved[args][arg][time][/arg][arg][id][/arg][/args][/lang]
+    NoSavedInv: '[lang]cmilib.info.InventorySave.NoSavedInv[/lang]'
+    NoEntries: '[lang]cmilib.info.InventorySave.NoEntries[/lang]'
+    CantFind: '[lang]cmilib.info.InventorySave.CantFind[/lang]'
+    TopLine: >-
+      [lang]cmilib.info.InventorySave.TopLine[args][arg][playerDisplayName][/arg][/args][/lang]
+    List: >-
+      [lang]cmilib.info.InventorySave.List[args][arg][id][/arg][arg][time][/arg][/args][/lang]
+    KillerSymbol: '[lang]cmilib.info.InventorySave.KillerSymbol[/lang]'
+    Click: '[lang]cmilib.info.InventorySave.Click[args][arg][id][/arg][/args][/lang]'
+    IdDontExist: '[lang]cmilib.info.InventorySave.IdDontExist[/lang]'
+    Deleted: '[lang]cmilib.info.InventorySave.Deleted[/lang]'
+    Restored: >-
+      [lang]cmilib.info.InventorySave.Restored[args][arg][sourcename][/arg][arg][targetname][/arg][/args][/lang]
+    GotRestored: >-
+      [lang]cmilib.info.InventorySave.GotRestored[args][arg][sourcename][/arg][arg][time][/arg][/args][/lang]
+    LoadForSelf: '[lang]cmilib.info.InventorySave.LoadForSelf[/lang]'
+    LoadForOwner: '[lang]cmilib.info.InventorySave.LoadForOwner[/lang]'
+    NextInventory: '[lang]cmilib.info.InventorySave.NextInventory[/lang]'
+    PreviousInventory: '[lang]cmilib.info.InventorySave.PreviousInventory[/lang]'
+    Editable: '[lang]cmilib.info.InventorySave.Editable[/lang]'
+    NonEditable: '[lang]cmilib.info.InventorySave.NonEditable[/lang]'
+  TimeNotRecorded: '[lang]cmilib.info.TimeNotRecorded[/lang]'
+  years: '[lang]cmilib.info.years[args][arg][years][/arg][/args][/lang]'
+  oneYear: '[lang]cmilib.info.oneYear[args][arg][years][/arg][/args][/lang]'
+  day: '[lang]cmilib.info.day[args][arg][days][/arg][/args][/lang]'
+  oneDay: '[lang]cmilib.info.oneDay[args][arg][days][/arg][/args][/lang]'
+  hour: '[lang]cmilib.info.hour[args][arg][hours][/arg][/args][/lang]'
+  oneHour: '[lang]cmilib.info.oneHour[args][arg][hours][/arg][/args][/lang]'
+  min: '[lang]cmilib.info.min[args][arg][mins][/arg][/args][/lang]'
+  sec: '[lang]cmilib.info.sec[args][arg][secs][/arg][/args][/lang]'
+  vanishSymbolOn: '[lang]cmilib.info.vanishSymbolOn[/lang]'
+  vanishSymbolOff: ''
+  afkSymbolOn: '[lang]cmilib.info.afkSymbolOn[/lang]'
+  afkSymbolOff: ''
+  nextPageConsole: '[lang]cmilib.info.nextPageConsole[args][arg][command][/arg][/args][/lang]'
+  prevPage: '[lang]cmilib.info.prevPage[/lang]'
+  prevPageGui: '[lang]cmilib.info.prevPageGui[/lang]'
+  prevPageClean: '[lang]cmilib.info.prevPageClean[/lang]'
+  prevPageOff: '[lang]cmilib.info.prevPageOff[/lang]'
+  prevPageHover: '[lang]cmilib.info.prevPageHover[/lang]'
+  firstPageHover: '[lang]cmilib.info.firstPageHover[/lang]'
+  nextPage: '[lang]cmilib.info.nextPage[/lang]'
+  nextPageGui: '[lang]cmilib.info.nextPageGui[/lang]'
+  nextPageClean: '[lang]cmilib.info.nextPageClean[/lang]'
+  nextPageOff: '[lang]cmilib.info.nextPageOff[/lang]'
+  nextPageHover: '[lang]cmilib.info.nextPageHover[/lang]'
+  lastPageHover: '[lang]cmilib.info.lastPageHover[/lang]'
+  pageCount: >-
+    [lang]cmilib.info.pageCount[args][arg][current][/arg][arg][total][/arg][/args][/lang]
+  pageCountHover: >-
+    [lang]cmilib.info.pageCountHover[args][arg][totalEntries][/arg][/args][/lang]
+  skullOwner: '!actionbar!&7Owner:&r [playerName]'
+  beeinfo: >-
+    !actionbar!&7Honey level: &e[level]&7/&e[maxlevel] &7Bees inside:
+    &e[count]&7/&e[maxcount]
+  circle: '[lang]cmilib.info.circle[/lang]'
+  square: '[lang]cmilib.info.square[/lang]'
+  clear: '[lang]cmilib.info.clear[/lang]'
+  protectedArea: '[lang]cmilib.info.protectedArea[/lang]'
+  valueToLong: '[lang]cmilib.info.valueToLong[args][arg][max][/arg][/args][/lang]'
+  valueToShort: '[lang]cmilib.info.valueToShort[args][arg][min][/arg][/args][/lang]'
+  pvp:
+    noGodDamage: '!actionbar!&cYou can''t damage players while being immortal'
+  InvEmpty:
+    armor: '[lang]cmilib.info.InvEmpty.armor[/lang]'
+    hand: '[lang]cmilib.info.InvEmpty.hand[/lang]'
+    maininv: '[lang]cmilib.info.InvEmpty.maininv[/lang]'
+    maininvslots: >-
+      [lang]cmilib.info.InvEmpty.maininvslots[args][arg][count][/arg][/args][/lang]
+    inv: '[lang]cmilib.info.InvEmpty.inv[/lang]'
+    offhand: '[lang]cmilib.info.InvEmpty.offhand[/lang]'
+    quickbar: '[lang]cmilib.info.InvEmpty.quickbar[/lang]'
+    quickbarslots: >-
+      [lang]cmilib.info.InvEmpty.quickbarslots[args][arg][count][/arg][/args][/lang]
+    subinv: '[lang]cmilib.info.InvEmpty.subinv[/lang]'
+    subinvslots: >-
+      [lang]cmilib.info.InvEmpty.subinvslots[args][arg][count][/arg][/args][/lang]
+  pickIcon: '[lang]cmilib.info.pickIcon[/lang]'
+  DamageCause:
+    block_explosion: '[lang]cmilib.info.DamageCause.block_explosion[/lang]'
+    contact: '[lang]cmilib.info.DamageCause.contact[/lang]'
+    cramming: '[lang]cmilib.info.DamageCause.cramming[/lang]'
+    custom: '[lang]cmilib.info.DamageCause.custom[/lang]'
+    dragon_breath: '[lang]cmilib.info.DamageCause.dragon_breath[/lang]'
+    drowning: '[lang]cmilib.info.DamageCause.drowning[/lang]'
+    dryout: '[lang]cmilib.info.DamageCause.dryout[/lang]'
+    entity_attack: '[lang]cmilib.info.DamageCause.entity_attack[/lang]'
+    entity_explosion: '[lang]cmilib.info.DamageCause.entity_explosion[/lang]'
+    entity_sweep_attack: '[lang]cmilib.info.DamageCause.entity_sweep_attack[/lang]'
+    fall: '[lang]cmilib.info.DamageCause.fall[/lang]'
+    falling_block: '[lang]cmilib.info.DamageCause.falling_block[/lang]'
+    fire: '[lang]cmilib.info.DamageCause.fire[/lang]'
+    fire_tick: '[lang]cmilib.info.DamageCause.fire_tick[/lang]'
+    fly_into_wall: '[lang]cmilib.info.DamageCause.fly_into_wall[/lang]'
+    freeze: '[lang]cmilib.info.DamageCause.freeze[/lang]'
+    hot_floor: '[lang]cmilib.info.DamageCause.hot_floor[/lang]'
+    lava: '[lang]cmilib.info.DamageCause.lava[/lang]'
+    lightning: '[lang]cmilib.info.DamageCause.lightning[/lang]'
+    magic: '[lang]cmilib.info.DamageCause.magic[/lang]'
+    melting: '[lang]cmilib.info.DamageCause.melting[/lang]'
+    poison: '[lang]cmilib.info.DamageCause.poison[/lang]'
+    projectile: '[lang]cmilib.info.DamageCause.projectile[/lang]'
+    starvation: '[lang]cmilib.info.DamageCause.starvation[/lang]'
+    suffocation: '[lang]cmilib.info.DamageCause.suffocation[/lang]'
+    suicide: '[lang]cmilib.info.DamageCause.suicide[/lang]'
+    thorns: '[lang]cmilib.info.DamageCause.thorns[/lang]'
+    void: '[lang]cmilib.info.DamageCause.void[/lang]'
+    wither: '[lang]cmilib.info.DamageCause.wither[/lang]'
+  Biomes:
+    BADLANDS: Badlands
+    BADLANDS_PLATEAU: Badlands plateau
+    BAMBOO_JUNGLE: Bamboo jungle
+    BAMBOO_JUNGLE_HILLS: Bamboo jungle hills
+    BASALT_DELTAS: Basalt deltas
+    BEACH: Beach
+    BIRCH_FOREST: Birch forest
+    BIRCH_FOREST_HILLS: Birch forest hills
+    COLD_OCEAN: Cold ocean
+    CRIMSON_FOREST: Crimson forest
+    CUSTOM: Custom
+    DARK_FOREST: Dark forest
+    DARK_FOREST_HILLS: Dark forest hills
+    DEEP_COLD_OCEAN: Deep cold ocean
+    DEEP_FROZEN_OCEAN: Deep frozen ocean
+    DEEP_LUKEWARM_OCEAN: Deep lukewarm ocean
+    DEEP_OCEAN: Deep ocean
+    DEEP_WARM_OCEAN: Deep warm ocean
+    DESERT: Desert
+    DESERT_HILLS: Desert hills
+    DESERT_LAKES: Desert lakes
+    DRIPSTONE_CAVES: Dripstone caves
+    END_BARRENS: End barrens
+    END_HIGHLANDS: End highlands
+    END_MIDLANDS: End midlands
+    ERODED_BADLANDS: Eroded badlands
+    FLOWER_FOREST: Flower forest
+    FOREST: Forest
+    FROZEN_OCEAN: Frozen ocean
+    FROZEN_RIVER: Frozen river
+    GIANT_SPRUCE_TAIGA: Giant spruce taiga
+    GIANT_SPRUCE_TAIGA_HILLS: Giant spruce taiga hills
+    GIANT_TREE_TAIGA: Giant tree taiga
+    GIANT_TREE_TAIGA_HILLS: Giant tree taiga hills
+    GRAVELLY_MOUNTAINS: Gravelly mountains
+    ICE_SPIKES: Ice spikes
+    JUNGLE: Jungle
+    JUNGLE_EDGE: Jungle edge
+    JUNGLE_HILLS: Jungle hills
+    LUKEWARM_OCEAN: Lukewarm ocean
+    LUSH_CAVES: Lush caves
+    MODIFIED_BADLANDS_PLATEAU: Modified badlands plateau
+    MODIFIED_GRAVELLY_MOUNTAINS: Modified gravelly mountains
+    MODIFIED_JUNGLE: Modified jungle
+    MODIFIED_JUNGLE_EDGE: Modified jungle edge
+    MODIFIED_WOODED_BADLANDS_PLATEAU: Modified wooded badlands plateau
+    MOUNTAINS: Mountains
+    MOUNTAIN_EDGE: Mountain edge
+    MUSHROOM_FIELDS: Mushroom fields
+    MUSHROOM_FIELD_SHORE: Mushroom field shore
+    NETHER_WASTES: Nether wastes
+    OCEAN: Ocean
+    PLAINS: Plains
+    RIVER: River
+    SAVANNA: Savanna
+    SAVANNA_PLATEAU: Savanna plateau
+    SHATTERED_SAVANNA: Shattered savanna
+    SHATTERED_SAVANNA_PLATEAU: Shattered savanna plateau
+    SMALL_END_ISLANDS: Small end islands
+    SNOWY_BEACH: Snowy beach
+    SNOWY_MOUNTAINS: Snowy mountains
+    SNOWY_TAIGA: Snowy taiga
+    SNOWY_TAIGA_HILLS: Snowy taiga hills
+    SNOWY_TAIGA_MOUNTAINS: Snowy taiga mountains
+    SNOWY_TUNDRA: Snowy tundra
+    SOUL_SAND_VALLEY: Soul sand valley
+    STONE_SHORE: Stone shore
+    SUNFLOWER_PLAINS: Sunflower plains
+    SWAMP: Swamp
+    SWAMP_HILLS: Swamp hills
+    TAIGA: Taiga
+    TAIGA_HILLS: Taiga hills
+    TAIGA_MOUNTAINS: Taiga mountains
+    TALL_BIRCH_FOREST: Tall birch forest
+    TALL_BIRCH_HILLS: Tall birch hills
+    THE_END: The end
+    THE_VOID: The void
+    WARM_OCEAN: Warm ocean
+    WARPED_FOREST: Warped forest
+    WOODED_BADLANDS_PLATEAU: Wooded badlands plateau
+    WOODED_HILLS: Wooded hills
+    WOODED_MOUNTAINS: Wooded mountains
+    NETHER: Piekło
+  EntityType:
+    area_effect_cloud: Area effect cloud
+    armor_stand: Armor stand
+    arrow: Arrow
+    axolotl: Axolotl
+    bat: Bat
+    bee: Bee
+    blaze: Blaze
+    boat: Boat
+    cat: Cat
+    cave_spider: Cave spider
+    chicken: Chicken
+    cod: Cod
+    cow: Cow
+    creeper: Creeper
+    dolphin: Dolphin
+    donkey: Donkey
+    dragon_fireball: Dragon fireball
+    dropped_item: Dropped item
+    drowned: Drowned
+    egg: Egg
+    elder_guardian: Elder guardian
+    enderman: Enderman
+    endermite: Endermite
+    ender_crystal: Ender crystal
+    ender_dragon: Ender dragon
+    ender_pearl: Ender pearl
+    ender_signal: Ender signal
+    evoker: Evoker
+    evoker_fangs: Evoker fangs
+    experience_orb: Experience orb
+    falling_block: Falling block
+    fireball: Fireball
+    firework: Firework
+    fishing_hook: Fishing hook
+    fox: Fox
+    ghast: Ghast
+    giant: Giant
+    glow_item_frame: Glow item frame
+    glow_squid: Glow squid
+    goat: Goat
+    guardian: Guardian
+    hoglin: Hoglin
+    horse: Horse
+    husk: Husk
+    illusioner: Illusioner
+    iron_golem: Iron golem
+    item_frame: Item frame
+    leash_hitch: Leash hitch
+    lightning: Lightning
+    llama: Llama
+    llama_spit: Llama spit
+    magma_cube: Magma cube
+    marker: Marker
+    minecart: Minecart
+    minecart_chest: Minecart chest
+    minecart_command: Minecart command
+    minecart_furnace: Minecart furnace
+    minecart_hopper: Minecart hopper
+    minecart_mob_spawner: Minecart mob spawner
+    minecart_tnt: Minecart tnt
+    mule: Mule
+    mushroom_cow: Mushroom cow
+    ocelot: Ocelot
+    painting: Painting
+    panda: Panda
+    parrot: Parrot
+    phantom: Phantom
+    pig: Pig
+    piglin: Piglin
+    piglin_brute: Piglin brute
+    pillager: Pillager
+    player: Player
+    polar_bear: Polar bear
+    primed_tnt: Primed tnt
+    pufferfish: Pufferfish
+    rabbit: Rabbit
+    ravager: Ravager
+    salmon: Salmon
+    sheep: Sheep
+    shulker: Shulker
+    shulker_bullet: Shulker bullet
+    silverfish: Silverfish
+    skeleton: Skeleton
+    skeleton_horse: Skeleton horse
+    slime: Slime
+    small_fireball: Small fireball
+    snowball: Snowball
+    snowman: Snowman
+    spectral_arrow: Spectral arrow
+    spider: Spider
+    splash_potion: Splash potion
+    squid: Squid
+    stray: Stray
+    strider: Strider
+    thrown_exp_bottle: Thrown exp bottle
+    trader_llama: Trader llama
+    trident: Trident
+    tropical_fish: Tropical fish
+    turtle: Turtle
+    unknown: Unknown
+    vex: Vex
+    villager: Villager
+    vindicator: Vindicator
+    wandering_trader: Wandering trader
+    witch: Witch
+    wither: Wither
+    wither_skeleton: Wither skeleton
+    wither_skull: Wither skull
+    wolf: Wolf
+    zoglin: Zoglin
+    zombie: Zombie
+    zombie_horse: Zombie horse
+    zombie_villager: Zombie villager
+    zombified_piglin: Zombified piglin
+    pig_zombie: Świnia zombie
+    complex_part: Complex part
+    lingering_potion: Pozione persistente
+    tipped_arrow: Freccia inzuppata
+    weather: Pioggia
+  EnchantAliases:
+    protection_fire:
+      - FireProtection
+    damage_all:
+      - Sharpness
+    arrow_fire:
+      - Flame
+    soul_speed:
+      - SOULSPEED
+    water_worker:
+      - AquaAffinity
+    arrow_knockback:
+      - Punch
+    loyalty:
+      - LOYALTY
+    depth_strider:
+      - DepthStrider
+    vanishing_curse:
+      - VanishingCurse
+    durability:
+      - Unbreaking
+    knockback:
+      - Knockback
+    luck:
+      - Luck
+    binding_curse:
+      - BindingCurse
+    loot_bonus_blocks:
+      - Fortune
+    protection_environmental:
+      - Protection
+    dig_speed:
+      - Efficiency
+    mending:
+      - Mending
+    frost_walker:
+      - FrostWalker
+    lure:
+      - Lure
+    loot_bonus_mobs:
+      - Looting
+    piercing:
+      - PIERCING
+    protection_explosions:
+      - BlastProtection
+    damage_undead:
+      - Smite
+    multishot:
+      - MULTISHOT
+    fire_aspect:
+      - FireAspect
+    channeling:
+      - CHANNELING
+    sweeping_edge:
+      - SweepingEdge
+    thorns:
+      - Thorns
+    damage_arthropods:
+      - BaneOfArthropods
+    oxygen:
+      - Respiration
+    riptide:
+      - RIPTIDE
+    silk_touch:
+      - SilkTouch
+    quick_charge:
+      - QUICKCHARGE
+    protection_projectile:
+      - ProjectileProtection
+    impaling:
+      - IMPALING
+    protection_fall:
+      - FallProtection
+      - FeatherFalling
+    arrow_damage:
+      - Power
+    arrow_infinite:
+      - Infinity
+    multshot:
+      - Mehrfachschuss
+  PotionEffectAliases:
+    speed:
+      - Speed
+    slow:
+      - Slow
+    fast_digging:
+      - Fast digging
+    slow_digging:
+      - Slow digging
+    increase_damage:
+      - Increase damage
+    heal:
+      - Heal
+    harm:
+      - Harm
+    jump:
+      - Jump
+    confusion:
+      - Confusion
+    regeneration:
+      - Regeneration
+    damage_resistance:
+      - Damage resistance
+    fire_resistance:
+      - Fire resistance
+    water_breathing:
+      - Water breathing
+    invisibility:
+      - Invisibility
+    blindness:
+      - Blindness
+    night_vision:
+      - Night vision
+    hunger:
+      - Hunger
+    weakness:
+      - Weakness
+    poison:
+      - Poison
+    wither:
+      - Wither
+    health_boost:
+      - Health boost
+    absorption:
+      - Absorption
+    saturation:
+      - Saturation
+    glowing:
+      - Glowing
+    levitation:
+      - Levitation
+    luck:
+      - Luck
+    unluck:
+      - Unluck
+    slow_falling:
+      - Slow falling
+    conduit_power:
+      - Conduit power
+    dolphins_grace:
+      - Dolphins grace
+    bad_omen:
+      - Bad omen
+    hero_of_the_village:
+      - Hero of the village
+  pve:
+    noGodDamage: '!actionbar!&cYou can''t damage mobs while being immortal'
+direction:
+  'n': '[lang]cmilib.direction.n[/lang]'
+  ne: '[lang]cmilib.direction.ne[/lang]'
+  e: '[lang]cmilib.direction.e[/lang]'
+  se: '[lang]cmilib.direction.se[/lang]'
+  s: '[lang]cmilib.direction.s[/lang]'
+  sw: '[lang]cmilib.direction.sw[/lang]'
+  w: '[lang]cmilib.direction.w[/lang]'
+  nw: '[lang]cmilib.direction.nw[/lang]'
+modify:
+  middlemouse: '[lang]cmilib.modify.middlemouse[/lang]'
+  newItem: '[lang]cmilib.modify.newItem[/lang]'
+  newLine: '[lang]cmilib.modify.newLine[/lang]'
+  newLineHover: '[lang]cmilib.modify.newLineHover[/lang]'
+  newPage: '[lang]cmilib.modify.newPage[/lang]'
+  newPageHover: '[lang]cmilib.modify.newPageHover[/lang]'
+  removePage: '[lang]cmilib.modify.removePage[/lang]'
+  removePageHover: '[lang]cmilib.modify.removePageHover[/lang]'
+  deleteSymbol: '[lang]cmilib.modify.deleteSymbol[args][arg][X][/arg][/args][/lang]'
+  deleteSymbolHover: '[lang]cmilib.modify.deleteSymbolHover[args][arg][text][/arg][/args][/lang]'
+  extraEditSymbol: '[lang]cmilib.modify.extraEditSymbol[/lang]'
+  addSymbol: '[lang]cmilib.modify.addSymbol[/lang]'
+  addSymbolHover: '[lang]cmilib.modify.addSymbolHover[/lang]'
+  cancelSymbol: '[lang]cmilib.modify.cancelSymbol[args][arg][X][/arg][/args][/lang]'
+  cancelSymbolHover: '[lang]cmilib.modify.cancelSymbolHover[/lang]'
+  acceptSymbol: '[lang]cmilib.modify.acceptSymbol[/lang]'
+  acceptSymbolHover: '[lang]cmilib.modify.acceptSymbolHover[/lang]'
+  denySymbol: '[lang]cmilib.modify.denySymbol[args][arg][X][/arg][/args][/lang]'
+  denySymbolHover: '[lang]cmilib.modify.denySymbolHover[/lang]'
+  enabledSymbol: '[lang]cmilib.modify.enabledSymbol[/lang]'
+  disabledSymbol: '[lang]cmilib.modify.disabledSymbol[/lang]'
+  enabled: '[lang]cmilib.modify.enabled[/lang]'
+  disabled: '[lang]cmilib.modify.disabled[/lang]'
+  running: '[lang]cmilib.modify.running[/lang]'
+  paused: '[lang]cmilib.modify.paused[/lang]'
+  editSymbol: '[lang]cmilib.modify.editSymbol[/lang]'
+  editSymbolHover: '[lang]cmilib.modify.editSymbolHover[args][arg][text][/arg][/args][/lang]'
+  editLineColor: '[lang]cmilib.modify.editLineColor[/lang]'
+  listUpSymbol: '[lang]cmilib.modify.listUpSymbol[/lang]'
+  listUpSymbolHover: '[lang]cmilib.modify.listUpSymbolHover[/lang]'
+  listDownSymbol: '[lang]cmilib.modify.listDownSymbol[/lang]'
+  listDownSymbolHover: '[lang]cmilib.modify.listDownSymbolHover[/lang]'
+  listNumbering: '[lang]cmilib.modify.listNumbering[args][arg][number][/arg][/args][/lang]'
+  listAlign: '[lang]cmilib.modify.listAlign[/lang]'
+  ChangeHover: '[lang]cmilib.modify.ChangeHover[/lang]'
+  ChangeCommands: '[lang]cmilib.modify.ChangeCommands[/lang]'
+  enabledColor: '[lang]cmilib.modify.enabledColor[/lang]'
+  disabledColor: '[lang]cmilib.modify.disabledColor[/lang]'
+  commandTitle: '[lang]cmilib.modify.commandTitle[args][arg][name][/arg][/args][/lang]'
+  commandList: '[lang]cmilib.modify.commandList[args][arg][command][/arg][/args][/lang]'
+  emptyLine: '[lang]cmilib.modify.emptyLine[/lang]'
+  commandEdit: '[lang]cmilib.modify.commandEdit[/lang]'
+  lineAddInfo: '[lang]cmilib.modify.lineAddInfo[/lang]'
+  commandAddInfo: '[lang]cmilib.modify.commandAddInfo[/lang]'
+  commandAddInformationHover: >-
+    [lang]cmilib.modify.commandAddInformationHover[args][arg][playerName][/arg][/args][/lang]
+  commandEditInfo: '[lang]cmilib.modify.commandEditInfo[/lang]'
+  listLimit: '[lang]cmilib.modify.listLimit[args][arg][amount][/arg][/args][/lang]'
+  commandEditInfoHover: '[lang]cmilib.modify.commandEditInfoHover[/lang]'
+warp:
+  list: >-
+    [lang]cmilib.warp.list[args][arg][pos][/arg][arg][warpName][/arg][arg][worldName][/arg][arg][x][/arg][arg][y][/arg][arg][z][/arg][/args][/lang]
+teleportation:
+  relocation: >-
+    !actionbar!&4Jūsų teleportacijos vieta buvo užstatyta. Jus buvote
+    nuteleportuotas į saugią lokaciją.
+afk:
+  'on': '[lang]cmilib.afk.on[/lang]'
+  'off': '[lang]cmilib.afk.off[/lang]'
+  left: '[lang]cmilib.afk.left[args][arg][playerDisplayName][/arg][/args][/lang]'
+  MayNotRespond: '[lang]cmilib.afk.MayNotRespond[/lang]'
+  MayNotRespondStaff: '[lang]cmilib.afk.MayNotRespondStaff[/lang]'
+BossBar:
+  hpBar: >-
+    [lang]cmilib.BossBar.hpBar[args][arg][victim][/arg][arg][max][/arg][arg][current][/arg][arg][damage][/arg][/args][/lang]
+Potion:
+  Effects: '[lang]cmilib.Potion.Effects[/lang]'
+  List: >-
+    [lang]cmilib.Potion.List[args][arg][PotionName][/arg][arg][PotionAmplifier][/arg][arg][LeftDuration][/arg][/args][/lang]
+  NoPotions: '[lang]cmilib.Potion.NoPotions[/lang]'
+Information:
+  Title: '[lang]cmilib.Information.Title[/lang]'
+  Health: >-
+    [lang]cmilib.Information.Health[args][arg][Health][/arg][arg][maxHealth][/arg][/args][/lang]
+  Hunger: '[lang]cmilib.Information.Hunger[args][arg][Hunger][/arg][/args][/lang]'
+  Saturation: >-
+    [lang]cmilib.Information.Saturation[args][arg][Saturation][/arg][/args][/lang]
+  Exp: '[lang]cmilib.Information.Exp[args][arg][Exp][/arg][/args][/lang]'
+  NotEnoughExp: '[lang]cmilib.Information.NotEnoughExp[args][arg][Exp][/arg][/args][/lang]'
+  NotEnoughExpNeed: >-
+    [lang]cmilib.Information.NotEnoughExpNeed[args][arg][Exp][/arg][arg][need][/arg][/args][/lang]
+  tooMuchExp: >-
+    [lang]cmilib.Information.tooMuchExp[args][arg][Exp][/arg][arg][need][/arg][/args][/lang]
+  NotEnoughVotes: >-
+    [lang]cmilib.Information.NotEnoughVotes[args][arg][votes][/arg][/args][/lang]
+  TooMuchVotes: '[lang]cmilib.Information.TooMuchVotes[args][arg][votes][/arg][/args][/lang]'
+  BadGameMode: '[lang]cmilib.Information.BadGameMode[/lang]'
+  BadArea: '[lang]cmilib.Information.BadArea[/lang]'
+  GameMode: '[lang]cmilib.Information.GameMode[args][arg][GameMode][/arg][/args][/lang]'
+  GodMode: '[lang]cmilib.Information.GodMode[args][arg][GodMode][/arg][/args][/lang]'
+  Flying: '[lang]cmilib.Information.Flying[args][arg][Flying][/arg][/args][/lang]'
+  CanFly: '[lang]cmilib.Information.CanFly[args][arg][CanFly][/arg][/args][/lang]'
+  Uuid: '[lang]cmilib.Information.Uuid[args][arg][uuid][/arg][/args][/lang]'
+  ip: '[lang]cmilib.Information.ip[args][arg][address][/arg][/args][/lang]'
+  FirstConnection: >-
+    [lang]cmilib.Information.FirstConnection[args][arg][time][/arg][/args][/lang]
+  Lastseen: '[lang]cmilib.Information.Lastseen[args][arg][time][/arg][/args][/lang]'
+  Onlinesince: '[lang]cmilib.Information.Onlinesince[args][arg][time][/arg][/args][/lang]'
+  Money: '[lang]cmilib.Information.Money[args][arg][money][/arg][/args][/lang]'
+  Group: '[lang]cmilib.Information.Group[args][arg][group][/arg][/args][/lang]'
+econ:
+  disabled: '[lang]cmilib.econ.disabled[/lang]'
+  noMoney: '[lang]cmilib.econ.noMoney[/lang]'
+  charged: '!actionbar!&fCharged: &6[amount]'
+  notEnoughMoney: '[lang]cmilib.econ.notEnoughMoney[args][arg][amount][/arg][/args][/lang]'
+  tooMuchMoney: '[lang]cmilib.econ.tooMuchMoney[/lang]'
+  commandCost: '[lang]cmilib.econ.commandCost[args][arg][cost][/arg][/args][/lang]'
+Elytra:
+  Speed: '[lang]cmilib.Elytra.Speed[args][arg][speed][/arg][/args][/lang]'
+  SpeedBoost: '[lang]cmilib.Elytra.SpeedBoost[/lang]'
+  SpeedSuperBoost: '[lang]cmilib.Elytra.SpeedSuperBoost[/lang]'
+  CanUse: '[lang]cmilib.Elytra.CanUse[/lang]'
+  CantGlide: '[lang]cmilib.Elytra.CantGlide[/lang]'
+  Charging: '[lang]cmilib.Elytra.Charging[args][arg][percentage][/arg][/args][/lang]'
+Selection:
+  SelectPoints: '[lang]cmilib.Selection.SelectPoints[args][arg][tool][/arg][/args][/lang]'
+  PrimaryPoint: '[lang]cmilib.Selection.PrimaryPoint[args][arg][point][/arg][/args][/lang]'
+  SecondaryPoint: '[lang]cmilib.Selection.SecondaryPoint[args][arg][point][/arg][/args][/lang]'
+  CoordsTop: >-
+    [lang]cmilib.Selection.CoordsTop[args][arg][x][/arg][arg][y][/arg][arg][z][/arg][/args][/lang]
+  CoordsBottom: >-
+    [lang]cmilib.Selection.CoordsBottom[args][arg][x][/arg][arg][y][/arg][arg][z][/arg][/args][/lang]
+  Area: >-
+    [lang]cmilib.Selection.Area[args][arg][world][/arg][arg][x1][/arg][arg][y1][/arg][arg][z1][/arg][arg][x2][/arg][arg][y2][/arg][arg][z2][/arg][/args][/lang]
+NetherPortal:
+  ToHigh: '[lang]cmilib.NetherPortal.ToHigh[args][arg][max][/arg][/args][/lang]'
+  ToWide: '[lang]cmilib.NetherPortal.ToWide[args][arg][max][/arg][/args][/lang]'
+  Creation: '!actionbar!&7Created [height]x[width] nether portal!'
+  Disabled: '[lang]cmilib.NetherPortal.Disabled[/lang]'
+Location:
+  Title: '[lang]cmilib.Location.Title[/lang]'
+  Killer: '[lang]cmilib.Location.Killer[args][arg][killer][/arg][/args][/lang]'
+  OneLiner: '[lang]cmilib.Location.OneLiner[args][arg][location][/arg][/args][/lang]'
+  DeathReason: '[lang]cmilib.Location.DeathReason[args][arg][reason][/arg][/args][/lang]'
+  Full: >-
+    [lang]cmilib.Location.Full[args][arg][world][/arg][arg][x][/arg][arg][y][/arg][arg][z][/arg][/args][/lang]
+  World: '[lang]cmilib.Location.World[args][arg][world][/arg][/args][/lang]'
+  X: '[lang]cmilib.Location.X[args][arg][x][/arg][/args][/lang]'
+  'Y': '[lang]cmilib.Location.Y[args][arg][y][/arg][/args][/lang]'
+  Z: '[lang]cmilib.Location.Z[args][arg][z][/arg][/args][/lang]'
+  Pitch: '[lang]cmilib.Location.Pitch[args][arg][pitch][/arg][/args][/lang]'
+  Yaw: '[lang]cmilib.Location.Yaw[args][arg][yaw][/arg][/args][/lang]'
+  WorldNames:
+    - '[lang]cmilib.Location.WorldNames.0[/lang]'
+    - '[lang]cmilib.Location.WorldNames.1[/lang]'
+    - '[lang]cmilib.Location.WorldNames.2[/lang]'
+Locations: '[lang]cmilib.Locations[/lang]'
+Ender:
+  Title: '[lang]cmilib.Ender.Title[/lang]'
+Chat:
+  localPrefix: ''
+  shoutPrefix: '[lang]cmilib.Chat.shoutPrefix[args][arg][S][/arg][/args][/lang]'
+  LocalNoOne: '!actionbar!&cNobody hear you, write ! before message for global chat'
+  shoutDeduction: '!actionbar!&cBuvo atimta &7[amount] &cuž pranešimą'
+  publicHover: '[lang]cmilib.Chat.publicHover[/lang]'
+  privateHover: '[lang]cmilib.Chat.privateHover[/lang]'
+  staffHover: '[lang]cmilib.Chat.staffHover[/lang]'
+  helpopHover: '[lang]cmilib.Chat.helpopHover[/lang]'
+  link: '[lang]cmilib.Chat.link[/lang]'
+  item: '[lang]cmilib.Chat.item[args][arg][amount][/arg][/args][/lang]'
+  itemAmount: '[lang]cmilib.Chat.itemAmount[args][arg][amount][/arg][/args][/lang]'
+  itemEmpty: '[lang]cmilib.Chat.itemEmpty[/lang]'
+command:
+  help:
+    output:
+      usage: '[lang]cmilib.command.help.output.usage[/lang]'
+      cmdInfoFormat: >-
+        [lang]cmilib.command.help.output.cmdInfoFormat[args][arg][command][/arg][arg][description][/arg][/args][/lang]
+      cmdFormat: >-
+        [lang]cmilib.command.help.output.cmdFormat[args][arg][command][/arg][arg][arguments][/arg][/args][/lang]
+      helpPageDescription: >-
+        [lang]cmilib.command.help.output.helpPageDescription[args][arg][description][/arg][/args][/lang]
+      explanation: >-
+        [lang]cmilib.command.help.output.explanation[args][arg][explanation][/arg][/args][/lang]
+      title: '[lang]cmilib.command.help.output.title[/lang]'
+  nocmd:
+    help:
+      info: '[lang]cmilib.command.nocmd.help.info[/lang]'
+      args: ''
+  reload:
+    help:
+      info: '[lang]cmilib.command.reload.help.info[/lang]'
+      args: ''
+    info:
+      feedback: >-
+        [lang]cmilib.command.reload.info.feedback[args][arg][ms][/arg][/args][/lang]
+      failedConfig: '[lang]cmilib.command.reload.info.failedConfig[/lang]'
+      failedLocale: '[lang]cmilib.command.reload.info.failedLocale[/lang]'
+  actionbarmsg:
+    help:
+      info: ''
+      args: ''
