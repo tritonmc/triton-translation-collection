@@ -1,6 +1,6 @@
 # CMI
 
-[Spigot](https://www.spigotmc.org/resources/cmi-270-commands-insane-kits-portals-essentials-economy-mysql-sqlite-much-more.3742/) - v8.6.19.9
+[Spigot](https://www.spigotmc.org/resources/3742/) - v9.0.4.1
 
 **Source language:** English
 
@@ -11,22 +11,18 @@
 **Ignored keys:**
 
 ```
-info\.WarmUp\.(?:counter|DontMove)
-info\.(?:CantUseNonEncrypted|CantDecode|nothingInHand|ItemWillBreak|cantRename|sleepersRequired|changedPainting|noSpam|noCmdSpam|shullOwner|beehive)
-teleportation\.relocation
-Chat\.shoutDeduction
 command\.\w+\.help\.args
-command\.\w+\.help\.explanation\..+
 command\.attachcommand\.info\.usesLeft
 command\.hat\.info\.feedback
-command\.jail\.info\.(?:leftTime|cantTalkRange)
+command\.jail\.info\.(leftTime|cantTalkRange)
 command\.launch\.info\.feedback
 command\.mail\.info\.gotMail
 command\.mutechat\.info\.isMuted
 command\.prewards\.info\.inform
 command\.repair\.info\.cantUse
-command\.rt\.info\.teleported
-command\.sit\.info\.(?:onSit|onStandUp|accupied)
+command\.rt\.info\.(teleported|waiting)
+command\.sethome\.info\.slotTaken
+command\.sit\.info\.(onSit|onStandUp|accupied)
 command\.unban\.info\.unBaned
 ```
 
