@@ -1,0 +1,579 @@
+# IMS - Network זה התרגום לעברית של הפלאגין נוצר על ידי ארגון 
+# After editing, back up your changes before reloading the server in case you made a syntax error.  
+# Use dollar signs ($) for formatting codes, which are documented here: http://minecraft.gamepedia.com/Formatting_codes
+
+# Use a YAML editor like NotepadPlusPlus to edit this file.  
+# After editing, back up your changes before reloading the server in case you made a syntax error.  
+# Use dollar signs ($) for formatting codes, which are documented here: http://minecraft.gamepedia.com/Formatting_codes
+Messages:
+  RespectingClaims:
+    Text: עכשיו אתם כפופים לכל איזרוי ההגנה.
+  IgnoringClaims:
+    Text: עכשיו אתם לא כפופים לכל איזורי ההגנה.
+  SuccessfulAbandon:
+    Text: מחקתם את כל איזרוי ההגנה.  עכשיו יש לכם {0} בלוקי הגנה.
+    Notes: '0: remaining blocks'
+  RestoreNatureActivate:
+    Text: מוכנים להחזיר קצת את הטבע! לחצו לחיצה ימנית כדי לשחזר את הטבע, והשתמש ב-Basic
+      Claims/ כדי לעצור
+  RestoreNatureAggressiveActivate:
+    Text: מצב אגרסיבי הופעל. אל תשתמש בזה מתחת לשום דבר שאתה רוצה לשמור! לחצו לחיצה
+      ימנית כדי לשחזר את הטבע בצורה אגרסיבית, והשתמש ב-BasicClaims/ כדי לעצור.
+  FillModeActive:
+    Text: מצב מילוי הופעל ברדיוס {0}.  לחצו לחיצה ימנית על אזור למילוי.
+    Notes: '0: fill radius'
+  TransferClaimPermission:
+    Text: בשביל לעשות את הפקודה הזאת נידרשת גישה גבוהה יותר.
+  TransferClaimMissing:
+    Text: There's no claim here.  Stand in the administrative claim you want to transfer.
+  TransferClaimAdminOnly:
+    Text: Only administrative claims may be transferred to a player.
+  PlayerNotFound2:
+    Text: אין שחקן בשם כזה בשרת.
+  TransferTopLevel:
+    Text: Only top level claims (not subdivisions) may be transferred.  Stand outside
+      of the subdivision and try again.
+  TransferSuccess:
+    Text: איזור ההגנה הועבר בהצלחה.
+  TrustListNoClaim:
+    Text: נא לעמוד בתוך איזור ההגנה שאתם מעוניינים בואו.
+  ClearPermsOwnerOnly:
+    Text: רק מנהל איזור ההגנה יכול לעשות את זה.
+  UntrustIndividualAllClaims:
+    Text: כל הגישות של {0} נמחקו מכל האיזורים שבבעלותכם.  אם אתם רוצים לתת גישות מחדש
+      נא לעמוד בתוך איזור הגנה.
+    Notes: '0: untrusted player'
+  UntrustEveryoneAllClaims:
+    Text: כל הגישות נוקו מכל איזרוי ההגנה שלכם.  בשביל לעשות לתת גישות מחדש באיזור
+      הגנה מסוים צריך לעמוד בתוכו.
+  NoPermissionTrust:
+    Text: אין לכם רשות מ {0} ,בשביל לערוך גישות לאנשים אחרים.
+    Notes: '0: claim owner''s name'
+  ClearPermissionsOneClaim:
+    Text: נוקו הגישות בתוך איזור ההגנה הזה.  בשביל להגדיר גישות לכל איזורי ההגנה נא
+      לעמוד מחוץ לאיזור ההגנה.
+  UntrustIndividualSingleClaim:
+    Text: כל הגישות של {0} הוסרו מאיזור ההגנה הזה.  בשביל להגדיר גישות לכל איזורי
+      ההגנה נא לעמוד מחוץ לאיזור ההגנה.
+    Notes: '0: untrusted player'
+  OnlySellBlocks:
+    Text: אפשר רק למכור בלוקים של הגנה, לא לקנות.
+  BlockPurchaseCost:
+    Text: כל בלוק הגנה עולה {0}.  כמות הכסף שלך {1}.
+    Notes: '0: cost of one block; 1: player''s account balance'
+  ClaimBlockLimit:
+    Text: הגעתם למקסימום של בלוקים הגנה שיכול להיות לכם. אי אפשר לקנות עוד.
+  InsufficientFunds:
+    Text: אין לכם מספיק כסף.  צריך {0}, אבל יש לכם רק {1}.
+    Notes: '0: total cost; 1: player''s account balance'
+  MaxBonusReached:
+    Text: אי אפשר לקנות {0} בלוקי הגנה. בשרת יש גבול של {1} בלוקי הגנה.
+    Notes: '0: block count; 1: bonus claims limit'
+  PurchaseConfirmation:
+    Text: נלקח {0} מהכסף שלך.  עכשיו יש לך {1} בלוקי הגנה.
+    Notes: '0: total cost; 1: remaining blocks'
+  OnlyPurchaseBlocks:
+    Text: אפשר רק לקנות בלוקי הגנה, לא מכור.
+  BlockSaleValue:
+    Text: כל בלוק הגנה שווה ל {0}.  יש לך {1} בלוקי הגנה זמינים למכירה.
+    Notes: '0: block value; 1: available blocks'
+  NotEnoughBlocksForSale:
+    Text: אין לך כולכך הרבה בלוקי הגנה.
+  BlockSaleConfirmation:
+    Text: נלקחו {0} בלוקי הגנה ממכם.  עכשיו יש לכם {1} בלוקי הגנה.
+    Notes: '0: amount deposited; 1: remaining blocks'
+  AdminClaimsMode:
+    Text: מצב אדמין מופעל.  כל איזור הגנה שתיצרו יהיה חינם לגמריי וזמין בשביל כל חברי
+      צוות השרת.
+  BasicClaimsMode:
+    Text: חזרתם למצב איזור הגנה רגיל.
+  SubdivisionMode:
+    Text: מצב תת-מחלקה.  קחו את העט חפירה שלכם וצרו איזור חצוי.  עשו basicclaims/
+      בשביל לצאת.
+  SubdivisionVideo2:
+    Text: 'Click for Subdivision Help: {0}'
+    Notes: 0:video URL
+  DeleteClaimMissing:
+    Text: אין פה איזור הגנה.
+  DeletionSubdivisionWarning:
+    Text: איזור ההגנה הזה חצוי ל כמה אנשים (מצב תת-מחלקה).  אם אתם רוצים למחוק את
+      זה עמדו בתוך האיזור ועשו, DeleteClaim/ בשביל למחוק.
+  DeleteSuccess:
+    Text: איזור ההגנה נמחק.
+  CantDeleteAdminClaim:
+    Text: אי אפשר למחוק איזור הגנה של צוות.
+  DeleteAllSuccess:
+    Text: כל איזור ההגנה של {0} נמחקו.
+    Notes: '0: owner''s name'
+  NoDeletePermission:
+    Text: אין לכם גישה למחוק איזורי הגנה.
+  AllAdminDeleted:
+    Text: כל איזור הצוות נמחקו.
+  AdjustBlocksSuccess:
+    Text: 'עודכן מספר בלוקי ההגנה של {0} הוספתם עוד {1}.  עכשיו המקסימום החדש שלו
+      הוא: {2}.'
+    Notes: '0: player; 1: adjustment; 2: new total'
+  NotTrappedHere:
+    Text: אי אפשר לבנות פה.  תצילו את עצמכם.
+  RescuePending:
+    Text: אם לא תזוזו במשך 10 שניות המערכת תוציא אתכם.  בבקשה להמתין.
+  NonSiegeWorld:
+    Text: הדבר הזה מבוטל בעולם הזה.
+  AlreadySieging:
+    Text: אתם מעורבים במצור.
+  NotSiegableThere:
+    Text: '{0} לא מוגן פה, אפשר להרביץ לו.'
+    Notes: '0: defending player'
+  SiegeTooFarAway:
+    Text: אתם רחוקים מידי מאיזור שעושים בו מצור.
+  NoSiegeYourself:
+    Text: אי אפשר לעשות מצור על עצמכם, לא להיות מפגרים
+  NoSiegeDefenseless:
+    Text: אין לשחק הזה הגנה!, תבחרו מישהוא אחר לריב איתו.
+  AlreadyUnderSiegePlayer:
+    Text: '{0} השחקן הזה בקרב.  הצטרפו לקרב!'
+    Notes: '0: defending player'
+  AlreadyUnderSiegeArea:
+    Text: האיזור הזה הוא במצור.  מוזמנים להצטרף!
+  NoSiegeAdminClaim:
+    Text: אי אפשר לעשות פה מצור\קרב.
+  SiegeOnCooldown:
+    Text: אתם נמצאים באיזור מצור\קרב תמצאו מישהו אחר להלחם בואו, או חכו קצת זמן.
+  SiegeAlert:
+    Text: מתקיפים אתכם! אם תעזבו את המשחק תיפסלו. אתם חייבים להביס את {0}, חכו שהוא
+      יוותר, או תברחו.
+    Notes: '0: attacker name'
+  SiegeConfirmed:
+    Text: הקרב התחיל!  אם תעזבו את המשחק תיפסלו. אתם חייבים להביס את {0}, הלחמו מולו
+      או הרימו ידיים ותלכו פשוט
+    Notes: '0: defender name'
+  AbandonClaimMissing:
+    Text: עמדו בתוך איזור הגנה שאתם רוצים למחוק, או עשו AbandonAllClaims/.
+  NotYourClaim:
+    Text: זה לא איזור הגנה שלכם.
+  DeleteTopLevelClaim:
+    Text: כדיי למחוק איזור הגנה מחולק עמדו בתוכו.  או, עשו AbandonTopLevelClaim/ בשביל
+      למחוק את איזור ההגנה המחולק הזה.
+  AbandonSuccess:
+    Text: איזור הגנה נמחק.  יש לכם עכשיו {0} בלוקי הגנה זמינים.
+    Notes: '0: remaining claim blocks'
+  ConfirmAbandonAllClaims:
+    Text: בטוחים שאתם רוצים למחוק את כל איזור ההגנה שלכם? בבקשה אשרו אם AbandonAllClaims
+      confirm/
+  CantGrantThatPermission:
+    Text: אי אפשר לתת גישות לעמצך.
+  GrantPermissionNoClaim:
+    Text: עמדו בתוך איזור ההגנה שבואו אתם רוצים לתת גישות.
+  GrantPermissionConfirmation:
+    Text: ניתנה הגישה {1} {2} ל {0}.
+    Notes: '0: target player; 1: permission description; 2: scope (changed claims)'
+  ManageUniversalPermissionsInstruction:
+    Text: בשביל לערוך גישות לכל איזור ההגנה שלכם עמדו מחוץ לאיזור הגנה.
+  ManageOneClaimPermissionsInstruction:
+    Text: בשביל לערוך גישות בתוך איזור הגנה ספציפי, עמדו בתוכו.
+  CollectivePublic:
+    Text: לציבור הרחב
+    Notes: as in 'granted the public permission to...'
+  BuildPermission:
+    Text: בנייה
+  ContainersPermission:
+    Text: גישה לתיבות ולבעלי חיים
+  AccessPermission:
+    Text: גישה לכפתורים, דלתות, מתגים
+  PermissionsPermission:
+    Text: ניהול גישות
+  LocationCurrentClaim:
+    Text: באיזור ההגנה הזה
+  LocationAllClaims:
+    Text: בכל איזור ההגנה
+  PvPImmunityStart:
+    Text: אתם מוגנים מהתקפות של שחקנים כל עוד האינבטורי שלכם ריק.
+  SiegeNoDrop:
+    Text: אי אפשר לתת דברים אם אתם בקרב.
+  DonateItemsInstruction:
+    Text: בשביל לתת את הדברים שיש בידכם, לחיצה שמאלית על התיבה.
+  ChestFull:
+    Text: התיבה מלאה.
+  DonationSuccess:
+    Text: הדברים הועברו לתיבה!
+  PlayerTooCloseForFire2:
+    Text: אי אפשר להתחיל שריפה כשאתם קרובים למישהו\יא
+  TooDeepToClaim:
+    Text: אין אפשרות להגן על התיבה הזאת מכיוון שהיא נמצאת עמוק מידי באדמה.  נסו להזיז
+      אותה למקום אחר.
+  ChestClaimConfirmation:
+    Text: התיבה הזאת מוגנת.
+  AutomaticClaimNotification:
+    Text: התיבה הזאת ואיזור קטן סמוך לה, מוגנים מפני הריסות וגנבות.
+  AutomaticClaimOtherClaimTooClose:
+    Text: אי אפשר ליצור איזור הגנה לתיבה, יש איזור הגנה אחר קרוב מידי לתיבה!
+  UnprotectedChestWarning:
+    Text: התיבה הזאת היא לא! מוגנת.  נא לקחת עט חפירה מזהב וליצור איזור הגנה לתיבה.
+  ThatPlayerPvPImmune:
+    Text: אי אפשר להרביץ לאנשים ללא דברים\הגנה.
+  CantFightWhileImmune:
+    Text: אי אפשר להילחם במישהו ללא דברים.
+  NoDamageClaimedEntity:
+    Text: התיבה הזאת שייכת ל {0}.
+    Notes: '0: owner name'
+  ShovelBasicClaimMode:
+    Text: חזרתם למצב הגנה רגיל.
+  RemainingBlocks:
+    Text: אתם יכולים להגן על {0} בלוקים נוספים.
+    Notes: '0: remaining blocks'
+  CreativeBasicsVideo2:
+    Text: 'בשביל עזרה לחצו על הקישור: {0}'
+    Notes: '{0}: video URL'
+  SurvivalBasicsVideo2:
+    Text: 'בשביל עזרה לחצו על הקישור: {0}'
+    Notes: '{0}: video URL'
+  TrappedChatKeyword:
+    Text: trapped;stuck
+    Notes: When mentioned in chat, players get information about the /trapped command
+      (multiple words can be separated with semi-colons)
+  TrappedInstructions:
+    Text: תקועים בתוך איזור הגנה של מישהו?  עשו trapped/ בשביל לצאת.
+  PvPNoDrop:
+    Text: אי אפשר לזרוק דברים בזמן קרב.
+  SiegeNoTeleport:
+    Text: אי אפשר להשתגר מחוץ לאיזור הנצור הזה.
+  BesiegedNoTeleport:
+    Text: אי אפשר להשתגר לתוך האיזור הנצור.
+  SiegeNoContainers:
+    Text: אי אפשר לפתוח תיבות בזמן קרב\מצור.
+  PvPNoContainers:
+    Text: אי אפשר לפתוח דברים בזמן קרב.
+  PvPImmunityEnd:
+    Text: עכשיו אפשר להלחם בשחקנים אחרים.
+  NoBedPermission:
+    Text: לא נתן\ה לך רשות לישון פה {0}
+    Notes: '0: claim owner'
+  NoWildernessBuckets:
+    Text: אפשר לרוקן את הדלי(ים) רק באיזור ההגנה שלך, או מתחת לאדמה במקום רחוק.
+  NoLavaNearOtherPlayer:
+    Text: אי אפשר לשים את זה, קרוב מידי ל {0}.
+    Notes: '0: nearby player'
+  TooFarAway:
+    Text: זה רחוק מידי.
+  BlockNotClaimed:
+    Text: אין פה שום איזור הגנה.
+  BlockClaimed:
+    Text: האיזור הזה הוא של {0}.
+    Notes: '0: claim owner'
+  SiegeNoShovel:
+    Text: אי אפשר להשתמש בזה בזמן קרב\מצור.
+  RestoreNaturePlayerInChunk:
+    Text: אי אפשר לשחזר.  {0} מסתובב\ת באיזור.
+    Notes: '0: nearby player'
+  NoCreateClaimPermission:
+    Text: אין לך גישה ליצור איזורי הגנה.
+  ResizeNeedMoreBlocks:
+    Text: אין מספיק בלוקי הגנה בשביל להגן על האיזור הזה.  חסרים עוד {0} בלוקי הגנה.
+    Notes: '0: how many needed'
+  NoCreativeUnClaim:
+    Text: אי אפשר למחוק את איזור ההגנה הזה.  אפשר לעשות את איזור ההגנה הזה יותר גדול
+      או ליצור איזורי הגנה אחרים.
+  ClaimResizeSuccess:
+    Text: איזור ההגנה עודכן. נשארו לך {0} בלוקי הגנה.
+    Notes: '0: remaining blocks'
+  ResizeFailOverlap:
+    Text: אי אפשר לעדכן את הגודל של איזור ההגנה שלך בגלל שהוא מתנגש אם איזור הגנה
+      אחר.
+  ResizeStart:
+    Text: עדכון גודל של איזור הגנה.  השתמשו שוב בעט החפירה שלך במיקום חדש לפינה זו.
+  ResizeFailOverlapSubdivision:
+    Text: אי אפשר לעשות פה איזור חצוי בגלל שהוא מתנגש אם איזור חצוי אחר שיש באיזור.  שקלו
+      להבטל את האיזור בעזרת abandonclaim/, או להשתמש בכלי איזורי ההגנה ולנסות שוב
+      פעם.
+  SubdivisionStart:
+    Text: שככתם פינה!  השתמשו בכלי איזורי ההגנה ולכו לכיוון ההפוך שממנו התחלתם.
+  CreateSubdivisionOverlap:
+    Text: האיזור שבחרתם מתנגש אם איזור אחר.
+  SubdivisionSuccess:
+    Text: איזור הגנה מחולק נוצר!  עשו trust/ בשביל להוסיף חברים\רות.
+  CreateClaimFailOverlap:
+    Text: אי אפשר ליצור איזור הגנה פה בגלל שהוא מתנגש אם איזור הגנה אחר.  עשו abandonclaim/
+      בשביל למחוק ולעבור למקום אחר, או השתמשו בכלי ונסו לאלתר איזור שלא יתנגש אם איזור
+      ההגנה האחר.
+  CreateClaimFailOverlapOtherPlayer:
+    Text: אי אפשר להגדיל את איזור ההגנה בגלל שהוא יתנגש אם איזור ההגנה של {0}.
+    Notes: '0: other claim owner'
+  ClaimsDisabledWorld:
+    Text: איזור הגנה אפשר לעשות רק בשרת ההישרדות.
+  ClaimStart:
+    Text: פינה אחת נבחרה!  קחו את כלי איזור ההגנה ולכו לכיוון הפוך בשביל ליצור איזור
+      הגנה.  בשביל לבטל פשוט עזבו את המקום.
+  NewClaimTooNarrow:
+    Text: איזור ההגנה הזה הוא קטן מידי.  איזור הגנה חייב להיות מעל {0} בלוקי הגנה.
+    Notes: '0: minimum claim width'
+  CreateClaimInsufficientBlocks:
+    Text: אין לכם מספיק בלוקי הגנה בשביל להגן על האיזור הזה.  חסר לכם {0} בלוקי הגנה.
+    Notes: '0: additional blocks needed'
+  AbandonClaimAdvertisement:
+    Text: בשביל למחוק איזור הגנה ולקבל את בלוקי ההגנה בחזרה, עשו AbandonClaim/.
+  CreateClaimFailOverlapShort:
+    Text: האיזור שסימנתם מתנגש אם איזור הגנה אחר.
+  CreateClaimSuccess:
+    Text: איזור הגנה נוצר!  עשו trust/ בשביל להוסיף שחקנים.
+  SiegeWinDoorsOpen:
+    Text: מזל טוב!  כפתורים,מתגים או כל דבר שאפשר ללחוץ עליו מאושר זמנית לכולם.
+  RescueAbortedMoved:
+    Text: זזתם!  החילוץ נכשל.
+  SiegeDoorsLockedEjection:
+    Text: זמן השדידה הופסק!  מערכת העיפה אתכם מאיזור ההגנה.
+  NoModifyDuringSiege:
+    Text: אי אפשר לעשות את זה בזמן מצור\קרב.
+  OnlyOwnersModifyClaims:
+    Text: רק ל {0} יש גישה לעדכן או לעשות שינויים באיזור ההגנה הזה.
+    Notes: '0: owner name'
+  NoBuildUnderSiege:
+    Text: איזור ההגנה הזה הוא בקרב\מצור על ידי {0}.  אף אחר לא יכול לבנות פה.
+    Notes: '0: attacker name'
+  NoBuildPvP:
+    Text: אי אפשר לבנות בתוך איזור ההגנה בזמן קרב.
+  NoBuildPermission:
+    Text: אין לכם גישה מ {0} לבנות פה.
+    Notes: '0: owner name'
+  NonSiegeMaterial:
+    Text: החומר הזה קשה מכדי לשבור.
+  NoOwnerBuildUnderSiege:
+    Text: אי אשפשר לעשות שינויים בזמן קרב\מצור.
+  NoAccessPermission:
+    Text: אין לכם גישה מ {0} לעשות את זה.
+    Notes: '0: owner name.  access permission controls buttons, levers, and beds'
+  NoContainersSiege:
+    Text: איזור ההגנה הזה הוא תחת התקפה\מצור בידי {0}.  אף אחד לא יכול לקחת או לעשות
+      דברים כאן.
+    Notes: '0: attacker name'
+  NoContainersPermission:
+    Text: אין לכם רשות מ {0} לעשות את זה.
+    Notes: '0: owner''s name.  containers also include crafting blocks'
+  OwnerNameForAdminClaims:
+    Text: צוות
+    Notes: as in 'You don't have an administrator's permission to build here.'
+  ClaimTooSmallForEntities:
+    Text: איזור ההגנה הזה קטן מידי בשביל לעשות את זה.  נסו להגדיל אותו.
+  TooManyEntitiesInClaim:
+    Text: איזור ההגנה הזה מכיל יותר מידי חיות\מפלצות.  נסו להגדיל אותו או להוריד את
+      כמות החיות, מפלצות, תמונות, בלוקים מיוחדים.
+  YouHaveNoClaims:
+    Text: אין לכם איזור הגנה.
+  ConfirmFluidRemoval:
+    Text: מחיקת האיזור הזה יסיר את כל הנוזלים שיש בתוך האיזור. אם אתם בטוחים במחיקה
+      עשו, AbandonClaim/ שוב פעם.
+  AutoBanNotify:
+    Text: מערכת נתנה באן ל {0}({1}).  ראו את הקונסולה, מתעד בשביל פרטים.
+  AdjustGroupBlocksSuccess:
+    Text: 'עודכן מספר בלוקי ההגנה {0} הגודל עכשיו {1}.  סהכ בלוקי הגנה: {2}.'
+    Notes: '0: permission; 1: adjustment amount; 2: new total bonus'
+  InvalidPermissionID:
+    Text: בבקשה הכניסו את השם, או את הגישה בתוך [סוגריים כאלו].
+  HowToClaimRegex:
+    Text: (^|.*\W)how\W.*\W(claim|protect|lock)(\W.*|$)
+    Notes: This is a Java Regular Expression.  Look it up before editing!  It's used
+      to tell players about the demo video when they ask how to claim land.
+  NoBuildOutsideClaims:
+    Text: אי אפשר לבנות בלי ליצור איזור הגנה.
+  PlayerOfflineTime:
+    Text: '  הכניסה האחרונה הייתה לפני: {0} ימים.'
+    Notes: '0: number of full days since last login'
+  BuildingOutsideClaims:
+    Text: אנשים אחרים יכולים לבנות, לגנות ולהרוס את זה. בבקשה לעשות איזור הגנה בשביל
+      להגן על הדברים!
+  TrappedWontWorkHere:
+    Text: שגיאה, לא נימצא איזור לשגר אתכם.  דברו אם איש צוות.
+  CommandBannedInPvP:
+    Text: אי אפשר לעשות את זה בזמן קרב.
+  UnclaimCleanupWarning:
+    Text: האיזור הזה עכשיו פתוח לכולם שחקנים יכולים להרוס ולבנות. אם בניתם משהו שאתם
+      רוצים לשמור בבקשה הגנו על האיזור.
+  BuySellNotConfigured:
+    Text: שגיאה למכור ולקנות בלוקי הגנה מושבת.
+  NoTeleportPvPCombat:
+    Text: אי אפשר להשתגר בזמן קרב.
+  NoTNTDamageAboveSeaLevel:
+    Text: 'אזהרה: TNT לא יהרוס בלוקים מעל גובה הים.'
+  NoTNTDamageClaims:
+    Text: 'אזהרה: TNT לא יהרוס איזור מוגן.'
+  IgnoreClaimsAdvertisement:
+    Text: בשביל להשיג גישה לכל איזור הגנה, עושים IgnoreClaims/.
+  NoPermissionForCommand:
+    Text: אין לך גישה לעשות את זה.
+  ClaimsListNoPermission:
+    Text: אין לך גישה להשיג מידע בנוגע לאיזור ההגנה.
+  ExplosivesDisabled:
+    Text: איזור ההגנה הזה מוגן מפיצוצים.  אפשר לעשות ClaimExplosions/ שוב פעם בשביל
+      לאפשר.
+  ExplosivesEnabled:
+    Text: איזור ההגנה הזה לא מוגן מפני פיצוצים.  בבקשה עשו ClaimExplosions/ בשביל
+      להזיר הגנה מפיצוצים.
+  ClaimExplosivesAdvertisement:
+    Text: בשביל אפשר פיצוצים לעשות נזק באיזור ההגנה הזה, עשו ClaimExplosions/.
+  PlayerInPvPSafeZone:
+    Text: השחקן\ית הזה נימצא באיזור הגנה.
+  NoPistonsOutsideClaims:
+    Text: 'אזהרה: בוכנות(Pistons) לא יזיזו בלוקים בתוך איזור הגנה.'
+  SoftMuted:
+    Text: מושתק {0}.
+    Notes: '0: The changed player''s name.'
+  UnSoftMuted:
+    Text: לא מושתק {0}.
+    Notes: '0: The changed player''s name.'
+  DropUnlockAdvertisement:
+    Text: שחקנים לא יכולים להרים את מה שזרקתם UnlockDrops/ בשביל שהם יוכלו להרים.
+  PickupBlockedExplanation:
+    Text: אי אפשר להרים את מה ש {0} זרק הוא צריך לעשות UnlockDrops/.
+    Notes: '0: The item stack''s owner.'
+  DropUnlockConfirmation:
+    Text: הנעילה נפתחה. כל מה שזקתם כולם יוכלו להרים (עד הפעם הבאה שתמותו).
+  DropUnlockOthersConfirmation:
+    Text: אושר ל {0} לזרוק דברים לכולם.
+    Notes: '0: The owner of the unlocked drops.'
+  AdvertiseACandACB:
+    Text: אפשר לעשות ACB/ בשביל להביא לעצמכם בלוקי הגנה, או AdminClaims/ בשביל להגן
+      על מה שרוצים ללא חשבון.
+  AdvertiseAdminClaims:
+    Text: ממולץ לעשות איזור הגנה של צוות בעזרת הפקודה AdminClaims/, בשביל שכל הצוות
+      יכול לקבל גישה לזה.
+  AdvertiseACB:
+    Text: אפשר לעשות ACB/ בשביל להביא לעצמכם בלוקי הגנה.
+  NotYourPet:
+    Text: זה של {0} עד שהוא יביא לכם גישה GivePet/.
+    Notes: '0: owner name'
+  PetGiveawayConfirmation:
+    Text: חיית המחמד הזאת שלכם.
+  PetTransferCancellation:
+    Text: העברת בעלים של חיית מחמד בוטלה.
+  ReadyToTransferPet:
+    Text: מוכנים להביא את חיית המחמד!  לחיצה ימנית על חיית המחמד שברצונכם להעביר,
+      או לבטל בעזרת הפקודה GivePet cancel/.
+  AvoidGriefClaimLand:
+    Text: אפשר למנוע השחטה! אם תעשו איזור הגנה, אף אחד לא יוכל להרוס לכם.
+  BecomeMayor:
+    Text: תחלקו את האיזור ותהיו ראש העיר\איזור!
+  ClaimCreationFailedOverClaimCountLimit:
+    Text: הגעתם למקסימום איזור ההגנה שאתם יכולים ליצור.  עשו AbandonClaim/ בשביל לוותר
+      על איזור הגנה.
+  CreateClaimFailOverlapRegion:
+    Text: אי אפשר לעשות הגנה על כל האיזר הזה בגלל שאין לכם גישה לבנות פה בכלל.
+  ResizeFailOverlapRegion:
+    Text: אין לכם גישה לבנות פה, לא ניתם ליצור איזור הגנה.
+  ShowNearbyClaims:
+    Text: נמצאו {0} איזורי הגנה.
+    Notes: '0: Number of claims found.'
+  NoChatUntilMove:
+    Text: היי, צריך לזוז ולעשות דברים של שחקן לפני שיהיה ניתן לדבר.  אנחנו רק מוודאים
+      שאתה לא רובוט.  :)
+  SiegeImmune:
+    Text: השחקן הזה לא יכול להיות בקרב\מצור siege/.
+  SetClaimBlocksSuccess:
+    Text: עודכנו בלוקי ההגנה.
+  IgnoreConfirmation:
+    Text: מעכשיו לא תקבלו הודעות מהשחקן\ית הזה הוא חסום.
+  NotIgnoringPlayer:
+    Text: אתם לא חסמתם את השחקן\ית הזאת.
+  UnIgnoreConfirmation:
+    Text: בולטה החסימה של השחקן\ית הזאת.
+  SeparateConfirmation:
+    Text: חסמתם את השחקנים האלה הם לא יראו הודעות אחד של השני.
+  UnSeparateConfirmation:
+    Text: בוטלה החסימה עכשיו השחקנים יוכלו לראות הודעות אחד של השני.
+  NotIgnoringAnyone:
+    Text: אתם לא חסמתם אף אחד.
+  TrustListHeader:
+    Text: 'הרשאות מפורשות כאן:'
+  Manage:
+    Text: ניהול
+  Build:
+    Text: בנייה
+  Containers:
+    Text: תיבות\מיכלים
+  Access:
+    Text: גישה
+  HasSubclaimRestriction:
+    Text: איזור ההגנה הזה נוצר מתוך איזור הגנה מחולק אבל הגישות לא עוברות מאיזור ההגנה
+      הראשי
+  StartBlockMath:
+    Text: בלוקי מזמן משחק + {1} בונוס = {2} סהכ.
+  ClaimsListHeader:
+    Text: 'איזור הגינה:'
+  ContinueBlockMath:
+    Text: ' (-{0} בלוקים)'
+  EndBlockMath:
+    Text: ' = {0} בלוקי שנשארו'
+  NoClaimDuringPvP:
+    Text: אי אפשר ליצור איזור הגנה בזמן קרך.
+  UntrustAllOwnerOnly:
+    Text: רק מנהל איזור ההגנה יכול למחוק או ללת גישות.
+  ManagersDontUntrustManagers:
+    Text: רק מנהל איזור ההגנה יכול להעיף עוזר.
+  BookAuthor:
+    Text: IMS - Network
+  BookTitle:
+    Text: איך ליצור איזור הגנה
+  BookIntro:
+    Text: צרו איזורי הגנה והגנו על הדברים שלכם!  לחצו על הלינק מלמעלה בשביל את הדברים
+      הבסיסים בשלוש דקות או פחות.  :)
+  BookDisabledChestClaims:
+    Text: '  בשרת הזה, אין הגנה אוטומטית על תיבות.'
+  BookUsefulCommands:
+    Text: 'פקודות שימושיות:'
+  BookLink:
+    Text: 'לחצו: {0}'
+    Notes: '{0}: video URL'
+  BookTools:
+    Text: הכלים בשביל ליצור איזור הגנה הם {0} וגם {1}.
+    Notes: '0: claim modification tool name; 1:claim information tool name'
+  ResizeClaimTooNarrow:
+    Text: הגודל הזה יהיה קטן מידי.  איזור הגנה צריכים להיות לפחות {0} בלוקים.
+    Notes: '0: minimum claim width'
+  ResizeClaimInsufficientArea:
+    Text: איזור ההגנה הזה יהיה קטן מידי.  כל איזור הגנה חייב להיות מינימום {0} בלוקי
+      הגנה.
+    Notes: '0: minimum claim area'
+  NoProfanity:
+    Text: שמרו על השפה שלכם.
+  PlayerNotIgnorable:
+    Text: אי אפשר לחסום אנשי צוות, אם איש צוות מטריד אתכם אנא דווחו מידית!!
+  NoEnoughBlocksForChestClaim:
+    Text: בגלל שאין לך בלוקי הגנה, איזור ההגנה אוטומטי לא נוצר.  עשו ClaimsList/ בשביל
+      לראות איפו אפשר לחסוך.
+  IsIgnoringYou:
+    Text: השחקן\ית חסם\ה אתכם.
+  MustHoldModificationToolForThat:
+    Text: חייב שיהיה לכם כלי איזור הגנה בשביל לעשות את זה.
+  StandInClaimToResize:
+    Text: עמדו בתוך איזור ההגנה שאתם רוצים להרחיב.
+  ClaimsExtendToSky:
+    Text: איזור הגנה מגנים מהגובה מינימאלי עד לגובה מקסימאלי.
+  ClaimsAutoExtendDownward:
+    Text: איזור ההגנה מתאימים את הגודל אוטמטי אם אתם בונים למטה.
+  MinimumRadius:
+    Text: הרדיוס המינמאלי {0}.
+    Notes: '0: minimum radius'
+  RadiusRequiresGoldenShovel:
+    Text: חייב שיהיה בידכם כלי איזורי הגנה בזמן שאתם עושים את זה.
+  ClaimTooSmallForActiveBlocks:
+    Text: איזור ההגנה הזה קטן מידי בשביל לתמוך בבלוקים פעילים (hoppers, spawners,
+      beacons...). צרו איזור הגנה גדול יותר.
+  TooManyActiveBlocksInClaim:
+    Text: איזור ההגנה הזה הגיע למקסימום בלוקים פעילים בתוכו (hoppers, spawners, beacons...).  עשו
+      אותו יותר גדול, או הסירו מעט בלוקים פעילים.
+  ConsoleOnlyCommand:
+    Text: את הפקודה הזאת אפשר לעשות רק בקונסולה.
+  WorldNotFound:
+    Text: לא נימצא עולם כזה.
+  AdjustBlocksAllSuccess:
+    Text: כל השחקנים המחוברים קיבלו בונוס של {0}.
+    Notes: '0: adjustment amount'
+  TooMuchIpOverlap:
+    Text: שגיאה, יש יותר מידי אנשים שנכנסו אם אייפי דומה לשלך, בבקשה פנה לצוות.
+  StandInSubclaim:
+    Text: צריך לעמוד בתוך איזור מחולק בשביל להגדיר אותו
+  SubclaimRestricted:
+    Text: איזור ההגנה המחולק הזה לא יקבל גישות מאיזור ההגנה הכללי
+  SubclaimUnrestricted:
+    Text: איזור ההגנה המחולק הזה לא יקבל גישות מאיזור ההגנה הכללי
+  NetherPortalTrapDetectionMessage:
+    Text: זה נראה כיאלו אתם תקעוים. המערכת תוציא אתכם עוד מעט!
+    Notes: Sent to player on join, if they left while inside a nether portal.
